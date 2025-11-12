@@ -12,6 +12,11 @@ theme = "PaperMod"
 
 [menu]
 [[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 1
+[[menu.main]]
   identifier = "about"
   name = "About"
   url = "/about/"
