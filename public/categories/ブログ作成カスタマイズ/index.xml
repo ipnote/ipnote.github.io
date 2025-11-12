@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ブログ作成・カスタマイズ on ブログタイトル</title>
+    <link>http://localhost:1313/categories/%E3%83%96%E3%83%AD%E3%82%B0%E4%BD%9C%E6%88%90%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA/</link>
+    <description>Recent content in ブログ作成・カスタマイズ on ブログタイトル</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E3%83%96%E3%83%AD%E3%82%B0%E4%BD%9C%E6%88%90%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>はてなブログの一部の記事を別のブログ（URL）に移転する</title>
+      <link>http://localhost:1313/page/post/2025/09/06/092824/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/09/06/092824/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250906092700.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;はてなブログの中のいくつかの記事を、より特化した新しいブログへ移転することにした。&lt;/p&gt;
+&lt;p&gt;元記事へのアクセスも一定数あるため、しばらくは移転元の記事から移転先の記事へ自動で案内（リダイレクト）するよう設定しておきたい。&lt;/p&gt;
+&lt;p&gt;はてなブログでは301リダイレクトは設定できないようだったが、以下の手順であれば問題なく移行できたので、備忘録としてやり方を残しておきたい。&lt;/p&gt;
+&lt;p&gt;今後は、折を見てGoogleサーチコンソールからの削除なども進めていきたい。&lt;/p&gt;
+&lt;h3 id=&#34;フッターによるjQueryの読み込み&#34;&gt;フッターによるjQueryの読み込み&lt;/h3&gt;
+&lt;p&gt;はてなブログの「管理画面」から「デザイン→カスタマイズ→フッタ」を開き、「フッタ」に下記のスクリプトを追記する。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!--jQuery--&amp;gt;
+&amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;http://code.jquery.com/jquery-1.9.1.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;移転先記事の作成&#34;&gt;移転先記事の作成&lt;/h3&gt;
+&lt;p&gt;移転先のURLに、移転させたい内容の記事を作成する。&lt;/p&gt;
+&lt;p&gt;基本的には移転元の内容をコピペすればよいが、移転にあたってはリンク切れなどないように注意したい。&lt;/p&gt;
+&lt;h3 id=&#34;移転元の記事をリダイレクト設定するよう編集&#34;&gt;移転元の記事をリダイレクト設定するよう編集&lt;/h3&gt;
+&lt;p&gt;移転元となるはてなブログ記事に、下記のスクリプトをコピペする。&lt;/p&gt;
+&lt;p&gt;※2か所ある「★移転先のURL★」は、移転対象となる記事のURLに差し替えること&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;この記事は移転しました。約2秒後に新記事へ移動します。自動で移動しない場合は&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;★移転先のURL★&amp;#39;&lt;/span&gt;&amp;gt;こちら&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt;&amp;gt;をクリックしてください。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 記事ページのリダイレクト
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#e6db74&#34;&gt;/entry/&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;test&lt;/span&gt;(window.&lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;)) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;setTimeout&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;★移転先のURL★&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }, &lt;span style=&#34;color:#ae81ff&#34;&gt;2000&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;// 2秒後にリダイレクト
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;hr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;動作の確認&#34;&gt;動作の確認&lt;/h3&gt;
+&lt;p&gt;移転元の記事を開いて、自動的に移転先に飛ぶか確認する。&lt;/p&gt;
+&lt;p&gt;念のため、リンクをクリックしても移動できるかチェックしておく。&lt;/p&gt;
+&lt;h3 id=&#34;最後に&#34;&gt;最後に&lt;/h3&gt;
+&lt;p&gt;以上の方法で、はてなブログでも簡易的なリダイレクトが可能になる。&lt;/p&gt;
+&lt;p&gt;恒久的な SEO 対応には301リダイレクトが望ましいが、はてなブログの仕様上難しいため、当面はこの方法で対応するのが現実的と考えている。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】CSSの追加機能</title>
+      <link>http://localhost:1313/page/post/2025/08/10/120548/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/120548/</guid>
+      <description>&lt;p&gt;Bloggerでは外部CSSファイルを直接配置することができないが、その代わりにテーマのHTMLにCSSを追加するためのカスタマイズ機能を使うことができる。&lt;/p&gt;
+&lt;h3 id=&#34;カスタマイズ機能を使ったCSS追加手順&#34;&gt;カスタマイズ機能を使ったCSS追加手順&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blogger にログインする&lt;/li&gt;
+&lt;li&gt;更新するブログを選択&lt;/li&gt;
+&lt;li&gt;左側のメニューで [テーマ] をクリック&lt;/li&gt;
+&lt;li&gt;[カスタマイズ] をクリック&lt;/li&gt;
+&lt;li&gt;[詳細設定] をクリック&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color: red;&#34;&gt;[文字の色]の横にある▼ボタンをクリック&lt;/li&gt;
+&lt;li&gt;[CSS を追加] をクリック&lt;/li&gt;
+&lt;li&gt;CSSを入力するウィンドウの中にコードを追加&lt;/li&gt;
+&lt;li&gt;右下の保存ボタンををクリック&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この6番目の手順を見逃しがちなので、注意してもらいたい。&lt;/p&gt;
+&lt;p&gt;念のため、以下に参考画像（スマホ版サイトからの）も載せておく。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+[&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250525153017.jpg&#34;/&gt; 
+&lt;/figure&gt;
+:300]
+&lt;/div&gt;
+&lt;h3 id=&#34;どこにCSSが追加される&#34;&gt;どこにCSSが追加される？&lt;/h3&gt;
+&lt;p&gt;追加したCSSコードがどこに書き込まれているのかというと、テーマのHTMLの&amp;lt;b:skin&amp;gt;〜&amp;lt;/b:skin&amp;gt;タグ間の最終行にCSSが追加されていくこととなる。&lt;/p&gt;
+&lt;p&gt;したがって、一旦CSSの追加を完了してしまえば、上の手順8でCSSを入力したウィンドウを空にしても特に問題はない。&lt;/p&gt;
+&lt;p&gt;改めてBlogger にログインするとウィンドウの中が空になっていると思うが、追加したCSSが消えてしまった訳では無いので、安心してほしい。&lt;/p&gt;
+&lt;h3 id=&#34;CSSコードを入れるときの推奨&#34;&gt;CSSコードを入れるときの推奨&lt;/h3&gt;
+&lt;p&gt;上の8の手順でCSSコードを入れる際の注意点というほどではないが、追加するCSSのコードの上には、CSSの機能などを記載したコメントを入れておくことをお勧めする。&lt;/p&gt;
+&lt;p&gt;例えば、&lt;br/&gt;
+/&lt;em&gt; 表のCSSデザイン &lt;/em&gt;/　とか、&lt;br/&gt;
+/&lt;em&gt; 目次のCSSデザイン &lt;/em&gt;/&lt;br/&gt;
+といった具合である。&lt;/p&gt;
+&lt;p&gt;テーマのHTMLは結構長いコードなので、後からCSSコードを編集しようとしたときになかなか見つからないことがある。&lt;/p&gt;
+&lt;p&gt;そんな場合、コードにコメントを入れておくことで、目当てのコードがどこに存在しているのかを検索機能で探しやすくなる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】Google Adsenseの申請に何度も落ちた話</title>
+      <link>http://localhost:1313/page/post/2025/08/10/115825/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/115825/</guid>
+      <description>&lt;p&gt;2025年の１月にブログを立ち上げ、２週間後くらいにGoogle AdSenseに申請したが、以下のメールを貰い審査に落ちてしまった。&lt;/p&gt;
+&lt;blockquote&gt;審査の結果、残念ながら、お客様のサイトは広告を掲載する準備がまだ整っていないようです。サイトに広告を掲載できるようにするには、いくつかの問題を解決していただく必要がございます。&lt;/blockquote&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250614155332.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;問題の詳細な理由を見ると、記事の数が十分でなかったことに加え、いくつか重要な要件が不足していたことが判明したため、改善して再度申請するも、敢え無く撃沈。&lt;/p&gt;
+&lt;p&gt;更に改善を重ね、ようやく３度目の正直で審査を通過することができた。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「BloggerのGoogle AdSense申請の合格率は低い」と説明されているサイトも見られるが、要件を満たしていけば問題なく通過できることが確認できたの&lt;/strong&gt;で、参考までにノウハウを書きとどめておきたい。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    * [そもそもBloggerを選んだ理由](#そもそもBloggerを選んだ理由)
+    &lt;li&gt;[AdSense審査を合格するための条件](#AdSense審査を合格するための条件)
+            * [プライバシーポリシーの設置](#プライバシーポリシーの設置)
+            * [お問い合わせフォームの設置](#お問い合わせフォームの設置)
+            * [運営者情報の記入](#運営者情報の記入)
+            * [コンテンツポリシーの遵守](#コンテンツポリシーの遵守)
+            * [記事の質/量の確保](#記事の質量の確保)
+            * [適切なサイト構造](#適切なサイト構造)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+* [審査の不合格〜合格までの経緯](#審査の不合格合格までの経緯)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;そもそもBloggerを選んだ理由&#34;&gt;そもそもBloggerを選んだ理由&lt;/h3&gt;
+&lt;p&gt;巷には色々なブログサービスがあるが、自分はその中からBloggerを選んだ。&lt;/p&gt;
+&lt;p&gt;その理由は、無料でAdSenseの審査を受けられる点に尽きる。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;通常、AdSenseの審査を受けるためには独自ドメインが必須と言われている。&lt;/s&gt;&lt;br&gt;
+&lt;strong&gt;はてなブログの無料版（独自ドメインなし）でも審査通過が可能と判明した。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;自分が知る限り、無料のブログサービスはサブドメインのため、独自ドメインを取得する必要がある。&lt;/p&gt;
+&lt;p&gt;そして多くの無料ブログサービスでは、独自ドメインを使用するには有料プランに移行する必要がある。&lt;/p&gt;
+&lt;p&gt;しかし、将来どれだけ利益を出せるのか分からないブログに固定費が発生するのはどうしても避けたかった。&lt;/p&gt;
+&lt;p&gt;初めてのブログ開設にWordPressを勧めるサイトも多いが、個人的にはお勧めしない。&lt;/p&gt;
+&lt;p&gt;ある程度実績を積んだブログ運営者が、固定費の発生というデメリットと移行による利益の増加といったメリットとを天秤にかけ、メリットの方が大きいと判断して移行先として選ぶなら良いが、初心者がいきなり固定費を要するサービスを採用するのは赤字となるリスクが非常に高いと思う。&lt;/p&gt;
+&lt;p&gt;AdSenseに拘らず、アフィリエイト広告による収益化を狙うなら、独自ドメインは不要である。&lt;/p&gt;
+&lt;p&gt;しかし、AdSenseは広告がクリックされることで報酬が発生する「クリック報酬型広告」である。&lt;/p&gt;
+&lt;p&gt;このため、サイトで紹介した商品が購入されたり、サービスに登録されたりすることで報酬が発生するアフィリエイトと比べ、AdSenseの方が収益化のハードルは低いと考えた（当たればアフィリエイトの方が利幅は大きいとは思う）。&lt;/p&gt;
+&lt;p&gt;それに、Bloggerでもアフィリエイト広告は問題なく掲載できる。&lt;/p&gt;
+&lt;p&gt;したがって、無料でAdSenseの審査が可能なサービスに魅力を感じ、Bloggerを選定した。&lt;/p&gt;
+&lt;h3 id=&#34;AdSense審査を合格するための条件&#34;&gt;AdSense審査を合格するための条件&lt;/h3&gt;
+&lt;p&gt;Google AdSenseに合格するためには、いくつか明確に「これを設置しないといけない」という条件と、「ユーザーフレンドリーなブログにすべき」と、どこまで対応すれば良いのか判断し辛い条件がある。&lt;/p&gt;
+&lt;p&gt;以下、それら思いつくものを項目として挙げてみた。&lt;/p&gt;
+&lt;h4 id=&#34;プライバシーポリシーの設置&#34;&gt;プライバシーポリシーの設置&lt;/h4&gt;
+&lt;p&gt;AdSenseの利用には個人情報やCookieなどについての説明が必要である。&lt;/p&gt;
+&lt;p&gt;本ブログでは、&lt;a href=&#34;https://u-zan.hatenablog.com/entry/privacypolicy&#34;&gt;こちら&lt;/a&gt;のように記載しているので、適宜参考にしてもらえればと思う。&lt;/p&gt;
+&lt;p&gt;広告の配信についてはAdSense以外の記載も含まれているので、自分のブログに合うよう修正してもらいたい。&lt;/p&gt;
+&lt;p&gt;プライバシーポリシーの設置場所については特に指定はないが、ユーザーが１クリックまたは２クリックで見られる場所に設置するのが望ましく、フッターまたはヘッダーに設置するのが一般的である。&lt;/p&gt;
+&lt;p&gt;また、後述のお問い合わせフォームと併設すると良い。&lt;/p&gt;
+&lt;h4 id=&#34;お問い合わせフォームの設置&#34;&gt;お問い合わせフォームの設置&lt;/h4&gt;
+&lt;p&gt;信頼性と連絡手段の確保のため必須となる。&lt;/p&gt;
+&lt;p&gt;こちらも設置場所の指定はないが、ユーザーがブログ運営者に対して問い合わせしやすいよう、プライバシーポリシーと併設すると良い。&lt;/p&gt;
+&lt;p&gt;なお、当ブログでは併設のほか、プライバシーポリシーのページからも問い合わせフォームへのリンクを設置している。&lt;/p&gt;
+&lt;p&gt;設置方法はサービスによって様々だが、Bloggerであれば&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;管理画面左側の「レイアウト」をクリック&lt;/li&gt;
+&lt;li&gt;追加したい位置にある「ガジェットを追加」をクリック&lt;/li&gt;
+&lt;li&gt;「連絡フォーム」ガジェットを選択&lt;/li&gt;
+&lt;li&gt;保存ボタンをクリック&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の手順で追加可能である。&lt;/p&gt;
+&lt;h4 id=&#34;運営者情報の記入&#34;&gt;運営者情報の記入&lt;/h4&gt;
+&lt;p&gt;誰が運営しているか明記されていると信頼性が上がるので、掲載すべきとされている。&lt;/p&gt;
+&lt;p&gt;本名や住所といった個人情報を掲載する必要はなく、以下のような簡単なプロフィール程度の掲載で問題ない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ニックネーム&lt;/li&gt;
+&lt;li&gt;プロフィール画像（写真やイラスト）&lt;/li&gt;
+&lt;li&gt;簡単な自己紹介（職業、趣味その他）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;コンテンツポリシーの遵守&#34;&gt;コンテンツポリシーの遵守&lt;/h4&gt;
+&lt;p&gt;コンテンツポリシーとして、次のようなコンテンツは許可されない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;違法なコンテンツ&lt;/li&gt;
+&lt;li&gt;知的財産（権）の侵害&lt;/li&gt;
+&lt;li&gt;危険または中傷的なコンテンツ&lt;/li&gt;
+&lt;li&gt;動物への残虐行為&lt;/li&gt;
+&lt;li&gt;不適切な表示に関連するコンテンツ&lt;/li&gt;
+&lt;li&gt;不正行為を助長する商品やサービス&lt;/li&gt;
+&lt;li&gt;性的描写が露骨なコンテンツ&lt;/li&gt;
+&lt;li&gt;報酬を伴う性的行為&lt;/li&gt;
+&lt;li&gt;国際結婚の斡旋&lt;/li&gt;
+&lt;li&gt;ファミリー コンテンツに含まれる成人向けのテーマ&lt;/li&gt;
+&lt;li&gt;児童の性的虐待と搾取&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;殆どの項目は問題なくクリアできると思うが、当ブログのように漫画や映画のレビュー記事を載せる場合は、著作権（知的財産権のひとつ）の侵害とならないように注意したい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】HTML / CSSの構成</title>
+      <link>http://localhost:1313/page/post/2025/08/10/120121/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/120121/</guid>
+      <description>&lt;p&gt;HTMLは、Webページの構造を定義するマークアップ言語であり、ブラウザに文字や表などを表示させるために使用される。&lt;/p&gt;
+&lt;p&gt;一方、CSSはWebページのデザインを定義するものであり、HTMLで記述されたタグやレイアウトを装飾するためのものとなる。&lt;/p&gt;
+&lt;p&gt;したがって、ブログを作る上でHTMLとCSSを編集することは必須となる。&lt;/p&gt;
+&lt;p&gt;「Blogger」はGoogleが提供する無料のブログ作成サービスだが、BloggerにおけるHTML / CSSの関係性は少し独特なものとなっている。&lt;/p&gt;
+&lt;p&gt;この記事では、BloggerにおけるHTML / CSSの構成を整理し、カスタマイズの幅を広げるための備忘録としたい。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    &lt;li&gt;[BloggerのHTML/CSS構成](#BloggerのHTMLCSS構成)
+            * [テーマのHTML（テンプレート）](#テーマのHTMLテンプレート)
+            * [テーマのCSS](#テーマのCSS)
+            * [記事のHTML（投稿内容）](#記事のHTML投稿内容)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[ブログデザインの変更方法](#ブログデザインの変更方法)
+        &amp;lt;li&amp;gt;[全体のデザインを変えたい場合](#全体のデザインを変えたい場合)
+                * [テーマのHTMLの中でCSSを記述する方法](#テーマのHTMLの中でCSSを記述する方法)
+                * [外部CSSファイルを読み込む方法](#外部CSSファイルを読み込む方法)
+            
+        &amp;lt;/li&amp;gt;
+        * [記事ごとにデザインを変えたい場合](#記事ごとにデザインを変えたい場合)
+        &amp;lt;li&amp;gt;[テーマのHTMLのCSSにクラスを追加](#テーマのHTMLのCSSにクラスを追加)
+                * [記事のHTMLにクラス属性を指定](#記事のHTMLにクラス属性を指定)
+            
+        &amp;lt;/li&amp;gt;
+    
+&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;BloggerのHTMLCSS構成&#34;&gt;BloggerのHTML/CSS構成&lt;/h3&gt;
+&lt;p&gt;Bloggerは、以下の図のように「テーマのHTML」と「記事のHTML」とに分かれており、主にテーマのHTMLの中でCSSを記述する（デザインを定義する）形となっている。&lt;/p&gt;
+&lt;p&gt;CSSはテーマのHTMLの中で直接記述しても良いが、Blogger特有の機能「CSSを追加」で追加しても良い。&lt;/p&gt;
+&lt;p&gt;あるいは外部のCSSファイルとリンクしても良いが、Bloggerでは上の方法がメジャーかと思う。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250525145039.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h4 id=&#34;テーマのHTMLテンプレート&#34;&gt;テーマのHTML（テンプレート）&lt;/h4&gt;
+&lt;p&gt;ブログ全体のレイアウトや構造を定義するものである。&lt;/p&gt;
+&lt;p&gt;ここでは、&amp;lt;b:section&amp;gt; や &amp;lt;b:widget&amp;gt; など、Blogger独自のタグが使われている。&lt;/p&gt;
+&lt;p&gt;このHTMLにCSSやJavaScriptを組み込むことで、ブログ全体のデザインと動作を決めることができる。&lt;/p&gt;
+&lt;h4 id=&#34;テーマのCSS&#34;&gt;テーマのCSS&lt;/h4&gt;
+&lt;p&gt;テーマのHTML内に &amp;lt;b:skin&amp;gt;〜&amp;lt;/b:skin&amp;gt;タグで囲われた領域にCSSのコードを記述できる。&lt;/p&gt;
+&lt;p&gt;Bloggerの「CSSを追加」機能で追加されたCSSも、この中に組み込まれる。&lt;/p&gt;
+&lt;p&gt;ここで追加したCSSは、ブログ全体に適用される。&lt;/p&gt;
+&lt;p&gt;またテーマのCSSに後述するクラスを追加することで、個別記事の特定の部分のデザインも変更することができる。&lt;/p&gt;
+&lt;h4 id=&#34;記事のHTML投稿内容&#34;&gt;記事のHTML（投稿内容）&lt;/h4&gt;
+&lt;p&gt;各記事の本文部分であり、投稿エディターでHTMLビューにすることで確認できる。&lt;/p&gt;
+&lt;p&gt;, &lt;img&gt;, &lt;h1&gt; などの通常のHTMLタグは使えるが、そのデザインは「テーマのCSS」で決められる。
+&lt;p&gt;例えば、テーマのHTML内で p { color: red; } と設定していれば、記事内の &lt;p&gt; も赤くなる。&lt;/p&gt;
+&lt;p&gt;記事毎に特定部分のデザインを変更したい場合は、こちらを編集することとなる。&lt;/p&gt;
+&lt;h3 id=&#34;ブログデザインの変更方法&#34;&gt;ブログデザインの変更方法&lt;/h3&gt;
+&lt;p&gt;ブログ全体のデザインを一括して変えるのか、それとも記事毎にデザインを変えるのかによって、多少方法は異なる。&lt;/p&gt;
+&lt;h4 id=&#34;全体のデザインを変えたい場合&#34;&gt;全体のデザインを変えたい場合&lt;/h4&gt;
+&lt;p&gt;ブログ全体のデザインを変える場合は以下の２通りあるが、Bloggerを使うのであれば最初の方法を推奨する。&lt;/p&gt;
+&lt;h5 id=&#34;テーマのHTMLの中でCSSを記述する方法&#34;&gt;テーマのHTMLの中でCSSを記述する方法&lt;/h5&gt;
+&lt;p&gt;１つ目のやり方は、テーマのHTMLの中にCSSを記述 / 編集するという方法である。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】カスタムテンプレートの適用方法</title>
+      <link>http://localhost:1313/page/post/2025/08/10/120249/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/120249/</guid>
+      <description>&lt;p&gt;ブログ作成サービスには色々あるが、Googleが提供する無料のブログ作成サービスとして「Blogger」がある。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250525145544.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;ブログをBloggerで作成している場合は、カスタムテンプレートを適用することで、デザインを自由に変えられる。&lt;/p&gt;
+&lt;p&gt;以下、Bloggerのテーマにカスタムテンプレートを適用する方法を説明する。&lt;/p&gt;
+&lt;h3 id=&#34;手順&#34;&gt;手順&lt;/h3&gt;
+&lt;h4 id=&#34;１事前準備&#34;&gt;１．事前準備&lt;/h4&gt;
+&lt;p&gt;Webサイトから、あらかじめカスタムテンプレート（XMLファイル）をダウンロードしておく&lt;/p&gt;
+&lt;p&gt;※例えば、日本語テンプレートだと「QooQ」（ダウンロード先は&lt;a href=&#34;https://qooq.dododori.com/blogger/qooq-download/&#34;&gt;こちら&lt;/a&gt;）が有名&lt;/p&gt;
+&lt;h4 id=&#34;２テーマのバックアップ推奨&#34;&gt;２．テーマのバックアップ（推奨）&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Bloggerにログインする&lt;/li&gt;
+&lt;li&gt;左側のメニューから「テーマ」をクリック&lt;/li&gt;
+&lt;li&gt;右上の「▼（カスタマイズの横）」をクリックし、「バックアップ」を選択&lt;/li&gt;
+&lt;li&gt;「ダウンロード」をクリックし、現在のテーマを保存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;３カスタムテンプレートをアップロード&#34;&gt;３．カスタムテンプレートをアップロード&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;「テーマ」画面の右上の「▼」をクリックし、&lt;span style=&#34;background-color: #fcff01; color: red;&#34;&gt;&lt;strong&gt;「元に戻す」&lt;/strong&gt;を選択（分かりづらい⋯）&lt;/li&gt;
+&lt;li&gt;「アップロード」をクリックし、用意したXMLファイルを選択&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;アップロードが完了すると、新しいテーマが適用される。&lt;/p&gt;
+&lt;h4 id=&#34;４表示を確認&#34;&gt;４．表示を確認&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;左側のメニューの１番下にある「ブログを表示」をクリックし、正しく表示されるか確認&lt;/li&gt;
+&lt;li&gt;デザインが崩れている場合は「テーマ」の「カスタマイズ」から調整&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;補足&#34;&gt;補足&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;テンプレートのXMLファイルが正しく記述されていないとエラーが出る場合がある&lt;/li&gt;
+&lt;li&gt;カスタムCSSやHTMLを編集する場合は、「テーマ」→「HTMLを編集」から変更可能&lt;/li&gt;
+&lt;li&gt;以前のテンプレートに戻す場合は、３の手順でアップロードするXMLファイルに、２の手順でバックアップしたものを選択すれば良い&lt;/li&gt;
+&lt;li&gt;文字色やブランドカラーの色を変える程度であれば、HTMLを編集せずとも、左側のメニューの「テーマ」→「カスタマイズ」→「詳細設定」を選択することで変更可能&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】ファビコンの設置方法</title>
+      <link>http://localhost:1313/page/post/2025/08/10/122429/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/122429/</guid>
+      <description>&lt;p&gt;ブログを開設してから数ヶ月経ち、ファビコン（ブラウザのタブなどに表示されるアイコン）を設置してみたのでその方法を記載しておきたい。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250810122359.jpg&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/br&gt;
+今回設置したファビコン
+&lt;/div&gt;
+&lt;p&gt;今回やってみて分かったが、ファビコンは画像があればたった数ステップで設置できるので、まだ設定していない場合は、是非導入をお勧めしたい。&lt;/p&gt;
+&lt;p&gt;ブログの印象が一段引き締まるはず。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    * [ファビコンとは？](#ファビコンとは)
+    * [ファビコンを設置するメリット](#ファビコンを設置するメリット)
+    &lt;li&gt;[Bloggerでファビコンを設置する方法](#Bloggerでファビコンを設置する方法)
+            * [ファビコン画像の準備](#ファビコン画像の準備)
+            * [Bloggerにファビコン画像をアップロード](#Bloggerにファビコン画像をアップロード)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+* [早くGoogle検索結果にファビコンを反映させるには](#早くGoogle検索結果にファビコンを反映させるには)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;ファビコンとは&#34;&gt;ファビコンとは？&lt;/h3&gt;
+&lt;p&gt;「ファビコン（favicon）」とは「favorite icon」の略で、ブラウザのタブやブックマークに表示される小さなアイコンのことを指す。&lt;/p&gt;
+&lt;p&gt;サイトの「顔」ともいえる存在で、訪問者がサイトを視覚的に認識しやすくなり、ブランドイメージの定着にも繋がる。&lt;/p&gt;
+&lt;p&gt;例えば、Googleなら「G」といった馴染みのあるアイコンを見かけたことがあるかと思う。&lt;/p&gt;
+&lt;p&gt;Bloggerであれば、オレンジの背景にアルファベットのＢの白文字が入ったアイコンである。&lt;/p&gt;
+&lt;h3 id=&#34;ファビコンを設置するメリット&#34;&gt;ファビコンを設置するメリット&lt;/h3&gt;
+&lt;p&gt;やはりメリットとしては、他のブログと視覚的に区別しやすくなる点だと思う。&lt;/p&gt;
+&lt;p&gt;デフォルトで設定されるBloggerのアイコンのままでは、ユーザーがタブでサイトを見つけづらくなってしまう。&lt;/p&gt;
+&lt;p&gt;また、きちんと運営されたブログである印象を与えることもできるし、長い期間ファビコンを設置することで、ブランド認知の向上も期待できる。&lt;/p&gt;
+&lt;p&gt;このあたりは、商標と似たような考え方かと思う。&lt;/p&gt;
+&lt;p&gt;話は逸れるが、ナイキのロゴも当初はシンプルなデザインの社内受けは特別良かったわけでも無かったらしいが、今ではナイキを象徴するロゴにまで認知されている。&lt;/p&gt;
+&lt;h3 id=&#34;Bloggerでファビコンを設置する方法&#34;&gt;Bloggerでファビコンを設置する方法&lt;/h3&gt;
+&lt;p&gt;Bloggerでは、管理画面から簡単にファビコンを設定できる。&lt;/p&gt;
+&lt;h4 id=&#34;ファビコン画像の準備&#34;&gt;ファビコン画像の準備&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;推奨サイズ：48×48pxまたはその倍数のサイズ（最大で100KB程度）&lt;/li&gt;
+&lt;li&gt;ファイル形式：ico、 png、jpg などが使えるが、icoであれば一つのファイルに複数のサイズの画像を含めることが可能&lt;/li&gt;
+&lt;li&gt;Bloggerなら自動でico形式に変換してくれる&lt;/li&gt;
+&lt;li&gt;小さいサイズでもユーザーが視認できるデザインが好ましい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;サイズは&lt;span style=&#34;background-color: #fcff01; color: red;&#34;&gt;&lt;strong&gt;正方形の必要がある&lt;/strong&gt;点に注意。&lt;/p&gt;
+&lt;p&gt;Bloggerの場合は、1ピクセルでも長方形になっていると、アップロード時にエラーが出てしまう。&lt;/p&gt;
+&lt;h4 id=&#34;Bloggerにファビコン画像をアップロード&#34;&gt;Bloggerにファビコン画像をアップロード&lt;/h4&gt;
+&lt;p&gt;画像さえ準備できれば、後の手順は簡単である。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bloggerにログインし、自分のブログの管理画面を表示&lt;/li&gt;
+&lt;li&gt;左メニューから「設定」をクリック&lt;/li&gt;
+&lt;li&gt;「基本」の中にある「ファビコン」をクリック&lt;/li&gt;
+&lt;li&gt;「アイコン ファイルを選択」から準備した画像をアップロード&lt;/li&gt;
+&lt;li&gt;「保存」をクリック&lt;/li&gt;
+&lt;li&gt;反映を確認&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;アップロード後、数分〜数時間でファビコンが反映される。&lt;/p&gt;
+&lt;p&gt;ブラウザのキャッシュが影響して見えない場合は、ページの更新またはキャッシュのクリアを試すと良い。&lt;/p&gt;
+&lt;p&gt;ただし、Google検索結果に反映される（Googleが再クロールする）までにはかなり長い期間かかる場合がある。&lt;/p&gt;
+&lt;h2 id=&#34;早くGoogle検索結果にファビコンを反映させるには&#34;&gt;早くGoogle検索結果にファビコンを反映させるには&lt;/h2&gt;
+&lt;p&gt;もっと早くGoogle検索結果に反映させたければ、Google Search Consoleの「URL検査ツール」を使用して、インデックス登録をリクエストすると良い。&lt;/p&gt;
+&lt;p&gt;以下に具体的な手順と、どのURLを指定すべきかを説明する。&lt;/p&gt;
+&lt;div&gt;
+1. Google Search Console にアクセスし、対象のブログを選択する。&lt;/br&gt;
+2. 画面左のメニューから「URL検査」を選ぶ。&lt;/br&gt;
+3. 自分のブログのトップページURL（記事ページや画像URLではない）を入力する。&lt;/br&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; ケース &lt;/th&gt;
+&lt;th&gt; 入力するURL &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Bloggerを使っている場合 &lt;/td&gt;
+&lt;td&gt; [https://example.blogspot.com/](https://example.blogspot.com/) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 独自ドメインを使っている場合 &lt;/td&gt;
+&lt;td&gt; [https://www.yourdomain.com/](https://www.yourdomain.com/) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div&gt;
+4. 読み込み後、「URLがGoogleに登録されていません」または「登録されています」と表示されるので、どちらでも「インデックス登録をリクエスト」ボタンをクリックする。
+&lt;/div&gt;
+&lt;/br&gt;
+&lt;p&gt;リクエストしても反映までには数日〜1週間ほどかかることがあるので、気長に待とう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】ブログ記事への表の挿入</title>
+      <link>http://localhost:1313/page/post/2025/08/10/120900/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/120900/</guid>
+      <description>&lt;p&gt;ブログ内で記事中に表を挿入したくなったので、挿入方法を調べてみた。&lt;/p&gt;
+&lt;p&gt;挿入する表は、以下のような感じにしてみたい。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250525153407.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;表を挿入するには、HTMLとCSSを使用する。&lt;/p&gt;
+&lt;p&gt;一見敷居が高そうにも見えるが、以下の方法を行うだけで表を作成できる。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    * [HTMLコードの貼り付けで作成](#HTMLコードの貼り付けで作成)
+    &lt;li&gt;[デザインのカスタマイズ](#デザインのカスタマイズ)
+            * [CSSの追加機能の利用](#CSSの追加機能の利用)
+            * [記事の「HTMLビュー」に直接](#記事のHTMLビューに直接)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+* [どちらの方法でカスタマイズすべき？](#どちらの方法でカスタマイズすべき)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;HTMLコードの貼り付けで作成&#34;&gt;HTMLコードの貼り付けで作成&lt;/h3&gt;
+&lt;p&gt;以下のコードを記事の「HTMLビュー」に貼り付けると、シンプルな表が作成される。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;見出し1&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;見出し2&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;見出し3&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tbody&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;データ1&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;データ2&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;データ3&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;データ4&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;データ5&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;データ6&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tbody&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これで、以下のような表を記事の中に挿入することができる。&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250525154216.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;しかしこれでは少し寂しいので、更に表のデザインをカスタマイズしたい。&lt;/p&gt;
+&lt;h3 id=&#34;デザインのカスタマイズ&#34;&gt;デザインのカスタマイズ&lt;/h3&gt;
+&lt;p&gt;デザインを変更する方法は、主に以下の２通りある。&lt;/p&gt;
+&lt;p&gt;CSSの追加機能はBloggerを前提とした説明ではあるが、コードは他のブログでも共通して使えるかと思う。&lt;/p&gt;
+&lt;h4 id=&#34;CSSの追加機能の利用&#34;&gt;CSSの追加機能の利用&lt;/h4&gt;
+&lt;p&gt;Bloggerの「テーマ」→「カスタマイズ」→ 「詳細設定」→「文字の色」の横にある▼をクリックすると出てくる「CSSを追加」を選択し、例えば以下のCSSを追加すると、表を見やすくすることができる。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;width&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;%&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;border-collapse&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;collapse&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;margin&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;font-size&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;14&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;text-align&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;left&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;border&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;solid&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;#dddddd&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;padding&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;background-color&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;#898989&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;color&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;white&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;:&lt;span style=&#34;color:#a6e22e&#34;&gt;nth-child&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;even&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;background-color&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;#f9f9f9&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これで、さっきの表が以下のような見た目になる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】見出しデザインのカスタマイズ</title>
+      <link>http://localhost:1313/page/post/2025/08/10/120429/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/120429/</guid>
+      <description>&lt;p&gt;Bloggerの投稿エディタでは、見出しを行ごとに簡単に設定できるようになっている。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+[&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250525150358.jpg&#34;/&gt; 
+&lt;/figure&gt;
+:300]
+&lt;/div&gt;
+&lt;p&gt;見出しには、h1（主見出し）、h2（見出し）、h3（小見出し）、h4（準見出し）がある。&lt;/p&gt;
+&lt;p&gt;h1は主にブログ記事のタイトルとして用いることが推奨されているため、文中では実質的にh2以降を使用することとなる。&lt;/p&gt;
+&lt;p&gt;記事に見出しを用いることは多いが、記事の見栄えを良くするために、見出しのデザインを変更したい場合もあるだろう。&lt;/p&gt;
+&lt;p&gt;Bloggerのデザインテンプレートをカスタマイズするには、以下の手順でHTMLとCSSを修正する必要がある。&lt;/p&gt;
+&lt;h3 id=&#34;見出しデザインのカスタマイズ方法&#34;&gt;見出しデザインのカスタマイズ方法&lt;/h3&gt;
+&lt;h4 id=&#34;主な手順&#34;&gt;主な手順&lt;/h4&gt;
+&lt;div&gt;
+1. Bloggerの管理画面 → [テーマ] → [HTMLを編集] を開く&lt;br/&gt;
+2. HTML内で、見出し（h1, h2など）のスタイルを定義している箇所を探す&lt;br/&gt;
+&lt;br/&gt;
+※例えば、&lt;style&gt; タグ内または外部CSSファイルのリンクを探す&lt;br/&gt;
+※デザインテンプレート「Qooq」であれば、個別記事本文のコメント以降にある、「#single-content h2 {」以降が編集対象となる&lt;br/&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;見出しのスタイルを変更&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;カスタマイズ例&#34;&gt;カスタマイズ例&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;h2 {
+  font-size: 32px; /* お好みのサイズに変更 */
+  padding: 0.5em; /* 文字周りの余白 */
+  font-weight: bold; /* 太字にする場合 */
+  font-style: italic; /* 斜体にする */
+  color: #333; /* 文字色変更 */
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;主なプロパティ一覧&#34;&gt;主なプロパティ一覧&lt;/h4&gt;
+&lt;p&gt;以下、表のデザインに関するプロパティ一覧を掲載する。&lt;/p&gt;
+&lt;h5 id=&#34;1-フォント関連のプロパティ&#34;&gt;1. フォント関連のプロパティ&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; プロパティ &lt;/th&gt;
+&lt;th&gt; 説明 &lt;/th&gt;
+&lt;th&gt; 使用例 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; font-size &lt;/td&gt;
+&lt;td&gt; フォントサイズ &lt;/td&gt;
+&lt;td&gt; 24px &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; font-weight &lt;/td&gt;
+&lt;td&gt; 太さ &lt;/td&gt;
+&lt;td&gt; normal, bold, lighter &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; font-style &lt;/td&gt;
+&lt;td&gt; 斜体 &lt;/td&gt;
+&lt;td&gt; normal, italic, oblique &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; font-family &lt;/td&gt;
+&lt;td&gt; フォントの種類 &lt;/td&gt;
+&lt;td&gt; Arial, sans-serif &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; color &lt;/td&gt;
+&lt;td&gt; 文字色 &lt;/td&gt;
+&lt;td&gt; #000000 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; line-height &lt;/td&gt;
+&lt;td&gt; 行間 &lt;/td&gt;
+&lt;td&gt; 1.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; letter-spacing &lt;/td&gt;
+&lt;td&gt; 文字間隔 &lt;/td&gt;
+&lt;td&gt; 2px &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; word-spacing &lt;/td&gt;
+&lt;td&gt; 単語間の間隔 &lt;/td&gt;
+&lt;td&gt; 4px &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; text-transform &lt;/td&gt;
+&lt;td&gt; 文字の変換 &lt;/td&gt;
+&lt;td&gt; uppercase, lowercase, capitalize &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; text-shadow &lt;/td&gt;
+&lt;td&gt; 文字の影 &lt;/td&gt;
+&lt;td&gt; 2px 2px 5px gray &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&#34;2-配置装飾関連のプロパティ&#34;&gt;2. 配置・装飾関連のプロパティ&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; プロパティ &lt;/th&gt;
+&lt;th&gt; 説明 &lt;/th&gt;
+&lt;th&gt; 使用例 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; text-align &lt;/td&gt;
+&lt;td&gt; テキストの配置 &lt;/td&gt;
+&lt;td&gt; left, centor, right, justify &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; text-decoration &lt;/td&gt;
+&lt;td&gt; 下線・取り消し線 &lt;/td&gt;
+&lt;td&gt; none, underline, line-through, overline &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; white-space &lt;/td&gt;
+&lt;td&gt; 改行の処理 &lt;/td&gt;
+&lt;td&gt; normal, nowrap, pre &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&#34;3-背景ボーダー関連のプロパティ&#34;&gt;3. 背景・ボーダー関連のプロパティ&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; プロパティ &lt;/th&gt;
+&lt;th&gt; 説明 &lt;/th&gt;
+&lt;th&gt; 使用例 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; background-color &lt;/td&gt;
+&lt;td&gt; 背景色 &lt;/td&gt;
+&lt;td&gt; #f8f8f8 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; background-image &lt;/td&gt;
+&lt;td&gt; 背景画像 &lt;/td&gt;
+&lt;td&gt; url(&#39;image.jpg&#39;) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; border &lt;/td&gt;
+&lt;td&gt; ボーダーの設定 &lt;/td&gt;
+&lt;td&gt; 2px solid #ff6600 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; border-radius &lt;/td&gt;
+&lt;td&gt; 角の丸み &lt;/td&gt;
+&lt;td&gt; 10px &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; padding &lt;/td&gt;
+&lt;td&gt; 内側の余白 &lt;/td&gt;
+&lt;td&gt; 10px &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; margin &lt;/td&gt;
+&lt;td&gt; 外側の余白 &lt;/td&gt;
+&lt;td&gt; 20px 10px &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&#34;4-ボックスデザイン&#34;&gt;4. ボックスデザイン&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; プロパティ &lt;/th&gt;
+&lt;th&gt; 説明 &lt;/th&gt;
+&lt;th&gt; 使用例 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; display &lt;/td&gt;
+&lt;td&gt; 表示形式 &lt;/td&gt;
+&lt;td&gt; block, inline, flex, grid &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; width &lt;/td&gt;
+&lt;td&gt; 幅 &lt;/td&gt;
+&lt;td&gt; 80%, auto &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; height &lt;/td&gt;
+&lt;td&gt; 高さ &lt;/td&gt;
+&lt;td&gt; 50px, auto &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; box-shadow &lt;/td&gt;
+&lt;td&gt; ボックスの影 &lt;/td&gt;
+&lt;td&gt; 3px 3px 10px gray &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;適用方法&#34;&gt;適用方法&lt;/h3&gt;
+&lt;p&gt;変更を保存し、ブログを更新して適用されているか確認すれば良い。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【Blogger】記事がGoogle検索結果に表示されない</title>
+      <link>http://localhost:1313/page/post/2025/08/10/121126/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/121126/</guid>
+      <description>&lt;p&gt;以下の記事のように苦戦はしたものの、無事Google AdSenseの審査にも合格し、記事の数も５０程度まで増えてきたが、１つ非常に大きな問題に直面している。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://u-zan.hatenablog.com/entry/2025/08/10/115825&#34;&gt;【Blogger】Google Adsenseの申請に何度も落ちた話 - グルメ漫画を味わい尽くす&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;何と、これらブログ記事が１つもGoogle検索結果に引っかかってこないのだ。&lt;/strong&gt;&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250626223350.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;これではアクセス数も期待できず、いくら良質な記事を書こうが殆どユーザーの目に留まることがなく、全く張り合いがない。&lt;/p&gt;
+&lt;p&gt;通常は生記事をアップロードするとGoogle側でクロールしてくれるのだが、数週間かかることもザラであるため、もっと早く検索結果に表示させたければ、Googleサーチコンソールでインデックスのリクエストをする必要がある。&lt;/p&gt;
+&lt;p&gt;しかし、インデックスをリクエストしても、トップページを含め全く登録される気配がない。&lt;/p&gt;
+&lt;p&gt;色々調べると、どうやらBloggerに原因があることが分かってきたのだが、解決する手段を見い出せていない。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    * [Bloggerとは](#Bloggerとは)
+    * [Googleサーチコンソールとは](#Googleサーチコンソールとは)
+    * [Bloggerからインデックス登録できない](#Bloggerからインデックス登録できない)
+    * [過去の対策（?m=0）では解消されず](#過去の対策m0では解消されず)
+    * [結論](#結論)
+    * [2025年7月12日追記（移行を決断）](#2025年7月12日追記移行を決断)
+&lt;h3 id=&#34;Bloggerとは&#34;&gt;Bloggerとは&lt;/h3&gt;
+&lt;p&gt;Blogger（ブロガー）は、Googleが提供している無料のブログ作成サービスである。&lt;/p&gt;
+&lt;p&gt;主な特徴は、以下の通りである。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Googleアカウントがあれば無料でブログを運営できる&lt;/li&gt;
+&lt;li&gt;無料ドメインのほか、独自ドメインにも対応&lt;/li&gt;
+&lt;li&gt;運営側から強制的に表示される広告がない&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;無料ドメインでも、Google AdSenseとの連携による広告収益化が可能&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;デザインテンプレートが豊富で、HTMLやCSSを編集してカスタマイズも可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;s&gt;特に項目4が他の無料ブログサービスにはない特徴であり、これが決め手となりBloggerを選んだ。&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;他のブログサービス（例：はてなブログ）でも、無料ドメインでGoogle AdSenseとの連携が可能であったので、訂正する。&lt;/p&gt;
+&lt;h3 id=&#34;Googleサーチコンソールとは&#34;&gt;Googleサーチコンソールとは&lt;/h3&gt;
+&lt;p&gt;Googleサーチコンソール（Google Search Console）とは、Googleが提供する無料のウェブ管理ツールで、自分のウェブサイトがGoogle検索でどのように表示されているかを確認・改善するためのサービスである。&lt;/p&gt;
+&lt;p&gt;Googleサーチコンソールにはインデックス機能が設けられており、ブログ記事がインデックスに登録されると、Googleの検索エンジンで自分のブログ記事を検索できるようになる。&lt;/p&gt;
+&lt;p&gt;したがって、インデックス登録されていないページは、検索しても表示されない。&lt;/p&gt;
+&lt;p&gt;記事をアップロードすると、クローラー（Googleのロボット）がページを見つけ、その内容が所定要件をクリアしていればデータベースに登録してくれる。&lt;/p&gt;
+&lt;p&gt;しかし、クローラーの動きを待っていると記事をアップロードしてから数週間はインデックス登録されないこともある。&lt;/p&gt;
+&lt;p&gt;早く検索結果に表示させるために、Googleサーチコンソールからインデックスのリクエストを送ることができる。&lt;/p&gt;
+&lt;h3 id=&#34;Bloggerからインデックス登録できない&#34;&gt;Bloggerからインデックス登録できない&lt;/h3&gt;
+&lt;p&gt;ここからが本題である。&lt;/p&gt;
+&lt;p&gt;GoogleサーチコンソールでブログのURLでインデックスリクエストをしても、リダイレクトエラーで登録されない。&lt;/p&gt;
+&lt;p&gt;Bloggerのページは、スマートフォンでアクセスするとBloggerはURLが変わる仕様となっており、URLの末尾に「?m=1 」がついたURLに変わって再読み込みされる。&lt;/p&gt;
+&lt;p&gt;自動的にURLが変わるこの動作がリダイレクトである。&lt;/p&gt;
+&lt;p&gt;Googlebotにはスマホ用とPC用の２種類あり、スマホ用GooglebotがクロールしたときもURLの末尾に「 ?m=1」付きのページにリダイレクトされるのだが、リダイレクトがあったことで正しいURLではないと判断される。&lt;/p&gt;
+&lt;p&gt;現在はパソコン用Googlebotでクロールされず、スマートフォン用Googlebotでしかクロールされないため、より確実にこの問題が起きるようになってしまっている、という現状である。&lt;/p&gt;
+&lt;h3 id=&#34;過去の対策m0では解消されず&#34;&gt;過去の対策（?m=0）では解消されず&lt;/h3&gt;
+&lt;p&gt;URLの末尾が「?m=1」となっているとモバイルビュー、「?m=0」ならモバイル用のPCビューのアドレスとなる。&lt;/p&gt;
+&lt;p&gt;2024年頃は、URLの末尾に「?m=0」「?m=1」のどちらかを付けてインデックスリクエストをすれば、登録されるとの情報もあった。&lt;/p&gt;
+&lt;p&gt;しかし、残念ながら2025年5月時点では「?m=0」や「?m=1」をつけてリクエストしても、（少なくとも自分のブログでは）登録には至っていない。&lt;/p&gt;
+&lt;p&gt;リクエストすると、すぐに「クロール済み - インデックス未登録」とのメッセージが表示されてしまう。&lt;/p&gt;
+&lt;p&gt;通常このエラーが表示された場合は、ページ内容の品質に問題があると認識されたり、他のサイトのページが有用であると判断されることが原因となるようである。&lt;/p&gt;
+&lt;p&gt;しかし、これまで問題なく登録できていたブログ含むいくつかのユーザーから同様の報告がされており、どうも品質等の問題が本質ではないように思われる。&lt;/p&gt;
+&lt;h3 id=&#34;結論&#34;&gt;結論&lt;/h3&gt;
+&lt;p&gt;2025年5月時点で、解決手段は見い出せていない。&lt;/p&gt;
+&lt;p&gt;別のブログサービスへの移行も視野に入れた方が良いのだろうか…。&lt;/p&gt;
+&lt;p&gt;とはいえ、無料でAdSenseの審査を受けられることからBloggerを選んでいるという事情もあるので、もう少し様子を見ておこうと思う。&lt;/p&gt;
+&lt;h3 id=&#34;2025年7月12日追記移行を決断&#34;&gt;2025年7月12日追記（移行を決断）&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;色々と試行錯誤をしてみたが、結局解決手段は見られなかったため、はてなブログへ移行することとした。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;他のブログサービスでもGoogle Adsenseの申請が通るのが判明したことが、移行への強い動機付けとなった。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【はてなブログ】無料でトップページを設置</title>
+      <link>http://localhost:1313/page/post/2025/08/10/121712/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/121712/</guid>
+      <description>&lt;p&gt;はてなブログは基本トップページに記事全文が表示される仕様となっている。&lt;/p&gt;
+&lt;p&gt;有料版（Pro）であれば、記事一覧の表示を選べるが、無料版の場合は一覧形式で表示できない。&lt;/p&gt;
+&lt;p&gt;そして、どうやらトップページをアーカイブにリダイレクトする方法は利用規約違反らしい。&lt;/p&gt;
+&lt;p&gt;そこで、今回は固定ページを作り、そこで一覧表示をはじめ、自分の思い通りのデザインにできるようなカスタマイズ方法を紹介したい。&lt;/p&gt;
+&lt;p&gt;なお、この方法はプライバシーポリシーといったページを設ける際にも応用できる部分があるかと思う（この場合は、投稿日時を未来にしたり「トップページの先頭に表示」といった対応は不要かと思う）。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    * [記事を書く](#記事を書く)
+    * [トップページ用のコードを入力](#トップページ用のコードを入力)
+    * [トップページ記事の投稿](#トップページ記事の投稿)
+    &lt;li&gt;[その他非表示設定](#その他非表示設定)
+            * [アーカイブ（記事一覧）から非表示にする](#アーカイブ記事一覧から非表示にする)
+            * [注目記事、最新記事一覧から非表示にする](#注目記事最新記事一覧から非表示にする)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;記事を書く&#34;&gt;記事を書く&lt;/h3&gt;
+&lt;p&gt;通常の記事と同じようにトップページ用の記事を書く。&lt;/p&gt;
+&lt;p&gt;ここで記事を自分の思うようにデザインし、また必要に応じて自分で選んだ記事を一覧表示させる。&lt;/p&gt;
+&lt;p&gt;例えば、当ブログでは以下のような構成としている。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://u-zan.hatenablog.com&#34;&gt;グルメ漫画を味わい尽くす&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;トップページ用のコードを入力&#34;&gt;トップページ用のコードを入力&lt;/h3&gt;
+&lt;p&gt;トップページらしくなるよう、記事の中に不要な要素を画面から消す以下のコードを入力する。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;style&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;/* サイドバー、ヘッダー/フッター（タイトル、日付など）、ページャーを非表示 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  #box2&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  .&lt;span style=&#34;color:#a6e22e&#34;&gt;entry-footer&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  .&lt;span style=&#34;color:#a6e22e&#34;&gt;entry-header&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  .&lt;span style=&#34;color:#a6e22e&#34;&gt;pager&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;/* サイドバーを非表示とした分、メインコンテンツを横いっぱいに広げる */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  #main {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;width&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;%&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;!important&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;max-width&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;%&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;!important&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;float&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;!important&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;style&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;トップページ記事の投稿&#34;&gt;トップページ記事の投稿&lt;/h3&gt;
+&lt;p&gt;準備ができたら、以下の手順で記事を投稿・設定し、トップページ記事のみが表示されるようにする。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完成した「トップページ記事」の投稿日時を「9999年」などの遠い未来の数字にする（トップページ記事が最新記事として最初に表示されるようになる）&lt;/li&gt;
+&lt;li&gt;他の通常記事と同じように一般公開する&lt;/li&gt;
+&lt;li&gt;「記事の管理」の「記事タイトル」一覧で、「トップページ記事」のタイトル右にある「･･･」から「トップページの先頭に表示」を選択する&lt;/li&gt;
+&lt;li&gt;「設定」→「 詳細設定」 → 「トップページの記事数（PC版）」で、記事数を１記事に設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;その他非表示設定&#34;&gt;その他非表示設定&lt;/h3&gt;
+&lt;p&gt;このままだと、アーカイブページや、サイドバーのモジュールに入れた注目記事、最新記事一覧にトップページ記事が出てきてしまう。&lt;/p&gt;
+&lt;p&gt;そこで、これら一覧からトップページ記事が表示されないようにCSSコードを入力する。&lt;/p&gt;
+&lt;h4 id=&#34;アーカイブ記事一覧から非表示にする&#34;&gt;アーカイブ（記事一覧）から非表示にする&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;記事一覧ページ（ブログドメインの末尾に「/archive」を付したページ）を開く&lt;/li&gt;
+&lt;li&gt;一覧から、トップページ記事のタイトル上で右クリックし、「検証」を選択&lt;/li&gt;
+&lt;li&gt;各記事を構成する以下のようなセクションタグから、data-uuid=&amp;ldquo;19桁のID番号&amp;quot;のID番号部分をコピー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;archive-entry test-archive-entry autopagerize_page_element&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;data-uuid&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;19桁のID番号（トップページ記事のID番号）&amp;#39;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;「デザインCSS」（「デザイン」→「カスタマイズ」→「デザインCSS」）を開き、以下のコード（「★トップページ記事のID番号★」の部分は、上でコピーしたIDに入れ替える）を貼り付ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;archive-entry&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;data-uuid&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;★トップページ記事のID番号★&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;注目記事最新記事一覧から非表示にする&#34;&gt;注目記事、最新記事一覧から非表示にする&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;サイドバーの注目記事にあるトップページ記事のタイトル上で右クリックし、「検証」を選択&lt;/li&gt;
+&lt;li&gt;以下のようなHTMLが表示されるので、「★トップページ記事のURL★」の部分をコピーしておく&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;ul&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;hatena-module-list&amp;#39;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;★トップページ記事のURL★&amp;#39;&lt;/span&gt;&amp;gt;トップページ記事のタイトル&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;ul&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;「デザインCSS」を開き、以下のコード（「★トップページ記事のURL★」部分は、上でコピーしたURLに入れ替える）を貼り付ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* 注目記事の中で「トップページ記事」のリンクを含む&amp;lt;li&amp;gt;全体を非表示にする */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;hatena-module-body&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt;:&lt;span style=&#34;color:#a6e22e&#34;&gt;has&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;★トップページ用記事のURL★&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;])&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;display&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;none&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;!important&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;プライバシーポリシーのページなど、トップページと同様に非表示としたいページがあれば、そのページについても「その他非表示設定」の作業を行えば良い。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>【はてなブログ】無料版でGoogle Adsenseの審査を通過させる</title>
+      <link>http://localhost:1313/page/post/2025/08/10/121600/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/121600/</guid>
+      <description>&lt;p&gt;Bloggerからのブログサービス移行に伴い、無料版はてなブログでもGoogle Adsenseの申請をした。&lt;/p&gt;
+&lt;p&gt;Bloggerでは審査を通過しているし、記事を移行したものであれば品質も問題ないだろうと考えていたら、普通に審査に落ちた。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250614155332.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;プライバシーポリシーやお問い合わせフォームも設置しているし、あまり不通過となる心当たりはないのだが、もしかしたら以下の２点が問題だったのかもしれない。&lt;/p&gt;
+&lt;h3 id=&#34;アフィリエイト広告利用の記載抜け&#34;&gt;アフィリエイト広告利用の記載抜け&lt;/h3&gt;
+&lt;p&gt;Bloggerのときは、ブログタイトルの下に「アフィリエイト広告を利用しています」と注釈を入れていたのだが、はてなブログで申請した際はそれが抜けていた。&lt;/p&gt;
+&lt;h3 id=&#34;記事内のリンク切れ&#34;&gt;記事内のリンク切れ&lt;/h3&gt;
+&lt;p&gt;審査の最中にトップページを含めた記事の編集をしていたのだが、そのときに一部記事へのリンク先URLが不適切であったため修正をしていた。&lt;/p&gt;
+&lt;p&gt;幾つかの記事で内部リンクを貼っており、それがBloggerのURLのままとなっていたのだが、記事の重複を避けるためBloggerの記事はいったん全て非公開としてしまったため、リンク切れを起こしてしまっていたのである。&lt;/p&gt;
+&lt;p&gt;そして記事を書いている最中に気づいたが、何と&lt;strong&gt;プライバシーポリシーへのリンク切れも起こしていた&lt;/strong&gt;ようであった。&lt;/p&gt;
+&lt;p&gt;もしかすると、これが原因か！&lt;/p&gt;
+&lt;p&gt;現在はこれらを修正して再申請してみたが、果たしてどうなるか。&lt;/p&gt;
+&lt;p&gt;また結果まで２～３週間くらい待ちそうだが、通知が来たら続報を載せておきたい。&lt;/p&gt;
+&lt;h3 id=&#34;その後も審査に落ちた記事を削除したはずのURLへのアクセス痕跡あり&#34;&gt;その後も審査に落ちた（記事を削除したはずのURLへのアクセス痕跡あり）&lt;/h3&gt;
+&lt;p&gt;リンク切れを修正してから何度か申請したのだが、中々審査をパスしない。&lt;/p&gt;
+&lt;p&gt;プライバシーポリシーやお問い合わせフォームも設置済み、記事の質は（おそらく）問題ない、リンクも修正したのに…&lt;/p&gt;
+&lt;p&gt;無料のはてなブログ（独自ドメインなし）なのが原因なのか？と疑心暗鬼になってしまった。&lt;/p&gt;
+&lt;p&gt;その後もなかなか原因が掴めなかったのだが、ある時はてなブログのアクセス解析情報を見ると、申請のタイミングに合わせて、米国からのアクセス数が増えているのが確認された。&lt;/p&gt;
+&lt;p&gt;Adsenseが審査するためにサイトを巡回しているのだろう。&lt;/p&gt;
+&lt;p&gt;すると、アクセス先の多くに、以前削除したはずの記事のURLが含まれていることが分かった。&lt;/p&gt;
+&lt;p&gt;実は、Bloggerから移行したHTML形式のはてなブログ記事を削除し、Markdown方式として書き直してはてなブログにアップロードしていたのだが、どうやらAdsenseは削除した方の記事を閲覧しようとしていたらしい。&lt;/p&gt;
+&lt;p&gt;これにより、「あっ、このブログリンク切ればっかやん。こんなん落としたれ！」と判断されてしまった可能性が高い。&lt;/p&gt;
+&lt;p&gt;一応トップページからは辿れないはずなのだが、Googleサーチコンソールに登録されていたのが良くなかったのかもしれない。&lt;/p&gt;
+&lt;h3 id=&#34;対策&#34;&gt;対策&lt;/h3&gt;
+&lt;p&gt;そこで、Googleサーチコンソールから削除済記事のURLをGoogle検索結果に表示しないよう、ちまちまと１つずつ削除リクエストを送り続けた。&lt;/p&gt;
+&lt;p&gt;その結果、アクセス解析情報から次の申請時にはAdsenseはこれらのURLにアクセスしていないことを確認できた。&lt;/p&gt;
+&lt;p&gt;そして、無事審査を通過することができた。&lt;/p&gt;
+&lt;p&gt;削除した記事に翻弄されるとは思わなかったが、なんとか無料版のはてなブログでも登録できて良かった。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bloggerからはてなブログへの記事移行（Windowsユーザー向け）</title>
+      <link>http://localhost:1313/page/post/2025/08/10/121408/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/121408/</guid>
+      <description>&lt;p&gt;とある理由から、ブログをBloggerからはてなブログへ移転することとした。&lt;/p&gt;
+&lt;p&gt;※とある理由の詳細が気になる方は、以下の記事を参照いただきたい&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://u-zan.hatenablog.com/entry/2025/08/10/121126&#34;&gt;【Blogger】記事がGoogle検索結果に表示されない - グルメ漫画を味わい尽くす&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;移行のための方法を調べたところ、FCブログを経由する方法はあったが、移行のためだけにFCブログの登録をするのは面倒臭い。&lt;/p&gt;
+&lt;p&gt;その他、オープンソースのブログデータ変換ツール「google-blog-converter-appengine」を使う方法があったので、こちらを採用することとした。&lt;/p&gt;
+&lt;p&gt;しかし、Macユーザー向けのマニュアルは結構出てくるのだが、Windowsユーザー向けの説明が中々見つからなかった。&lt;/p&gt;
+&lt;p&gt;移行まで結構苦戦したので、備忘録としてWindows向けの手順を残しておきたい。&lt;/p&gt;
+&lt;h3 id=&#34;Bloggerで過去記事のxmlファイルをエクスポート&#34;&gt;Bloggerで過去記事のxmlファイルをエクスポート&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;管理画面にアクセス&lt;/li&gt;
+&lt;li&gt;左側にある「設定」を選択&lt;/li&gt;
+&lt;li&gt;ブログの管理の項目にある「コンテンツをバックアップ」を選択&lt;/li&gt;
+&lt;li&gt;ダウンロードを選択&lt;/li&gt;
+&lt;li&gt;xmlファイルの名前を「blogger.xml」に変更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;google-blog-converter-appengineの準備&#34;&gt;google-blog-converter-appengineの準備&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.google.com/archive/p/google-blog-converters-appengine/downloads&#34;&gt;こちらのリンク&lt;/a&gt;から、（2025/5/27時点で）最新版の「google-blog-converters-r89.tar.gz」をダウンロード&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.7-zip.org/&#34;&gt;7-zip&lt;/a&gt;などの解凍ソフトでファイルを解凍&lt;/li&gt;
+&lt;li&gt;出てきた「bin」というフォルダ内に、上で作成した「blogger.xml」を格納&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;Pythonのインストール&#34;&gt;Pythonのインストール&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Pythonのサイト&lt;/a&gt;から、バージョンが2.xのものをダウンロード（筆者の場合は「Windows X86-64 MSI Installer (2.7.2)」をダウンロードした）&lt;/li&gt;
+&lt;li&gt;Pythonをインストール&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;コマンドでpythonが使えるように環境変数のPATHを設定
+&lt;ul&gt;
+&lt;li&gt;タスクバー上の「スタート」を右クリックし、「設定」を選択&lt;/li&gt;
+&lt;li&gt;左側メニューから「システム」を選択&lt;/li&gt;
+&lt;li&gt;「バージョン情報」を選択&lt;/li&gt;
+&lt;li&gt;次の画面で「システムの詳細設定」を選択&lt;/li&gt;
+&lt;li&gt;「システムのプロパティ」画面で「環境変数」を選択&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;現在のユーザーに対してのみPATHを設定する場合は上部の「xxxのユーザー環境変数」、すべてのユーザーに共通してPATHを設定する場合は下部の「システム環境変数」で以下の作業を行う
+&lt;ul&gt;
+&lt;li&gt;「変数」が「Path」と書かれた箇所をクリックし、「編集」を選択&lt;/li&gt;
+&lt;li&gt;「環境変数名の編集」画面右上の「新規」を選択&lt;/li&gt;
+&lt;li&gt;「C:\pg\Python\Python●●●\ 」と入力（「●●●」にはバージョンが入る。筆者の場合は「27」であった。自分がPythonをインストールしたディレクトリに合わせて入力すること）&lt;/li&gt;
+&lt;li&gt;入力が終わったら「OK」を選択&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/li&gt;
+* Windowsを再起動
+&lt;li&gt;環境変数にPATHが入っているか確認
+&lt;ul&gt;
+&lt;li&gt;デスクトップの検索画面で「cd」と入力し、コマンドプロンプトを選択し起動&lt;/li&gt;
+&lt;li&gt;「python -V」と入力し、Enter→以下のようにバージョンが表示されればOK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;div align=&#34;center&#34;&gt;
+[&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250529212405.png&#34;/&gt; 
+&lt;/figure&gt;
+:300]
+&lt;/div&gt;
+&lt;p&gt;※Windowsを再起動していないと、作業完了後もPATHが入らない場合あり&lt;/p&gt;
+&lt;h3 id=&#34;xmlファイルをはてなブログ用ファイルへ変換&#34;&gt;xmlファイルをはてなブログ用ファイルへ変換&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;最初に作成した「bin」フォルダのフルパス名（エクスプローラの上に出てくるURL）をコピー&lt;/li&gt;
+&lt;li&gt;コマンドプロンプトを起動&lt;/li&gt;
+&lt;li&gt;画面内で「cd （dの後に半角スペースを入れること）」を入力し、続けて「bin」フォルダのフルパス名をペーストしてEnter（これによりbinフォルダに移動）&lt;/li&gt;
+&lt;li&gt;「.\blogger2movabletype.bat blogger.xml&amp;gt;mt.txt」と入力し、Enter→「bin」フォルダ内に「mt.txt」という名前のファイルが作成される&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※xmlファイル名を「blogger.xml」に変更しているか確認すること&lt;/p&gt;
+&lt;p&gt;※多くの記事では「python blogger2movabletype.bat blogger.xml &amp;gt; mt.xml」と入力するよう紹介されていたが、その通りに入力すると「Syntax　Error: Invalid syntax」と出てしまった。この場合、「bin」フォルダ内に「mt.xml」が作成されるが、中身は空のファイルとなる&lt;/p&gt;
+&lt;h3 id=&#34;はてなブログへのインポート&#34;&gt;はてなブログへのインポート&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;はてなブログ管理画面の「インポート」画面を開く&lt;/li&gt;
+&lt;li&gt;「ファイルを選択」ボタンを選択し、上で作成した「mt.txt」ファイルを選択&lt;/li&gt;
+&lt;li&gt;ドロップダウンリストから、インポートするブログデータの形式としてMT形式を選択&lt;/li&gt;
+&lt;li&gt;「次へ進む」をクリック&lt;/li&gt;
+&lt;li&gt;正しく表示されている文字コードを選択&lt;/li&gt;
+&lt;li&gt;「インポート」ボタンをクリックして、インポートを実行&lt;/li&gt;
+&lt;li&gt;インポート完了後、ファイル選択のページにインポート結果として日時や記事数が表示される&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※はてなブログの記事を公開するときは、Bloggerの記事を非公開に変更することを忘れずに&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>コードブロックにコピーボタンを配置</title>
+      <link>http://localhost:1313/page/post/2025/08/10/115228/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/115228/</guid>
+      <description>&lt;p&gt;ブログデザインのカスタマイズに関する記事を書いていると、多少長いコードを掲載することがある。&lt;/p&gt;
+&lt;p&gt;コードブロックでデザインはスッキリさせることができるものの、読者がそのコードを参考にしたり、自分の環境で試したりする場合、コードを一括でコピーできる機能があると非常に便利だ。&lt;/p&gt;
+&lt;p&gt;※コードブロックの方法は、以下の記事で説明している&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://u-zan.hatenablog.com/entry/2025/08/10/115045&#34;&gt;ブログ記事へのソースコードの埋め込み - グルメ漫画を味わい尽くす&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;しかし、Bloggerの標準仕様では、コードブロックに「コピー」ボタンは付いていない。&lt;/p&gt;
+&lt;p&gt;今回はJavaScriptとCSSを使って、コードブロックにコピー機能を追加する方法を紹介する。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250523225443.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h3 id=&#34;CSSを追加する&#34;&gt;CSSを追加する&lt;/h3&gt;
+&lt;p&gt;Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを&lt;head&gt;内または&lt;style&gt;タグに追加する。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* コードブロック全体を囲むコンテナ（ボタンとコードをまとめて管理） */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;code-block&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;position&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;relative&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;margin-bottom&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1.5&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;em&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* コピー用ボタンの見た目と位置 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;copy-btn&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;position&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;absolute&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;top&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;right&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;padding&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;font-size&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;background-color&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;#f8f8f8&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;border&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;solid&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;#ccc&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;border-radius&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;cursor&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;pointer&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;z-index&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* コードとボタンが重ならないようにpreタグに上部余白を確保 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;code-block&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;padding-top&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2.5&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;em&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;font-size&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;overflow&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;auto&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;white-space&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;pre&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;max-height&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;11.5&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;em&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;対象記事へのコードブロックコピーボタンの埋め込み&#34;&gt;対象記事へのコードブロック＋コピーボタンの埋め込み&lt;/h3&gt;
+&lt;p&gt;記事の編集画面で「HTML表示」に切り替えて、以下のように載せたいコードを&lt;div&gt;タグと&lt;pre&gt;タグで挟み込む形で埋め込む。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- コードブロック + コピー用ボタン --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;code-block&amp;#39;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;copy-btn&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;onclick&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;copyCode(this)&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;gt&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Copy&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lt&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;button&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;prettyprint linenums&amp;#39;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;コードブロック内に載せたいコード
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;表示確認と調整&#34;&gt;表示確認と調整&lt;/h3&gt;
+&lt;p&gt;これで、対象のコードブロックに「コピー」ボタンが表示されるようになる。&lt;/p&gt;
+&lt;p&gt;スタイルやボタンの文言などは自由にカスタマイズ可能である。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ブログ記事へのソースコードの埋め込み</title>
+      <link>http://localhost:1313/page/post/2025/08/10/115045/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/page/post/2025/08/10/115045/</guid>
+      <description>&lt;p&gt;ブログ記事中で、ソースコードを載せることが多くなってきた。&lt;/p&gt;
+&lt;p&gt;コードをそのまま載せると記事が長くなってしまい、見た目がよろしくない。　&lt;/p&gt;
+&lt;p&gt;そこで、記事をコンパクトにするため、ソースコードを埋め込む（コードブロックを作成する）方法を調べてみた。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250523224620.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;特に、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;埋め込みたいコードに含まれるタグによるエラーの解消&lt;/li&gt;
+&lt;li&gt;勝手にコードが改行されてしまうのをスクロール表示にする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;スクロールバーのつまみの色変更
+という点で苦戦したので、方法を備忘録として残しておきたい。&lt;/li&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    &lt;li&gt;[Google-code-prettifyの導入（準備）](#Google-code-prettifyの導入準備)
+            * [スクロールバーのデザイン変更時の注意](#スクロールバーのデザイン変更時の注意)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[記事にコードを挿入](#記事にコードを挿入)
+        * [挿入時の注意](#挿入時の注意)
+    
+&amp;lt;/li&amp;gt;
+* [コピーボタンの配置は？](#コピーボタンの配置は)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;Google-code-prettifyの導入準備&#34;&gt;Google-code-prettifyの導入（準備）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blogger管理画面を開く&lt;/li&gt;
+&lt;li&gt;「テーマ」 を選び、「HTMLの編集」をクリックする&lt;/li&gt;
+&lt;li&gt;下記Javascriptコードを、HTML内の&lt;head&gt;&amp;hellip;&lt;/head&gt;タグ間の任意の場所（例えば、&lt;/head&gt;の直前）に貼り付ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;script&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;さらに下記コードを、上のJavascriptコードの直下に貼り付ける。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;prettyprint&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;font-size&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;/* コード内のフォントサイズ */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;word-wrap&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;normal&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;/* 単語の途中での改行を無効にする */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;overflow&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;auto&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;/* 内容がはみ出た場合、スクロールバーを表示 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;white-space&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;pre&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;/* 改行を抑制してそのまま表示 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;max-height&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;em&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;/* 最大高さ指定、超えるとスクロール */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    .&lt;span style=&#34;color:#a6e22e&#34;&gt;prettyprint&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;ol&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;linenums&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;gt&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;li&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;list-style-type&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;decimal&lt;/span&gt;;  &lt;span style=&#34;color:#75715e&#34;&gt;/* コードの各行に数字番号を表示 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;prettyprint&lt;/span&gt;::&lt;span style=&#34;color:#a6e22e&#34;&gt;-webkit-scrollbar&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;width&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;/* スクロールバーの幅 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;prettyprint&lt;/span&gt;::&lt;span style=&#34;color:#a6e22e&#34;&gt;-webkit-scrollbar-thumb&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;background-color&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;#aaa&lt;/span&gt;;  &lt;span style=&#34;color:#75715e&#34;&gt;/* スクロールバーのつまみの色 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;スクロールバーのデザイン変更時の注意&#34;&gt;スクロールバーのデザイン変更時の注意&lt;/h4&gt;
+&lt;p&gt;最初にスクロールバーのつまみの色だけを変更しようと（::-webkit-scrollbar-thumb）を追記したが、反映されなかった。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Pages | ブログタイトル</title>
+<meta name="keywords" content="">
+<meta name="description" content="Pages - ブログタイトル">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/page/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/page/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/page/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ブログタイトル (Alt + H)">ブログタイトル</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
+  <h1>
+    Pages
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】CSSの追加機能
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Bloggerでは外部CSSファイルを直接配置することができないが、その代わりにテーマのHTMLにCSSを追加するためのカスタマイズ機能を使うことができる。
+カスタマイズ機能を使ったCSS追加手順 Blogger にログインする 更新するブログを選択 左側のメニューで [テーマ] をクリック [カスタマイズ] をクリック [詳細設定] をクリック [文字の色]の横にある▼ボタンをクリック [CSS を追加] をクリック CSSを入力するウィンドウの中にコードを追加 右下の保存ボタンををクリック この6番目の手順を見逃しがちなので、注意してもらいたい。
+念のため、以下に参考画像（スマホ版サイトからの）も載せておく。
+[:300] どこにCSSが追加される？ 追加したCSSコードがどこに書き込まれているのかというと、テーマのHTMLの&lt;b:skin&gt;〜&lt;/b:skin&gt;タグ間の最終行にCSSが追加されていくこととなる。
+したがって、一旦CSSの追加を完了してしまえば、上の手順8でCSSを入力したウィンドウを空にしても特に問題はない。
+改めてBlogger にログインするとウィンドウの中が空になっていると思うが、追加したCSSが消えてしまった訳では無いので、安心してほしい。
+CSSコードを入れるときの推奨 上の8の手順でCSSコードを入れる際の注意点というほどではないが、追加するCSSのコードの上には、CSSの機能などを記載したコメントを入れておくことをお勧めする。
+例えば、 / 表のCSSデザイン /　とか、 / 目次のCSSデザイン / といった具合である。
+テーマのHTMLは結構長いコードなので、後からCSSコードを編集しようとしたときになかなか見つからないことがある。
+そんな場合、コードにコメントを入れておくことで、目当てのコードがどこに存在しているのかを検索機能で探しやすくなる。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】CSSの追加機能" href="http://localhost:1313/page/post/2025/08/10/120548/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】Google Adsenseの申請に何度も落ちた話
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>2025年の１月にブログを立ち上げ、２週間後くらいにGoogle AdSenseに申請したが、以下のメールを貰い審査に落ちてしまった。
+審査の結果、残念ながら、お客様のサイトは広告を掲載する準備がまだ整っていないようです。サイトに広告を掲載できるようにするには、いくつかの問題を解決していただく必要がございます。 問題の詳細な理由を見ると、記事の数が十分でなかったことに加え、いくつか重要な要件が不足していたことが判明したため、改善して再度申請するも、敢え無く撃沈。
+更に改善を重ね、ようやく３度目の正直で審査を通過することができた。
+「BloggerのGoogle AdSense申請の合格率は低い」と説明されているサイトも見られるが、要件を満たしていけば問題なく通過できることが確認できたので、参考までにノウハウを書きとどめておきたい。
+* [そもそもBloggerを選んだ理由](#そもそもBloggerを選んだ理由) [AdSense審査を合格するための条件](#AdSense審査を合格するための条件) * [プライバシーポリシーの設置](#プライバシーポリシーの設置) * [お問い合わせフォームの設置](#お問い合わせフォームの設置) * [運営者情報の記入](#運営者情報の記入) * [コンテンツポリシーの遵守](#コンテンツポリシーの遵守) * [記事の質/量の確保](#記事の質量の確保) * [適切なサイト構造](#適切なサイト構造) &lt;/li&gt; * [審査の不合格〜合格までの経緯](#審査の不合格合格までの経緯) そもそもBloggerを選んだ理由 巷には色々なブログサービスがあるが、自分はその中からBloggerを選んだ。
+その理由は、無料でAdSenseの審査を受けられる点に尽きる。
+通常、AdSenseの審査を受けるためには独自ドメインが必須と言われている。
+はてなブログの無料版（独自ドメインなし）でも審査通過が可能と判明した。
+自分が知る限り、無料のブログサービスはサブドメインのため、独自ドメインを取得する必要がある。
+そして多くの無料ブログサービスでは、独自ドメインを使用するには有料プランに移行する必要がある。
+しかし、将来どれだけ利益を出せるのか分からないブログに固定費が発生するのはどうしても避けたかった。
+初めてのブログ開設にWordPressを勧めるサイトも多いが、個人的にはお勧めしない。
+ある程度実績を積んだブログ運営者が、固定費の発生というデメリットと移行による利益の増加といったメリットとを天秤にかけ、メリットの方が大きいと判断して移行先として選ぶなら良いが、初心者がいきなり固定費を要するサービスを採用するのは赤字となるリスクが非常に高いと思う。
+AdSenseに拘らず、アフィリエイト広告による収益化を狙うなら、独自ドメインは不要である。
+しかし、AdSenseは広告がクリックされることで報酬が発生する「クリック報酬型広告」である。
+このため、サイトで紹介した商品が購入されたり、サービスに登録されたりすることで報酬が発生するアフィリエイトと比べ、AdSenseの方が収益化のハードルは低いと考えた（当たればアフィリエイトの方が利幅は大きいとは思う）。
+それに、Bloggerでもアフィリエイト広告は問題なく掲載できる。
+したがって、無料でAdSenseの審査が可能なサービスに魅力を感じ、Bloggerを選定した。
+AdSense審査を合格するための条件 Google AdSenseに合格するためには、いくつか明確に「これを設置しないといけない」という条件と、「ユーザーフレンドリーなブログにすべき」と、どこまで対応すれば良いのか判断し辛い条件がある。
+以下、それら思いつくものを項目として挙げてみた。
+プライバシーポリシーの設置 AdSenseの利用には個人情報やCookieなどについての説明が必要である。
+本ブログでは、こちらのように記載しているので、適宜参考にしてもらえればと思う。
+広告の配信についてはAdSense以外の記載も含まれているので、自分のブログに合うよう修正してもらいたい。
+プライバシーポリシーの設置場所については特に指定はないが、ユーザーが１クリックまたは２クリックで見られる場所に設置するのが望ましく、フッターまたはヘッダーに設置するのが一般的である。
+また、後述のお問い合わせフォームと併設すると良い。
+お問い合わせフォームの設置 信頼性と連絡手段の確保のため必須となる。
+こちらも設置場所の指定はないが、ユーザーがブログ運営者に対して問い合わせしやすいよう、プライバシーポリシーと併設すると良い。
+なお、当ブログでは併設のほか、プライバシーポリシーのページからも問い合わせフォームへのリンクを設置している。
+設置方法はサービスによって様々だが、Bloggerであれば
+管理画面左側の「レイアウト」をクリック 追加したい位置にある「ガジェットを追加」をクリック 「連絡フォーム」ガジェットを選択 保存ボタンをクリック の手順で追加可能である。
+運営者情報の記入 誰が運営しているか明記されていると信頼性が上がるので、掲載すべきとされている。
+本名や住所といった個人情報を掲載する必要はなく、以下のような簡単なプロフィール程度の掲載で問題ない。
+ニックネーム プロフィール画像（写真やイラスト） 簡単な自己紹介（職業、趣味その他） コンテンツポリシーの遵守 コンテンツポリシーとして、次のようなコンテンツは許可されない。
+違法なコンテンツ 知的財産（権）の侵害 危険または中傷的なコンテンツ 動物への残虐行為 不適切な表示に関連するコンテンツ 不正行為を助長する商品やサービス 性的描写が露骨なコンテンツ 報酬を伴う性的行為 国際結婚の斡旋 ファミリー コンテンツに含まれる成人向けのテーマ 児童の性的虐待と搾取 殆どの項目は問題なくクリアできると思うが、当ブログのように漫画や映画のレビュー記事を載せる場合は、著作権（知的財産権のひとつ）の侵害とならないように注意したい。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】Google Adsenseの申請に何度も落ちた話" href="http://localhost:1313/page/post/2025/08/10/115825/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】HTML / CSSの構成
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>HTMLは、Webページの構造を定義するマークアップ言語であり、ブラウザに文字や表などを表示させるために使用される。
+一方、CSSはWebページのデザインを定義するものであり、HTMLで記述されたタグやレイアウトを装飾するためのものとなる。
+したがって、ブログを作る上でHTMLとCSSを編集することは必須となる。
+「Blogger」はGoogleが提供する無料のブログ作成サービスだが、BloggerにおけるHTML / CSSの関係性は少し独特なものとなっている。
+この記事では、BloggerにおけるHTML / CSSの構成を整理し、カスタマイズの幅を広げるための備忘録としたい。
+[BloggerのHTML/CSS構成](#BloggerのHTMLCSS構成) * [テーマのHTML（テンプレート）](#テーマのHTMLテンプレート) * [テーマのCSS](#テーマのCSS) * [記事のHTML（投稿内容）](#記事のHTML投稿内容) &lt;/li&gt; &lt;li&gt;[ブログデザインの変更方法](#ブログデザインの変更方法) &lt;li&gt;[全体のデザインを変えたい場合](#全体のデザインを変えたい場合) * [テーマのHTMLの中でCSSを記述する方法](#テーマのHTMLの中でCSSを記述する方法) * [外部CSSファイルを読み込む方法](#外部CSSファイルを読み込む方法) &lt;/li&gt; * [記事ごとにデザインを変えたい場合](#記事ごとにデザインを変えたい場合) &lt;li&gt;[テーマのHTMLのCSSにクラスを追加](#テーマのHTMLのCSSにクラスを追加) * [記事のHTMLにクラス属性を指定](#記事のHTMLにクラス属性を指定) &lt;/li&gt; &lt;/li&gt; BloggerのHTML/CSS構成 Bloggerは、以下の図のように「テーマのHTML」と「記事のHTML」とに分かれており、主にテーマのHTMLの中でCSSを記述する（デザインを定義する）形となっている。
+CSSはテーマのHTMLの中で直接記述しても良いが、Blogger特有の機能「CSSを追加」で追加しても良い。
+あるいは外部のCSSファイルとリンクしても良いが、Bloggerでは上の方法がメジャーかと思う。
+テーマのHTML（テンプレート） ブログ全体のレイアウトや構造を定義するものである。
+ここでは、&lt;b:section&gt; や &lt;b:widget&gt; など、Blogger独自のタグが使われている。
+このHTMLにCSSやJavaScriptを組み込むことで、ブログ全体のデザインと動作を決めることができる。
+テーマのCSS テーマのHTML内に &lt;b:skin&gt;〜&lt;/b:skin&gt;タグで囲われた領域にCSSのコードを記述できる。
+Bloggerの「CSSを追加」機能で追加されたCSSも、この中に組み込まれる。
+ここで追加したCSSは、ブログ全体に適用される。
+またテーマのCSSに後述するクラスを追加することで、個別記事の特定の部分のデザインも変更することができる。
+記事のHTML（投稿内容） 各記事の本文部分であり、投稿エディターでHTMLビューにすることで確認できる。
+, , などの通常のHTMLタグは使えるが、そのデザインは「テーマのCSS」で決められる。 例えば、テーマのHTML内で p { color: red; } と設定していれば、記事内の も赤くなる。
+記事毎に特定部分のデザインを変更したい場合は、こちらを編集することとなる。
+ブログデザインの変更方法 ブログ全体のデザインを一括して変えるのか、それとも記事毎にデザインを変えるのかによって、多少方法は異なる。
+全体のデザインを変えたい場合 ブログ全体のデザインを変える場合は以下の２通りあるが、Bloggerを使うのであれば最初の方法を推奨する。
+テーマのHTMLの中でCSSを記述する方法 １つ目のやり方は、テーマのHTMLの中にCSSを記述 / 編集するという方法である。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】HTML / CSSの構成" href="http://localhost:1313/page/post/2025/08/10/120121/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】カスタムテンプレートの適用方法
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ブログ作成サービスには色々あるが、Googleが提供する無料のブログ作成サービスとして「Blogger」がある。
+ブログをBloggerで作成している場合は、カスタムテンプレートを適用することで、デザインを自由に変えられる。
+以下、Bloggerのテーマにカスタムテンプレートを適用する方法を説明する。
+手順 １．事前準備 Webサイトから、あらかじめカスタムテンプレート（XMLファイル）をダウンロードしておく
+※例えば、日本語テンプレートだと「QooQ」（ダウンロード先はこちら）が有名
+２．テーマのバックアップ（推奨） Bloggerにログインする 左側のメニューから「テーマ」をクリック 右上の「▼（カスタマイズの横）」をクリックし、「バックアップ」を選択 「ダウンロード」をクリックし、現在のテーマを保存 ３．カスタムテンプレートをアップロード 「テーマ」画面の右上の「▼」をクリックし、「元に戻す」を選択（分かりづらい⋯） 「アップロード」をクリックし、用意したXMLファイルを選択 アップロードが完了すると、新しいテーマが適用される。
+４．表示を確認 左側のメニューの１番下にある「ブログを表示」をクリックし、正しく表示されるか確認 デザインが崩れている場合は「テーマ」の「カスタマイズ」から調整 補足 テンプレートのXMLファイルが正しく記述されていないとエラーが出る場合がある カスタムCSSやHTMLを編集する場合は、「テーマ」→「HTMLを編集」から変更可能 以前のテンプレートに戻す場合は、３の手順でアップロードするXMLファイルに、２の手順でバックアップしたものを選択すれば良い 文字色やブランドカラーの色を変える程度であれば、HTMLを編集せずとも、左側のメニューの「テーマ」→「カスタマイズ」→「詳細設定」を選択することで変更可能 </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】カスタムテンプレートの適用方法" href="http://localhost:1313/page/post/2025/08/10/120249/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】ファビコンの設置方法
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ブログを開設してから数ヶ月経ち、ファビコン（ブラウザのタブなどに表示されるアイコン）を設置してみたのでその方法を記載しておきたい。
+今回設置したファビコン 今回やってみて分かったが、ファビコンは画像があればたった数ステップで設置できるので、まだ設定していない場合は、是非導入をお勧めしたい。
+ブログの印象が一段引き締まるはず。
+* [ファビコンとは？](#ファビコンとは) * [ファビコンを設置するメリット](#ファビコンを設置するメリット) [Bloggerでファビコンを設置する方法](#Bloggerでファビコンを設置する方法) * [ファビコン画像の準備](#ファビコン画像の準備) * [Bloggerにファビコン画像をアップロード](#Bloggerにファビコン画像をアップロード) &lt;/li&gt; * [早くGoogle検索結果にファビコンを反映させるには](#早くGoogle検索結果にファビコンを反映させるには) ファビコンとは？ 「ファビコン（favicon）」とは「favorite icon」の略で、ブラウザのタブやブックマークに表示される小さなアイコンのことを指す。
+サイトの「顔」ともいえる存在で、訪問者がサイトを視覚的に認識しやすくなり、ブランドイメージの定着にも繋がる。
+例えば、Googleなら「G」といった馴染みのあるアイコンを見かけたことがあるかと思う。
+Bloggerであれば、オレンジの背景にアルファベットのＢの白文字が入ったアイコンである。
+ファビコンを設置するメリット やはりメリットとしては、他のブログと視覚的に区別しやすくなる点だと思う。
+デフォルトで設定されるBloggerのアイコンのままでは、ユーザーがタブでサイトを見つけづらくなってしまう。
+また、きちんと運営されたブログである印象を与えることもできるし、長い期間ファビコンを設置することで、ブランド認知の向上も期待できる。
+このあたりは、商標と似たような考え方かと思う。
+話は逸れるが、ナイキのロゴも当初はシンプルなデザインの社内受けは特別良かったわけでも無かったらしいが、今ではナイキを象徴するロゴにまで認知されている。
+Bloggerでファビコンを設置する方法 Bloggerでは、管理画面から簡単にファビコンを設定できる。
+ファビコン画像の準備 推奨サイズ：48×48pxまたはその倍数のサイズ（最大で100KB程度） ファイル形式：ico、 png、jpg などが使えるが、icoであれば一つのファイルに複数のサイズの画像を含めることが可能 Bloggerなら自動でico形式に変換してくれる 小さいサイズでもユーザーが視認できるデザインが好ましい サイズは正方形の必要がある点に注意。
+Bloggerの場合は、1ピクセルでも長方形になっていると、アップロード時にエラーが出てしまう。
+Bloggerにファビコン画像をアップロード 画像さえ準備できれば、後の手順は簡単である。
+Bloggerにログインし、自分のブログの管理画面を表示 左メニューから「設定」をクリック 「基本」の中にある「ファビコン」をクリック 「アイコン ファイルを選択」から準備した画像をアップロード 「保存」をクリック 反映を確認 アップロード後、数分〜数時間でファビコンが反映される。
+ブラウザのキャッシュが影響して見えない場合は、ページの更新またはキャッシュのクリアを試すと良い。
+ただし、Google検索結果に反映される（Googleが再クロールする）までにはかなり長い期間かかる場合がある。
+早くGoogle検索結果にファビコンを反映させるには もっと早くGoogle検索結果に反映させたければ、Google Search Consoleの「URL検査ツール」を使用して、インデックス登録をリクエストすると良い。
+以下に具体的な手順と、どのURLを指定すべきかを説明する。
+1. Google Search Console にアクセスし、対象のブログを選択する。 2. 画面左のメニューから「URL検査」を選ぶ。 3. 自分のブログのトップページURL（記事ページや画像URLではない）を入力する。 ケース 入力するURL Bloggerを使っている場合 [https://example.blogspot.com/](https://example.blogspot.com/) 独自ドメインを使っている場合 [https://www.yourdomain.com/](https://www.yourdomain.com/) 4. 読み込み後、「URLがGoogleに登録されていません」または「登録されています」と表示されるので、どちらでも「インデックス登録をリクエスト」ボタンをクリックする。 リクエストしても反映までには数日〜1週間ほどかかることがあるので、気長に待とう。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】ファビコンの設置方法" href="http://localhost:1313/page/post/2025/08/10/122429/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】ブログ記事への表の挿入
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ブログ内で記事中に表を挿入したくなったので、挿入方法を調べてみた。
+挿入する表は、以下のような感じにしてみたい。
+表を挿入するには、HTMLとCSSを使用する。
+一見敷居が高そうにも見えるが、以下の方法を行うだけで表を作成できる。
+* [HTMLコードの貼り付けで作成](#HTMLコードの貼り付けで作成) [デザインのカスタマイズ](#デザインのカスタマイズ) * [CSSの追加機能の利用](#CSSの追加機能の利用) * [記事の「HTMLビュー」に直接](#記事のHTMLビューに直接) &lt;/li&gt; * [どちらの方法でカスタマイズすべき？](#どちらの方法でカスタマイズすべき) HTMLコードの貼り付けで作成 以下のコードを記事の「HTMLビュー」に貼り付けると、シンプルな表が作成される。
+&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;見出し1&lt;/th&gt; &lt;th&gt;見出し2&lt;/th&gt; &lt;th&gt;見出し3&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;データ1&lt;/td&gt; &lt;td&gt;データ2&lt;/td&gt; &lt;td&gt;データ3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;データ4&lt;/td&gt; &lt;td&gt;データ5&lt;/td&gt; &lt;td&gt;データ6&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; これで、以下のような表を記事の中に挿入することができる。
+しかしこれでは少し寂しいので、更に表のデザインをカスタマイズしたい。
+デザインのカスタマイズ デザインを変更する方法は、主に以下の２通りある。
+CSSの追加機能はBloggerを前提とした説明ではあるが、コードは他のブログでも共通して使えるかと思う。
+CSSの追加機能の利用 Bloggerの「テーマ」→「カスタマイズ」→ 「詳細設定」→「文字の色」の横にある▼をクリックすると出てくる「CSSを追加」を選択し、例えば以下のCSSを追加すると、表を見やすくすることができる。
+table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 14px; text-align: left; } th, td { border: 1px solid #dddddd; padding: 5px; } th { background-color: #898989; color: white; } tr:nth-child(even) { background-color: #f9f9f9; } これで、さっきの表が以下のような見た目になる。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】ブログ記事への表の挿入" href="http://localhost:1313/page/post/2025/08/10/120900/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】見出しデザインのカスタマイズ
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Bloggerの投稿エディタでは、見出しを行ごとに簡単に設定できるようになっている。
+[:300] 見出しには、h1（主見出し）、h2（見出し）、h3（小見出し）、h4（準見出し）がある。
+h1は主にブログ記事のタイトルとして用いることが推奨されているため、文中では実質的にh2以降を使用することとなる。
+記事に見出しを用いることは多いが、記事の見栄えを良くするために、見出しのデザインを変更したい場合もあるだろう。
+Bloggerのデザインテンプレートをカスタマイズするには、以下の手順でHTMLとCSSを修正する必要がある。
+見出しデザインのカスタマイズ方法 主な手順 1. Bloggerの管理画面 → [テーマ] → [HTMLを編集] を開く 2. HTML内で、見出し（h1, h2など）のスタイルを定義している箇所を探す ※例えば、...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】見出しデザインのカスタマイズ" href="http://localhost:1313/page/post/2025/08/10/120429/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【Blogger】記事がGoogle検索結果に表示されない
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>以下の記事のように苦戦はしたものの、無事Google AdSenseの審査にも合格し、記事の数も５０程度まで増えてきたが、１つ非常に大きな問題に直面している。
+【Blogger】Google Adsenseの申請に何度も落ちた話 - グルメ漫画を味わい尽くす
+何と、これらブログ記事が１つもGoogle検索結果に引っかかってこないのだ。
+これではアクセス数も期待できず、いくら良質な記事を書こうが殆どユーザーの目に留まることがなく、全く張り合いがない。
+通常は生記事をアップロードするとGoogle側でクロールしてくれるのだが、数週間かかることもザラであるため、もっと早く検索結果に表示させたければ、Googleサーチコンソールでインデックスのリクエストをする必要がある。
+しかし、インデックスをリクエストしても、トップページを含め全く登録される気配がない。
+色々調べると、どうやらBloggerに原因があることが分かってきたのだが、解決する手段を見い出せていない。
+* [Bloggerとは](#Bloggerとは) * [Googleサーチコンソールとは](#Googleサーチコンソールとは) * [Bloggerからインデックス登録できない](#Bloggerからインデックス登録できない) * [過去の対策（?m=0）では解消されず](#過去の対策m0では解消されず) * [結論](#結論) * [2025年7月12日追記（移行を決断）](#2025年7月12日追記移行を決断) Bloggerとは Blogger（ブロガー）は、Googleが提供している無料のブログ作成サービスである。
+主な特徴は、以下の通りである。
+Googleアカウントがあれば無料でブログを運営できる 無料ドメインのほか、独自ドメインにも対応 運営側から強制的に表示される広告がない 無料ドメインでも、Google AdSenseとの連携による広告収益化が可能 デザインテンプレートが豊富で、HTMLやCSSを編集してカスタマイズも可能 特に項目4が他の無料ブログサービスにはない特徴であり、これが決め手となりBloggerを選んだ。
+他のブログサービス（例：はてなブログ）でも、無料ドメインでGoogle AdSenseとの連携が可能であったので、訂正する。
+Googleサーチコンソールとは Googleサーチコンソール（Google Search Console）とは、Googleが提供する無料のウェブ管理ツールで、自分のウェブサイトがGoogle検索でどのように表示されているかを確認・改善するためのサービスである。
+Googleサーチコンソールにはインデックス機能が設けられており、ブログ記事がインデックスに登録されると、Googleの検索エンジンで自分のブログ記事を検索できるようになる。
+したがって、インデックス登録されていないページは、検索しても表示されない。
+記事をアップロードすると、クローラー（Googleのロボット）がページを見つけ、その内容が所定要件をクリアしていればデータベースに登録してくれる。
+しかし、クローラーの動きを待っていると記事をアップロードしてから数週間はインデックス登録されないこともある。
+早く検索結果に表示させるために、Googleサーチコンソールからインデックスのリクエストを送ることができる。
+Bloggerからインデックス登録できない ここからが本題である。
+GoogleサーチコンソールでブログのURLでインデックスリクエストをしても、リダイレクトエラーで登録されない。
+Bloggerのページは、スマートフォンでアクセスするとBloggerはURLが変わる仕様となっており、URLの末尾に「?m=1 」がついたURLに変わって再読み込みされる。
+自動的にURLが変わるこの動作がリダイレクトである。
+Googlebotにはスマホ用とPC用の２種類あり、スマホ用GooglebotがクロールしたときもURLの末尾に「 ?m=1」付きのページにリダイレクトされるのだが、リダイレクトがあったことで正しいURLではないと判断される。
+現在はパソコン用Googlebotでクロールされず、スマートフォン用Googlebotでしかクロールされないため、より確実にこの問題が起きるようになってしまっている、という現状である。
+過去の対策（?m=0）では解消されず URLの末尾が「?m=1」となっているとモバイルビュー、「?m=0」ならモバイル用のPCビューのアドレスとなる。
+2024年頃は、URLの末尾に「?m=0」「?m=1」のどちらかを付けてインデックスリクエストをすれば、登録されるとの情報もあった。
+しかし、残念ながら2025年5月時点では「?m=0」や「?m=1」をつけてリクエストしても、（少なくとも自分のブログでは）登録には至っていない。
+リクエストすると、すぐに「クロール済み - インデックス未登録」とのメッセージが表示されてしまう。
+通常このエラーが表示された場合は、ページ内容の品質に問題があると認識されたり、他のサイトのページが有用であると判断されることが原因となるようである。
+しかし、これまで問題なく登録できていたブログ含むいくつかのユーザーから同様の報告がされており、どうも品質等の問題が本質ではないように思われる。
+結論 2025年5月時点で、解決手段は見い出せていない。
+別のブログサービスへの移行も視野に入れた方が良いのだろうか…。
+とはいえ、無料でAdSenseの審査を受けられることからBloggerを選んでいるという事情もあるので、もう少し様子を見ておこうと思う。
+2025年7月12日追記（移行を決断） 色々と試行錯誤をしてみたが、結局解決手段は見られなかったため、はてなブログへ移行することとした。
+他のブログサービスでもGoogle Adsenseの申請が通るのが判明したことが、移行への強い動機付けとなった。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【Blogger】記事がGoogle検索結果に表示されない" href="http://localhost:1313/page/post/2025/08/10/121126/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【はてなブログ】無料でトップページを設置
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>はてなブログは基本トップページに記事全文が表示される仕様となっている。
+有料版（Pro）であれば、記事一覧の表示を選べるが、無料版の場合は一覧形式で表示できない。
+そして、どうやらトップページをアーカイブにリダイレクトする方法は利用規約違反らしい。
+そこで、今回は固定ページを作り、そこで一覧表示をはじめ、自分の思い通りのデザインにできるようなカスタマイズ方法を紹介したい。
+なお、この方法はプライバシーポリシーといったページを設ける際にも応用できる部分があるかと思う（この場合は、投稿日時を未来にしたり「トップページの先頭に表示」といった対応は不要かと思う）。
+* [記事を書く](#記事を書く) * [トップページ用のコードを入力](#トップページ用のコードを入力) * [トップページ記事の投稿](#トップページ記事の投稿) [その他非表示設定](#その他非表示設定) * [アーカイブ（記事一覧）から非表示にする](#アーカイブ記事一覧から非表示にする) * [注目記事、最新記事一覧から非表示にする](#注目記事最新記事一覧から非表示にする) &lt;/li&gt; 記事を書く 通常の記事と同じようにトップページ用の記事を書く。
+ここで記事を自分の思うようにデザインし、また必要に応じて自分で選んだ記事を一覧表示させる。
+例えば、当ブログでは以下のような構成としている。
+グルメ漫画を味わい尽くす
+トップページ用のコードを入力 トップページらしくなるよう、記事の中に不要な要素を画面から消す以下のコードを入力する。
+&lt;style&gt; /* サイドバー、ヘッダー/フッター（タイトル、日付など）、ページャーを非表示 */ #box2, .entry-footer, .entry-header, .pager{ display: none; } /* サイドバーを非表示とした分、メインコンテンツを横いっぱいに広げる */ #main { width: 100% !important; max-width: 100% !important; float: none !important; } &lt;/style&gt; トップページ記事の投稿 準備ができたら、以下の手順で記事を投稿・設定し、トップページ記事のみが表示されるようにする。
+完成した「トップページ記事」の投稿日時を「9999年」などの遠い未来の数字にする（トップページ記事が最新記事として最初に表示されるようになる） 他の通常記事と同じように一般公開する 「記事の管理」の「記事タイトル」一覧で、「トップページ記事」のタイトル右にある「･･･」から「トップページの先頭に表示」を選択する 「設定」→「 詳細設定」 → 「トップページの記事数（PC版）」で、記事数を１記事に設定 その他非表示設定 このままだと、アーカイブページや、サイドバーのモジュールに入れた注目記事、最新記事一覧にトップページ記事が出てきてしまう。
+そこで、これら一覧からトップページ記事が表示されないようにCSSコードを入力する。
+アーカイブ（記事一覧）から非表示にする 記事一覧ページ（ブログドメインの末尾に「/archive」を付したページ）を開く 一覧から、トップページ記事のタイトル上で右クリックし、「検証」を選択 各記事を構成する以下のようなセクションタグから、data-uuid=“19桁のID番号&#34;のID番号部分をコピー &lt;section class=&#39;archive-entry test-archive-entry autopagerize_page_element&#39; data-uuid=&#39;19桁のID番号（トップページ記事のID番号）&#39;&gt; 「デザインCSS」（「デザイン」→「カスタマイズ」→「デザインCSS」）を開き、以下のコード（「★トップページ記事のID番号★」の部分は、上でコピーしたIDに入れ替える）を貼り付ける .archive-entry[data-uuid=&#39;★トップページ記事のID番号★&#39;] { display: none; } 注目記事、最新記事一覧から非表示にする サイドバーの注目記事にあるトップページ記事のタイトル上で右クリックし、「検証」を選択 以下のようなHTMLが表示されるので、「★トップページ記事のURL★」の部分をコピーしておく &lt;ul class=&#39;hatena-module-list&#39;&gt; &lt;li&gt; &lt;a href=&#39;★トップページ記事のURL★&#39;&gt;トップページ記事のタイトル&lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; 「デザインCSS」を開き、以下のコード（「★トップページ記事のURL★」部分は、上でコピーしたURLに入れ替える）を貼り付ける /* 注目記事の中で「トップページ記事」のリンクを含む&lt;li&gt;全体を非表示にする */ .hatena-module-body li:has(a[href=&#39;★トップページ用記事のURL★&#39;]) { display: none !important; } プライバシーポリシーのページなど、トップページと同様に非表示としたいページがあれば、そのページについても「その他非表示設定」の作業を行えば良い。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【はてなブログ】無料でトップページを設置" href="http://localhost:1313/page/post/2025/08/10/121712/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">【はてなブログ】無料版でGoogle Adsenseの審査を通過させる
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Bloggerからのブログサービス移行に伴い、無料版はてなブログでもGoogle Adsenseの申請をした。
+Bloggerでは審査を通過しているし、記事を移行したものであれば品質も問題ないだろうと考えていたら、普通に審査に落ちた。
+プライバシーポリシーやお問い合わせフォームも設置しているし、あまり不通過となる心当たりはないのだが、もしかしたら以下の２点が問題だったのかもしれない。
+アフィリエイト広告利用の記載抜け Bloggerのときは、ブログタイトルの下に「アフィリエイト広告を利用しています」と注釈を入れていたのだが、はてなブログで申請した際はそれが抜けていた。
+記事内のリンク切れ 審査の最中にトップページを含めた記事の編集をしていたのだが、そのときに一部記事へのリンク先URLが不適切であったため修正をしていた。
+幾つかの記事で内部リンクを貼っており、それがBloggerのURLのままとなっていたのだが、記事の重複を避けるためBloggerの記事はいったん全て非公開としてしまったため、リンク切れを起こしてしまっていたのである。
+そして記事を書いている最中に気づいたが、何とプライバシーポリシーへのリンク切れも起こしていたようであった。
+もしかすると、これが原因か！
+現在はこれらを修正して再申請してみたが、果たしてどうなるか。
+また結果まで２～３週間くらい待ちそうだが、通知が来たら続報を載せておきたい。
+その後も審査に落ちた（記事を削除したはずのURLへのアクセス痕跡あり） リンク切れを修正してから何度か申請したのだが、中々審査をパスしない。
+プライバシーポリシーやお問い合わせフォームも設置済み、記事の質は（おそらく）問題ない、リンクも修正したのに…
+無料のはてなブログ（独自ドメインなし）なのが原因なのか？と疑心暗鬼になってしまった。
+その後もなかなか原因が掴めなかったのだが、ある時はてなブログのアクセス解析情報を見ると、申請のタイミングに合わせて、米国からのアクセス数が増えているのが確認された。
+Adsenseが審査するためにサイトを巡回しているのだろう。
+すると、アクセス先の多くに、以前削除したはずの記事のURLが含まれていることが分かった。
+実は、Bloggerから移行したHTML形式のはてなブログ記事を削除し、Markdown方式として書き直してはてなブログにアップロードしていたのだが、どうやらAdsenseは削除した方の記事を閲覧しようとしていたらしい。
+これにより、「あっ、このブログリンク切ればっかやん。こんなん落としたれ！」と判断されてしまった可能性が高い。
+一応トップページからは辿れないはずなのだが、Googleサーチコンソールに登録されていたのが良くなかったのかもしれない。
+対策 そこで、Googleサーチコンソールから削除済記事のURLをGoogle検索結果に表示しないよう、ちまちまと１つずつ削除リクエストを送り続けた。
+その結果、アクセス解析情報から次の申請時にはAdsenseはこれらのURLにアクセスしていないことを確認できた。
+そして、無事審査を通過することができた。
+削除した記事に翻弄されるとは思わなかったが、なんとか無料版のはてなブログでも登録できて良かった。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
+  <a class="entry-link" aria-label="post link to 【はてなブログ】無料版でGoogle Adsenseの審査を通過させる" href="http://localhost:1313/page/post/2025/08/10/121600/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/page/3/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/page/5/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">ブログタイトル</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

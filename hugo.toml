@@ -1,0 +1,27 @@
+baseURL = "https://example.pages.dev/"
+languageCode = "ja"
+title = "ブログタイトル"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"    # ダークモードを使わない場合は"light"
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[menu]
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
