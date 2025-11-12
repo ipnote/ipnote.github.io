@@ -20,7 +20,7 @@ theme = "PaperMod"
   identifier = "about"
   name = "About"
   url = "/about/"
-  weight = 1
+  weight = 5
 
 [markup]
   [markup.goldmark]
