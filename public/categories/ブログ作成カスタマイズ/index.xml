@@ -947,7 +947,7 @@
 
 &lt;/div&gt;
 &lt;h3 id=&#34;CSSを追加する&#34;&gt;CSSを追加する&lt;/h3&gt;
-&lt;p&gt;Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを&lt;head&gt;内または&lt;style&gt;タグに追加する。&lt;/p&gt;
+&lt;p&gt;Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを&amp;lt;head&amp;gt;内または&amp;lt;style&amp;gt;タグに追加する。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* コードブロック全体を囲むコンテナ（ボタンとコードをまとめて管理） */&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;code-block&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;position&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;relative&lt;/span&gt;;
@@ -1008,9 +1008,9 @@
 &lt;ul&gt;
 &lt;li&gt;埋め込みたいコードに含まれるタグによるエラーの解消&lt;/li&gt;
 &lt;li&gt;勝手にコードが改行されてしまうのをスクロール表示にする&lt;/li&gt;
+&lt;li&gt;スクロールバーのつまみの色変更&lt;/li&gt;
 &lt;/ul&gt;
-&lt;li&gt;スクロールバーのつまみの色変更
-という点で苦戦したので、方法を備忘録として残しておきたい。&lt;/li&gt;
+&lt;p&gt;という点で苦戦したので、方法を備忘録として残しておきたい。&lt;/p&gt;
 &lt;ul class=&#34;table-of-contents&#34;&gt;
     &lt;li&gt;[Google-code-prettifyの導入（準備）](#Google-code-prettifyの導入準備)
             * [スクロールバーのデザイン変更時の注意](#スクロールバーのデザイン変更時の注意)
@@ -1025,7 +1025,7 @@
 &lt;ul&gt;
 &lt;li&gt;Blogger管理画面を開く&lt;/li&gt;
 &lt;li&gt;「テーマ」 を選び、「HTMLの編集」をクリックする&lt;/li&gt;
-&lt;li&gt;下記Javascriptコードを、HTML内の&lt;head&gt;&amp;hellip;&lt;/head&gt;タグ間の任意の場所（例えば、&lt;/head&gt;の直前）に貼り付ける&lt;/li&gt;
+&lt;li&gt;下記Javascriptコードを、HTML内の&amp;lt;head&amp;gt;&amp;hellip;&amp;lt;/head&amp;gt;タグ間の任意の場所（例えば、&amp;lt;/head&amp;gt;の直前）に貼り付ける&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;script&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;

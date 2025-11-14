@@ -20,10 +20,51 @@
 
 
 CSSを追加する
-Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを内または">
+Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを&lt;head&gt;内または&lt;style&gt;タグに追加する。
+/* コードブロック全体を囲むコンテナ（ボタンとコードをまとめて管理） */
+.code-block {
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+/* コピー用ボタンの見た目と位置 */
+.copy-btn {
+  position: absolute;
+  top: 4px;
+  right: 20px;
+  padding: 4px 8px;
+  font-size: 12px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* コードとボタンが重ならないようにpreタグに上部余白を確保 */
+.code-block pre {
+  padding-top: 2.5em;
+  font-size: 12px;
+  overflow: auto;
+  white-space: pre;
+  max-height: 11.5em;
+}
+対象記事へのコードブロック＋コピーボタンの埋め込み
+記事の編集画面で「HTML表示」に切り替えて、以下のように載せたいコードをタグとタグで挟み込む形で埋め込む。
+&lt;!-- コードブロック &#43; コピー用ボタン --&gt;
+&lt;div class=&#39;code-block&#39;&gt;
+  &lt;button class=&#39;copy-btn&#39; onclick=&#39;copyCode(this)&#39;&amp;gt;Copy&amp;lt;/button&gt;
+  &lt;pre class=&#39;prettyprint linenums&#39;&gt;
+コードブロック内に載せたいコード
+}
+  &lt;/pre&gt;
+&lt;/div&gt;
+表示確認と調整
+これで、対象のコードブロックに「コピー」ボタンが表示されるようになる。
+スタイルやボタンの文言などは自由にカスタマイズ可能である。">
 <meta name="author" content="ip-note">
 <link rel="canonical" href="http://localhost:1313/page/post/2025/08/10/115228/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1b03efad2099b23221faf99b4cc91d817a45743558edd8bec15464ab00a4ec5d.css" integrity="sha256-GwPvrSCZsjIh&#43;vmbTMkdgXpFdDVY7di&#43;wVRkqwCk7F0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8bfbd9322d40599a8479d0f9a0ba83467abe5bafc9182baf842d566d864da8bb.css" integrity="sha256-i/vZMi1AWZqEedD5oLqDRnq&#43;W6/JGCuvhC1WbYZNqLs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -125,7 +166,7 @@ Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、
 
 </div>
 <h3 id="CSSを追加する">CSSを追加する<a hidden class="anchor" aria-hidden="true" href="#CSSを追加する">#</a></h3>
-<p>Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを<head>内または<style>タグに追加する。</p>
+<p>Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを&lt;head&gt;内または&lt;style&gt;タグに追加する。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#75715e">/* コードブロック全体を囲むコンテナ（ボタンとコードをまとめて管理） */</span>
 </span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">code-block</span> {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
@@ -206,6 +247,7 @@ Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、
     </svg>
 </a><footer class="footer">
     <span>
+        <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener noreferrer" target="_blank">Contact</a>&nbsp;
         <a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy policy</a>
     </span>
 </footer>
@@ -269,6 +311,53 @@ Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

@@ -1,3 +1,9 @@
+/* 記事のタイトルのフォントサイズ調整 */
+.post-title {
+    margin-bottom: 2px;
+    font-size: 26px;
+}
+
 /* 記事本文のフォントサイズ調整 */
 .post-content {
     font-size: 14px;   /* お好みで */
@@ -5,8 +11,8 @@
 }
 
 /*h3 大見出し*/
-.entry-content h3 {
-    font-size: 150%; /*文字サイズ*/
+.post-content h3 {
+    font-size:150%; /*文字サイズ*/
     margin: 4em 0 1.3em; /*見出しの上下の余白*/
 }
 h3 {
@@ -15,7 +21,8 @@ h3 {
 }
 
 /*h4 中見出し*/
-.entry-content h4 {
+.post-content h4 {
+    font-size: 120%; /*文字サイズ*/
     margin: 3em 0 1.3em 0; /*見出しの上下の余白*/
 }
 h4 {
@@ -24,10 +31,19 @@ h4 {
 }
 
 /*h5 小見出し*/
-.entry-content h5 {
+.post-content h5 {
     margin: 2em 0 1.3em 0; /*見出しの上下の余白*/
 }
 h5 {
-    padding: 3px 15px; /*文字周りの余白(上下 左右)*/
+    padding: 0.2em 0.4em; /*文字周りの余白(上下 左右)*/
     border-left: solid 4px #6495ed; /*左線*/
+}
+
+/* 画像サイズ調整 */
+.post-content img {
+  max-width: 100%;
+  width: 400px;  /* PCでは600px、スマホでは縮む */
+  height: auto;
+  display: block;
+  margin: 1.5rem auto; /* 画像を中央寄せ */
 }

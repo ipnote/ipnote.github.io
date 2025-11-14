@@ -42,7 +42,7 @@ Adsenseが審査するためにサイトを巡回しているのだろう。
 削除した記事に翻弄されるとは思わなかったが、なんとか無料版のはてなブログでも登録できて良かった。">
 <meta name="author" content="ip-note">
 <link rel="canonical" href="http://localhost:1313/page/post/2025/08/10/121600/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1b03efad2099b23221faf99b4cc91d817a45743558edd8bec15464ab00a4ec5d.css" integrity="sha256-GwPvrSCZsjIh&#43;vmbTMkdgXpFdDVY7di&#43;wVRkqwCk7F0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8bfbd9322d40599a8479d0f9a0ba83467abe5bafc9182baf842d566d864da8bb.css" integrity="sha256-i/vZMi1AWZqEedD5oLqDRnq&#43;W6/JGCuvhC1WbYZNqLs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -203,6 +203,7 @@ Adsenseが審査するためにサイトを巡回しているのだろう。
     </svg>
 </a><footer class="footer">
     <span>
+        <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener noreferrer" target="_blank">Contact</a>&nbsp;
         <a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy policy</a>
     </span>
 </footer>
@@ -266,6 +267,53 @@ Adsenseが審査するためにサイトを巡回しているのだろう。
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

@@ -18,7 +18,7 @@
 
 <h3 id="CSSを追加する">CSSを追加する</h3>
 
-Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを<head>内または<style>タグに追加する。
+Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを&lt;head&gt;内または&lt;style&gt;タグに追加する。
 
 
 ```css

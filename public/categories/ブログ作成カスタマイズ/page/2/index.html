@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/categories/%E3%83%96%E3%83%AD%E3%82%B0%E4%BD%9C%E6%88%90%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f223d05e121ed889230967a64fa0fe3d1ce6bdd61a20f8a3616fb3ffa1b04747.css" integrity="sha256-8iPQXhIe2IkjCWemT6D&#43;PRzmvdYaIPijYW&#43;z/6GwR0c=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8bfbd9322d40599a8479d0f9a0ba83467abe5bafc9182baf842d566d864da8bb.css" integrity="sha256-i/vZMi1AWZqEedD5oLqDRnq&#43;W6/JGCuvhC1WbYZNqLs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -165,7 +165,11 @@ xmlファイルをはてなブログ用ファイルへ変換 最初に作成し�
 ブログ記事へのソースコードの埋め込み - グルメ漫画を味わい尽くす
 しかし、Bloggerの標準仕様では、コードブロックに「コピー」ボタンは付いていない。
 今回はJavaScriptとCSSを使って、コードブロックにコピー機能を追加する方法を紹介する。
-CSSを追加する Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを内または</p>
+CSSを追加する Bloggerの「テーマ」→「カスタマイズ」→「HTMLの編集」で、以下のCSSを&lt;head&gt;内または&lt;style&gt;タグに追加する。
+/* コードブロック全体を囲むコンテナ（ボタンとコードをまとめて管理） */ .code-block { position: relative; margin-bottom: 1.5em; } /* コピー用ボタンの見た目と位置 */ .copy-btn { position: absolute; top: 4px; right: 20px; padding: 4px 8px; font-size: 12px; background-color: #f8f8f8; border: 1px solid #ccc; border-radius: 4px; cursor: pointer; z-index: 10; } /* コードとボタンが重ならないようにpreタグに上部余白を確保 */ .code-block pre { padding-top: 2.5em; font-size: 12px; overflow: auto; white-space: pre; max-height: 11.5em; } 対象記事へのコードブロック＋コピーボタンの埋め込み 記事の編集画面で「HTML表示」に切り替えて、以下のように載せたいコードをタグとタグで挟み込む形で埋め込む。
+&lt;!-- コードブロック &#43; コピー用ボタン --&gt; &lt;div class=&#39;code-block&#39;&gt; &lt;button class=&#39;copy-btn&#39; onclick=&#39;copyCode(this)&#39;&amp;gt;Copy&amp;lt;/button&gt; &lt;pre class=&#39;prettyprint linenums&#39;&gt; コードブロック内に載せたいコード } &lt;/pre&gt; &lt;/div&gt; 表示確認と調整 これで、対象のコードブロックに「コピー」ボタンが表示されるようになる。
+スタイルやボタンの文言などは自由にカスタマイズ可能である。
+</p>
   </div>
   <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
   <a class="entry-link" aria-label="post link to コードブロックにコピーボタンを配置" href="http://localhost:1313/page/post/2025/08/10/115228/"></a>
@@ -180,7 +184,8 @@ CSSを追加する Bloggerの「テーマ」→「カスタマイズ」→「HTM
     <p>ブログ記事中で、ソースコードを載せることが多くなってきた。
 コードをそのまま載せると記事が長くなってしまい、見た目がよろしくない。　そこで、記事をコンパクトにするため、ソースコードを埋め込む（コードブロックを作成する）方法を調べてみた。
 特に、
-埋め込みたいコードに含まれるタグによるエラーの解消 勝手にコードが改行されてしまうのをスクロール表示にする スクロールバーのつまみの色変更 という点で苦戦したので、方法を備忘録として残しておきたい。 [Google-code-prettifyの導入（準備）](#Google-code-prettifyの導入準備) * [スクロールバーのデザイン変更時の注意](#スクロールバーのデザイン変更時の注意) &lt;/li&gt; &lt;li&gt;[記事にコードを挿入](#記事にコードを挿入) * [挿入時の注意](#挿入時の注意) &lt;/li&gt; * [コピーボタンの配置は？](#コピーボタンの配置は) Google-code-prettifyの導入（準備） Blogger管理画面を開く 「テーマ」 を選び、「HTMLの編集」をクリックする 下記Javascriptコードを、HTML内の…タグ間の任意の場所（例えば、の直前）に貼り付ける &lt;script; src=&#39;https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst&#39;/&gt; さらに下記コードを、上のJavascriptコードの直下に貼り付ける。 &lt;style&gt; pre.prettyprint { font-size: 12px; /* コード内のフォントサイズ */ word-wrap: normal; /* 単語の途中での改行を無効にする */ overflow: auto; /* 内容がはみ出た場合、スクロールバーを表示 */ white-space: pre; /* 改行を抑制してそのまま表示 */ max-height: 12em; /* 最大高さ指定、超えるとスクロール */ } .prettyprint ol.linenums &amp;gt; li { list-style-type: decimal; /* コードの各行に数字番号を表示 */ } pre.prettyprint::-webkit-scrollbar { width: 8px; /* スクロールバーの幅 */ } pre.prettyprint::-webkit-scrollbar-thumb { background-color: #aaa; /* スクロールバーのつまみの色 */ } &lt;/style&gt; スクロールバーのデザイン変更時の注意 最初にスクロールバーのつまみの色だけを変更しようと（::-webkit-scrollbar-thumb）を追記したが、反映されなかった。
+埋め込みたいコードに含まれるタグによるエラーの解消 勝手にコードが改行されてしまうのをスクロール表示にする スクロールバーのつまみの色変更 という点で苦戦したので、方法を備忘録として残しておきたい。
+[Google-code-prettifyの導入（準備）](#Google-code-prettifyの導入準備) * [スクロールバーのデザイン変更時の注意](#スクロールバーのデザイン変更時の注意) &lt;/li&gt; &lt;li&gt;[記事にコードを挿入](#記事にコードを挿入) * [挿入時の注意](#挿入時の注意) &lt;/li&gt; * [コピーボタンの配置は？](#コピーボタンの配置は) Google-code-prettifyの導入（準備） Blogger管理画面を開く 「テーマ」 を選び、「HTMLの編集」をクリックする 下記Javascriptコードを、HTML内の&lt;head&gt;…&lt;/head&gt;タグ間の任意の場所（例えば、&lt;/head&gt;の直前）に貼り付ける &lt;script; src=&#39;https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst&#39;/&gt; さらに下記コードを、上のJavascriptコードの直下に貼り付ける。 &lt;style&gt; pre.prettyprint { font-size: 12px; /* コード内のフォントサイズ */ word-wrap: normal; /* 単語の途中での改行を無効にする */ overflow: auto; /* 内容がはみ出た場合、スクロールバーを表示 */ white-space: pre; /* 改行を抑制してそのまま表示 */ max-height: 12em; /* 最大高さ指定、超えるとスクロール */ } .prettyprint ol.linenums &amp;gt; li { list-style-type: decimal; /* コードの各行に数字番号を表示 */ } pre.prettyprint::-webkit-scrollbar { width: 8px; /* スクロールバーの幅 */ } pre.prettyprint::-webkit-scrollbar-thumb { background-color: #aaa; /* スクロールバーのつまみの色 */ } &lt;/style&gt; スクロールバーのデザイン変更時の注意 最初にスクロールバーのつまみの色だけを変更しようと（::-webkit-scrollbar-thumb）を追記したが、反映されなかった。
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span></footer>
@@ -210,7 +215,8 @@ CSSを追加する Bloggerの「テーマ」→「カスタマイズ」→「HTM
     </svg>
 </a><footer class="footer">
     <span>
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Privacy policy</a>
+        <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener noreferrer" target="_blank">Contact</a>&nbsp;
+        <a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy policy</a>
     </span>
 </footer>
 
