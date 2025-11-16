@@ -70,3 +70,6 @@ theme = "PaperMod"
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+
+enableRobotsTXT = false
