@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Bloggerからはてなブログへの記事移行（Windowsユーザー向け） | ブログタイトル</title>
+<meta name="keywords" content="">
+<meta name="description" content="とある理由から、ブログをBloggerからはてなブログへ移転することとした。
+※とある理由の詳細が気になる方は、以下の記事を参照いただきたい
+【Blogger】記事がGoogle検索結果に表示されない - グルメ漫画を味わい尽くす
+移行のための方法を調べたところ、FCブログを経由する方法はあったが、移行のためだけにFCブログの登録をするのは面倒臭い。
+その他、オープンソースのブログデータ変換ツール「google-blog-converter-appengine」を使う方法があったので、こちらを採用することとした。
+しかし、Macユーザー向けのマニュアルは結構出てくるのだが、Windowsユーザー向けの説明が中々見つからなかった。
+移行まで結構苦戦したので、備忘録としてWindows向けの手順を残しておきたい。
+Bloggerで過去記事のxmlファイルをエクスポート
+
+管理画面にアクセス
+左側にある「設定」を選択
+ブログの管理の項目にある「コンテンツをバックアップ」を選択
+ダウンロードを選択
+xmlファイルの名前を「blogger.xml」に変更
+
+google-blog-converter-appengineの準備
+
+こちらのリンクから、（2025/5/27時点で）最新版の「google-blog-converters-r89.tar.gz」をダウンロード
+7-zipなどの解凍ソフトでファイルを解凍
+出てきた「bin」というフォルダ内に、上で作成した「blogger.xml」を格納
+
+Pythonのインストール
+
+Pythonのサイトから、バージョンが2.xのものをダウンロード（筆者の場合は「Windows X86-64 MSI Installer (2.7.2)」をダウンロードした）
+Pythonをインストール
+
+コマンドでpythonが使えるように環境変数のPATHを設定
+
+タスクバー上の「スタート」を右クリックし、「設定」を選択
+左側メニューから「システム」を選択
+「バージョン情報」を選択
+次の画面で「システムの詳細設定」を選択
+「システムのプロパティ」画面で「環境変数」を選択
+
+現在のユーザーに対してのみPATHを設定する場合は上部の「xxxのユーザー環境変数」、すべてのユーザーに共通してPATHを設定する場合は下部の「システム環境変数」で以下の作業を行う
+
+「変数」が「Path」と書かれた箇所をクリックし、「編集」を選択
+「環境変数名の編集」画面右上の「新規」を選択
+「C:\pg\Python\Python●●●\ 」と入力（「●●●」にはバージョンが入る。筆者の場合は「27」であった。自分がPythonをインストールしたディレクトリに合わせて入力すること）
+入力が終わったら「OK」を選択
+
+
+
+* Windowsを再起動
+環境変数にPATHが入っているか確認
+
+デスクトップの検索画面で「cd」と入力し、コマンドプロンプトを選択し起動
+「python -V」と入力し、Enter→以下のようにバージョンが表示されればOK
+
+
+
+[
+     
+
+:300]
+
+※Windowsを再起動していないと、作業完了後もPATHが入らない場合あり
+xmlファイルをはてなブログ用ファイルへ変換
+
+最初に作成した「bin」フォルダのフルパス名（エクスプローラの上に出てくるURL）をコピー
+コマンドプロンプトを起動
+画面内で「cd （dの後に半角スペースを入れること）」を入力し、続けて「bin」フォルダのフルパス名をペーストしてEnter（これによりbinフォルダに移動）
+「.\blogger2movabletype.bat blogger.xml&gt;mt.txt」と入力し、Enter→「bin」フォルダ内に「mt.txt」という名前のファイルが作成される
+
+※xmlファイル名を「blogger.xml」に変更しているか確認すること
+※多くの記事では「python blogger2movabletype.bat blogger.xml &gt; mt.xml」と入力するよう紹介されていたが、その通りに入力すると「Syntax　Error: Invalid syntax」と出てしまった。この場合、「bin」フォルダ内に「mt.xml」が作成されるが、中身は空のファイルとなる
+はてなブログへのインポート
+
+はてなブログ管理画面の「インポート」画面を開く
+「ファイルを選択」ボタンを選択し、上で作成した「mt.txt」ファイルを選択
+ドロップダウンリストから、インポートするブログデータの形式としてMT形式を選択
+「次へ進む」をクリック
+正しく表示されている文字コードを選択
+「インポート」ボタンをクリックして、インポートを実行
+インポート完了後、ファイル選択のページにインポート結果として日時や記事数が表示される
+
+※はてなブログの記事を公開するときは、Bloggerの記事を非公開に変更することを忘れずに">
+<meta name="author" content="ip-note">
+<link rel="canonical" href="http://localhost:1313/page/post/2025/08/10/121408/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8bfbd9322d40599a8479d0f9a0ba83467abe5bafc9182baf842d566d864da8bb.css" integrity="sha256-i/vZMi1AWZqEedD5oLqDRnq&#43;W6/JGCuvhC1WbYZNqLs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/page/post/2025/08/10/121408/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ブログタイトル (Alt + H)">ブログタイトル</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/page/">Pages</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Bloggerからはてなブログへの記事移行（Windowsユーザー向け）
+    </h1>
+    <div class="post-meta"><span title='2025-08-10 00:00:00 +0000 UTC'>August 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>とある理由から、ブログをBloggerからはてなブログへ移転することとした。</p>
+<p>※とある理由の詳細が気になる方は、以下の記事を参照いただきたい</p>
+<p><a href="https://u-zan.hatenablog.com/entry/2025/08/10/121126">【Blogger】記事がGoogle検索結果に表示されない - グルメ漫画を味わい尽くす</a></p>
+<p>移行のための方法を調べたところ、FCブログを経由する方法はあったが、移行のためだけにFCブログの登録をするのは面倒臭い。</p>
+<p>その他、オープンソースのブログデータ変換ツール「google-blog-converter-appengine」を使う方法があったので、こちらを採用することとした。</p>
+<p>しかし、Macユーザー向けのマニュアルは結構出てくるのだが、Windowsユーザー向けの説明が中々見つからなかった。</p>
+<p>移行まで結構苦戦したので、備忘録としてWindows向けの手順を残しておきたい。</p>
+<h3 id="Bloggerで過去記事のxmlファイルをエクスポート">Bloggerで過去記事のxmlファイルをエクスポート<a hidden class="anchor" aria-hidden="true" href="#Bloggerで過去記事のxmlファイルをエクスポート">#</a></h3>
+<ul>
+<li>管理画面にアクセス</li>
+<li>左側にある「設定」を選択</li>
+<li>ブログの管理の項目にある「コンテンツをバックアップ」を選択</li>
+<li>ダウンロードを選択</li>
+<li>xmlファイルの名前を「blogger.xml」に変更</li>
+</ul>
+<h3 id="google-blog-converter-appengineの準備">google-blog-converter-appengineの準備<a hidden class="anchor" aria-hidden="true" href="#google-blog-converter-appengineの準備">#</a></h3>
+<ul>
+<li><a href="https://code.google.com/archive/p/google-blog-converters-appengine/downloads">こちらのリンク</a>から、（2025/5/27時点で）最新版の「google-blog-converters-r89.tar.gz」をダウンロード</li>
+<li><a href="https://www.7-zip.org/">7-zip</a>などの解凍ソフトでファイルを解凍</li>
+<li>出てきた「bin」というフォルダ内に、上で作成した「blogger.xml」を格納</li>
+</ul>
+<h3 id="Pythonのインストール">Pythonのインストール<a hidden class="anchor" aria-hidden="true" href="#Pythonのインストール">#</a></h3>
+<ul>
+<li><a href="https://www.python.org/">Pythonのサイト</a>から、バージョンが2.xのものをダウンロード（筆者の場合は「Windows X86-64 MSI Installer (2.7.2)」をダウンロードした）</li>
+<li>Pythonをインストール</li>
+</ul>
+<li>コマンドでpythonが使えるように環境変数のPATHを設定
+<ul>
+<li>タスクバー上の「スタート」を右クリックし、「設定」を選択</li>
+<li>左側メニューから「システム」を選択</li>
+<li>「バージョン情報」を選択</li>
+<li>次の画面で「システムの詳細設定」を選択</li>
+<li>「システムのプロパティ」画面で「環境変数」を選択</li>
+</ul>
+<li>現在のユーザーに対してのみPATHを設定する場合は上部の「xxxのユーザー環境変数」、すべてのユーザーに共通してPATHを設定する場合は下部の「システム環境変数」で以下の作業を行う
+<ul>
+<li>「変数」が「Path」と書かれた箇所をクリックし、「編集」を選択</li>
+<li>「環境変数名の編集」画面右上の「新規」を選択</li>
+<li>「C:\pg\Python\Python●●●\ 」と入力（「●●●」にはバージョンが入る。筆者の場合は「27」であった。自分がPythonをインストールしたディレクトリに合わせて入力すること）</li>
+<li>入力が終わったら「OK」を選択</li>
+</ul>
+</li>
+</li>
+* Windowsを再起動
+<li>環境変数にPATHが入っているか確認
+<ul>
+<li>デスクトップの検索画面で「cd」と入力し、コマンドプロンプトを選択し起動</li>
+<li>「python -V」と入力し、Enter→以下のようにバージョンが表示されればOK</li>
+</ul>
+</li>
+<div align="center">
+[<figure>
+    <img loading="lazy" src="image/20250529212405.png"/> 
+</figure>
+:300]
+</div>
+<p>※Windowsを再起動していないと、作業完了後もPATHが入らない場合あり</p>
+<h3 id="xmlファイルをはてなブログ用ファイルへ変換">xmlファイルをはてなブログ用ファイルへ変換<a hidden class="anchor" aria-hidden="true" href="#xmlファイルをはてなブログ用ファイルへ変換">#</a></h3>
+<ul>
+<li>最初に作成した「bin」フォルダのフルパス名（エクスプローラの上に出てくるURL）をコピー</li>
+<li>コマンドプロンプトを起動</li>
+<li>画面内で「cd （dの後に半角スペースを入れること）」を入力し、続けて「bin」フォルダのフルパス名をペーストしてEnter（これによりbinフォルダに移動）</li>
+<li>「.\blogger2movabletype.bat blogger.xml&gt;mt.txt」と入力し、Enter→「bin」フォルダ内に「mt.txt」という名前のファイルが作成される</li>
+</ul>
+<p>※xmlファイル名を「blogger.xml」に変更しているか確認すること</p>
+<p>※多くの記事では「python blogger2movabletype.bat blogger.xml &gt; mt.xml」と入力するよう紹介されていたが、その通りに入力すると「Syntax　Error: Invalid syntax」と出てしまった。この場合、「bin」フォルダ内に「mt.xml」が作成されるが、中身は空のファイルとなる</p>
+<h3 id="はてなブログへのインポート">はてなブログへのインポート<a hidden class="anchor" aria-hidden="true" href="#はてなブログへのインポート">#</a></h3>
+<ul>
+<li>はてなブログ管理画面の「インポート」画面を開く</li>
+<li>「ファイルを選択」ボタンを選択し、上で作成した「mt.txt」ファイルを選択</li>
+<li>ドロップダウンリストから、インポートするブログデータの形式としてMT形式を選択</li>
+<li>「次へ進む」をクリック</li>
+<li>正しく表示されている文字コードを選択</li>
+<li>「インポート」ボタンをクリックして、インポートを実行</li>
+<li>インポート完了後、ファイル選択のページにインポート結果として日時や記事数が表示される</li>
+</ul>
+<p>※はてなブログの記事を公開するときは、Bloggerの記事を非公開に変更することを忘れずに</p>
+<h3 id="画像のインポート">画像のインポート<a hidden class="anchor" aria-hidden="true" href="#画像のインポート">#</a></h3>
+<p>記事のインポート後は移行元（Blogger）の画像を直接参照しているため、多くの場合ははてなブログ上にも画像が表示される。</p>
+<p>しかし、移行元の画像にアクセスできなくなると、はてなブログ上で画像は表示されなくなるため、移行元を閉める場合は画像のインポートが必要となる。</p>
+<ul>
+<li>はてなブログの管理画面左側のメニューから「インポート」を選択</li>
+<li>「画像データの移行」を選択</li>
+<li>画像を確認して「移行する」を選択</li>
+<li>しばらく経ってから再度インポート画面を開き、画像の移行が完了したかどうかを確認</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/page/post/2025/08/10/121600/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>【はてなブログ】無料版でGoogle Adsenseの審査を通過させる</span>
+  </a>
+  <a class="next" href="http://localhost:1313/page/post/2025/08/10/115228/">
+    <span class="title">Next »</span>
+    <br>
+    <span>コードブロックにコピーボタンを配置</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">ブログタイトル</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><footer class="footer">
+    <span>
+        <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener noreferrer" target="_blank">Contact</a>&nbsp;
+        <a href="/privacy" rel="noopener noreferrer" target="_blank">Privacy policy</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
