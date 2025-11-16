@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 実務者のための知財法務</title>
+    <link>https://ipnote.github.io/ipblog/categories/</link>
+    <description>Recent content in Categories on 実務者のための知財法務</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ipnote.github.io/ipblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>知的財産権全般</title>
+      <link>https://ipnote.github.io/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>著作権</title>
+      <link>https://ipnote.github.io/ipblog/categories/%E8%91%97%E4%BD%9C%E6%A8%A9/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/ipblog/categories/%E8%91%97%E4%BD%9C%E6%A8%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>特許権</title>
+      <link>https://ipnote.github.io/ipblog/categories/%E7%89%B9%E8%A8%B1%E6%A8%A9/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/ipblog/categories/%E7%89%B9%E8%A8%B1%E6%A8%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>その他</title>
+      <link>https://ipnote.github.io/ipblog/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/ipblog/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>契約</title>
+      <link>https://ipnote.github.io/ipblog/categories/%E5%A5%91%E7%B4%84/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/ipblog/categories/%E5%A5%91%E7%B4%84/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>商標権</title>
+      <link>https://ipnote.github.io/ipblog/categories/%E5%95%86%E6%A8%99%E6%A8%A9/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/ipblog/categories/%E5%95%86%E6%A8%99%E6%A8%A9/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>米国特許法101条（特許適格性） | 実務者のための知財法務</title>
+<meta name="keywords" content="">
+<meta name="description" content="米国への特許出願では、101条について悩まされている人は多いだろう。
+自分もその一人だ。
+ここで備忘録として、101条違反を回避するための対策を整理しておく。
+個人の所感で記載しているに過ぎないので、あくまで一意見として捉えていただきたい。
+判断フロー
+まずは、以下が特許適格性の基本的な判断フローとなる。
+
+     
+
+
+出展: MPEP §2106
+Step 1
+クレームが以下の法定カテゴリ（方法、装置、製造物、組成物）のいずれかに属していれば第一関門はクリア、Step 2Aに進む。
+属していなければ、「特許不適格」と判断されて即終了。
+日本ではプログラムクレームが認められるが、米国出願の場合は記録媒体クレームなどに修正しておく必要がある。
+Step 2A
+Step 2Aでは、右図の通り、以下のProng 1, 2で特許適格性が判断される。
+Prong 1
+以下の司法例外に言及しているかを判断される。
+言及していなければ「特許適格」と判断され、言及していればProng 2に進む。
+
+抽象的アイデア
+
+数学的概念
+人間の活動を体系化する方法
+思考プロセス
+
+
+自然法則又は自然現象
+
+Prong 2
+クレームが上の司法例外を含んでいても、追加の要素が司法例外を実用的な応用に統合しているものであれば、「特許適格」と判断される。
+Prong 2でも「特許適格」と認められなければ、Step 2Bへ進む。
+Step 2B
+クレームが発明概念を提供していれば、「特許適格」と判断される。
+発明概念を提供していなければ、「特許不適格」と判断されて審査終了。
+発明概念の有無は、司法例外を著しく超えて技術的に意味のある改善や実用性を示すものであるか（例えば、特定の技術分野の機能の向上や特定の技術的課題を解決する手段であるか）で評価される。
+自分の実務経験上での話とはなるが、101条違反に対しては、ほぼStep 2A（Prong 1, 2）の中で戦っている感じである。
+少なくとも自分の周りでは、Step 2Bで特許適格と判断された事例を見たことがない。Prong 2で特許適格が認められなければ、よりハードルの高い（と私は思っている）Step 2Bで特許適格が認められる可能性は極めて低いのではないだろうか？
+そもそもStep 2Bの判断基準は、新規性や非自明性のような要素で判断されている印象なので、これが特許適格に関係してくるのがあまり腑に落ちない。
+一応、USPTOの仮想事例に１件事例はあるのだが。
+では、どうやって特許適格を主張するかを考えたい。
+対応方針
+Step 2AのProng 1では、抽象的アイデアが大きな障壁であり、特に「思考プロセス」というのが曲者である。
+人の脳内で実現できるなら「思考プロセス」に当てはめられてしまうこととなる。
+USPTOが公表しているGUIの仮想事例でも、所定期間における各アイコンの使用量を求めるのは、最も広い概念で捉えると思考プロセスであると認定されている。
+内部処理に言及すれば良い？
+一方、アイコンに関連付けられた各アプリケーションにどれだけのメモリが割り当てられたかをトラッキングするプロセッサを用いて、所定期間における各アイコンの使用量を特定する、となると、人の脳内で実施できないプロセッサの動作を含むため、思考プロセスでないと判断されている。
+しかし、このような記載は装置やプログラムの内部処理に言及することになるため、特許の侵害発見容易性を著しく損なわせるものとなる。
+もちろん発明のポイントとなる部分が内部処理自体にあるのなら問題ないが（公開せずにノウハウにしたほうが良いのでは？という議論はさておき）、そうでなければ個人的にはあまりクレームには記載したくない。
+そこで現実的な対応となるのは、次のProng 2ではないかと思う。">
+<meta name="author" content="ip-note">
+<link rel="canonical" href="https://ipnote.github.io/ipblog/posts/2025/03/08/113255/">
+<link crossorigin="anonymous" href="/ipblog/assets/css/stylesheet.e6569abdbe17a2669f22c550c42e1125b1c78e45a7851a74793ccb69e38461c2.css" integrity="sha256-5laavb4XomafIsVQxC4RJbHHjkWnhRp0eTzLaeOEYcI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="https://ipnote.github.io/ipblog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ipnote.github.io/ipblog/posts/2025/03/08/113255/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><link rel="icon" href="/assets/images/ip_favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/ip_apple-touch-icon.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546267264299174"
+     crossorigin="anonymous">
+</script>
+
+<meta name="google-site-verification" content="w6kJIjMLu9ARKIeEzLADn46AgPa-PM_tpbWMSKRzH14" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EBRV2KGCPT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EBRV2KGCPT');
+</script><meta property="og:url" content="https://ipnote.github.io/ipblog/posts/2025/03/08/113255/">
+  <meta property="og:site_name" content="実務者のための知財法務">
+  <meta property="og:title" content="米国特許法101条（特許適格性）">
+  <meta property="og:description" content="米国への特許出願では、101条について悩まされている人は多いだろう。
+自分もその一人だ。
+ここで備忘録として、101条違反を回避するための対策を整理しておく。
+個人の所感で記載しているに過ぎないので、あくまで一意見として捉えていただきたい。
+判断フロー まずは、以下が特許適格性の基本的な判断フローとなる。
+出展: MPEP §2106 Step 1 クレームが以下の法定カテゴリ（方法、装置、製造物、組成物）のいずれかに属していれば第一関門はクリア、Step 2Aに進む。
+属していなければ、「特許不適格」と判断されて即終了。
+日本ではプログラムクレームが認められるが、米国出願の場合は記録媒体クレームなどに修正しておく必要がある。
+Step 2A Step 2Aでは、右図の通り、以下のProng 1, 2で特許適格性が判断される。
+Prong 1 以下の司法例外に言及しているかを判断される。
+言及していなければ「特許適格」と判断され、言及していればProng 2に進む。
+抽象的アイデア 数学的概念 人間の活動を体系化する方法 思考プロセス 自然法則又は自然現象 Prong 2 クレームが上の司法例外を含んでいても、追加の要素が司法例外を実用的な応用に統合しているものであれば、「特許適格」と判断される。
+Prong 2でも「特許適格」と認められなければ、Step 2Bへ進む。
+Step 2B クレームが発明概念を提供していれば、「特許適格」と判断される。
+発明概念を提供していなければ、「特許不適格」と判断されて審査終了。
+発明概念の有無は、司法例外を著しく超えて技術的に意味のある改善や実用性を示すものであるか（例えば、特定の技術分野の機能の向上や特定の技術的課題を解決する手段であるか）で評価される。
+自分の実務経験上での話とはなるが、101条違反に対しては、ほぼStep 2A（Prong 1, 2）の中で戦っている感じである。
+少なくとも自分の周りでは、Step 2Bで特許適格と判断された事例を見たことがない。Prong 2で特許適格が認められなければ、よりハードルの高い（と私は思っている）Step 2Bで特許適格が認められる可能性は極めて低いのではないだろうか？
+そもそもStep 2Bの判断基準は、新規性や非自明性のような要素で判断されている印象なので、これが特許適格に関係してくるのがあまり腑に落ちない。
+一応、USPTOの仮想事例に１件事例はあるのだが。
+では、どうやって特許適格を主張するかを考えたい。
+対応方針 Step 2AのProng 1では、抽象的アイデアが大きな障壁であり、特に「思考プロセス」というのが曲者である。
+人の脳内で実現できるなら「思考プロセス」に当てはめられてしまうこととなる。
+USPTOが公表しているGUIの仮想事例でも、所定期間における各アイコンの使用量を求めるのは、最も広い概念で捉えると思考プロセスであると認定されている。
+内部処理に言及すれば良い？ 一方、アイコンに関連付けられた各アプリケーションにどれだけのメモリが割り当てられたかをトラッキングするプロセッサを用いて、所定期間における各アイコンの使用量を特定する、となると、人の脳内で実施できないプロセッサの動作を含むため、思考プロセスでないと判断されている。
+しかし、このような記載は装置やプログラムの内部処理に言及することになるため、特許の侵害発見容易性を著しく損なわせるものとなる。
+もちろん発明のポイントとなる部分が内部処理自体にあるのなら問題ないが（公開せずにノウハウにしたほうが良いのでは？という議論はさておき）、そうでなければ個人的にはあまりクレームには記載したくない。
+そこで現実的な対応となるのは、次のProng 2ではないかと思う。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-08T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="米国特許法101条（特許適格性）">
+<meta name="twitter:description" content="米国への特許出願では、101条について悩まされている人は多いだろう。
+自分もその一人だ。
+ここで備忘録として、101条違反を回避するための対策を整理しておく。
+個人の所感で記載しているに過ぎないので、あくまで一意見として捉えていただきたい。
+判断フロー
+まずは、以下が特許適格性の基本的な判断フローとなる。
+
+     
+
+
+出展: MPEP §2106
+Step 1
+クレームが以下の法定カテゴリ（方法、装置、製造物、組成物）のいずれかに属していれば第一関門はクリア、Step 2Aに進む。
+属していなければ、「特許不適格」と判断されて即終了。
+日本ではプログラムクレームが認められるが、米国出願の場合は記録媒体クレームなどに修正しておく必要がある。
+Step 2A
+Step 2Aでは、右図の通り、以下のProng 1, 2で特許適格性が判断される。
+Prong 1
+以下の司法例外に言及しているかを判断される。
+言及していなければ「特許適格」と判断され、言及していればProng 2に進む。
+
+抽象的アイデア
+
+数学的概念
+人間の活動を体系化する方法
+思考プロセス
+
+
+自然法則又は自然現象
+
+Prong 2
+クレームが上の司法例外を含んでいても、追加の要素が司法例外を実用的な応用に統合しているものであれば、「特許適格」と判断される。
+Prong 2でも「特許適格」と認められなければ、Step 2Bへ進む。
+Step 2B
+クレームが発明概念を提供していれば、「特許適格」と判断される。
+発明概念を提供していなければ、「特許不適格」と判断されて審査終了。
+発明概念の有無は、司法例外を著しく超えて技術的に意味のある改善や実用性を示すものであるか（例えば、特定の技術分野の機能の向上や特定の技術的課題を解決する手段であるか）で評価される。
+自分の実務経験上での話とはなるが、101条違反に対しては、ほぼStep 2A（Prong 1, 2）の中で戦っている感じである。
+少なくとも自分の周りでは、Step 2Bで特許適格と判断された事例を見たことがない。Prong 2で特許適格が認められなければ、よりハードルの高い（と私は思っている）Step 2Bで特許適格が認められる可能性は極めて低いのではないだろうか？
+そもそもStep 2Bの判断基準は、新規性や非自明性のような要素で判断されている印象なので、これが特許適格に関係してくるのがあまり腑に落ちない。
+一応、USPTOの仮想事例に１件事例はあるのだが。
+では、どうやって特許適格を主張するかを考えたい。
+対応方針
+Step 2AのProng 1では、抽象的アイデアが大きな障壁であり、特に「思考プロセス」というのが曲者である。
+人の脳内で実現できるなら「思考プロセス」に当てはめられてしまうこととなる。
+USPTOが公表しているGUIの仮想事例でも、所定期間における各アイコンの使用量を求めるのは、最も広い概念で捉えると思考プロセスであると認定されている。
+内部処理に言及すれば良い？
+一方、アイコンに関連付けられた各アプリケーションにどれだけのメモリが割り当てられたかをトラッキングするプロセッサを用いて、所定期間における各アイコンの使用量を特定する、となると、人の脳内で実施できないプロセッサの動作を含むため、思考プロセスでないと判断されている。
+しかし、このような記載は装置やプログラムの内部処理に言及することになるため、特許の侵害発見容易性を著しく損なわせるものとなる。
+もちろん発明のポイントとなる部分が内部処理自体にあるのなら問題ないが（公開せずにノウハウにしたほうが良いのでは？という議論はさておき）、そうでなければ個人的にはあまりクレームには記載したくない。
+そこで現実的な対応となるのは、次のProng 2ではないかと思う。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ipnote.github.io/ipblog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "米国特許法101条（特許適格性）",
+      "item": "https://ipnote.github.io/ipblog/posts/2025/03/08/113255/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "米国特許法101条（特許適格性）",
+  "name": "米国特許法101条（特許適格性）",
+  "description": "米国への特許出願では、101条について悩まされている人は多いだろう。\n自分もその一人だ。\nここで備忘録として、101条違反を回避するための対策を整理しておく。\n個人の所感で記載しているに過ぎないので、あくまで一意見として捉えていただきたい。\n判断フロー まずは、以下が特許適格性の基本的な判断フローとなる。\n出展: MPEP §2106 Step 1 クレームが以下の法定カテゴリ（方法、装置、製造物、組成物）のいずれかに属していれば第一関門はクリア、Step 2Aに進む。\n属していなければ、「特許不適格」と判断されて即終了。\n日本ではプログラムクレームが認められるが、米国出願の場合は記録媒体クレームなどに修正しておく必要がある。\nStep 2A Step 2Aでは、右図の通り、以下のProng 1, 2で特許適格性が判断される。\nProng 1 以下の司法例外に言及しているかを判断される。\n言及していなければ「特許適格」と判断され、言及していればProng 2に進む。\n抽象的アイデア 数学的概念 人間の活動を体系化する方法 思考プロセス 自然法則又は自然現象 Prong 2 クレームが上の司法例外を含んでいても、追加の要素が司法例外を実用的な応用に統合しているものであれば、「特許適格」と判断される。\nProng 2でも「特許適格」と認められなければ、Step 2Bへ進む。\nStep 2B クレームが発明概念を提供していれば、「特許適格」と判断される。\n発明概念を提供していなければ、「特許不適格」と判断されて審査終了。\n発明概念の有無は、司法例外を著しく超えて技術的に意味のある改善や実用性を示すものであるか（例えば、特定の技術分野の機能の向上や特定の技術的課題を解決する手段であるか）で評価される。\n自分の実務経験上での話とはなるが、101条違反に対しては、ほぼStep 2A（Prong 1, 2）の中で戦っている感じである。\n少なくとも自分の周りでは、Step 2Bで特許適格と判断された事例を見たことがない。Prong 2で特許適格が認められなければ、よりハードルの高い（と私は思っている）Step 2Bで特許適格が認められる可能性は極めて低いのではないだろうか？\nそもそもStep 2Bの判断基準は、新規性や非自明性のような要素で判断されている印象なので、これが特許適格に関係してくるのがあまり腑に落ちない。\n一応、USPTOの仮想事例に１件事例はあるのだが。\nでは、どうやって特許適格を主張するかを考えたい。\n対応方針 Step 2AのProng 1では、抽象的アイデアが大きな障壁であり、特に「思考プロセス」というのが曲者である。\n人の脳内で実現できるなら「思考プロセス」に当てはめられてしまうこととなる。\nUSPTOが公表しているGUIの仮想事例でも、所定期間における各アイコンの使用量を求めるのは、最も広い概念で捉えると思考プロセスであると認定されている。\n内部処理に言及すれば良い？ 一方、アイコンに関連付けられた各アプリケーションにどれだけのメモリが割り当てられたかをトラッキングするプロセッサを用いて、所定期間における各アイコンの使用量を特定する、となると、人の脳内で実施できないプロセッサの動作を含むため、思考プロセスでないと判断されている。\nしかし、このような記載は装置やプログラムの内部処理に言及することになるため、特許の侵害発見容易性を著しく損なわせるものとなる。\nもちろん発明のポイントとなる部分が内部処理自体にあるのなら問題ないが（公開せずにノウハウにしたほうが良いのでは？という議論はさておき）、そうでなければ個人的にはあまりクレームには記載したくない。\nそこで現実的な対応となるのは、次のProng 2ではないかと思う。\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "米国への特許出願では、101条について悩まされている人は多いだろう。\n自分もその一人だ。\nここで備忘録として、101条違反を回避するための対策を整理しておく。\n個人の所感で記載しているに過ぎないので、あくまで一意見として捉えていただきたい。\n判断フロー まずは、以下が特許適格性の基本的な判断フローとなる。\n出展: MPEP §2106 Step 1 クレームが以下の法定カテゴリ（方法、装置、製造物、組成物）のいずれかに属していれば第一関門はクリア、Step 2Aに進む。\n属していなければ、「特許不適格」と判断されて即終了。\n日本ではプログラムクレームが認められるが、米国出願の場合は記録媒体クレームなどに修正しておく必要がある。\nStep 2A Step 2Aでは、右図の通り、以下のProng 1, 2で特許適格性が判断される。\nProng 1 以下の司法例外に言及しているかを判断される。\n言及していなければ「特許適格」と判断され、言及していればProng 2に進む。\n抽象的アイデア 数学的概念 人間の活動を体系化する方法 思考プロセス 自然法則又は自然現象 Prong 2 クレームが上の司法例外を含んでいても、追加の要素が司法例外を実用的な応用に統合しているものであれば、「特許適格」と判断される。\nProng 2でも「特許適格」と認められなければ、Step 2Bへ進む。\nStep 2B クレームが発明概念を提供していれば、「特許適格」と判断される。\n発明概念を提供していなければ、「特許不適格」と判断されて審査終了。\n発明概念の有無は、司法例外を著しく超えて技術的に意味のある改善や実用性を示すものであるか（例えば、特定の技術分野の機能の向上や特定の技術的課題を解決する手段であるか）で評価される。\n自分の実務経験上での話とはなるが、101条違反に対しては、ほぼStep 2A（Prong 1, 2）の中で戦っている感じである。\n少なくとも自分の周りでは、Step 2Bで特許適格と判断された事例を見たことがない。Prong 2で特許適格が認められなければ、よりハードルの高い（と私は思っている）Step 2Bで特許適格が認められる可能性は極めて低いのではないだろうか？\nそもそもStep 2Bの判断基準は、新規性や非自明性のような要素で判断されている印象なので、これが特許適格に関係してくるのがあまり腑に落ちない。\n一応、USPTOの仮想事例に１件事例はあるのだが。\nでは、どうやって特許適格を主張するかを考えたい。\n対応方針 Step 2AのProng 1では、抽象的アイデアが大きな障壁であり、特に「思考プロセス」というのが曲者である。\n人の脳内で実現できるなら「思考プロセス」に当てはめられてしまうこととなる。\nUSPTOが公表しているGUIの仮想事例でも、所定期間における各アイコンの使用量を求めるのは、最も広い概念で捉えると思考プロセスであると認定されている。\n内部処理に言及すれば良い？ 一方、アイコンに関連付けられた各アプリケーションにどれだけのメモリが割り当てられたかをトラッキングするプロセッサを用いて、所定期間における各アイコンの使用量を特定する、となると、人の脳内で実施できないプロセッサの動作を含むため、思考プロセスでないと判断されている。\nしかし、このような記載は装置やプログラムの内部処理に言及することになるため、特許の侵害発見容易性を著しく損なわせるものとなる。\nもちろん発明のポイントとなる部分が内部処理自体にあるのなら問題ないが（公開せずにノウハウにしたほうが良いのでは？という議論はさておき）、そうでなければ個人的にはあまりクレームには記載したくない。\nそこで現実的な対応となるのは、次のProng 2ではないかと思う。\nProng 2での権利化を目指す GUIの仮想事例では、たとえアイコンの使用量を求めるステップが思考プロセスであっても、その使用量に基づき、最も使用量の多いアイコンを、GUI上のスタートアイコンに最も近い位置に自動的に移す（思考プロセス以外の追加要素）ことで、従来のシステムに対して特定の改善を提供していると評価している。\nつまり、抽象的アイデアに言及されていても、そのアイデアによって得られた情報を使って、特定の技術課題の改善に繋がるよう、実際の装置でアウトプットを行う工程までクレームアップしてしまえば良いのである。\nアウトプットなら何でも良い訳でなく、現実としてコンピュータの機能改良であったり、特定の技術分野での改善に繋がっている必要があることに注意したい。\n単に結果を出力するという記載だけでは、一般的なコンピュータの機能を実行するだけであり、抽象的アイデアを適用する命令と変わらないので、より具体的な出力の特徴を言及したいところである。\n実務上でのあるケースでは、得られた判定結果を用いて「警告を表示する」という要素（外部の物理的現実）を加えただけで101条違反が解消されるケースもあった。\n警告表示により、〇〇の技術分野において問題の生じる可能性のあった状況をいち早くユーザが容易に把握できるようになった、と認められたということと推測する。\n※警告表示の要素追加によって、常に101条違反が解消されることを保証する訳では無い。\nまとめ 以上のように、明細書を作成する際には情報処理を行う工程だけでなく、\n得られた情報を用いて何らかのアウトプットを出す工程も含んだ実施例 そのアウトプットによって得られる技術課題の改善内容 を予め記載しておくと、101条違反を回避しつつ権利価値の低下を抑制できるのではないかと思う。\n",
+  "wordCount" : "80",
+  "inLanguage": "en",
+  "datePublished": "2025-03-08T00:00:00Z",
+  "dateModified": "2025-03-08T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ip-note"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ipnote.github.io/ipblog/posts/2025/03/08/113255/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "実務者のための知財法務",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ipnote.github.io/ipblog/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ipnote.github.io/ipblog/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/ipblog/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/ipblog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/ipblog/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://ipnote.github.io/ipblog/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/ipblog/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      米国特許法101条（特許適格性）
+    </h1>
+    <div class="post-meta"><span title='2025-03-08 00:00:00 +0000 UTC'>March 8, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%88%a4%e6%96%ad%e3%83%95%e3%83%ad%e3%83%bc" aria-label="判断フロー">判断フロー</a><ul>
+                        
+                <li>
+                    <a href="#Step-1" aria-label="Step 1">Step 1</a></li>
+                <li>
+                    <a href="#Step-2A" aria-label="Step 2A">Step 2A</a><ul>
+                        
+                <li>
+                    <a href="#Prong-1" aria-label="Prong 1">Prong 1</a></li>
+                <li>
+                    <a href="#Prong-2" aria-label="Prong 2">Prong 2</a></li></ul>
+                </li>
+                <li>
+                    <a href="#Step-2B" aria-label="Step 2B">Step 2B</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e5%af%be%e5%bf%9c%e6%96%b9%e9%87%9d" aria-label="対応方針">対応方針</a><ul>
+                        
+                <li>
+                    <a href="#%e5%86%85%e9%83%a8%e5%87%a6%e7%90%86%e3%81%ab%e8%a8%80%e5%8f%8a%e3%81%99%e3%82%8c%e3%81%b0%e8%89%af%e3%81%84" aria-label="内部処理に言及すれば良い？">内部処理に言及すれば良い？</a></li>
+                <li>
+                    <a href="#Prong-2%e3%81%a7%e3%81%ae%e6%a8%a9%e5%88%a9%e5%8c%96%e3%82%92%e7%9b%ae%e6%8c%87%e3%81%99" aria-label="Prong 2での権利化を目指す">Prong 2での権利化を目指す</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e3%81%be%e3%81%a8%e3%82%81" aria-label="まとめ">まとめ</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>米国への特許出願では、101条について悩まされている人は多いだろう。</p>
+<p>自分もその一人だ。</p>
+<p>ここで備忘録として、101条違反を回避するための対策を整理しておく。</p>
+<p>個人の所感で記載しているに過ぎないので、あくまで一意見として捉えていただきたい。</p>
+<h3 id="判断フロー">判断フロー<a hidden class="anchor" aria-hidden="true" href="#判断フロー">#</a></h3>
+<p>まずは、以下が特許適格性の基本的な判断フローとなる。</p>
+<div class="images-row mceNonEditable"><figure>
+    <img loading="lazy" src="image/20250524112124.png"/> 
+</figure>
+</div>
+<div style="text-align: center;">出展: MPEP §2106</div>
+<h4 id="Step-1">Step 1<a hidden class="anchor" aria-hidden="true" href="#Step-1">#</a></h4>
+<p>クレームが以下の法定カテゴリ（方法、装置、製造物、組成物）のいずれかに属していれば第一関門はクリア、Step 2Aに進む。</p>
+<p>属していなければ、「特許不適格」と判断されて即終了。</p>
+<p>日本ではプログラムクレームが認められるが、米国出願の場合は記録媒体クレームなどに修正しておく必要がある。</p>
+<h4 id="Step-2A">Step 2A<a hidden class="anchor" aria-hidden="true" href="#Step-2A">#</a></h4>
+<p>Step 2Aでは、右図の通り、以下のProng 1, 2で特許適格性が判断される。</p>
+<h5 id="Prong-1">Prong 1<a hidden class="anchor" aria-hidden="true" href="#Prong-1">#</a></h5>
+<p>以下の司法例外に言及しているかを判断される。</p>
+<p>言及していなければ「特許適格」と判断され、言及していればProng 2に進む。</p>
+<ul>
+<li>抽象的アイデア
+<ul>
+<li>数学的概念</li>
+<li>人間の活動を体系化する方法</li>
+<li>思考プロセス</li>
+</ul>
+</li>
+<li>自然法則又は自然現象</li>
+</ul>
+<h5 id="Prong-2">Prong 2<a hidden class="anchor" aria-hidden="true" href="#Prong-2">#</a></h5>
+<p>クレームが上の司法例外を含んでいても、<span style="color: red;"><strong>追加の要素が司法例外を実用的な応用に統合している</strong>ものであれば、「特許適格」と判断される。</p>
+<p>Prong 2でも「特許適格」と認められなければ、Step 2Bへ進む。</p>
+<h4 id="Step-2B">Step 2B<a hidden class="anchor" aria-hidden="true" href="#Step-2B">#</a></h4>
+<p>クレームが発明概念を提供していれば、「特許適格」と判断される。</p>
+<p>発明概念を提供していなければ、「特許不適格」と判断されて審査終了。</p>
+<p>発明概念の有無は、司法例外を著しく超えて技術的に意味のある改善や実用性を示すものであるか（例えば、特定の技術分野の機能の向上や特定の技術的課題を解決する手段であるか）で評価される。</p>
+<p>自分の実務経験上での話とはなるが、101条違反に対しては、ほぼStep 2A（Prong 1, 2）の中で戦っている感じである。</p>
+<p>少なくとも自分の周りでは、Step 2Bで特許適格と判断された事例を見たことがない。Prong 2で特許適格が認められなければ、よりハードルの高い（と私は思っている）Step 2Bで特許適格が認められる可能性は極めて低いのではないだろうか？</p>
+<p>そもそもStep 2Bの判断基準は、新規性や非自明性のような要素で判断されている印象なので、これが特許適格に関係してくるのがあまり腑に落ちない。</p>
+<p>一応、USPTOの仮想事例に１件事例はあるのだが。</p>
+<p>では、どうやって特許適格を主張するかを考えたい。</p>
+<h3 id="対応方針">対応方針<a hidden class="anchor" aria-hidden="true" href="#対応方針">#</a></h3>
+<p>Step 2AのProng 1では、抽象的アイデアが大きな障壁であり、特に「思考プロセス」というのが曲者である。</p>
+<p>人の脳内で実現できるなら「思考プロセス」に当てはめられてしまうこととなる。</p>
+<p>USPTOが公表しているGUIの仮想事例でも、<span style="color: red;">所定期間における各アイコンの使用量を求めるのは、最も広い概念で捉えると思考プロセスであると認定されている。</p>
+<h4 id="内部処理に言及すれば良い">内部処理に言及すれば良い？<a hidden class="anchor" aria-hidden="true" href="#内部処理に言及すれば良い">#</a></h4>
+<p>一方、アイコンに関連付けられた各アプリケーションにどれだけのメモリが割り当てられたかをトラッキングするプロセッサを用いて、所定期間における各アイコンの使用量を特定する、となると、<span style="color: red;">人の脳内で実施できないプロセッサの動作を含むため、思考プロセスでないと判断されている。</p>
+<p>しかし、このような記載は<span style="color: red;"><strong>装置やプログラムの内部処理に言及することになるため、特許の侵害発見容易性を著しく損なわせるものとなる。</strong></p>
+<p>もちろん発明のポイントとなる部分が内部処理自体にあるのなら問題ないが（公開せずにノウハウにしたほうが良いのでは？という議論はさておき）、そうでなければ個人的にはあまりクレームには記載したくない。</p>
+<p>そこで現実的な対応となるのは、次のProng 2ではないかと思う。</p>
+<h4 id="Prong-2での権利化を目指す">Prong 2での権利化を目指す<a hidden class="anchor" aria-hidden="true" href="#Prong-2での権利化を目指す">#</a></h4>
+<p>GUIの仮想事例では、たとえアイコンの使用量を求めるステップが思考プロセスであっても、<span style="color: red;">その使用量に基づき、最も使用量の多いアイコンを、GUI上のスタートアイコンに最も近い位置に自動的に移す（思考プロセス以外の追加要素）ことで、従来のシステムに対して特定の改善を提供していると評価している。</p>
+<p>つまり、抽象的アイデアに言及されていても、<span style="color: red;">そのアイデアによって得られた情報を使って、特定の技術課題の改善に繋がるよう、実際の装置でアウトプットを行う工程までクレームアップしてしまえば良いのである。</p>
+<p>アウトプットなら何でも良い訳でなく、現実としてコンピュータの機能改良であったり、特定の技術分野での改善に繋がっている必要があることに注意したい。</p>
+<p>単に結果を出力するという記載だけでは、一般的なコンピュータの機能を実行するだけであり、抽象的アイデアを適用する命令と変わらないので、より具体的な出力の特徴を言及したいところである。</p>
+<p>実務上でのあるケースでは、得られた判定結果を用いて「警告を表示する」という要素（外部の物理的現実）を加えただけで101条違反が解消されるケースもあった。</p>
+<p>警告表示により、〇〇の技術分野において問題の生じる可能性のあった状況をいち早くユーザが容易に把握できるようになった、と認められたということと推測する。</p>
+<p>※警告表示の要素追加によって、常に101条違反が解消されることを保証する訳では無い。</p>
+<h3 id="まとめ">まとめ<a hidden class="anchor" aria-hidden="true" href="#まとめ">#</a></h3>
+<p>以上のように、明細書を作成する際には情報処理を行う工程だけでなく、</p>
+<ul>
+<li>得られた情報を用いて何らかのアウトプットを出す工程も含んだ実施例</li>
+<li>そのアウトプットによって得られる技術課題の改善内容</li>
+</ul>
+<p>を予め記載しておくと、101条違反を回避しつつ権利価値の低下を抑制できるのではないかと思う。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ipnote.github.io/ipblog/posts/2025/05/24/113957/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>米国特許 IDSの提出</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://ipnote.github.io/ipblog/">実務者のための知財法務</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><footer class="footer" style = "font-size:0.9rem">
+  <a href="/privacy" rel="noopener" target="_blank"><strong>プライバシーポリシー/免責事項</strong></a> · 
+  <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener" target="_blank"><strong>お問い合わせ</strong></a>
+  </br></br>
+  当ブログはアフィリエイト広告を利用しています
+</footer>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
