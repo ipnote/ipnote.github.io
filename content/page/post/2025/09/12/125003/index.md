@@ -3,7 +3,6 @@
 {{< figure src="image/20250917201049.jpg" >}}
 </div>
 
-
 ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。
 
 しかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。
@@ -11,20 +10,6 @@
 とはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。
 
 本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。
-
-<ul class="table-of-contents">
-    * [著作権表示は義務ではない（OSSの場合を除く）](#著作権表示は義務ではないOSSの場合を除く)
-    <li>[著作権表示しておくのが無難](#著作権表示しておくのが無難)
-            * [権利帰属先が明確となる](#権利帰属先が明確となる)
-            * [無断利用の抑止](#無断利用の抑止)
-            * [ベルヌ条約に非加盟の国で著作権が有効となる](#ベルヌ条約に非加盟の国で著作権が有効となる)
-            * [権利保護期間の証拠となり得る](#権利保護期間の証拠となり得る)
-        
-    </li>
-    * [OSSの場合は著作権表示・ライセンス表示義務あり](#OSSの場合は著作権表示ライセンス表示義務あり)
-    * [ソフトウェアにおける表示場所](#ソフトウェアにおける表示場所)
-    * [著作権表示の例（OSS）](#著作権表示の例OSS)
-
 
 <h3 id="著作権表示は義務ではないOSSの場合を除く">著作権表示は義務ではない（OSSの場合を除く）</h3>
 
@@ -70,7 +55,6 @@
 
 例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。
 
-
 ```
 Copyright <YEAR> <COPYRIGHT HOLDER>
 
@@ -81,22 +65,17 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-
-
 このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。
 
 <h3 id="ソフトウェアにおける表示場所">ソフトウェアにおける表示場所</h3>
 
 表示場所は、ソフトウェアの配布形態に応じて多少異なり、例えば以下の場所が挙げられる。
 
-
-* ソースコードの先頭コメント（各ファイルまたは主要ファイル）
-* ソースコードのLICENSEファイルやCOPYRIGHTファイル
-* アプリケーションの「ヘルプ」「About」画面など
-* WebサービスならフッターなどのWeb画面上
-* 取扱説明書
-
-
+- ソースコードの先頭コメント（各ファイルまたは主要ファイル）
+- ソースコードのLICENSEファイルやCOPYRIGHTファイル
+- アプリケーションの「ヘルプ」「About」画面など
+- WebサービスならフッターなどのWeb画面上
+- 取扱説明書
 
 ただし、OSSライセンスによっては表示場所が指定されていることもあるので注意したい。
 
@@ -110,7 +89,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 <strong>表示例１</strong>
 
-
 ```
 Copyright  [年号] [原著作者名]
 Copyright  [年号] [他の改変者名 (存在する場合)]
@@ -120,18 +98,13 @@ Copyright  [年号] [自分の名前 (改変した場合)]
 [OSSのライセンス文]
 ```
 
-
-
 <strong>表示例２</strong>
-
 
 ```
 Copyright <年> [原著作権者], [他の改変者名 (存在する場合)]..., [自分の名前 (改変した場合)]
 
 [OSSのライセンス文]
 ```
-
-
 
 「Copyright」は、「Copyright ©」と表すこともある。
 

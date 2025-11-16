@@ -1,3 +1,5 @@
+ {{/* ブログカードを生成 */}}
+
 {{ $p := site.GetPage (.Get "path") }}
 {{ if not $p }}
   <p>ページが見つかりません: {{ .Get "path" }}</p>
@@ -41,20 +43,20 @@
     {{ end }}
   {{ end }}
 
-  {{/* 本文冒頭120文字 */}}
+  {{/* 本文冒頭70文字 */}}
   {{ $plain := $p.Plain }}
-  {{ $summary := cond (gt (len $plain) 120) (printf "%s..." (substr $plain 0 120)) $plain }}
+  {{ $summary := cond (gt (len $plain) 70) (printf "%s..." (substr $plain 0 70)) $plain }}
 
-  <div class="refcard" style="border:1px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;">
+  <div class="refcard" style="border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;">
 
     {{ if $img }}
-      <div style="width:120px; flex-shrink:0;">
+      <div style="width:100px; flex-shrink:0;">
         <img src="{{ $img }}" alt="" style="width:100%; border-radius:6px;">
       </div>
     {{ end }}
 
     <div style="flex:1;">
-      <a href="{{ $p.RelPermalink }}" style="font-size:1.1rem; font-weight:bold;">
+      <a href="{{ $p.RelPermalink }}" style="font-size:1.0rem; font-weight:bold;">
         {{ $p.Title }}
       </a>
       <p style="margin-top:6px; color:#555;">

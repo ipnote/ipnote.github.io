@@ -7,32 +7,15 @@ As a personal memorandum, I’d like to leave some countermeasures to avoid § 1
 
 This is merely my personal opinion and should be taken as such.
 
-<ul class="table-of-contents">
-    * [Decision Flow](#Decision-Flow)
-    * [Step 1](#Step-1)
-    <li>[Step 2A](#Step-2A)
-            * [Prong 1](#Prong-1)
-            * [Prong 2](#Prong-2)
-        
-    </li>
-    * [Step 2B](#Step-2B)
-    <li>[Strategy](#Strategy)
-            * [Referring to internal processing?](#Referring-to-internal-processing)
-            * [Aiming for eligibility under Prong 2](#Aiming-for-eligibility-under-Prong-2)
-        
-    </li>
-    * [Conclusion](#Conclusion)
-
-
 <h3 id="Decision-Flow">Decision Flow</h3>
 
 First, the following is the basic flow for determining patent eligibility.
 
-<div class="images-row mceNonEditable">{{< figure src="image/20250524112050.png" >}}</div>
-
+<div class="images-row mceNonEditable">
+{{< figure src="image/20250524112124.png" >}}
+</div>
 
 <div style="text-align: center;">MPEP §2106</div>
-
 
 <h3 id="Step-1">Step 1</h3>
 
@@ -52,19 +35,12 @@ It is determined whether the claim recites one of the judicial exceptions.
 
 If not, it is considered “eligible.” If it does, then the analysis proceeds to Prong 2.
 
-
-<li>Abstract ideas
-
-
-* Mathematical concepts
-* Methods of organizing human activity
-* Mental processes
-
-</li>
-* Laws of nature
-* Natural phenomena
-
-
+- Abstract ideas
+    - Mathematical concepts
+    - Methods of organizing human activity
+    - Mental processes
+- Laws of nature
+- Natural phenomena
 
 <h4 id="Prong-2">Prong 2</h4>
 
@@ -128,10 +104,7 @@ Of course, adding a warning display element does not guarantee to avoid § 101 r
 
 Thus, when drafting specifications, it is helpful to include not only steps for information processing but also:
 
-
-* Implementation examples where the obtained information is used to produce some kind of output
-* A description of how that output improves a technical problem
-
-
+- Implementation examples where the obtained information is used to produce some kind of output
+- A description of how that output improves a technical problem
 
 By doing so, you may be able to avoid § 101 rejections while still preserving claim value.
