@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>ソフトウェア配布形式ごとのOSSライセンス表示方法 | 実務者のための知財法務</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+
+     
+
+
+
+企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。
+そして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。
+しかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。
+したがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。
+この点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。
+ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など）
+配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。
+OSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。
+ライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。
+スマホアプリとして提供する場合（例：iOS/Androidアプリ）
+バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。
+iOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。
+具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。
+リスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。
+多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。
+なお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。
+（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）
+SWが組み込まれた機器として提供する場合
+ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。
+付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。
+その場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。
+まとめ
+表にまとめると、以下の通りである。
+
+
+
+ 配布形式 
+ OSSライセンス表示方法 
+
+
+
+
+ ファイル配布 
+ パッケージにライセンス文を同梱 
+
+
+ アプリ配布 
+ アプリ内に「OSSライセンス情報」メニューを設ける 
+
+
+ 機器配布 
+ マニュアル、付属CD、Web UI、製品Webページ等で表示 
+
+
+">
+<meta name="author" content="ip-note">
+<link rel="canonical" href="https://ipnote.github.io/ipblog/posts/2025/09/10/214204/">
+<link crossorigin="anonymous" href="/ipblog/assets/css/stylesheet.e6569abdbe17a2669f22c550c42e1125b1c78e45a7851a74793ccb69e38461c2.css" integrity="sha256-5laavb4XomafIsVQxC4RJbHHjkWnhRp0eTzLaeOEYcI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="https://ipnote.github.io/ipblog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ipnote.github.io/ipblog/posts/2025/09/10/214204/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><link rel="icon" href="/assets/images/ip_favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/ip_apple-touch-icon.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546267264299174"
+     crossorigin="anonymous">
+</script>
+
+<meta name="google-site-verification" content="w6kJIjMLu9ARKIeEzLADn46AgPa-PM_tpbWMSKRzH14" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EBRV2KGCPT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EBRV2KGCPT');
+</script><meta property="og:url" content="https://ipnote.github.io/ipblog/posts/2025/09/10/214204/">
+  <meta property="og:site_name" content="実務者のための知財法務">
+  <meta property="og:title" content="ソフトウェア配布形式ごとのOSSライセンス表示方法">
+  <meta property="og:description" content=" 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。
+そして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。
+しかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。
+したがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。
+この点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。
+ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。
+OSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。
+ライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。
+スマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。
+iOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。
+具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。
+リスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。
+多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。
+なお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。
+（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）
+SWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。
+付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。
+その場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。
+まとめ 表にまとめると、以下の通りである。
+配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-10T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ソフトウェア配布形式ごとのOSSライセンス表示方法">
+<meta name="twitter:description" content="
+
+     
+
+
+
+企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。
+そして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。
+しかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。
+したがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。
+この点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。
+ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など）
+配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。
+OSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。
+ライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。
+スマホアプリとして提供する場合（例：iOS/Androidアプリ）
+バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。
+iOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。
+具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。
+リスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。
+多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。
+なお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。
+（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）
+SWが組み込まれた機器として提供する場合
+ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。
+付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。
+その場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。
+まとめ
+表にまとめると、以下の通りである。
+
+
+
+ 配布形式 
+ OSSライセンス表示方法 
+
+
+
+
+ ファイル配布 
+ パッケージにライセンス文を同梱 
+
+
+ アプリ配布 
+ アプリ内に「OSSライセンス情報」メニューを設ける 
+
+
+ 機器配布 
+ マニュアル、付属CD、Web UI、製品Webページ等で表示 
+
+
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ipnote.github.io/ipblog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "ソフトウェア配布形式ごとのOSSライセンス表示方法",
+      "item": "https://ipnote.github.io/ipblog/posts/2025/09/10/214204/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "ソフトウェア配布形式ごとのOSSライセンス表示方法",
+  "name": "ソフトウェア配布形式ごとのOSSライセンス表示方法",
+  "description": " 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。\nそして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。\nしかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。\nしたがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。\nこの点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。\nソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。\nOSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。\nライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。\nスマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。\niOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。\n具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。\nリスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。\n多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。\nなお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。\n（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）\nSWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。\n付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。\nその場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。\nまとめ 表にまとめると、以下の通りである。\n配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ",
+  "keywords": [
+    
+  ],
+  "articleBody": " 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。\nそして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。\nしかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。\nしたがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。\nこの点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。\nソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。\nOSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。\nライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。\nスマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。\niOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。\n具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。\nリスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。\n多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。\nなお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。\n（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）\nSWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。\n付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。\nその場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。\nまとめ 表にまとめると、以下の通りである。\n配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ",
+  "wordCount" : "34",
+  "inLanguage": "en",
+  "datePublished": "2025-09-10T00:00:00Z",
+  "dateModified": "2025-09-10T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ip-note"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ipnote.github.io/ipblog/posts/2025/09/10/214204/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "実務者のための知財法務",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ipnote.github.io/ipblog/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ipnote.github.io/ipblog/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/ipblog/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/ipblog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/ipblog/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://ipnote.github.io/ipblog/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/ipblog/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      ソフトウェア配布形式ごとのOSSライセンス表示方法
+    </h1>
+    <div class="post-meta"><span title='2025-09-10 00:00:00 +0000 UTC'>September 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%ae%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e8%87%aa%e4%bd%93%e3%82%92%e6%8f%90%e4%be%9b%e3%81%99%e3%82%8b%e5%a0%b4%e5%90%88%e4%be%8bZIP%e9%85%8d%e5%b8%83GitHub%e5%85%ac%e9%96%8b%e3%81%aa%e3%81%a9" aria-label="ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など）">ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など）</a></li>
+                <li>
+                    <a href="#%e3%82%b9%e3%83%9e%e3%83%9b%e3%82%a2%e3%83%97%e3%83%aa%e3%81%a8%e3%81%97%e3%81%a6%e6%8f%90%e4%be%9b%e3%81%99%e3%82%8b%e5%a0%b4%e5%90%88%e4%be%8biOSAndroid%e3%82%a2%e3%83%97%e3%83%aa" aria-label="スマホアプリとして提供する場合（例：iOS/Androidアプリ）">スマホアプリとして提供する場合（例：iOS/Androidアプリ）</a></li>
+                <li>
+                    <a href="#SW%e3%81%8c%e7%b5%84%e3%81%bf%e8%be%bc%e3%81%be%e3%82%8c%e3%81%9f%e6%a9%9f%e5%99%a8%e3%81%a8%e3%81%97%e3%81%a6%e6%8f%90%e4%be%9b%e3%81%99%e3%82%8b%e5%a0%b4%e5%90%88" aria-label="SWが組み込まれた機器として提供する場合">SWが組み込まれた機器として提供する場合</a></li>
+                <li>
+                    <a href="#%e3%81%be%e3%81%a8%e3%82%81" aria-label="まとめ">まとめ</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><div align="center">
+<figure>
+    <img loading="lazy" src="image/20250907115624.jpg"/> 
+</figure>
+
+</div>
+<p>企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。</p>
+<p>そして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。</p>
+<p>しかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。</p>
+<p>したがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。</p>
+<p>この点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。</p>
+<h3 id="ソフトウェアのファイル自体を提供する場合例ZIP配布GitHub公開など">ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など）<a hidden class="anchor" aria-hidden="true" href="#ソフトウェアのファイル自体を提供する場合例ZIP配布GitHub公開など">#</a></h3>
+<p>配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。</p>
+<p>OSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。</p>
+<p>ライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。</p>
+<h3 id="スマホアプリとして提供する場合例iOSAndroidアプリ">スマホアプリとして提供する場合（例：iOS/Androidアプリ）<a hidden class="anchor" aria-hidden="true" href="#スマホアプリとして提供する場合例iOSAndroidアプリ">#</a></h3>
+<p>バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。</p>
+<p>iOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。</p>
+<p>具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。</p>
+<p>リスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。</p>
+<p>多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。</p>
+<p>なお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。</p>
+<p>（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）</p>
+<h3 id="SWが組み込まれた機器として提供する場合">SWが組み込まれた機器として提供する場合<a hidden class="anchor" aria-hidden="true" href="#SWが組み込まれた機器として提供する場合">#</a></h3>
+<p>ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。</p>
+<p>付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。</p>
+<p>その場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。</p>
+<h3 id="まとめ">まとめ<a hidden class="anchor" aria-hidden="true" href="#まとめ">#</a></h3>
+<p>表にまとめると、以下の通りである。</p>
+<table>
+<thead>
+<tr>
+<th> 配布形式 </th>
+<th> OSSライセンス表示方法 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> ファイル配布 </td>
+<td> パッケージにライセンス文を同梱 </td>
+</tr>
+<tr>
+<td> アプリ配布 </td>
+<td> アプリ内に「OSSライセンス情報」メニューを設ける </td>
+</tr>
+<tr>
+<td> 機器配布 </td>
+<td> マニュアル、付属CD、Web UI、製品Webページ等で表示 </td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ipnote.github.io/ipblog/posts/2025/09/12/125003/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>一般的な著作権表示の話とOSSでの表示義務</span>
+  </a>
+  <a class="next" href="https://ipnote.github.io/ipblog/posts/2025/09/09/204638/">
+    <span class="title">Next »</span>
+    <br>
+    <span>未成年者との契約と親の同意に関して</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://ipnote.github.io/ipblog/">実務者のための知財法務</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><footer class="footer" style = "font-size:0.9rem">
+  <a href="/privacy" rel="noopener" target="_blank"><strong>プライバシーポリシー/免責事項</strong></a> · 
+  <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener" target="_blank"><strong>お問い合わせ</strong></a>
+  </br></br>
+  当ブログはアフィリエイト広告を利用しています
+</footer>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
