@@ -3,6 +3,7 @@ languageCode = "ja"
 title = "実務者のための知財法務"
 theme = "PaperMod"
 publishDir = "docs"
+googleAnalytics = ""
 
 
 [params.homeInfoParams]
