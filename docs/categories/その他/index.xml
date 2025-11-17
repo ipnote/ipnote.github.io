@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>その他 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/ipblog/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+    <link>http://localhost:1313/ipblog/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
     <description>Recent content in その他 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/ipblog/categories/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ipblog/categories/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ソフトウェア等の販売における輸出規制</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/11/02/102154/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/11/02/102154/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/11/02/102154/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/11/02/102154/</guid>
       <description>&lt;p&gt;製品や技術をを外国企業に輸出する際には、輸出規制・倫理的制約・リスク管理などの観点から、販売国・地域、使用者（企業・組織）を限定・禁止することが一般的である。&lt;/p&gt;
 &lt;p&gt;特に、ソフトウェアはクラウドを介して世界に販売・ライセンスすることが比較的容易なので、あらかじめ販売先の限定を検討しておくことが重要である。&lt;/p&gt;
 &lt;p&gt;知財業務の観点からは離れるかもしれないが、ソフトウェア販売において頭の片隅に入れておいたほうが良いと思うので、販売国・地域、使用者の観点で整理してみたい。&lt;/p&gt;
@@ -105,9 +105,9 @@
     </item>
     <item>
       <title>個人情報からの匿名加工情報の作成</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/10/09/072948/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/10/09/072948/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/10/09/072948/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/10/09/072948/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917201420.jpg&#34;/&gt; 
@@ -185,9 +185,9 @@
     </item>
     <item>
       <title>ソフトウェア配布形式ごとのOSSライセンス表示方法</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/10/214204/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/10/214204/</link>
       <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/10/214204/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/10/214204/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250907115624.jpg&#34;/&gt; 
@@ -242,9 +242,9 @@
     </item>
     <item>
       <title>SBOMとOSSライセンスとの関係</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/03/213457/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/03/213457/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/03/213457/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/03/213457/</guid>
       <description>&lt;p&gt;ソフトウェア開発の現場では、ゼロから全部のコードを書くことは殆ど無い。&lt;/p&gt;
 &lt;p&gt;多くの場合、世界中の開発者が公開している&lt;strong&gt;オープンソースソフトウェア（OSS）&lt;/strong&gt;や、既存のライブラリを組み合わせて作られている。&lt;/p&gt;
 &lt;p&gt;ただ、この“部品の寄せ集め”には落とし穴がある。&lt;/p&gt;
@@ -316,9 +316,9 @@
     </item>
     <item>
       <title>OSSのデュアルライセンス</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/21/202514/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/21/202514/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/21/202514/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/21/202514/</guid>
       <description>&lt;p&gt;ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。&lt;/p&gt;
 &lt;p&gt;世の中にはOSSの管理を支援するツールも普及しているものの、一部の言語には対応していなかったり、完全に人のチェックを手離れさせるのはまだ難しいという印象である。&lt;/p&gt;
 &lt;p&gt;知財部の立場から言えば、自社のプロプライエタリなコードの開示義務が生じたり特許権の許諾義務が生じる可能性もあるので、口酸っぱく注意喚起するしかないのが辛いところである。&lt;/p&gt;
@@ -357,9 +357,9 @@
     </item>
     <item>
       <title>AIの隠れた制御、ステルスプロンプトとは？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/09/140331/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/09/140331/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/09/140331/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/09/140331/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250802180545.jpg&#34;/&gt; 

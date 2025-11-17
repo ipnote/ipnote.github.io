@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>商標権 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/ipblog/categories/%E5%95%86%E6%A8%99%E6%A8%A9/</link>
+    <link>http://localhost:1313/ipblog/categories/%E5%95%86%E6%A8%99%E6%A8%A9/</link>
     <description>Recent content in 商標権 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/ipblog/categories/%E5%95%86%E6%A8%99%E6%A8%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ipblog/categories/%E5%95%86%E6%A8%99%E6%A8%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>結合商標の分離観察の可否</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/30/191210/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/30/191210/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/30/191210/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/30/191210/</guid>
       <description>&lt;style&gt;
 td {
   vertical-align: middle;
@@ -130,9 +130,9 @@ td {
     </item>
     <item>
       <title>見逃しがちな登録商標およびその利用条件</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/15/163459/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/15/163459/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/15/163459/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/15/163459/</guid>
       <description>&lt;p&gt;普段お世話になっている製品名やサービス名の中には、他社の登録商標が含まれることがある。&lt;/p&gt;
 &lt;p&gt;ウェブサイトやアプリの説明文、仕様書、マニュアルなどで気付かず使ってしまうものがあるが、その代表的なものとして「QRコード」「Bluetooth」を取り上げたい。&lt;/p&gt;
 &lt;p&gt;これらを商用の場や公式ドキュメントで無造作に使うのは避けておきたい。&lt;/p&gt;
@@ -198,9 +198,9 @@ td {
     </item>
     <item>
       <title>特許明細書で登録商標を使うときの注意</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/26/211552/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/26/211552/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/26/211552/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/26/211552/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250814202759.jpg&#34;/&gt; 
@@ -390,9 +390,9 @@ td {
     </item>
     <item>
       <title>非常口マークなどの安全標識は勝手に使って良い？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/17/131248/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/17/131248/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/17/131248/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/17/131248/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250817131418.png&#34;/&gt; 
@@ -458,9 +458,9 @@ td {
     </item>
     <item>
       <title>漫画のキャラクター名を製品名にして良い？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/15/082135/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/15/082135/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/15/082135/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/15/082135/</guid>
       <description>&lt;div align=&#34;center&#34;&gt; 
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250614130116.png&#34;/&gt; 
@@ -503,9 +503,9 @@ td {
     </item>
     <item>
       <title>商標のコンセント制度</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/235203/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/235203/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/235203/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/235203/</guid>
       <description>&lt;p&gt;最近、競合ではない他社から、商標権の「併存合意」なるものを求める旨の書面が届いた。&lt;/p&gt;
 &lt;p&gt;普段特許をメインで担当しているとあまり聞き慣れないのだが、令和６年より施行された改正商標法で導入された「コンセント制度」に関するものらしい。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
@@ -557,9 +557,9 @@ td {
     </item>
     <item>
       <title>他社の企業ロゴをプレゼン資料に入れて良いか</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/05/150622/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/05/150622/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/05/150622/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/05/150622/</guid>
       <description>&lt;p&gt;社内外問わず、プレゼン資料として他社名を入れることはあると思う。&lt;/p&gt;
 &lt;p&gt;このとき、テキストで企業名を表示するよりも、企業ロゴを使って掲載する方が見栄えがよく、視覚的に伝わりやすくなることが多い。&lt;/p&gt;
 &lt;p&gt;つい資料に企業ロゴを使ってしまうこともあるだろうが、果たして勝手に載せて良いものだろうか？&lt;/p&gt;

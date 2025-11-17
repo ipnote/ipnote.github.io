@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/ipblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=ipblog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>ソフトウェア配布形式ごとのOSSライセンス表示方法 | 実務者のための知財法務</title>
 <meta name="keywords" content="">
 <meta name="description" content="
@@ -59,16 +59,16 @@ SWが組み込まれた機器として提供する場合
 
 ">
 <meta name="author" content="ip-note">
-<link rel="canonical" href="https://ipnote.github.io/ipblog/posts/2025/09/10/214204/">
+<link rel="canonical" href="http://localhost:1313/ipblog/posts/2025/09/10/214204/">
 <link crossorigin="anonymous" href="/ipblog/assets/css/stylesheet.e6569abdbe17a2669f22c550c42e1125b1c78e45a7851a74793ccb69e38461c2.css" integrity="sha256-5laavb4XomafIsVQxC4RJbHHjkWnhRp0eTzLaeOEYcI=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
-<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
-<link rel="mask-icon" href="https://ipnote.github.io/ipblog/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/ipblog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ipnote.github.io/ipblog/posts/2025/09/10/214204/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/ipblog/posts/2025/09/10/214204/">
 <noscript>
     <style>
         #theme-toggle,
@@ -100,148 +100,13 @@ SWが組み込まれた機器として提供する場合
   gtag('js', new Date());
 
   gtag('config', 'G-EBRV2KGCPT');
-</script><meta property="og:url" content="https://ipnote.github.io/ipblog/posts/2025/09/10/214204/">
-  <meta property="og:site_name" content="実務者のための知財法務">
-  <meta property="og:title" content="ソフトウェア配布形式ごとのOSSライセンス表示方法">
-  <meta property="og:description" content=" 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。
-そして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。
-しかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。
-したがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。
-この点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。
-ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。
-OSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。
-ライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。
-スマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。
-iOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。
-具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。
-リスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。
-多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。
-なお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。
-（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）
-SWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。
-付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。
-その場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。
-まとめ 表にまとめると、以下の通りである。
-配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ">
-  <meta property="og:locale" content="ja">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-09-10T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-09-10T00:00:00+00:00">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ソフトウェア配布形式ごとのOSSライセンス表示方法">
-<meta name="twitter:description" content="
-
-     
-
-
-
-企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。
-そして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。
-しかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。
-したがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。
-この点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。
-ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など）
-配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。
-OSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。
-ライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。
-スマホアプリとして提供する場合（例：iOS/Androidアプリ）
-バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。
-iOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。
-具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。
-リスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。
-多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。
-なお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。
-（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）
-SWが組み込まれた機器として提供する場合
-ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。
-付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。
-その場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。
-まとめ
-表にまとめると、以下の通りである。
-
-
-
- 配布形式 
- OSSライセンス表示方法 
-
-
-
-
- ファイル配布 
- パッケージにライセンス文を同梱 
-
-
- アプリ配布 
- アプリ内に「OSSライセンス情報」メニューを設ける 
-
-
- 機器配布 
- マニュアル、付属CD、Web UI、製品Webページ等で表示 
-
-
-">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://ipnote.github.io/ipblog/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "ソフトウェア配布形式ごとのOSSライセンス表示方法",
-      "item": "https://ipnote.github.io/ipblog/posts/2025/09/10/214204/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "ソフトウェア配布形式ごとのOSSライセンス表示方法",
-  "name": "ソフトウェア配布形式ごとのOSSライセンス表示方法",
-  "description": " 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。\nそして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。\nしかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。\nしたがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。\nこの点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。\nソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。\nOSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。\nライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。\nスマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。\niOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。\n具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。\nリスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。\n多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。\nなお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。\n（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）\nSWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。\n付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。\nその場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。\nまとめ 表にまとめると、以下の通りである。\n配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ",
-  "keywords": [
-    
-  ],
-  "articleBody": " 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。\nそして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。\nしかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。\nしたがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。\nこの点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。\nソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。\nOSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。\nライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。\nスマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。\niOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。\n具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。\nリスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。\n多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。\nなお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。\n（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）\nSWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。\n付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。\nその場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。\nまとめ 表にまとめると、以下の通りである。\n配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ",
-  "wordCount" : "34",
-  "inLanguage": "en",
-  "datePublished": "2025-09-10T00:00:00Z",
-  "dateModified": "2025-09-10T00:00:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "ip-note"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ipnote.github.io/ipblog/posts/2025/09/10/214204/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "実務者のための知財法務",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
-    }
-  }
-}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ipnote.github.io/ipblog/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <a href="http://localhost:1313/ipblog/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -267,22 +132,22 @@ SWが組み込まれた機器として提供する場合
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ipnote.github.io/ipblog/" title="Home">
+                <a href="http://localhost:1313/ipblog/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/ipblog/categories/" title="Categories">
+                <a href="http://localhost:1313/ipblog/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/ipblog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/ipblog/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/ipblog/about/" title="About">
+                <a href="http://localhost:1313/ipblog/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -293,7 +158,7 @@ SWが組み込まれた機器として提供する場合
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://ipnote.github.io/ipblog/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/ipblog/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/ipblog/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/ipblog/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       ソフトウェア配布形式ごとのOSSライセンス表示方法
     </h1>
@@ -379,12 +244,12 @@ SWが組み込まれた機器として提供する場合
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://ipnote.github.io/ipblog/posts/2025/09/12/125003/">
+  <a class="prev" href="http://localhost:1313/ipblog/posts/2025/09/12/125003/">
     <span class="title">« Prev</span>
     <br>
     <span>一般的な著作権表示の話とOSSでの表示義務</span>
   </a>
-  <a class="next" href="https://ipnote.github.io/ipblog/posts/2025/09/09/204638/">
+  <a class="next" href="http://localhost:1313/ipblog/posts/2025/09/09/204638/">
     <span class="title">Next »</span>
     <br>
     <span>未成年者との契約と親の同意に関して</span>
@@ -396,7 +261,7 @@ SWが組み込まれた機器として提供する場合
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://ipnote.github.io/ipblog/">実務者のための知財法務</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/ipblog/">実務者のための知財法務</a></span> · 
 
     <span>
         Powered by

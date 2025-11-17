@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>知的財産権全般 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/</link>
+    <link>http://localhost:1313/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/</link>
     <description>Recent content in 知的財産権全般 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>無償で商用利用可能な地図画像</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/11/08/145411/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/11/08/145411/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/11/08/145411/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/11/08/145411/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251108145343.jpg&#34;/&gt; 
@@ -82,9 +82,9 @@
     </item>
     <item>
       <title>社内の電子資料にGoogleマップを使うには</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/11/07/124144/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/11/07/124144/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/11/07/124144/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/11/07/124144/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251107124045.jpg&#34;/&gt; 
@@ -148,9 +148,9 @@
     </item>
     <item>
       <title>USPTO審査変更の影響（審査官インタビューの制限）</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/11/03/080635/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/11/03/080635/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/11/03/080635/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/11/03/080635/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251102212948.jpg&#34;/&gt; 
@@ -181,9 +181,9 @@
     </item>
     <item>
       <title>ライセンサー目線で知財権の保証条項を設けるリスク</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/10/30/221840/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/10/30/221840/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/10/30/221840/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/10/30/221840/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251030220734.jpg&#34;/&gt; 
@@ -246,9 +246,9 @@
     </item>
     <item>
       <title>ソースコード中のOSS検知</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/10/20/224101/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/10/20/224101/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/10/20/224101/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/10/20/224101/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251020201855.jpg&#34;/&gt; 
@@ -339,9 +339,9 @@
     </item>
     <item>
       <title>脱OSSの動きと利用者のリスク</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/10/18/120414/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/10/18/120414/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/10/18/120414/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/10/18/120414/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251018120157.jpg&#34;/&gt; 
@@ -416,9 +416,9 @@
     </item>
     <item>
       <title>知財契約における任意規定と強行規定</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/10/05/102104/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/10/05/102104/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/10/05/102104/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/10/05/102104/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250910232227.jpg&#34;/&gt; 
@@ -465,9 +465,9 @@
     </item>
     <item>
       <title>結合商標の分離観察の可否</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/30/191210/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/30/191210/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/30/191210/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/30/191210/</guid>
       <description>&lt;style&gt;
 td {
   vertical-align: middle;
@@ -585,9 +585,9 @@ td {
     </item>
     <item>
       <title>開発部から企業知財部への異動・転職の話</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/19/212009/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/19/212009/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/19/212009/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/19/212009/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250919210940.jpg&#34;/&gt; 
@@ -679,9 +679,9 @@ td {
     </item>
     <item>
       <title>見逃しがちな登録商標およびその利用条件</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/15/163459/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/15/163459/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/15/163459/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/15/163459/</guid>
       <description>&lt;p&gt;普段お世話になっている製品名やサービス名の中には、他社の登録商標が含まれることがある。&lt;/p&gt;
 &lt;p&gt;ウェブサイトやアプリの説明文、仕様書、マニュアルなどで気付かず使ってしまうものがあるが、その代表的なものとして「QRコード」「Bluetooth」を取り上げたい。&lt;/p&gt;
 &lt;p&gt;これらを商用の場や公式ドキュメントで無造作に使うのは避けておきたい。&lt;/p&gt;
@@ -747,9 +747,9 @@ td {
     </item>
     <item>
       <title>一般的な著作権表示の話とOSSでの表示義務</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/12/125003/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/12/125003/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/12/125003/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/12/125003/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917201049.jpg&#34;/&gt; 
@@ -793,9 +793,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>ソースコードの著作権侵害</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/07/081054/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/07/081054/</link>
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/07/081054/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/07/081054/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917203716.jpg&#34;/&gt; 
@@ -839,9 +839,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作権の使用許諾</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/06/093232/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/06/093232/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/06/093232/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/06/093232/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250830154329.jpg&#34;/&gt; 
@@ -912,9 +912,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>説明書や動画をブログや資料に載せるときの著作権リスクについて</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/09/05/072548/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/09/05/072548/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/09/05/072548/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/09/05/072548/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917204256.jpg&#34;/&gt; 
@@ -966,9 +966,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>特許明細書で登録商標を使うときの注意</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/26/211552/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/26/211552/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/26/211552/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/26/211552/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250814202759.jpg&#34;/&gt; 
@@ -1158,9 +1158,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>AIが作成したもの、特許や商標登録はOK？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/20/212517/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/20/212517/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/20/212517/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/20/212517/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803202801.jpg&#34;/&gt; 
@@ -1213,9 +1213,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>US Patent Law - Section 101 (Subject Matter Eligibility)</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/19/223349/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/19/223349/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/19/223349/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/19/223349/</guid>
       <description>&lt;p&gt;In U.S. patent applications, many people struggle with § 101 rejection.&lt;/p&gt;
 &lt;p&gt;Of course I’m one of them.&lt;/p&gt;
 &lt;p&gt;As a personal memorandum, I’d like to leave some countermeasures to avoid § 101 rejection.&lt;/p&gt;
@@ -1234,9 +1234,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>非常口マークなどの安全標識は勝手に使って良い？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/17/131248/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/17/131248/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/17/131248/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/17/131248/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250817131418.png&#34;/&gt; 
@@ -1302,9 +1302,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>知財権の無償許諾によるリスク</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/14/231037/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/14/231037/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/14/231037/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/14/231037/</guid>
       <description>&lt;p&gt;特許権や商標権など、自社が保有する知財権を他社に使用させる際の話となる。&lt;/p&gt;
 &lt;p&gt;まだ契約業務に不慣れだった頃は、権利の許諾先が親子関係であれば、どうせ大元の財布は同じな訳だしライセンス費を無償にしても良いんじゃないかと思っていた。&lt;/p&gt;
 &lt;p&gt;しかし、うっかりそんな契約を結ぼうものなら、税務調査のときに目をつけられてしまう可能性が高い。&lt;/p&gt;
@@ -1332,9 +1332,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>発明の名称や要約書の記載は、権利範囲に影響する？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/12/213244/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/12/213244/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/12/213244/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/12/213244/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250812212959.jpg&#34;/&gt; 
@@ -1375,9 +1375,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作物の「引用」について考えてみる</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/03/134219/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/03/134219/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/03/134219/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/03/134219/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250720103624.png&#34;/&gt; 
@@ -1440,9 +1440,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>特許権侵害で逮捕者が出たらしい</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/08/01/194433/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/08/01/194433/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/08/01/194433/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/08/01/194433/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250704132400.png&#34;/&gt; 
@@ -1499,9 +1499,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>AIで声をパクられたら訴えることは可能？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/25/204149/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/25/204149/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/25/204149/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/25/204149/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250622205206.jpg&#34;/&gt; 
@@ -1564,9 +1564,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>漫画のキャラクター名を製品名にして良い？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/15/082135/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/15/082135/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/15/082135/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/15/082135/</guid>
       <description>&lt;div align=&#34;center&#34;&gt; 
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250614130116.png&#34;/&gt; 
@@ -1609,9 +1609,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>開発を再委託する際の契約上の知財の取り扱い（汎用技術など）</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/11/210939/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/11/210939/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/11/210939/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/11/210939/</guid>
       <description>&lt;p&gt;この間、委託元から受託した開発を再委託することとなり、開発したものは納品物として委託元へ納めることとなった。&lt;/p&gt;
 &lt;p&gt;そして、開発行為によって生じた知財権も委託元のものとする予定である。&lt;/p&gt;
 &lt;p&gt;このとき、再委託先から&lt;br&gt;
@@ -1681,9 +1681,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作物の引用の範囲</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/05/144632/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/05/144632/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/05/144632/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/05/144632/</guid>
       <description>&lt;p&gt;ついブログを面白く見せようと、記事に漫画のコマを貼り付けたくなるが、作者の許諾なく使うと著作権侵害となってしまう。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
@@ -1760,9 +1760,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>契約における知財の取り扱い</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/200737/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/200737/</link>
       <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/200737/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/200737/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524200650.jpg&#34;/&gt; 
@@ -1824,9 +1824,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>商標のコンセント制度</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/235203/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/235203/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/235203/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/235203/</guid>
       <description>&lt;p&gt;最近、競合ではない他社から、商標権の「併存合意」なるものを求める旨の書面が届いた。&lt;/p&gt;
 &lt;p&gt;普段特許をメインで担当しているとあまり聞き慣れないのだが、令和６年より施行された改正商標法で導入された「コンセント制度」に関するものらしい。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
@@ -1878,9 +1878,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>画像をブログに載せるときのライセンス</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/232131/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/232131/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/232131/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/232131/</guid>
       <description>&lt;p&gt;ブログを書き始めてから、記事の中に貼り付けたい画像を探すことが多くなった。&lt;/p&gt;
 &lt;p&gt;なかなかしっくりくる画像が見つからないのは日常茶飯事であり、ようやく「いい画像を見つけた！」と思ったら、利用条件の厳しいライセンスが付与されているということもある。&lt;/p&gt;
 &lt;p&gt;ライセンスという単語を聞くと、画像使用に対するハードルが上がる印象を受けるかと思うが、ここでは「無料で商用利用が可能」となっている代表的なライセンスを紹介したい。&lt;/p&gt;
@@ -1988,9 +1988,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>AI作品の著作権は誰のもの？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/23/232703/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/23/232703/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/23/232703/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/23/232703/</guid>
       <description>&lt;p&gt;近年は、ChatGPTをはじめとするサービスを使うことで、誰でも手軽にAI画像を生成することができる。&lt;/p&gt;
 &lt;p&gt;そのクオリティには目を見張るものがあり、改めてすごい時代になったものだと思う。&lt;/p&gt;
 &lt;p&gt;ところで、完成した画像には著作権は発生するのだろうか？&lt;/p&gt;
@@ -2058,9 +2058,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>他社の企業ロゴをプレゼン資料に入れて良いか</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/05/150622/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/05/150622/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/05/150622/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/05/150622/</guid>
       <description>&lt;p&gt;社内外問わず、プレゼン資料として他社名を入れることはあると思う。&lt;/p&gt;
 &lt;p&gt;このとき、テキストで企業名を表示するよりも、企業ロゴを使って掲載する方が見栄えがよく、視覚的に伝わりやすくなることが多い。&lt;/p&gt;
 &lt;p&gt;つい資料に企業ロゴを使ってしまうこともあるだろうが、果たして勝手に載せて良いものだろうか？&lt;/p&gt;
@@ -2133,9 +2133,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作権侵害要件「依拠性」について</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/06/05/145128/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/06/05/145128/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/06/05/145128/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/06/05/145128/</guid>
       <description>&lt;p&gt;著作権侵害が成立するためには、単に被疑侵害品と著作物とが類似しているだけではなく、「依拠性」という要件も必要である。&lt;/p&gt;
 &lt;p&gt;この「依拠性」とは、被疑侵害者が原作品を知っており、それに基づいて自己の作品を創作したことを意味する。&lt;/p&gt;
 &lt;h3 id=&#34;依拠性の概要&#34;&gt;依拠性の概要&lt;/h3&gt;
@@ -2178,9 +2178,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>作風を似せると著作権侵害？</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/223850/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/223850/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/223850/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/223850/</guid>
       <description>&lt;p&gt;2025年4月16日の衆院内閣委員会（※）で、著作権における、生成AI画像について答弁があった。&lt;/p&gt;
 &lt;p&gt;内容が興味深かったので、そのやり取りを紹介しつつ、自分なりの考察も交えてみたい。&lt;/p&gt;
 &lt;p&gt;※少人数の委員で組織され、本会議の審議に先だって法律案などの議案の内容を専門的に検討する予備的審査機関&lt;/p&gt;
@@ -2258,9 +2258,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>欧州特許制度特有の手続き</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/221323/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/221323/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/221323/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/221323/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524220422.jpg&#34;/&gt; 
@@ -2344,9 +2344,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>進歩性における「容易の容易」とは</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/203555/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/203555/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/203555/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/203555/</guid>
       <description>&lt;p&gt;実務を行っていると、特許出願が一発で特許査定となることは稀であり、大抵は新規性、進歩性、記載要件違反を理由にした拒絶理由が通知される。&lt;/p&gt;
 &lt;p&gt;中でも進歩性違反は代表的な拒絶理由であると思うが、複数の引例・周知技術が適用されている場合、いわゆる「容易の容易」にあたらないか？と思ったことがある。&lt;/p&gt;
 &lt;p&gt;しかし、実際にその理由で反論を試みた経験に乏しい。&lt;/p&gt;
@@ -2399,9 +2399,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>商標の類否判断</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/153038/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/153038/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/153038/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/153038/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524130717.jpg&#34;/&gt; 
@@ -2466,9 +2466,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>欧州における商標登録出願の実態調査</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/115405/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/115405/</link>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/115405/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/115405/</guid>
       <description>&lt;p&gt;商標にて、EUIPO（欧州連合知的財産庁）から「おたくが権利持ってる商標と似てる後願商標登録出願があったよ」との通知を受けた。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
@@ -2524,9 +2524,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>米国特許 IDSの提出</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/05/24/113957/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/05/24/113957/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/05/24/113957/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/05/24/113957/</guid>
       <description>&lt;p&gt;米国で特許出願行うにあたっては、IDS（Information Disclosure Statement）の提出が求められる。&lt;/p&gt;
 &lt;p&gt;実務の上ではこの辺りは事務担当や代理人にお任せしてしまっている現象であるが、特許の活用においては大事な話なので、触れておきたい。&lt;/p&gt;
 &lt;h3 id=&#34;IDSとは&#34;&gt;IDSとは？&lt;/h3&gt;
@@ -2560,9 +2560,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>米国特許法101条（特許適格性）</title>
-      <link>https://ipnote.github.io/ipblog/posts/2025/03/08/113255/</link>
+      <link>http://localhost:1313/ipblog/posts/2025/03/08/113255/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/ipblog/posts/2025/03/08/113255/</guid>
+      <guid>http://localhost:1313/ipblog/posts/2025/03/08/113255/</guid>
       <description>&lt;p&gt;米国への特許出願では、101条について悩まされている人は多いだろう。&lt;/p&gt;
 &lt;p&gt;自分もその一人だ。&lt;/p&gt;
 &lt;p&gt;ここで備忘録として、101条違反を回避するための対策を整理しておく。&lt;/p&gt;
