@@ -47,7 +47,7 @@ h5 {
 /* 画像サイズ調整 */
 .post-content img {
   max-width: 500px;   /* 通常は幅500px以内に収める */
-  max-height: 700px;  /* ただし高さ700pxも超えないようにする */
+  max-height: 500px;  /* ただし高さ500pxも超えないようにする */
   width: auto;        /* アスペクト比維持 */
   height: auto;       /* アスペクト比維持 */
   display: block;
