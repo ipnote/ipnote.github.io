@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>開発委託とライセンス許諾とを含む契約 | 実務者のための知財法務</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+
+     
+
+
+
+開発から委託契約に関する相談があり、ざっくり以下のような要望を受けた。
+サプライヤ（A社）に専用ソフトウェアを作ってもらい、それを当社にライセンスしてもらいつつ、使い方に関するサポートをお願いする予定とのこと。
+整理すると、以下のような要望である。
+
+A社がSaaS提供するソフトウェアを当社向けにカスタマイズするよう、A社に開発を委託
+A社はカスタマイズが完成したら、当社にSaaS提供する
+A社は当社がソフトウェアを使う際のサポート業務も行う
+ライセンスが切れないよう、ライセンス許諾は自動更新とする
+できれば契約書は１つにまとめたい
+
+以下のように検討したので、備忘録として残しておきたい。
+契約書を一本化するか
+項目1は開発委託、項目2はライセンス許諾、項目3はサービス委託と色々と内容が混在している。
+契約書を一本化する際、それぞれの業務内容に応じた条項を設けられなくもないが、各業務の条件が異なると対応する条項の構成も複雑になるし、業務毎に有効期間が変わるのも好ましくない。
+その結果、契約書自体が非常に見づらいものとなってしまい、せっかく１つにまとめても、寧ろ相手方のレビューや交渉に余計に時間がかかってしまうことが予測される。
+結論としては、項目1は１つ目の契約（開発委託契約）、項目2と3はまとめて２つ目の契約（SaaS提供契約）としつつ、２つ目の契約には自動更新条項を設けるのが良さそうであった。
+２つ目はライセンス許諾と準委任型の業務委託とが混在するものの、ソフトウェアを用いる際のサポートに関する内容であればワンセットで管理するのが通常なので、こちらは敢えて分ける必要はない。
+留意点
+A社がカスタマイズしたソフトウェアを使うために、引き続きライセンス許諾等をお願いすることとなる。
+ここで、開発委託契約とSaaS提供契約との間の依存関係は、明示しておく必要がある。
+契約解除の依存
+例えば、カスタマイズが完了しなかった場合にはSaaS提供契約を解除できるよう、開発委託契約側には以下のような条項を記載することが考えられる。
+第○条（SaaS提供契約への影響）
+本契約に基づく業務の全部または一部が解除その他の理由により履行されない場合、当該業務の成果物を前提としている別契約（以下「SaaS提供契約」という）についても、その前提が失われたと認められる限度において、甲または乙は、SaaS提供契約の全部または一部を解除することができる。
+また、SaaS提供契約側にも、例えば以下のように記載しておくと良い。
+第○条（開発契約の履行状況に関する条件）
+本契約は、甲乙間で別途締結された契約「開発委託契約」に基づき、乙が当該ソフトウェアのカスタマイズを完了することを前提として成立するものである。
+SaaS提供開始時期
+開発成果物が完成しないと、SaaS提供も開始できない。
+よって、SaaS提供開始は、開発成果物の検収が完了した後に開始する旨を記載するのが望ましい。
+バグ対応
+カスタマイズ部分と、SaaS共通機能とで、不具合があったときの対応について整理しておく。
+例えば、開発委託契約側に契約不適合の条項を設けることで、カスタマイズ部分については一定期間無償でA社に対応してもらいつつ、SaaS共通機能はSaaS提供契約でA社に保守義務を課す、という形になろうかと思う。
+開発委託時の対価
+通常はソフトウェアを開発してもらう場合は、請負型の契約として成果完成時に対価を支払う。
+しかし、今回はSaaS提供ということで、知財権もA社帰属となることが多く、完成後も使用のためにライセンス料を支払うこととなる。
+したがって、開発時の対価についてはそういった事情を鑑みて低額となるよう交渉する余地はあるかと思う。
+また、場合によってはカスタマイズしたソフトウェアを第三者にも提供したい、とA社からの要望があるかもしれない。
+そのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。">
+<meta name="author" content="ip-note">
+<link rel="canonical" href="https://ipnote.github.io/post/2025/08/01/095000/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f07f0ea271cfdb5035ad546b6ce63c66163284932080bfd47ffb87fdcd6a68d5.css" integrity="sha256-8H8OonHP21A1rVRrbOY8ZhYyhJMggL/Uf/uH/c1qaNU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="https://ipnote.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ipnote.github.io/post/2025/08/01/095000/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><link rel="icon" href="/assets/images/ip_favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/ip_apple-touch-icon.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546267264299174"
+     crossorigin="anonymous">
+</script>
+
+<meta name="google-site-verification" content="w6kJIjMLu9ARKIeEzLADn46AgPa-PM_tpbWMSKRzH14" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GK6P50PLB9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GK6P50PLB9');
+</script><meta property="og:url" content="https://ipnote.github.io/post/2025/08/01/095000/">
+  <meta property="og:site_name" content="実務者のための知財法務">
+  <meta property="og:title" content="開発委託とライセンス許諾とを含む契約">
+  <meta property="og:description" content=" 開発から委託契約に関する相談があり、ざっくり以下のような要望を受けた。
+サプライヤ（A社）に専用ソフトウェアを作ってもらい、それを当社にライセンスしてもらいつつ、使い方に関するサポートをお願いする予定とのこと。
+整理すると、以下のような要望である。
+A社がSaaS提供するソフトウェアを当社向けにカスタマイズするよう、A社に開発を委託 A社はカスタマイズが完成したら、当社にSaaS提供する A社は当社がソフトウェアを使う際のサポート業務も行う ライセンスが切れないよう、ライセンス許諾は自動更新とする できれば契約書は１つにまとめたい 以下のように検討したので、備忘録として残しておきたい。
+契約書を一本化するか 項目1は開発委託、項目2はライセンス許諾、項目3はサービス委託と色々と内容が混在している。
+契約書を一本化する際、それぞれの業務内容に応じた条項を設けられなくもないが、各業務の条件が異なると対応する条項の構成も複雑になるし、業務毎に有効期間が変わるのも好ましくない。
+その結果、契約書自体が非常に見づらいものとなってしまい、せっかく１つにまとめても、寧ろ相手方のレビューや交渉に余計に時間がかかってしまうことが予測される。
+結論としては、項目1は１つ目の契約（開発委託契約）、項目2と3はまとめて２つ目の契約（SaaS提供契約）としつつ、２つ目の契約には自動更新条項を設けるのが良さそうであった。
+２つ目はライセンス許諾と準委任型の業務委託とが混在するものの、ソフトウェアを用いる際のサポートに関する内容であればワンセットで管理するのが通常なので、こちらは敢えて分ける必要はない。
+留意点 A社がカスタマイズしたソフトウェアを使うために、引き続きライセンス許諾等をお願いすることとなる。
+ここで、開発委託契約とSaaS提供契約との間の依存関係は、明示しておく必要がある。
+契約解除の依存 例えば、カスタマイズが完了しなかった場合にはSaaS提供契約を解除できるよう、開発委託契約側には以下のような条項を記載することが考えられる。
+第○条（SaaS提供契約への影響）
+本契約に基づく業務の全部または一部が解除その他の理由により履行されない場合、当該業務の成果物を前提としている別契約（以下「SaaS提供契約」という）についても、その前提が失われたと認められる限度において、甲または乙は、SaaS提供契約の全部または一部を解除することができる。
+また、SaaS提供契約側にも、例えば以下のように記載しておくと良い。
+第○条（開発契約の履行状況に関する条件）
+本契約は、甲乙間で別途締結された契約「開発委託契約」に基づき、乙が当該ソフトウェアのカスタマイズを完了することを前提として成立するものである。
+SaaS提供開始時期 開発成果物が完成しないと、SaaS提供も開始できない。
+よって、SaaS提供開始は、開発成果物の検収が完了した後に開始する旨を記載するのが望ましい。
+バグ対応 カスタマイズ部分と、SaaS共通機能とで、不具合があったときの対応について整理しておく。
+例えば、開発委託契約側に契約不適合の条項を設けることで、カスタマイズ部分については一定期間無償でA社に対応してもらいつつ、SaaS共通機能はSaaS提供契約でA社に保守義務を課す、という形になろうかと思う。
+開発委託時の対価 通常はソフトウェアを開発してもらう場合は、請負型の契約として成果完成時に対価を支払う。
+しかし、今回はSaaS提供ということで、知財権もA社帰属となることが多く、完成後も使用のためにライセンス料を支払うこととなる。
+したがって、開発時の対価についてはそういった事情を鑑みて低額となるよう交渉する余地はあるかと思う。
+また、場合によってはカスタマイズしたソフトウェアを第三者にも提供したい、とA社からの要望があるかもしれない。
+そのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-08-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-01T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="開発委託とライセンス許諾とを含む契約">
+<meta name="twitter:description" content="
+
+     
+
+
+
+開発から委託契約に関する相談があり、ざっくり以下のような要望を受けた。
+サプライヤ（A社）に専用ソフトウェアを作ってもらい、それを当社にライセンスしてもらいつつ、使い方に関するサポートをお願いする予定とのこと。
+整理すると、以下のような要望である。
+
+A社がSaaS提供するソフトウェアを当社向けにカスタマイズするよう、A社に開発を委託
+A社はカスタマイズが完成したら、当社にSaaS提供する
+A社は当社がソフトウェアを使う際のサポート業務も行う
+ライセンスが切れないよう、ライセンス許諾は自動更新とする
+できれば契約書は１つにまとめたい
+
+以下のように検討したので、備忘録として残しておきたい。
+契約書を一本化するか
+項目1は開発委託、項目2はライセンス許諾、項目3はサービス委託と色々と内容が混在している。
+契約書を一本化する際、それぞれの業務内容に応じた条項を設けられなくもないが、各業務の条件が異なると対応する条項の構成も複雑になるし、業務毎に有効期間が変わるのも好ましくない。
+その結果、契約書自体が非常に見づらいものとなってしまい、せっかく１つにまとめても、寧ろ相手方のレビューや交渉に余計に時間がかかってしまうことが予測される。
+結論としては、項目1は１つ目の契約（開発委託契約）、項目2と3はまとめて２つ目の契約（SaaS提供契約）としつつ、２つ目の契約には自動更新条項を設けるのが良さそうであった。
+２つ目はライセンス許諾と準委任型の業務委託とが混在するものの、ソフトウェアを用いる際のサポートに関する内容であればワンセットで管理するのが通常なので、こちらは敢えて分ける必要はない。
+留意点
+A社がカスタマイズしたソフトウェアを使うために、引き続きライセンス許諾等をお願いすることとなる。
+ここで、開発委託契約とSaaS提供契約との間の依存関係は、明示しておく必要がある。
+契約解除の依存
+例えば、カスタマイズが完了しなかった場合にはSaaS提供契約を解除できるよう、開発委託契約側には以下のような条項を記載することが考えられる。
+第○条（SaaS提供契約への影響）
+本契約に基づく業務の全部または一部が解除その他の理由により履行されない場合、当該業務の成果物を前提としている別契約（以下「SaaS提供契約」という）についても、その前提が失われたと認められる限度において、甲または乙は、SaaS提供契約の全部または一部を解除することができる。
+また、SaaS提供契約側にも、例えば以下のように記載しておくと良い。
+第○条（開発契約の履行状況に関する条件）
+本契約は、甲乙間で別途締結された契約「開発委託契約」に基づき、乙が当該ソフトウェアのカスタマイズを完了することを前提として成立するものである。
+SaaS提供開始時期
+開発成果物が完成しないと、SaaS提供も開始できない。
+よって、SaaS提供開始は、開発成果物の検収が完了した後に開始する旨を記載するのが望ましい。
+バグ対応
+カスタマイズ部分と、SaaS共通機能とで、不具合があったときの対応について整理しておく。
+例えば、開発委託契約側に契約不適合の条項を設けることで、カスタマイズ部分については一定期間無償でA社に対応してもらいつつ、SaaS共通機能はSaaS提供契約でA社に保守義務を課す、という形になろうかと思う。
+開発委託時の対価
+通常はソフトウェアを開発してもらう場合は、請負型の契約として成果完成時に対価を支払う。
+しかし、今回はSaaS提供ということで、知財権もA社帰属となることが多く、完成後も使用のためにライセンス料を支払うこととなる。
+したがって、開発時の対価についてはそういった事情を鑑みて低額となるよう交渉する余地はあるかと思う。
+また、場合によってはカスタマイズしたソフトウェアを第三者にも提供したい、とA社からの要望があるかもしれない。
+そのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ipnote.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "開発委託とライセンス許諾とを含む契約",
+      "item": "https://ipnote.github.io/post/2025/08/01/095000/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "開発委託とライセンス許諾とを含む契約",
+  "name": "開発委託とライセンス許諾とを含む契約",
+  "description": " 開発から委託契約に関する相談があり、ざっくり以下のような要望を受けた。\nサプライヤ（A社）に専用ソフトウェアを作ってもらい、それを当社にライセンスしてもらいつつ、使い方に関するサポートをお願いする予定とのこと。\n整理すると、以下のような要望である。\nA社がSaaS提供するソフトウェアを当社向けにカスタマイズするよう、A社に開発を委託 A社はカスタマイズが完成したら、当社にSaaS提供する A社は当社がソフトウェアを使う際のサポート業務も行う ライセンスが切れないよう、ライセンス許諾は自動更新とする できれば契約書は１つにまとめたい 以下のように検討したので、備忘録として残しておきたい。\n契約書を一本化するか 項目1は開発委託、項目2はライセンス許諾、項目3はサービス委託と色々と内容が混在している。\n契約書を一本化する際、それぞれの業務内容に応じた条項を設けられなくもないが、各業務の条件が異なると対応する条項の構成も複雑になるし、業務毎に有効期間が変わるのも好ましくない。\nその結果、契約書自体が非常に見づらいものとなってしまい、せっかく１つにまとめても、寧ろ相手方のレビューや交渉に余計に時間がかかってしまうことが予測される。\n結論としては、項目1は１つ目の契約（開発委託契約）、項目2と3はまとめて２つ目の契約（SaaS提供契約）としつつ、２つ目の契約には自動更新条項を設けるのが良さそうであった。\n２つ目はライセンス許諾と準委任型の業務委託とが混在するものの、ソフトウェアを用いる際のサポートに関する内容であればワンセットで管理するのが通常なので、こちらは敢えて分ける必要はない。\n留意点 A社がカスタマイズしたソフトウェアを使うために、引き続きライセンス許諾等をお願いすることとなる。\nここで、開発委託契約とSaaS提供契約との間の依存関係は、明示しておく必要がある。\n契約解除の依存 例えば、カスタマイズが完了しなかった場合にはSaaS提供契約を解除できるよう、開発委託契約側には以下のような条項を記載することが考えられる。\n第○条（SaaS提供契約への影響）\n本契約に基づく業務の全部または一部が解除その他の理由により履行されない場合、当該業務の成果物を前提としている別契約（以下「SaaS提供契約」という）についても、その前提が失われたと認められる限度において、甲または乙は、SaaS提供契約の全部または一部を解除することができる。\nまた、SaaS提供契約側にも、例えば以下のように記載しておくと良い。\n第○条（開発契約の履行状況に関する条件）\n本契約は、甲乙間で別途締結された契約「開発委託契約」に基づき、乙が当該ソフトウェアのカスタマイズを完了することを前提として成立するものである。\nSaaS提供開始時期 開発成果物が完成しないと、SaaS提供も開始できない。\nよって、SaaS提供開始は、開発成果物の検収が完了した後に開始する旨を記載するのが望ましい。\nバグ対応 カスタマイズ部分と、SaaS共通機能とで、不具合があったときの対応について整理しておく。\n例えば、開発委託契約側に契約不適合の条項を設けることで、カスタマイズ部分については一定期間無償でA社に対応してもらいつつ、SaaS共通機能はSaaS提供契約でA社に保守義務を課す、という形になろうかと思う。\n開発委託時の対価 通常はソフトウェアを開発してもらう場合は、請負型の契約として成果完成時に対価を支払う。\nしかし、今回はSaaS提供ということで、知財権もA社帰属となることが多く、完成後も使用のためにライセンス料を支払うこととなる。\nしたがって、開発時の対価についてはそういった事情を鑑みて低額となるよう交渉する余地はあるかと思う。\nまた、場合によってはカスタマイズしたソフトウェアを第三者にも提供したい、とA社からの要望があるかもしれない。\nそのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。\n",
+  "keywords": [
+    
+  ],
+  "articleBody": " 開発から委託契約に関する相談があり、ざっくり以下のような要望を受けた。\nサプライヤ（A社）に専用ソフトウェアを作ってもらい、それを当社にライセンスしてもらいつつ、使い方に関するサポートをお願いする予定とのこと。\n整理すると、以下のような要望である。\nA社がSaaS提供するソフトウェアを当社向けにカスタマイズするよう、A社に開発を委託 A社はカスタマイズが完成したら、当社にSaaS提供する A社は当社がソフトウェアを使う際のサポート業務も行う ライセンスが切れないよう、ライセンス許諾は自動更新とする できれば契約書は１つにまとめたい 以下のように検討したので、備忘録として残しておきたい。\n契約書を一本化するか 項目1は開発委託、項目2はライセンス許諾、項目3はサービス委託と色々と内容が混在している。\n契約書を一本化する際、それぞれの業務内容に応じた条項を設けられなくもないが、各業務の条件が異なると対応する条項の構成も複雑になるし、業務毎に有効期間が変わるのも好ましくない。\nその結果、契約書自体が非常に見づらいものとなってしまい、せっかく１つにまとめても、寧ろ相手方のレビューや交渉に余計に時間がかかってしまうことが予測される。\n結論としては、項目1は１つ目の契約（開発委託契約）、項目2と3はまとめて２つ目の契約（SaaS提供契約）としつつ、２つ目の契約には自動更新条項を設けるのが良さそうであった。\n２つ目はライセンス許諾と準委任型の業務委託とが混在するものの、ソフトウェアを用いる際のサポートに関する内容であればワンセットで管理するのが通常なので、こちらは敢えて分ける必要はない。\n留意点 A社がカスタマイズしたソフトウェアを使うために、引き続きライセンス許諾等をお願いすることとなる。\nここで、開発委託契約とSaaS提供契約との間の依存関係は、明示しておく必要がある。\n契約解除の依存 例えば、カスタマイズが完了しなかった場合にはSaaS提供契約を解除できるよう、開発委託契約側には以下のような条項を記載することが考えられる。\n第○条（SaaS提供契約への影響）\n本契約に基づく業務の全部または一部が解除その他の理由により履行されない場合、当該業務の成果物を前提としている別契約（以下「SaaS提供契約」という）についても、その前提が失われたと認められる限度において、甲または乙は、SaaS提供契約の全部または一部を解除することができる。\nまた、SaaS提供契約側にも、例えば以下のように記載しておくと良い。\n第○条（開発契約の履行状況に関する条件）\n本契約は、甲乙間で別途締結された契約「開発委託契約」に基づき、乙が当該ソフトウェアのカスタマイズを完了することを前提として成立するものである。\nSaaS提供開始時期 開発成果物が完成しないと、SaaS提供も開始できない。\nよって、SaaS提供開始は、開発成果物の検収が完了した後に開始する旨を記載するのが望ましい。\nバグ対応 カスタマイズ部分と、SaaS共通機能とで、不具合があったときの対応について整理しておく。\n例えば、開発委託契約側に契約不適合の条項を設けることで、カスタマイズ部分については一定期間無償でA社に対応してもらいつつ、SaaS共通機能はSaaS提供契約でA社に保守義務を課す、という形になろうかと思う。\n開発委託時の対価 通常はソフトウェアを開発してもらう場合は、請負型の契約として成果完成時に対価を支払う。\nしかし、今回はSaaS提供ということで、知財権もA社帰属となることが多く、完成後も使用のためにライセンス料を支払うこととなる。\nしたがって、開発時の対価についてはそういった事情を鑑みて低額となるよう交渉する余地はあるかと思う。\nまた、場合によってはカスタマイズしたソフトウェアを第三者にも提供したい、とA社からの要望があるかもしれない。\nそのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。\n",
+  "wordCount" : "37",
+  "inLanguage": "en",
+  "datePublished": "2025-08-01T00:00:00Z",
+  "dateModified": "2025-08-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ip-note"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ipnote.github.io/post/2025/08/01/095000/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "実務者のための知財法務",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ipnote.github.io/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ipnote.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://ipnote.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/post/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      開発委託とライセンス許諾とを含む契約
+    </h1>
+    <div class="post-meta"><span title='2025-08-01 00:00:00 +0000 UTC'>August 1, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%a5%91%e7%b4%84%e6%9b%b8%e3%82%92%e4%b8%80%e6%9c%ac%e5%8c%96%e3%81%99%e3%82%8b%e3%81%8b" aria-label="契約書を一本化するか">契約書を一本化するか</a></li>
+                <li>
+                    <a href="#%e7%95%99%e6%84%8f%e7%82%b9" aria-label="留意点">留意点</a><ul>
+                        
+                <li>
+                    <a href="#%e5%a5%91%e7%b4%84%e8%a7%a3%e9%99%a4%e3%81%ae%e4%be%9d%e5%ad%98" aria-label="契約解除の依存">契約解除の依存</a></li>
+                <li>
+                    <a href="#SaaS%e6%8f%90%e4%be%9b%e9%96%8b%e5%a7%8b%e6%99%82%e6%9c%9f" aria-label="SaaS提供開始時期">SaaS提供開始時期</a></li>
+                <li>
+                    <a href="#%e3%83%90%e3%82%b0%e5%af%be%e5%bf%9c" aria-label="バグ対応">バグ対応</a></li>
+                <li>
+                    <a href="#%e9%96%8b%e7%99%ba%e5%a7%94%e8%a8%97%e6%99%82%e3%81%ae%e5%af%be%e4%be%a1" aria-label="開発委託時の対価">開発委託時の対価</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><div align="center">
+<figure>
+    <img loading="lazy" src="image/20250830090317.jpg"/> 
+</figure>
+
+</div>
+<p>開発から委託契約に関する相談があり、ざっくり以下のような要望を受けた。</p>
+<p>サプライヤ（A社）に専用ソフトウェアを作ってもらい、それを当社にライセンスしてもらいつつ、使い方に関するサポートをお願いする予定とのこと。</p>
+<p>整理すると、以下のような要望である。</p>
+<ul>
+<li>A社がSaaS提供するソフトウェアを当社向けにカスタマイズするよう、A社に開発を委託</li>
+<li>A社はカスタマイズが完成したら、当社にSaaS提供する</li>
+<li>A社は当社がソフトウェアを使う際のサポート業務も行う</li>
+<li>ライセンスが切れないよう、ライセンス許諾は自動更新とする</li>
+<li>できれば契約書は１つにまとめたい</li>
+</ul>
+<p>以下のように検討したので、備忘録として残しておきたい。</p>
+<h3 id="契約書を一本化するか">契約書を一本化するか<a hidden class="anchor" aria-hidden="true" href="#契約書を一本化するか">#</a></h3>
+<p>項目1は開発委託、項目2はライセンス許諾、項目3はサービス委託と色々と内容が混在している。</p>
+<p>契約書を一本化する際、それぞれの業務内容に応じた条項を設けられなくもないが、各業務の条件が異なると対応する条項の構成も複雑になるし、業務毎に有効期間が変わるのも好ましくない。</p>
+<p>その結果、契約書自体が非常に見づらいものとなってしまい、せっかく１つにまとめても、寧ろ相手方のレビューや交渉に余計に時間がかかってしまうことが予測される。</p>
+<p>結論としては、項目1は１つ目の契約（開発委託契約）、項目2と3はまとめて２つ目の契約（SaaS提供契約）としつつ、２つ目の契約には自動更新条項を設けるのが良さそうであった。</p>
+<p>２つ目はライセンス許諾と準委任型の業務委託とが混在するものの、ソフトウェアを用いる際のサポートに関する内容であればワンセットで管理するのが通常なので、こちらは敢えて分ける必要はない。</p>
+<h3 id="留意点">留意点<a hidden class="anchor" aria-hidden="true" href="#留意点">#</a></h3>
+<p>A社がカスタマイズしたソフトウェアを使うために、引き続きライセンス許諾等をお願いすることとなる。</p>
+<p>ここで、開発委託契約とSaaS提供契約との間の依存関係は、明示しておく必要がある。</p>
+<h4 id="契約解除の依存">契約解除の依存<a hidden class="anchor" aria-hidden="true" href="#契約解除の依存">#</a></h4>
+<p>例えば、カスタマイズが完了しなかった場合にはSaaS提供契約を解除できるよう、開発委託契約側には以下のような条項を記載することが考えられる。</p>
+<p><em>第○条（SaaS提供契約への影響）</em><br>
+<em>本契約に基づく業務の全部または一部が解除その他の理由により履行されない場合、当該業務の成果物を前提としている別契約（以下「SaaS提供契約」という）についても、その前提が失われたと認められる限度において、甲または乙は、SaaS提供契約の全部または一部を解除することができる。</em></p>
+<p>また、SaaS提供契約側にも、例えば以下のように記載しておくと良い。</p>
+<p><em>第○条（開発契約の履行状況に関する条件）</em><br>
+<em>本契約は、甲乙間で別途締結された契約「開発委託契約」に基づき、乙が当該ソフトウェアのカスタマイズを完了することを前提として成立するものである。</em></p>
+<h4 id="SaaS提供開始時期">SaaS提供開始時期<a hidden class="anchor" aria-hidden="true" href="#SaaS提供開始時期">#</a></h4>
+<p>開発成果物が完成しないと、SaaS提供も開始できない。</p>
+<p>よって、SaaS提供開始は、開発成果物の検収が完了した後に開始する旨を記載するのが望ましい。</p>
+<h4 id="バグ対応">バグ対応<a hidden class="anchor" aria-hidden="true" href="#バグ対応">#</a></h4>
+<p>カスタマイズ部分と、SaaS共通機能とで、不具合があったときの対応について整理しておく。</p>
+<p>例えば、開発委託契約側に契約不適合の条項を設けることで、カスタマイズ部分については一定期間無償でA社に対応してもらいつつ、SaaS共通機能はSaaS提供契約でA社に保守義務を課す、という形になろうかと思う。</p>
+<h4 id="開発委託時の対価">開発委託時の対価<a hidden class="anchor" aria-hidden="true" href="#開発委託時の対価">#</a></h4>
+<p>通常はソフトウェアを開発してもらう場合は、請負型の契約として成果完成時に対価を支払う。</p>
+<p>しかし、今回はSaaS提供ということで、知財権もA社帰属となることが多く、完成後も使用のためにライセンス料を支払うこととなる。</p>
+<p>したがって、開発時の対価についてはそういった事情を鑑みて低額となるよう交渉する余地はあるかと思う。</p>
+<p>また、場合によってはカスタマイズしたソフトウェアを第三者にも提供したい、とA社からの要望があるかもしれない。</p>
+<p>そのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ipnote.github.io/post/2025/08/01/194433/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>特許権侵害で逮捕者が出たらしい</span>
+  </a>
+  <a class="next" href="https://ipnote.github.io/post/2025/06/25/204149/">
+    <span class="title">Next »</span>
+    <br>
+    <span>AIで声をパクられたら訴えることは可能？</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><footer class="footer" style = "font-size:0.9rem">
+  <a href="/privacy" rel="noopener" target="_blank"><strong>プライバシーポリシー/免責事項</strong></a> · 
+  <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener" target="_blank"><strong>お問い合わせ</strong></a>
+  </br></br>
+  当ブログはアフィリエイト広告を利用しています
+</footer>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

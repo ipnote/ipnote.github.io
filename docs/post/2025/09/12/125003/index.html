@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>一般的な著作権表示の話とOSSでの表示義務 | 実務者のための知財法務</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+
+     
+
+
+
+ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。
+しかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。
+とはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。
+本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。
+著作権表示は義務ではない（OSSの場合を除く）
+上述の通り、日本の著作権法では義務ではない。
+日本が加盟する万国著作権条約では、「著作権を表記すれば守る」と規定されている。
+しかし、日本はベルヌ条約にも加盟しており、この条約では「手続きせずとも、著作物の創作と同時に著作権が発生する」としている。
+両方加盟している場合はベルヌ条約が優先されるので、著作権表示は必要ないというわけである。
+著作権表示しておくのが無難
+仮にOSSを使用しない場合であっても、著作権表示により以下のようなメリットがあるため、特別な理由が無い限りは表示しておいた方が良い。
+権利帰属先が明確となる
+「誰が著作権者か」を示すことで、利用者がライセンス交渉や問い合わせをしやすくなる。
+また、無断利用された場合にも、権利者を主張しやすくなる。
+ソフトウェアやWebサイトなど、他人が利用することを前提にする場合は特に重要となる。
+無断利用の抑止
+著作権表記があると、利用者に「これは著作権のあるものだ」と意識させられるため、結果的に無断利用を減らせる。
+裁判での故意・過失の立証にも有利に働くこともメリットである（「知らなかった」と言いにくくなる）。
+ベルヌ条約に非加盟の国で著作権が有効となる
+多くの国はベルヌ条約に加盟しているが、中には万国著作権条約にしか加盟していない国もある。
+著作権表示をすれば、そんな国でも著作権を発生させることができる。
+権利保護期間の証拠となり得る
+「©2025 Author Name」のように年を入れることで、「いつからいつまで権利が発生しているか」の証拠の一助になる。
+OSSの場合は著作権表示・ライセンス表示義務あり
+ただし、OSSの場合は、殆どの全てのOSSライセンスにおいて、著作権表示・ライセンス表示義務が規定されている点には気を付けたい。
+例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。
+Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。">
+<meta name="author" content="ip-note">
+<link rel="canonical" href="https://ipnote.github.io/post/2025/09/12/125003/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f07f0ea271cfdb5035ad546b6ce63c66163284932080bfd47ffb87fdcd6a68d5.css" integrity="sha256-8H8OonHP21A1rVRrbOY8ZhYyhJMggL/Uf/uH/c1qaNU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="https://ipnote.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ipnote.github.io/post/2025/09/12/125003/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><link rel="icon" href="/assets/images/ip_favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/ip_apple-touch-icon.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4546267264299174"
+     crossorigin="anonymous">
+</script>
+
+<meta name="google-site-verification" content="w6kJIjMLu9ARKIeEzLADn46AgPa-PM_tpbWMSKRzH14" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GK6P50PLB9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GK6P50PLB9');
+</script><meta property="og:url" content="https://ipnote.github.io/post/2025/09/12/125003/">
+  <meta property="og:site_name" content="実務者のための知財法務">
+  <meta property="og:title" content="一般的な著作権表示の話とOSSでの表示義務">
+  <meta property="og:description" content=" ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。
+しかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。
+とはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。
+本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。
+著作権表示は義務ではない（OSSの場合を除く） 上述の通り、日本の著作権法では義務ではない。
+日本が加盟する万国著作権条約では、「著作権を表記すれば守る」と規定されている。
+しかし、日本はベルヌ条約にも加盟しており、この条約では「手続きせずとも、著作物の創作と同時に著作権が発生する」としている。
+両方加盟している場合はベルヌ条約が優先されるので、著作権表示は必要ないというわけである。
+著作権表示しておくのが無難 仮にOSSを使用しない場合であっても、著作権表示により以下のようなメリットがあるため、特別な理由が無い限りは表示しておいた方が良い。
+権利帰属先が明確となる 「誰が著作権者か」を示すことで、利用者がライセンス交渉や問い合わせをしやすくなる。
+また、無断利用された場合にも、権利者を主張しやすくなる。
+ソフトウェアやWebサイトなど、他人が利用することを前提にする場合は特に重要となる。
+無断利用の抑止 著作権表記があると、利用者に「これは著作権のあるものだ」と意識させられるため、結果的に無断利用を減らせる。
+裁判での故意・過失の立証にも有利に働くこともメリットである（「知らなかった」と言いにくくなる）。
+ベルヌ条約に非加盟の国で著作権が有効となる 多くの国はベルヌ条約に加盟しているが、中には万国著作権条約にしか加盟していない国もある。
+著作権表示をすれば、そんな国でも著作権を発生させることができる。
+権利保護期間の証拠となり得る 「©2025 Author Name」のように年を入れることで、「いつからいつまで権利が発生しているか」の証拠の一助になる。
+OSSの場合は著作権表示・ライセンス表示義務あり ただし、OSSの場合は、殆どの全てのOSSライセンスにおいて、著作権表示・ライセンス表示義務が規定されている点には気を付けたい。
+例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。
+Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt; Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-09-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-12T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="一般的な著作権表示の話とOSSでの表示義務">
+<meta name="twitter:description" content="
+
+     
+
+
+
+ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。
+しかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。
+とはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。
+本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。
+著作権表示は義務ではない（OSSの場合を除く）
+上述の通り、日本の著作権法では義務ではない。
+日本が加盟する万国著作権条約では、「著作権を表記すれば守る」と規定されている。
+しかし、日本はベルヌ条約にも加盟しており、この条約では「手続きせずとも、著作物の創作と同時に著作権が発生する」としている。
+両方加盟している場合はベルヌ条約が優先されるので、著作権表示は必要ないというわけである。
+著作権表示しておくのが無難
+仮にOSSを使用しない場合であっても、著作権表示により以下のようなメリットがあるため、特別な理由が無い限りは表示しておいた方が良い。
+権利帰属先が明確となる
+「誰が著作権者か」を示すことで、利用者がライセンス交渉や問い合わせをしやすくなる。
+また、無断利用された場合にも、権利者を主張しやすくなる。
+ソフトウェアやWebサイトなど、他人が利用することを前提にする場合は特に重要となる。
+無断利用の抑止
+著作権表記があると、利用者に「これは著作権のあるものだ」と意識させられるため、結果的に無断利用を減らせる。
+裁判での故意・過失の立証にも有利に働くこともメリットである（「知らなかった」と言いにくくなる）。
+ベルヌ条約に非加盟の国で著作権が有効となる
+多くの国はベルヌ条約に加盟しているが、中には万国著作権条約にしか加盟していない国もある。
+著作権表示をすれば、そんな国でも著作権を発生させることができる。
+権利保護期間の証拠となり得る
+「©2025 Author Name」のように年を入れることで、「いつからいつまで権利が発生しているか」の証拠の一助になる。
+OSSの場合は著作権表示・ライセンス表示義務あり
+ただし、OSSの場合は、殆どの全てのOSSライセンスにおいて、著作権表示・ライセンス表示義務が規定されている点には気を付けたい。
+例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。
+Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ipnote.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "一般的な著作権表示の話とOSSでの表示義務",
+      "item": "https://ipnote.github.io/post/2025/09/12/125003/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "一般的な著作権表示の話とOSSでの表示義務",
+  "name": "一般的な著作権表示の話とOSSでの表示義務",
+  "description": " ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。\nしかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。\nとはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。\n本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。\n著作権表示は義務ではない（OSSの場合を除く） 上述の通り、日本の著作権法では義務ではない。\n日本が加盟する万国著作権条約では、「著作権を表記すれば守る」と規定されている。\nしかし、日本はベルヌ条約にも加盟しており、この条約では「手続きせずとも、著作物の創作と同時に著作権が発生する」としている。\n両方加盟している場合はベルヌ条約が優先されるので、著作権表示は必要ないというわけである。\n著作権表示しておくのが無難 仮にOSSを使用しない場合であっても、著作権表示により以下のようなメリットがあるため、特別な理由が無い限りは表示しておいた方が良い。\n権利帰属先が明確となる 「誰が著作権者か」を示すことで、利用者がライセンス交渉や問い合わせをしやすくなる。\nまた、無断利用された場合にも、権利者を主張しやすくなる。\nソフトウェアやWebサイトなど、他人が利用することを前提にする場合は特に重要となる。\n無断利用の抑止 著作権表記があると、利用者に「これは著作権のあるものだ」と意識させられるため、結果的に無断利用を減らせる。\n裁判での故意・過失の立証にも有利に働くこともメリットである（「知らなかった」と言いにくくなる）。\nベルヌ条約に非加盟の国で著作権が有効となる 多くの国はベルヌ条約に加盟しているが、中には万国著作権条約にしか加盟していない国もある。\n著作権表示をすれば、そんな国でも著作権を発生させることができる。\n権利保護期間の証拠となり得る 「©2025 Author Name」のように年を入れることで、「いつからいつまで権利が発生しているか」の証拠の一助になる。\nOSSの場合は著作権表示・ライセンス表示義務あり ただし、OSSの場合は、殆どの全てのOSSライセンスにおいて、著作権表示・ライセンス表示義務が規定されている点には気を付けたい。\n例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。\nCopyright \u0026lt;YEAR\u0026gt; \u0026lt;COPYRIGHT HOLDER\u0026gt; Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。\n",
+  "keywords": [
+    
+  ],
+  "articleBody": " ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。\nしかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。\nとはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。\n本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。\n著作権表示は義務ではない（OSSの場合を除く） 上述の通り、日本の著作権法では義務ではない。\n日本が加盟する万国著作権条約では、「著作権を表記すれば守る」と規定されている。\nしかし、日本はベルヌ条約にも加盟しており、この条約では「手続きせずとも、著作物の創作と同時に著作権が発生する」としている。\n両方加盟している場合はベルヌ条約が優先されるので、著作権表示は必要ないというわけである。\n著作権表示しておくのが無難 仮にOSSを使用しない場合であっても、著作権表示により以下のようなメリットがあるため、特別な理由が無い限りは表示しておいた方が良い。\n権利帰属先が明確となる 「誰が著作権者か」を示すことで、利用者がライセンス交渉や問い合わせをしやすくなる。\nまた、無断利用された場合にも、権利者を主張しやすくなる。\nソフトウェアやWebサイトなど、他人が利用することを前提にする場合は特に重要となる。\n無断利用の抑止 著作権表記があると、利用者に「これは著作権のあるものだ」と意識させられるため、結果的に無断利用を減らせる。\n裁判での故意・過失の立証にも有利に働くこともメリットである（「知らなかった」と言いにくくなる）。\nベルヌ条約に非加盟の国で著作権が有効となる 多くの国はベルヌ条約に加盟しているが、中には万国著作権条約にしか加盟していない国もある。\n著作権表示をすれば、そんな国でも著作権を発生させることができる。\n権利保護期間の証拠となり得る 「©2025 Author Name」のように年を入れることで、「いつからいつまで権利が発生しているか」の証拠の一助になる。\nOSSの場合は著作権表示・ライセンス表示義務あり ただし、OSSの場合は、殆どの全てのOSSライセンスにおいて、著作権表示・ライセンス表示義務が規定されている点には気を付けたい。\n例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。\nCopyright Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。\nソフトウェアにおける表示場所 表示場所は、ソフトウェアの配布形態に応じて多少異なり、例えば以下の場所が挙げられる。\nソースコードの先頭コメント（各ファイルまたは主要ファイル） ソースコードのLICENSEファイルやCOPYRIGHTファイル アプリケーションの「ヘルプ」「About」画面など WebサービスならフッターなどのWeb画面上 取扱説明書 ただし、OSSライセンスによっては表示場所が指定されていることもあるので注意したい。\n例えば、TOPPERSライセンスでは、ライブラリ形式など、他のソフトウェア開発に使用できる形で再配布する場合には、再配布に伴うドキュメント（利用者マニュアルなど）に表示するすることが求められる。\nなお、ソースコード内にライセンス表示すると見つけづらいので、できれば別のテキストファイルとするのが望ましい。\n著作権表示の例（OSS） 以下はOSSを想定した表示例となる。\n表示例１\nCopyright [年号] [原著作者名] Copyright [年号] [他の改変者名 (存在する場合)] ... Copyright [年号] [自分の名前 (改変した場合)] [OSSのライセンス文] 表示例２\nCopyright \u003c年\u003e [原著作権者], [他の改変者名 (存在する場合)]..., [自分の名前 (改変した場合)] [OSSのライセンス文] 「Copyright」は、「Copyright ©」と表すこともある。\nCopyrightと©は意味が重複するのでいずれか一方だけでも良いとされているが、OSSの場合はライセンスの条文を参考にすること。\n基本的には、配布元の記載を踏襲するのが良い（例：MITならCopyrightのみ）。\nなお、万国著作権条約で保障されているのは「©」であるが、©は環境依存文字のため、(c)や(C)と表示することも多い。\n「All Rights Reserved」と表記しているものも見かけるが、これは書く必要はない。\nブエノスアイレス条約では「All Rights Reserved」の表記をすることで著作権が保護されると定められているのだが、日本はブエノスアイレス条約の非加盟国のため、「All Rights Reserved」と記載することに意味はないのである。\nよって、OSSの配布元が記載していれば記載しておく、ぐらいの位置づけで良いかと思う。\nOSSを改変せずに公開または再頒布するのであれば、著作権表示の箇所はそのまま書けば足りる（原著作者だけのときもあれば、他の改変者の名前があるときもある）。\nもし自分で改変していれば、Copyrightの欄に自身の名前を追加すれば良い。\n",
+  "wordCount" : "247",
+  "inLanguage": "en",
+  "datePublished": "2025-09-12T00:00:00Z",
+  "dateModified": "2025-09-12T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "ip-note"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ipnote.github.io/post/2025/09/12/125003/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "実務者のための知財法務",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ipnote.github.io/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ipnote.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipnote.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://ipnote.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/post/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      一般的な著作権表示の話とOSSでの表示義務
+    </h1>
+    <div class="post-meta"><span title='2025-09-12 00:00:00 +0000 UTC'>September 12, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>ip-note</span>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e8%91%97%e4%bd%9c%e6%a8%a9%e8%a1%a8%e7%a4%ba%e3%81%af%e7%be%a9%e5%8b%99%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84OSS%e3%81%ae%e5%a0%b4%e5%90%88%e3%82%92%e9%99%a4%e3%81%8f" aria-label="著作権表示は義務ではない（OSSの場合を除く）">著作権表示は義務ではない（OSSの場合を除く）</a></li>
+                <li>
+                    <a href="#%e8%91%97%e4%bd%9c%e6%a8%a9%e8%a1%a8%e7%a4%ba%e3%81%97%e3%81%a6%e3%81%8a%e3%81%8f%e3%81%ae%e3%81%8c%e7%84%a1%e9%9b%a3" aria-label="著作権表示しておくのが無難">著作権表示しておくのが無難</a><ul>
+                        
+                <li>
+                    <a href="#%e6%a8%a9%e5%88%a9%e5%b8%b0%e5%b1%9e%e5%85%88%e3%81%8c%e6%98%8e%e7%a2%ba%e3%81%a8%e3%81%aa%e3%82%8b" aria-label="権利帰属先が明確となる">権利帰属先が明確となる</a></li>
+                <li>
+                    <a href="#%e7%84%a1%e6%96%ad%e5%88%a9%e7%94%a8%e3%81%ae%e6%8a%91%e6%ad%a2" aria-label="無断利用の抑止">無断利用の抑止</a></li>
+                <li>
+                    <a href="#%e3%83%99%e3%83%ab%e3%83%8c%e6%9d%a1%e7%b4%84%e3%81%ab%e9%9d%9e%e5%8a%a0%e7%9b%9f%e3%81%ae%e5%9b%bd%e3%81%a7%e8%91%97%e4%bd%9c%e6%a8%a9%e3%81%8c%e6%9c%89%e5%8a%b9%e3%81%a8%e3%81%aa%e3%82%8b" aria-label="ベルヌ条約に非加盟の国で著作権が有効となる">ベルヌ条約に非加盟の国で著作権が有効となる</a></li>
+                <li>
+                    <a href="#%e6%a8%a9%e5%88%a9%e4%bf%9d%e8%ad%b7%e6%9c%9f%e9%96%93%e3%81%ae%e8%a8%bc%e6%8b%a0%e3%81%a8%e3%81%aa%e3%82%8a%e5%be%97%e3%82%8b" aria-label="権利保護期間の証拠となり得る">権利保護期間の証拠となり得る</a></li></ul>
+                </li>
+                <li>
+                    <a href="#OSS%e3%81%ae%e5%a0%b4%e5%90%88%e3%81%af%e8%91%97%e4%bd%9c%e6%a8%a9%e8%a1%a8%e7%a4%ba%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e8%a1%a8%e7%a4%ba%e7%be%a9%e5%8b%99%e3%81%82%e3%82%8a" aria-label="OSSの場合は著作権表示・ライセンス表示義務あり">OSSの場合は著作権表示・ライセンス表示義務あり</a></li>
+                <li>
+                    <a href="#%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e8%a1%a8%e7%a4%ba%e5%a0%b4%e6%89%80" aria-label="ソフトウェアにおける表示場所">ソフトウェアにおける表示場所</a></li>
+                <li>
+                    <a href="#%e8%91%97%e4%bd%9c%e6%a8%a9%e8%a1%a8%e7%a4%ba%e3%81%ae%e4%be%8bOSS" aria-label="著作権表示の例（OSS）">著作権表示の例（OSS）</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><div align="center">
+<figure>
+    <img loading="lazy" src="image/20250917201049.jpg"/> 
+</figure>
+
+</div>
+<p>ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。</p>
+<p>しかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。</p>
+<p>とはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。</p>
+<p>本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。</p>
+<h3 id="著作権表示は義務ではないOSSの場合を除く">著作権表示は義務ではない（OSSの場合を除く）<a hidden class="anchor" aria-hidden="true" href="#著作権表示は義務ではないOSSの場合を除く">#</a></h3>
+<p>上述の通り、日本の著作権法では義務ではない。</p>
+<p>日本が加盟する万国著作権条約では、「著作権を表記すれば守る」と規定されている。</p>
+<p>しかし、日本はベルヌ条約にも加盟しており、この条約では「手続きせずとも、著作物の創作と同時に著作権が発生する」としている。</p>
+<p>両方加盟している場合はベルヌ条約が優先されるので、著作権表示は必要ないというわけである。</p>
+<h3 id="著作権表示しておくのが無難">著作権表示しておくのが無難<a hidden class="anchor" aria-hidden="true" href="#著作権表示しておくのが無難">#</a></h3>
+<p>仮にOSSを使用しない場合であっても、著作権表示により以下のようなメリットがあるため、特別な理由が無い限りは表示しておいた方が良い。</p>
+<h4 id="権利帰属先が明確となる">権利帰属先が明確となる<a hidden class="anchor" aria-hidden="true" href="#権利帰属先が明確となる">#</a></h4>
+<p>「誰が著作権者か」を示すことで、利用者がライセンス交渉や問い合わせをしやすくなる。</p>
+<p>また、無断利用された場合にも、権利者を主張しやすくなる。</p>
+<p>ソフトウェアやWebサイトなど、他人が利用することを前提にする場合は特に重要となる。</p>
+<h4 id="無断利用の抑止">無断利用の抑止<a hidden class="anchor" aria-hidden="true" href="#無断利用の抑止">#</a></h4>
+<p>著作権表記があると、利用者に「これは著作権のあるものだ」と意識させられるため、結果的に無断利用を減らせる。</p>
+<p>裁判での故意・過失の立証にも有利に働くこともメリットである（「知らなかった」と言いにくくなる）。</p>
+<h4 id="ベルヌ条約に非加盟の国で著作権が有効となる">ベルヌ条約に非加盟の国で著作権が有効となる<a hidden class="anchor" aria-hidden="true" href="#ベルヌ条約に非加盟の国で著作権が有効となる">#</a></h4>
+<p>多くの国はベルヌ条約に加盟しているが、中には万国著作権条約にしか加盟していない国もある。</p>
+<p>著作権表示をすれば、そんな国でも著作権を発生させることができる。</p>
+<h4 id="権利保護期間の証拠となり得る">権利保護期間の証拠となり得る<a hidden class="anchor" aria-hidden="true" href="#権利保護期間の証拠となり得る">#</a></h4>
+<p>「©2025 Author Name」のように年を入れることで、「いつからいつまで権利が発生しているか」の証拠の一助になる。</p>
+<h3 id="OSSの場合は著作権表示ライセンス表示義務あり">OSSの場合は著作権表示・ライセンス表示義務あり<a hidden class="anchor" aria-hidden="true" href="#OSSの場合は著作権表示ライセンス表示義務あり">#</a></h3>
+<p>ただし、OSSの場合は、殆どの全てのOSSライセンスにおいて、著作権表示・ライセンス表示義務が規定されている点には気を付けたい。</p>
+<p>例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。</p>
+<pre tabindex="0"><code>Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</code></pre><p>このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。</p>
+<h3 id="ソフトウェアにおける表示場所">ソフトウェアにおける表示場所<a hidden class="anchor" aria-hidden="true" href="#ソフトウェアにおける表示場所">#</a></h3>
+<p>表示場所は、ソフトウェアの配布形態に応じて多少異なり、例えば以下の場所が挙げられる。</p>
+<ul>
+<li>ソースコードの先頭コメント（各ファイルまたは主要ファイル）</li>
+<li>ソースコードのLICENSEファイルやCOPYRIGHTファイル</li>
+<li>アプリケーションの「ヘルプ」「About」画面など</li>
+<li>WebサービスならフッターなどのWeb画面上</li>
+<li>取扱説明書</li>
+</ul>
+<p>ただし、OSSライセンスによっては表示場所が指定されていることもあるので注意したい。</p>
+<p>例えば、TOPPERSライセンスでは、ライブラリ形式など、他のソフトウェア開発に使用できる形で再配布する場合には、再配布に伴うドキュメント（利用者マニュアルなど）に表示するすることが求められる。</p>
+<p>なお、ソースコード内にライセンス表示すると見つけづらいので、できれば別のテキストファイルとするのが望ましい。</p>
+<h3 id="著作権表示の例OSS">著作権表示の例（OSS）<a hidden class="anchor" aria-hidden="true" href="#著作権表示の例OSS">#</a></h3>
+<p>以下はOSSを想定した表示例となる。</p>
+<p><strong>表示例１</strong></p>
+<pre tabindex="0"><code>Copyright  [年号] [原著作者名]
+Copyright  [年号] [他の改変者名 (存在する場合)]
+...
+Copyright  [年号] [自分の名前 (改変した場合)]
+
+[OSSのライセンス文]
+</code></pre><p><strong>表示例２</strong></p>
+<pre tabindex="0"><code>Copyright &lt;年&gt; [原著作権者], [他の改変者名 (存在する場合)]..., [自分の名前 (改変した場合)]
+
+[OSSのライセンス文]
+</code></pre><p>「Copyright」は、「Copyright ©」と表すこともある。</p>
+<p>Copyrightと©は意味が重複するのでいずれか一方だけでも良いとされているが、OSSの場合はライセンスの条文を参考にすること。</p>
+<p>基本的には、配布元の記載を踏襲するのが良い（例：MITならCopyrightのみ）。</p>
+<p>なお、万国著作権条約で保障されているのは「©」であるが、©は環境依存文字のため、(c)や(C)と表示することも多い。</p>
+<p>「All Rights Reserved」と表記しているものも見かけるが、これは書く必要はない。</p>
+<p>ブエノスアイレス条約では「All Rights Reserved」の表記をすることで著作権が保護されると定められているのだが、日本はブエノスアイレス条約の非加盟国のため、「All Rights Reserved」と記載することに意味はないのである。</p>
+<p>よって、OSSの配布元が記載していれば記載しておく、ぐらいの位置づけで良いかと思う。</p>
+<p>OSSを改変せずに公開または再頒布するのであれば、著作権表示の箇所はそのまま書けば足りる（原著作者だけのときもあれば、他の改変者の名前があるときもある）。</p>
+<p>もし自分で改変していれば、Copyrightの欄に自身の名前を追加すれば良い。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ipnote.github.io/post/2025/09/15/163459/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>見逃しがちな登録商標およびその利用条件</span>
+  </a>
+  <a class="next" href="https://ipnote.github.io/post/2025/09/10/214204/">
+    <span class="title">Next »</span>
+    <br>
+    <span>ソフトウェア配布形式ごとのOSSライセンス表示方法</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><footer class="footer" style = "font-size:0.9rem">
+  <a href="/privacy" rel="noopener" target="_blank"><strong>プライバシーポリシー/免責事項</strong></a> · 
+  <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener" target="_blank"><strong>お問い合わせ</strong></a>
+  </br></br>
+  当ブログはアフィリエイト広告を利用しています
+</footer>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
