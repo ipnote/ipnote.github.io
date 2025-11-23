@@ -99,5 +99,5 @@ name = "keywords"
 weight = 10
 
 
-enableRobotsTXT = false
+enableRobotsTXT = true
 
