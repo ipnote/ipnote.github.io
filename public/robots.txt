@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://ipblog.pages.dev/sitemap.xml
