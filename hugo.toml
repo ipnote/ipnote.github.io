@@ -39,7 +39,7 @@ post = "/post/:year/:month/:day/:filename/"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
+  home = [ "HTML", "RSS", "SITEMAP", "JSON" ]
 
 [menu]
 [[menu.main]]
