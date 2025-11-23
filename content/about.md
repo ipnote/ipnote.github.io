@@ -13,5 +13,5 @@ author: ["ip-note"]
 
 時には主観の入った解釈もあるかと思いますので、参考程度に見て頂ければと思います。
 
-[プライバシーポリシー・免責事項](/privacy)<br>
-[お問い合わせ](https://forms.gle/nEdcyw1FDb2HKvqi6)
+- [プライバシーポリシー・免責事項](/privacy)<br>
+- [お問い合わせ](https://forms.gle/nEdcyw1FDb2HKvqi6)
