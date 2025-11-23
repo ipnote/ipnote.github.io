@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>契約 on 実務者のための知財法務</title>
-    <link>http://localhost:1313/ipblog/categories/%E5%A5%91%E7%B4%84/</link>
+    <link>https://ipblog.pages.dev/categories/%E5%A5%91%E7%B4%84/</link>
     <description>Recent content in 契約 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ipblog/categories/%E5%A5%91%E7%B4%84/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ipblog.pages.dev/categories/%E5%A5%91%E7%B4%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ライセンサー目線で知財権の保証条項を設けるリスク</title>
-      <link>http://localhost:1313/ipblog/posts/2025/10/30/221840/</link>
+      <link>https://ipblog.pages.dev/post/2025/10/30/221840/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/10/30/221840/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/10/30/221840/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251030220734.jpg&#34;/&gt; 
@@ -75,9 +75,9 @@
     </item>
     <item>
       <title>開発委託における、請負契約と準委任契約（成果完成型）との違い</title>
-      <link>http://localhost:1313/ipblog/posts/2025/10/11/182706/</link>
+      <link>https://ipblog.pages.dev/post/2025/10/11/182706/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/10/11/182706/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/10/11/182706/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251011182437.png&#34;/&gt; 
@@ -141,9 +141,9 @@
     </item>
     <item>
       <title>知財契約における任意規定と強行規定</title>
-      <link>http://localhost:1313/ipblog/posts/2025/10/05/102104/</link>
+      <link>https://ipblog.pages.dev/post/2025/10/05/102104/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/10/05/102104/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/10/05/102104/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250910232227.jpg&#34;/&gt; 
@@ -190,9 +190,9 @@
     </item>
     <item>
       <title>大学とのNDA（秘密保持契約）における考慮事項</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/27/151216/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/27/151216/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/27/151216/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/27/151216/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250923161203.jpg&#34;/&gt; 
@@ -240,9 +240,9 @@
     </item>
     <item>
       <title>NDAはプロジェクト毎に結ばないといけない？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/23/082223/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/23/082223/</link>
       <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/23/082223/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/23/082223/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250914104520.jpg&#34;/&gt; 
@@ -337,9 +337,9 @@
     </item>
     <item>
       <title>未成年者との契約と親の同意に関して</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/09/204638/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/09/204638/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/09/204638/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/09/204638/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917203253.jpg&#34;/&gt; 
@@ -404,9 +404,9 @@
     </item>
     <item>
       <title>利用規約の特徴と重要性</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/30/083114/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/30/083114/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/30/083114/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/30/083114/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250821213304.jpg&#34;/&gt; 
@@ -428,7 +428,62 @@
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/08/11/142645/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/08/11/142645/20250810083910.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/08/11/142645/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        利用規約に対するユーザ同意取得の運用
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+         ソフトウェアやサービスを提供するにあたって、あらかじめユーザーに利用規約などのの同意取得を求めるケースについて考えてみる。
+各ユーザーに紙...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 
 &lt;h4 id=&#34;主な記載事項の例&#34;&gt;主な記載事項の例&lt;/h4&gt;
@@ -459,15 +514,70 @@
     </item>
     <item>
       <title>SaaS提供してもらうソフトの開発委託は請負契約と呼べるのか</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/28/101200/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/28/101200/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/28/101200/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/28/101200/</guid>
       <description>&lt;p&gt;開発委託契約は請負型と準委任型に分類され、委託元に納めるべき成果物がある場合は請負契約とする、という点は以下の記事で紹介している。&lt;/p&gt;
  
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/05/24/202346/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/04/09/202346/20250524201328.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/04/09/202346/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        請負と準委任との違い
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+         基本的に、開発委託契約の契約形態は、「請負」と「準委任」とに分かれる。
+いずれも業務を外部に依頼する契約形態だが、契約の目的・成果・責任範...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 
 &lt;p&gt;しかし、もし開発してもらうソフトウェアがこちらに納品されるわけではなく、SaaSという形で提供される場合だと、契約はどのように考えたら良いだろうか？&lt;/p&gt;
@@ -507,9 +617,9 @@
     </item>
     <item>
       <title>知財権の無償許諾によるリスク</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/14/231037/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/14/231037/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/14/231037/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/14/231037/</guid>
       <description>&lt;p&gt;特許権や商標権など、自社が保有する知財権を他社に使用させる際の話となる。&lt;/p&gt;
 &lt;p&gt;まだ契約業務に不慣れだった頃は、権利の許諾先が親子関係であれば、どうせ大元の財布は同じな訳だしライセンス費を無償にしても良いんじゃないかと思っていた。&lt;/p&gt;
 &lt;p&gt;しかし、うっかりそんな契約を結ぼうものなら、税務調査のときに目をつけられてしまう可能性が高い。&lt;/p&gt;
@@ -537,9 +647,9 @@
     </item>
     <item>
       <title>利用規約に対するユーザ同意取得の運用</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/11/142645/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/11/142645/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/11/142645/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/11/142645/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250810083910.jpg&#34;/&gt; 
@@ -606,9 +716,9 @@
     </item>
     <item>
       <title>開発委託とライセンス許諾とを含む契約</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/01/095000/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/01/095000/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/01/095000/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/01/095000/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250830090317.jpg&#34;/&gt; 
@@ -656,10 +766,83 @@
 &lt;p&gt;そのような要望を飲むのであれば、更に対価やライセンス料の交渉をすることが可能となるであろう。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>開発委託基本契約で準委任用と請負用を分けるべきか</title>
+      <link>https://ipblog.pages.dev/post/2025/07/03/215056/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/03/215056/</guid>
+      <description>&lt;p&gt;今後、定期的に開発の委託を発注するとのことで、開発委託基本契約のためのドラフトを作成することとなった。&lt;/p&gt;
+&lt;p&gt;委託の形態としては、準委任型のパターンもあれば、請負型のパターンもあるとのこと。&lt;/p&gt;
+&lt;p&gt;その際、基本契約を準委任用と請負用とに分けるべきか、それとも１つの契約書にまとめてしまうか、どちらにしようか考えたため、備忘録として残しておきたい。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250630224953.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h3 id=&#34;準委任と請負との間で留意すべき相違点&#34;&gt;準委任と請負との間で留意すべき相違点&lt;/h3&gt;
+&lt;p&gt;基本契約書を別々にするか１つにまとめるかによらず、準委任と請負とでは適用される条項が異なる点はケアする必要がある。&lt;/p&gt;
+&lt;p&gt;例えば、以下の条項は請負の場合のみに適用されるべきかと思われる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;成果物の納品・検収&lt;/li&gt;
+&lt;li&gt;契約不適合&lt;/li&gt;
+&lt;li&gt;製造物責任&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;もし１つの契約にまとめるなら、これらの条項の最後に「準委任として発注された場合には適用しない」といった文言を入れておくのが良い。&lt;/p&gt;
+&lt;p&gt;また発注書のテンプレートも異なってくるかと思うので、契約書に添付するテンプレートは準委任用と請負用とでそれぞれ用意することが必要かと思う（発注書で準委任か請負かを特定する形）。&lt;/p&gt;
+&lt;h3 id=&#34;基本契約書を別々にするか一本化するか&#34;&gt;基本契約書を別々にするか、一本化するか&lt;/h3&gt;
+&lt;p&gt;基本契約書を別々に作成すると、法的リスクは緩和できる一方、契約コストは高くなる傾向がある。&lt;/p&gt;
+&lt;p&gt;一方、契約を一本化すると、その逆の関係になる。&lt;/p&gt;
+&lt;p&gt;両者のメリットとデメリットをまとめると、大体以下の表のような感じかと思う。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 項目 &lt;/th&gt;
+&lt;th&gt; 別々に作成 &lt;/th&gt;
+&lt;th&gt; 一本化 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; 準委任と請負の法的性質明確化 &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 各契約の責任範囲や義務の明確化 &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 契約書作成コスト &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 契約書管理・更新コスト &lt;/td&gt;
+&lt;td&gt; ✕ &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 発注時の準委任/請負明確化 &lt;/td&gt;
+&lt;td&gt; 〇 &lt;/td&gt;
+&lt;td&gt; △* &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;*発注書フォーマットで準委任か請負かを明記するようにしておけば、リスク低減可能&lt;/p&gt;
+&lt;p&gt;また、紙の契約であれば別々に契約書を作成すると印紙代が余分にかかることとなる。&lt;/p&gt;
+&lt;p&gt;しかし、電子契約であればそういったデメリットは発生しない。&lt;/p&gt;
+&lt;p&gt;ただし、電子契約の海外における有効性は国によって異なるので、海外企業との取引で電子契約を利用する際には、取引先の国の法律を事前に確認する必要がある点は注意が必要である。&lt;/p&gt;
+&lt;p&gt;このように一長一短あるが、基本契約書を一本化したときも即座に法的リスクが高まるわけではなく、条項や発注書フォーマットで不明確な記載とならないようきちんと手当てがなされていれば、個人的にはそれほど問題ではないかなと思う。&lt;/p&gt;
+&lt;p&gt;結論としては、コストを抑えたければ一本化、より法的に万全を期すのなら別々の作成となるだろうが、そんなに両者で実務上の差は無いというのが正直なところである。&lt;/p&gt;
+&lt;p&gt;仮に一本化しようとする際は、契約の相手方から「準委任と請負とで契約は分けておきたい」と要求されることもあるだろうが（特にこちら側がドラフトする場合）、そこは相手方に合わせてあげても良い。&lt;/p&gt;
+&lt;p&gt;もっと交渉すべき条件があろう中で、上記の形式的な契約書構成に関しては譲歩しても問題ない部分かと思われる。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>契約書における記載ミスの話</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/23/090822/</link>
+      <link>https://ipblog.pages.dev/post/2025/06/23/090822/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/23/090822/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/06/23/090822/</guid>
       <description>&lt;p&gt;契約ドラフトを相手方に提示するとき、一部表記ゆれがある点を指摘され、修正を求められることがある。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt; 
 &lt;figure&gt;
@@ -744,9 +927,9 @@
     </item>
     <item>
       <title>開発を再委託する際の契約上の知財の取り扱い（汎用技術など）</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/11/210939/</link>
+      <link>https://ipblog.pages.dev/post/2025/06/11/210939/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/11/210939/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/06/11/210939/</guid>
       <description>&lt;p&gt;この間、委託元から受託した開発を再委託することとなり、開発したものは納品物として委託元へ納めることとなった。&lt;/p&gt;
 &lt;p&gt;そして、開発行為によって生じた知財権も委託元のものとする予定である。&lt;/p&gt;
 &lt;p&gt;このとき、再委託先から&lt;br&gt;
@@ -816,9 +999,9 @@
     </item>
     <item>
       <title>契約書における「書面」や「文書」はEメールを含む？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/06/213345/</link>
+      <link>https://ipblog.pages.dev/post/2025/06/06/213345/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/06/213345/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/06/06/213345/</guid>
       <description>&lt;p&gt;契約書では、相手方に通知をしたり、承諾を得る際に「書面」や「文書」といった手段を要求することが多い。&lt;/p&gt;
 &lt;p&gt;口頭では言った言わないの水掛け論になってしまうため、きちんと証拠を残すためである。&lt;/p&gt;
 &lt;p&gt;それは良いのだが、よく開発者から「これってEメールで承諾を取り付けるのは駄目ってことですか？」と問い合わせを受けることが多い。&lt;/p&gt;
@@ -866,13 +1049,67 @@
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/06/23/090822/index.md&lt;/p&gt;</description>
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/06/23/090822/20250616223433.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/06/23/090822/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        契約書における記載ミスの話
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+        契約ドラフトを相手方に提示するとき、一部表記ゆれがある点を指摘され、修正を求められることがある。
+同じ意味に見えても、表記が異なることで、別...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</description>
     </item>
     <item>
       <title>契約における知財の取り扱い</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/200737/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/31/200737/</link>
       <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/200737/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/31/200737/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524200650.jpg&#34;/&gt; 
@@ -934,9 +1171,9 @@
     </item>
     <item>
       <title>個人情報の第三者提供とクラウド例外</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/30/223647/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/30/223647/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/30/223647/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/30/223647/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803211125.jpg&#34;/&gt; 
@@ -994,9 +1231,9 @@
     </item>
     <item>
       <title>契約期間の考え方</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/225241/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/24/225241/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/225241/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/24/225241/</guid>
       <description>&lt;p&gt;契約において当たり前の話ではあるが、改めて契約期間について考えてみたい。&lt;/p&gt;
 &lt;p&gt;まずそもそも、契約に契約期間は常に必要だろうか？&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
@@ -1091,9 +1328,9 @@
     </item>
     <item>
       <title>PL法と開発委託契約</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/05/145508/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/15/145508/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/05/145508/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/15/145508/</guid>
       <description>&lt;p&gt; 自社が委託先となる開発委託契約において、誰が「製造物責任」を負うべきか検討する機会があった。&lt;/p&gt;
 &lt;p&gt;製造物責任法（PL法）を踏まえると、自社が開発した成果物については、委託元ではなく自社にその賠償責任があるのでは？と思っていたが、必ずそうとも限らないようである。&lt;/p&gt;
 &lt;p&gt;ここで、開発委託契約上の製造物の責任の所在について、整理しておきたい。&lt;/p&gt;
@@ -1138,9 +1375,9 @@
     </item>
     <item>
       <title>請負と準委任との違い</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/202346/</link>
+      <link>https://ipblog.pages.dev/post/2025/04/09/202346/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/202346/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/04/09/202346/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524201328.jpg&#34;/&gt; 
@@ -1215,52 +1452,59 @@
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/07/03/215056/index.md&lt;/p&gt;
 
+  
 
-&lt;h3 id=&#34;請負と準委任の対比表&#34;&gt;請負と準委任の対比表&lt;/h3&gt;
-&lt;p&gt;最後に、両者の主な差異を表にまとめておく。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt; 項目 &lt;/th&gt;
-&lt;th&gt; 請負 &lt;/th&gt;
-&lt;th&gt;準委任 &lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt; 契約目的&lt;/td&gt;
-&lt;td&gt; 成果物の完成（例：システム、アプリの納品）&lt;/td&gt;
-&lt;td&gt;業務の遂行（例：技術支援、保守、テスト作業）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 成果物の納品&lt;/td&gt;
-&lt;td&gt;必要&lt;/td&gt;
-&lt;td&gt;不要（義務ではないが、報告書等の提出はOK）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 報酬の発生&lt;/td&gt;
-&lt;td&gt;成果物の納品が完了していないと請求不可 &lt;/td&gt;
-&lt;td&gt;業務遂行に応じて請求可能&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 金額の提示方法&lt;/td&gt;
-&lt;td&gt;総額（定額）で提示 &lt;/td&gt;
-&lt;td&gt;「人員の単価 × 工数（月数・時間数）」で提示&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 責任範囲&lt;/td&gt;
-&lt;td&gt;完成責任あり。不具合、遅延等があると損害賠償する場合も &lt;/td&gt;
-&lt;td&gt;善管注意義務のみ。結果責任は負わない&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt; 委託元による指揮命令&lt;/td&gt;
-&lt;td&gt; 基本不可（独立性が前提） &lt;/td&gt;
-&lt;td&gt;基本可能（偽装請負とみなされないよう注意）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/07/03/215056/20250630224953.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/07/03/215056/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        開発委託基本契約で準委任用と請負用を分けるべきか
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+        今後、定期的に開発の委託を発注するとのことで、開発委託基本契約のためのドラフトを作成することとなった。
+委託の形態としては、準委任型のパター...
+      &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

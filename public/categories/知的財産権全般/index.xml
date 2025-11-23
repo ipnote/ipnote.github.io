@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>知的財産権全般 on 実務者のための知財法務</title>
-    <link>http://localhost:1313/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/</link>
+    <link>https://ipblog.pages.dev/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/</link>
     <description>Recent content in 知的財産権全般 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ipblog/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ipblog.pages.dev/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>無償で商用利用可能な地図画像</title>
-      <link>http://localhost:1313/ipblog/posts/2025/11/08/145411/</link>
+      <link>https://ipblog.pages.dev/post/2025/11/07/145411/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/11/08/145411/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/11/07/145411/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251108145343.jpg&#34;/&gt; 
@@ -24,7 +24,62 @@
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/11/07/124144/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/11/07/124144/image/20251107124045.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/11/07/124144/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        社内の電子資料にGoogleマップを使うには
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+         社内資料として、Googleマップの地図画像をPDF、PowerPointなどの電子資料に貼り付けたくなることがあるかもしれない。
+しかし...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 
 &lt;p&gt;しかし、商用利用の場合は、その利用形態によってはライセンス料を支払わなければならない。&lt;/p&gt;
@@ -82,9 +137,9 @@
     </item>
     <item>
       <title>社内の電子資料にGoogleマップを使うには</title>
-      <link>http://localhost:1313/ipblog/posts/2025/11/07/124144/</link>
+      <link>https://ipblog.pages.dev/post/2025/11/07/124144/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/11/07/124144/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/11/07/124144/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251107124045.jpg&#34;/&gt; 
@@ -148,9 +203,9 @@
     </item>
     <item>
       <title>USPTO審査変更の影響（審査官インタビューの制限）</title>
-      <link>http://localhost:1313/ipblog/posts/2025/11/03/080635/</link>
+      <link>https://ipblog.pages.dev/post/2025/11/03/080635/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/11/03/080635/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/11/03/080635/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251102212948.jpg&#34;/&gt; 
@@ -181,9 +236,9 @@
     </item>
     <item>
       <title>ライセンサー目線で知財権の保証条項を設けるリスク</title>
-      <link>http://localhost:1313/ipblog/posts/2025/10/30/221840/</link>
+      <link>https://ipblog.pages.dev/post/2025/10/30/221840/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/10/30/221840/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/10/30/221840/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251030220734.jpg&#34;/&gt; 
@@ -246,9 +301,9 @@
     </item>
     <item>
       <title>ソースコード中のOSS検知</title>
-      <link>http://localhost:1313/ipblog/posts/2025/10/20/224101/</link>
+      <link>https://ipblog.pages.dev/post/2025/10/20/224101/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/10/20/224101/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/10/20/224101/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251020201855.jpg&#34;/&gt; 
@@ -264,7 +319,61 @@
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/09/07/081054/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/09/07/081054/20250917203716.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/09/07/081054/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        ソースコードの著作権侵害
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+         プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用す...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 
 &lt;p&gt;そこで、実務上は主に以下の観点で判断することとなるかと思う。&lt;/p&gt;
@@ -339,9 +448,9 @@
     </item>
     <item>
       <title>脱OSSの動きと利用者のリスク</title>
-      <link>http://localhost:1313/ipblog/posts/2025/10/18/120414/</link>
+      <link>https://ipblog.pages.dev/post/2025/10/18/120414/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/10/18/120414/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/10/18/120414/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251018120157.jpg&#34;/&gt; 
@@ -416,9 +525,9 @@
     </item>
     <item>
       <title>知財契約における任意規定と強行規定</title>
-      <link>http://localhost:1313/ipblog/posts/2025/10/05/102104/</link>
+      <link>https://ipblog.pages.dev/post/2025/10/05/102104/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/10/05/102104/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/10/05/102104/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250910232227.jpg&#34;/&gt; 
@@ -465,9 +574,9 @@
     </item>
     <item>
       <title>結合商標の分離観察の可否</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/30/191210/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/30/191210/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/30/191210/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/30/191210/</guid>
       <description>&lt;style&gt;
 td {
   vertical-align: middle;
@@ -585,9 +694,9 @@ td {
     </item>
     <item>
       <title>開発部から企業知財部への異動・転職の話</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/19/212009/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/19/212009/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/19/212009/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/19/212009/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250919210940.jpg&#34;/&gt; 
@@ -679,9 +788,9 @@ td {
     </item>
     <item>
       <title>見逃しがちな登録商標およびその利用条件</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/15/163459/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/15/163459/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/15/163459/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/15/163459/</guid>
       <description>&lt;p&gt;普段お世話になっている製品名やサービス名の中には、他社の登録商標が含まれることがある。&lt;/p&gt;
 &lt;p&gt;ウェブサイトやアプリの説明文、仕様書、マニュアルなどで気付かず使ってしまうものがあるが、その代表的なものとして「QRコード」「Bluetooth」を取り上げたい。&lt;/p&gt;
 &lt;p&gt;これらを商用の場や公式ドキュメントで無造作に使うのは避けておきたい。&lt;/p&gt;
@@ -747,9 +856,9 @@ td {
     </item>
     <item>
       <title>一般的な著作権表示の話とOSSでの表示義務</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/12/125003/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/12/125003/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/12/125003/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/12/125003/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917201049.jpg&#34;/&gt; 
@@ -793,9 +902,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>ソースコードの著作権侵害</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/07/081054/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/07/081054/</link>
       <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/07/081054/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/07/081054/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917203716.jpg&#34;/&gt; 
@@ -839,9 +948,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作権の使用許諾</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/06/093232/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/06/093232/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/06/093232/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/06/093232/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250830154329.jpg&#34;/&gt; 
@@ -912,9 +1021,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>説明書や動画をブログや資料に載せるときの著作権リスクについて</title>
-      <link>http://localhost:1313/ipblog/posts/2025/09/05/072548/</link>
+      <link>https://ipblog.pages.dev/post/2025/09/05/072548/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/09/05/072548/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/09/05/072548/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917204256.jpg&#34;/&gt; 
@@ -933,7 +1042,62 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/08/03/134219/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/08/03/134219/20250720103624.png&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/08/03/134219/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        著作物の「引用」について考えてみる
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+         著作権法上、他人の著作物をそのまま使うと原則として著作権侵害になるが、「引用」としての使用であれば、著作権者の侵害とはならない。
+引用と認...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 
 &lt;p&gt;なお著作権に関しては、たとえ社内に留まる資料であっても、私的利用には該当しない。&lt;/p&gt;
@@ -966,9 +1130,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>特許明細書で登録商標を使うときの注意</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/26/211552/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/26/211552/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/26/211552/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/26/211552/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250814202759.jpg&#34;/&gt; 
@@ -1158,9 +1322,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>AIが作成したもの、特許や商標登録はOK？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/20/212517/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/20/212517/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/20/212517/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/20/212517/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803202801.jpg&#34;/&gt; 
@@ -1213,9 +1377,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>US Patent Law - Section 101 (Subject Matter Eligibility)</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/19/223349/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/19/223349/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/19/223349/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/19/223349/</guid>
       <description>&lt;p&gt;In U.S. patent applications, many people struggle with § 101 rejection.&lt;/p&gt;
 &lt;p&gt;Of course I’m one of them.&lt;/p&gt;
 &lt;p&gt;As a personal memorandum, I’d like to leave some countermeasures to avoid § 101 rejection.&lt;/p&gt;
@@ -1234,9 +1398,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>非常口マークなどの安全標識は勝手に使って良い？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/17/131248/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/17/131248/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/17/131248/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/17/131248/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250817131418.png&#34;/&gt; 
@@ -1302,9 +1466,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>知財権の無償許諾によるリスク</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/14/231037/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/14/231037/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/14/231037/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/14/231037/</guid>
       <description>&lt;p&gt;特許権や商標権など、自社が保有する知財権を他社に使用させる際の話となる。&lt;/p&gt;
 &lt;p&gt;まだ契約業務に不慣れだった頃は、権利の許諾先が親子関係であれば、どうせ大元の財布は同じな訳だしライセンス費を無償にしても良いんじゃないかと思っていた。&lt;/p&gt;
 &lt;p&gt;しかし、うっかりそんな契約を結ぼうものなら、税務調査のときに目をつけられてしまう可能性が高い。&lt;/p&gt;
@@ -1332,9 +1496,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>発明の名称や要約書の記載は、権利範囲に影響する？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/12/213244/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/12/213244/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/12/213244/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/12/213244/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250812212959.jpg&#34;/&gt; 
@@ -1375,9 +1539,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作物の「引用」について考えてみる</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/03/134219/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/03/134219/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/03/134219/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/03/134219/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250720103624.png&#34;/&gt; 
@@ -1398,7 +1562,62 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/06/05/144632/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/06/05/144632/20250605144205.png&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/06/05/144632/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        著作物の引用の範囲
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+        ついブログを面白く見せようと、記事に漫画のコマを貼り付けたくなるが、作者の許諾なく使うと著作権侵害となってしまう。
+しかし、著作物の利用は全...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 
 &lt;p&gt;ここで、おそらく最も争点となるであろう「引用の必然性」があることについて考えてみたい。&lt;/p&gt;
@@ -1440,9 +1659,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>特許権侵害で逮捕者が出たらしい</title>
-      <link>http://localhost:1313/ipblog/posts/2025/08/01/194433/</link>
+      <link>https://ipblog.pages.dev/post/2025/08/01/194433/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/08/01/194433/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/08/01/194433/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250704132400.png&#34;/&gt; 
@@ -1498,10 +1717,543 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 &lt;p&gt;ここういった具体例があると、開発者の方々にも特許クリアランスの重要性が少しは伝わるかもしれない。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>派遣社員の発明の取り扱い</title>
+      <link>https://ipblog.pages.dev/post/2025/07/29/195621/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/29/195621/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803125032.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;企業内で発明をするのは正社員に限った話ではなく、当然派遣社員が発明行為に関わることもある。&lt;/p&gt;
+&lt;p&gt;しかし派遣社員の場合は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;実験補助をしている派遣社員は発明者となる？&lt;/li&gt;
+&lt;li&gt;発明をした場合の権利帰属はどうなる？&lt;/li&gt;
+&lt;li&gt;職務発明の場合、報奨金は誰が払う？&lt;/li&gt;
+&lt;li&gt;職務発明規定の説明義務は？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;といった点で色々と気を回さないといけない点があるので、自分の知識定着も兼ねてここで整理しておきたい。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    * [派遣社員でも発明者になり得るか](#派遣社員でも発明者になり得るか)
+    * [派遣社員の発明は誰のものか](#派遣社員の発明は誰のものか)
+    * [派遣社員への職務発明規定の説明](#派遣社員への職務発明規定の説明)
+    * [出願書類には派遣社員も発明者名に載せよう](#出願書類には派遣社員も発明者名に載せよう)
+    * [請負業者の社員の発明帰属は？](#請負業者の社員の発明帰属は)
+&lt;h3 id=&#34;派遣社員でも発明者になり得るか&#34;&gt;派遣社員でも発明者になり得るか&lt;/h3&gt;
+&lt;p&gt;結論としては、なり得る。&lt;/p&gt;
+&lt;p&gt;学説によれば、発明者とは、当該発明の創作行為に現実に加担した者だけを指し、単なる補助者、助言者、資金の提供者あるいは単に命令を下した者は、発明者とはならないとされている。&lt;/p&gt;
+&lt;p&gt;例えば、以下の者は発明者とはならない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;部下の研究者に対して一般的管理をした者、たとえば、具体的着想を示さず単に通常のテーマを与えた者又は発明の過程において単に一般的な助言・指導を与えた者（単なる管理者）&lt;/li&gt;
+&lt;li&gt;研究者の指示に従い、単にデータをまとめた者又は実験を行った者（単なる補助者）&lt;/li&gt;
+&lt;li&gt;発明者に資金を提供したり、設備利用の便宜を与えることにより、発明の完成を援助した者又は委託した者（単なる後援者・委託者）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;派遣社員の場合は2番目に当てはまることが多いものの、そうではなくて発明の創作行為に現実に加担していれば、立派な発明者となる。&lt;/p&gt;
+&lt;h3 id=&#34;派遣社員の発明は誰のものか&#34;&gt;派遣社員の発明は誰のものか&lt;/h3&gt;
+&lt;p&gt;特許法では、職務発明制度（特許法第35条）により、原則として「使用者」が職務発明について一定の権利を持つことになっている。&lt;/p&gt;
+&lt;p&gt;参考として、特許法第35条第3項を抜粋する。&lt;/p&gt;
+&lt;blockquote&gt;従業者等がした職務発明については、契約、勤務規則その他の定めにおいてあらかじめ使用者等に特許を受ける権利を取得させることを定めたときは、その特許を受ける権利は、その発生した時から当該使用者等に帰属する。&lt;/blockquote&gt;
+&lt;p&gt;「従業員等」とは、使用者の指揮監督の下で労務の提供を行い、その対価を受け取る地位にある者のことをいう。&lt;/p&gt;
+&lt;p&gt;派遣社員の場合だと、労働法上は派遣元の従業員だが、特許法上は派遣先の「従業員等」と解釈される可能性が高い。&lt;/p&gt;
+&lt;p&gt;派遣社員は、実質的に派遣先から研究施設を提供され、派遣先の指揮監督の下で正社員と類似の業務を行い、実質的に業務遂行への対価を払うのも派遣先であるためである。&lt;/p&gt;
+&lt;p&gt;とはいえ、「従業者等」に該当するか否かはあくまで個別の発明ごとに判断される。&lt;/p&gt;
+&lt;p&gt;このため、関係者間での発明の権利帰属で揉めないよう、実務上では派遣元と派遣先との間の契約で、派遣社員の発明は派遣先の職務発明として派遣先帰属とする旨を取り決めていることが多い。&lt;/p&gt;
+&lt;p&gt;職務発明ガイドラインにも、以下の通り推奨している。&lt;/p&gt;
+&lt;blockquote&gt;派遣労働者については、職務発明の取扱いを明確化する観点から、派遣元企業、派遣先企業、派遣労働者といった関係当事者間で職務発明の取扱いについて契約等の取決めを定めておくことが望ましい。&lt;/blockquote&gt;
+&lt;h3 id=&#34;派遣社員への職務発明規定の説明&#34;&gt;派遣社員への職務発明規定の説明&lt;/h3&gt;
+&lt;p&gt;特許法第35条第4項では、従業者等は、勤務規則等に従い自らの職務発明にかかる権利を使用者に帰属させた場合に「相当の利益」を受ける権利を有する旨を定めている。&lt;/p&gt;
+&lt;p&gt;つまり、派遣先の職務発明であれば、発明報奨金等（相当の利益）についても派遣先が派遣社員に支払うこととなる。&lt;/p&gt;
+&lt;p&gt;そして同条第5項によれば、勤務規則等で相当の利益について定める場合には、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;相当の利益の内容を決定するための基準の策定に際して使用者等と従業者等との間で行われる協議の状況&lt;/li&gt;
+&lt;li&gt;策定された当該基準の開示の状況&lt;/li&gt;
+&lt;li&gt;相当の利益の内容の決定について行われる従業者等からの意見の聴取の状況&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の状況が適正か否かがまず検討され、それらの手続が適正であると認められる限りは、使用者等と従業者等があらかじめ定めた勤務規則等が尊重されることが原則となる。&lt;/p&gt;
+&lt;p&gt;正社員であれば、例えば新人研修等で職務発明規定の説明を受けるとともに、適宜協議の場や意見を述べる機会が与えられるかと思う。&lt;/p&gt;
+&lt;p&gt;それなら職務発明を生み出した派遣社員も同様の機会が与えられるべきだが、実際はどうだろうか？&lt;/p&gt;
+&lt;p&gt;恐らく、派遣社員が来るたびに知財部員が説明会を開くような企業はそうそう無いだろう。&lt;/p&gt;
+&lt;p&gt;そのため、実務上はもっと効率的に基準開示等を行うのが現実的である。&lt;/p&gt;
+&lt;p&gt;例えば、以下のように社内システムで対応することが考えられる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;派遣社員もアクセス可能なイントラ上に社内の職務発明規定の資料や説明動画をアップロードする&lt;/li&gt;
+&lt;li&gt;派遣社員も意見を述べられるよう、問い合わせ先を設けておく&lt;/li&gt;
+&lt;li&gt;資料等を確認するようメール等で本人に依頼する&lt;/li&gt;
+&lt;li&gt;資料の確認が完了したら、そのログが残るよう設定しておく&lt;/li&gt;
+&lt;li&gt;なかなか資料を確認してもらえない場合は、確認するよう催促する（催促履歴も取っておくとベター）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たまに工場勤務の派遣社員でPCが支給されず、イントラへアクセスできないようなケースもあるので、その時は文書化した資料を渡すとともに、職務発明規定の説明をするミーティングを設ける、といった対応となるだろう。&lt;/p&gt;
+&lt;p&gt;なお、正社員等への周知においても、同様のシステムで対応することが考えられる。&lt;/p&gt;
+&lt;h3 id=&#34;出願書類には派遣社員も発明者名に載せよう&#34;&gt;出願書類には派遣社員も発明者名に載せよう&lt;/h3&gt;
+&lt;p&gt;特許出願書類には、出願人とは別に発明者を記載する必要があるが、このとき派遣社員の名前もちゃんと入れておく必要がある。&lt;/p&gt;
+&lt;p&gt;発明者に関しては、事実の問題であり、作為的に発明者を抜いたりと変更するのは好ましくない。&lt;/p&gt;
+&lt;p&gt;また米国では、発明者を誤表示をした特許は真正発明者に訂正可能であるが、誤りが意図的だった場合は、当該特許は無効とされるリスクがある。&lt;/p&gt;
+&lt;h3 id=&#34;請負業者の社員の発明帰属は&#34;&gt;請負業者の社員の発明帰属は？&lt;/h3&gt;
+&lt;p&gt;この場合は、委託元と委託先との間の請負契約で知財の帰属についても規定しているかと思うので、その通りの帰属となる。&lt;/p&gt;
+&lt;p&gt;仮に契約で委託先帰属となるよう規定しても、派遣社員とは異なり、委託先が使用者とはならないため、委託先の職務発明とはならず、請負業者の社員に発明報奨金等を支払う必要はない。&lt;/p&gt;
+&lt;p&gt;ただし、独占禁止法違反とならないよう、知財を召し上げることを前提とした委託費が設定されていることが前提となる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>分割出願や国内優先権の主張時における発明者の不一致</title>
+      <link>https://ipblog.pages.dev/post/2025/07/27/113212/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/27/113212/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt; 
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250727092116.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;特許において権利化を狙う上で、分割出願や国内優先権の主張を行うことは多い。&lt;/p&gt;
+&lt;p&gt;このとき、発明の内容によっては新たな発明者が含まれたり、発明者が削除されるようなことが起こり得るが、元となった出願と発明者全員を一致させる必要はあるだろうか？&lt;/p&gt;
+&lt;p&gt;結論としては、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分割出願の場合は原則発明者を一致させる必要があるが、所定の手続きで変更も可能&lt;/li&gt;
+&lt;li&gt;国内優先権では、発明者を一致させる必要無し&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;となる。&lt;/p&gt;
+&lt;p&gt;各出願制度の概要を説明しつつ、その詳細な理由を後述していきたい。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    &lt;li&gt;[分割出願の概要](#分割出願の概要)
+            * [主な要件](#主な要件)
+            * [発明者が原出願と不一致でもよいか](#発明者が原出願と不一致でもよいか)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[国内優先権の主張の概要](#国内優先権の主張の概要)
+        * [主な要件](#主な要件-1)
+        * [発明者が先の出願と不一致でもよいか](#発明者が先の出願と不一致でもよいか)
+    
+&amp;lt;/li&amp;gt;
+* [まとめ](#まとめ)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;分割出願の概要&#34;&gt;分割出願の概要&lt;/h3&gt;
+&lt;p&gt;分割出願とは、出願人が１つの出願に含まれる発明の一部を新たな出願として分割して出願する制度であり、原出願の出願日を新たな出願（分割出願）にも認める制度である（特許法第44条）。&lt;/p&gt;
+&lt;p&gt;この制度により、出願人は複数の発明を１つの出願に含めた後、審査の状況等に応じて個別に出願し直すことが可能となる。&lt;/p&gt;
+&lt;h4 id=&#34;主な要件&#34;&gt;主な要件&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;分割時において、原出願の出願人と分割出願の出願人とが一致すること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;以下のいずれかの時期に分割出願をしていること
+&lt;ul&gt;
+&lt;li&gt;明細書等が補正可能な時期&lt;/li&gt;
+&lt;li&gt;特許査定謄本の送達日から30日以内&lt;/li&gt;
+&lt;li&gt;最初の拒絶査定謄本の送達日から３月以内&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;以下の実体的要件を全て満たすこと
+&lt;ul&gt;
+&lt;li&gt;原出願の分割直前の明細書等に記載された発明の全部が分割出願の請求項に係る発明とされたものでない&lt;/li&gt;
+&lt;li&gt;分割出願の明細書等に記載された事項が、原出願の出願当初の明細書等に記載された事項の範囲内&lt;/li&gt;
+&lt;li&gt;分割出願の明細書等に記載された事項が、原出願の分割直前の明細書等に記載された事項の範囲内&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;h4 id=&#34;発明者が原出願と不一致でもよいか&#34;&gt;発明者が原出願と不一致でもよいか&lt;/h4&gt;
+&lt;p&gt;分割出願の発明者は原出願と同一であることを原則とする。&lt;/p&gt;
+&lt;p&gt;しかし、婚姻等による氏名の変更や発明内容の分割により発明者も分離するような場合は、上申書又は分割出願の願書の【その他】の欄に変更されている理由を記載すれば変更が認められる。&lt;/p&gt;
+&lt;p&gt;ただし、分割出願は原出願の一部を取り出して行うことから、発明者の追加は認められない。&lt;/p&gt;
+&lt;p&gt;もしどうしても追加したければ、原出願の補正で発明者の追加をすれば、分割出願でも同じ発明者を追加することができる。&lt;/p&gt;
+&lt;h3 id=&#34;国内優先権の主張の概要&#34;&gt;国内優先権の主張の概要&lt;/h3&gt;
+&lt;p&gt;国内優先権とは、最初に行った特許出願（原出願）の日から１年以内に同一発明について再度出願（後の出願）する際、先の出願の出願日を後の出願の出願日として扱うことができる制度（特許法第41条）である。&lt;/p&gt;
+&lt;p&gt;この制度により、出願人は原出願の内容を改良・補足して再出願することが可能であり、後の出願による新規性喪失のリスクを回避できる。&lt;/p&gt;
+&lt;h4 id=&#34;主な要件-1&#34;&gt;主な要件&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;先の出願と後の出願の出願人が後の出願時点で同一人であること&lt;/li&gt;
+&lt;li&gt;後の出願が先の出願から１年以内に行われていること&lt;/li&gt;
+&lt;li&gt;後の出願において優先権の主張をしていること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;次のいずれかに該当しないこと
+&lt;ul&gt;
+&lt;li&gt;先の出願が出願の分割に係る新たな出願、出願の変更に係る出願又は実用新案登録に基づく特許出願である&lt;/li&gt;
+&lt;li&gt;先の出願が国内優先権の主張を伴う後の出願の際に放棄され、取り下げられ、又は却下されている&lt;/li&gt;
+&lt;li&gt;先の出願について、国内優先権の主張を伴う後の出願の際に、査定又は審決が確定している&lt;/li&gt;
+&lt;li&gt;先の出願について、国内優先権の主張を伴う後の出願の際に、実用新案権の設定の登録がされている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;h4 id=&#34;発明者が先の出願と不一致でもよいか&#34;&gt;発明者が先の出願と不一致でもよいか&lt;/h4&gt;
+&lt;p&gt;発明者が原出願と後の出願で一致している必要はない。&lt;/p&gt;
+&lt;p&gt;上の要件にもある通り、国内優先権の主張の要件として問題となるのは「出願人」の同一性であり、発明者の同一性は要件とされていない。&lt;/p&gt;
+&lt;p&gt;特許庁も、先の出願と後の出願の発明者の同一性は方式審査事項としておらず（パリ優先権も同様）、願書の【その他】欄への変更理由等の記載も不要である。&lt;/p&gt;
+&lt;p&gt;したがって、発明者が異なる場合でも、出願人が同一であれば優先権の主張は可能である。&lt;/p&gt;
+&lt;p&gt;実務上では、国内優先権の主張においては、実施例の補充等によって後の出願に含まれる発明について新たな発明者が関与することで発明者が追加されることはあり得るが、逆に発明者が削除されるというケースは聞いたことがない。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;以下、分割出願、国内優先権の主張それぞれにおける発明者一致の必要性を表にまとめておく。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 出願の類型 &lt;/th&gt;
+&lt;th&gt; 発明者一致の必要性 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; 分割出願 &lt;/td&gt;
+&lt;td&gt; ・原則必要ありだが、発明者削除は可能&lt;br&gt;・削除の場合は、書類に変更の理由を記載すること&lt;br&gt;・原出願に発明者の追加をすれば、分割出願で発明者を追加可能 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 国内優先権の主張 &lt;/td&gt;
+&lt;td&gt; ・必要無し&lt;br&gt;・書類へ変更の理由の記載も不要 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>アプリアイコンに関する商標登録の傾向</title>
+      <link>https://ipblog.pages.dev/post/2025/07/24/124644/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/24/124644/</guid>
+      <description>&lt;p&gt;業務内でスマホアプリに関する知財権の取得を検討することとなったのだが、商標権の取得にあたって、他企業はどんなアプリアイコンについて商標権を取得しているのだろうか気になり、軽く調べてみた。&lt;/p&gt;
+&lt;p&gt;ブランドイメージの戦略上、何かアイコンのデザインや権利取得の方向性のようなものが見えると参考になるかと思ったからである。&lt;/p&gt;
+&lt;p&gt;とはいえそんなに気合を入れた調査はしていないのだが、とりあえず代表的な企業としてGoogleとAppleの２社について簡単に日本国内で取得しているアプリ関連の商標権の調査をしてみた。&lt;/p&gt;
+&lt;p&gt;すると、両者でかなり異なる傾向が見えてきた。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250629200841.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h3 id=&#34;Googleの登録商標&#34;&gt;Googleの登録商標&lt;/h3&gt;
+&lt;p&gt;まずはGoogleの代表的な登録商標を掲載する。&lt;/p&gt;
+&lt;p&gt;ぱっと見てもわかるように、Googleは色の統一性にかなり重点を置いている様子が伺える。&lt;/p&gt;
+&lt;h4 id=&#34;アプリ関連&#34;&gt;アプリ関連&lt;/h4&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250813211001.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+※左から登録5930787、5953068、6209108、6351556、6418757、6522923、6787549
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;基本的にシンプルな形状としつつも、アイコンの色を「赤」「黄」「緑」「青」の色のみで構成し、かつ４色全てを使うようデザインしていることがよく分かる。&lt;/p&gt;
+&lt;p&gt;色が与える印象は強く、アイコンの形状は違えど、色を見れば「あ、これはGoogleのアプリなんだな」と分かるようになっている。&lt;/p&gt;
+&lt;p&gt;選択した色にも意味があるようで、赤、青、黄色の三原色は、ルールや常識を表しており、そこに緑が加わることで「常識にとらわれない」という意味が込められているそうである。&lt;/p&gt;
+&lt;p&gt;色の三原色であれば「シアン」「マゼンタ」「イエロー」のような気もするが、ここで紹介されている三原色は、また別の意味を定義しているのだろう、多分。&lt;/p&gt;
+&lt;p&gt;ちなみに2025年5月頃に「G」のロゴのデザイン変更があったようで、色間の境目がくっきり分かれたものから、グラデーションに変わるとのこと。&lt;/p&gt;
+&lt;p&gt;そのため、厳密にはグラデーション部分で４色以外の色も出てくることとなるが。視認性に大きな変化は無さそうである。&lt;/p&gt;
+&lt;p&gt;このように、Googleからは自社サービス全体に統一したブランドイメージを普及させる意図が感じられる。&lt;/p&gt;
+&lt;h4 id=&#34;Youtube関連&#34;&gt;Youtube関連&lt;/h4&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250813211023.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+※左から登録4999383、5727477、5889012、5960866、6057596
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Googleは2006年10月9日にYoutubeを買収しており、それ以降は再生ボタンのアイコンをはじめ、いくつかのボタンのデザインに関して商標登録を行っている。&lt;/p&gt;
+&lt;p&gt;いずれも赤色で統一されており、やはり色で「これはYoutube」と見分けられるようにしている意図が感じられる。&lt;/p&gt;
+&lt;p&gt;再生ボタンのデザイン自体はありふれているようにも見えるが、ちゃんとYoutubeと認識できるので、ブランドイメージが浸透していると思わせられる。&lt;/p&gt;
+&lt;h3 id=&#34;Appleの登録商標アプリ関連&#34;&gt;Appleの登録商標（アプリ関連）&lt;/h3&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250813211033.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+※左から登録2173459、2210825、5865311、5924575、6072269、6072304、6080354
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;次にAppleを紹介する。&lt;/p&gt;
+&lt;p&gt;Appleはリンゴのマークの著名度が際立っており、当然このアイコンも商標登録されている。&lt;/p&gt;
+&lt;p&gt;Appleという社名はジョブズによって決められたが、そこからリンゴのマークの商標となるのは自然かと思う。&lt;/p&gt;
+&lt;p&gt;リンゴにはかじり跡があるが、デザインした「ロブ・ジャノフ」氏によれば、他の丸い果物と誤解されないために設けたとのこと。&lt;/p&gt;
+&lt;p&gt;アダムとイブの禁じられたリンゴにちなんで人類の進歩を表しているとか、「bite（かじる）」とコンピュータにおける情報量の単位「byte（バイト）」をかけている、という説もあったらしいが、蓋を開けてみるとシンプルな理由である。&lt;/p&gt;
+&lt;p&gt;一方、その他のアプリを表すアイコンはというと、特に統一したデザインを採用している感じではない。&lt;/p&gt;
+&lt;p&gt;どちらかと言うと、アイコン単体でどんな機能を提供するアプリなのかを把握させることを意識したデザインとなっている。&lt;/p&gt;
+&lt;p&gt;Mac、iPad、iPhoneといったデバイスにはリンゴのマークが付されているのとは対照的である。&lt;/p&gt;
+&lt;h3 id=&#34;アイコンのデザイン考察&#34;&gt;アイコンのデザイン考察&lt;/h3&gt;
+&lt;p&gt;というわけで、以下の表の通り、両社とも異なったアイコンのデザイン戦略を取っているように見受けられる。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 企業名 &lt;/th&gt;
+&lt;th&gt; 戦略 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Google &lt;/td&gt;
+&lt;td&gt; 色を統一することで、自社から提供されたアプリである点を認識させる &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Apple &lt;/td&gt;
+&lt;td&gt; 直接的なデザインにより、アプリの機能を直感的に理解してもらう &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;特に面白いと思ったのは、Googleは色という要素に特徴を見出し、それを共通化することで様々なアプリのアイコンに統一感を持たせている点である。&lt;/p&gt;
+&lt;p&gt;通常は、Appleのように形状も特徴に含めたロゴを使い、車、靴、家電製品といった様々な製品に同一のロゴを付すことでブランドイメージを形成していくことが多いと思う。&lt;/p&gt;
+&lt;p&gt;これら有形の製品に付すのであればそれで問題ないが、アプリアイコンとなると話は異なる。&lt;/p&gt;
+&lt;p&gt;製品自体が無形であるが故に、アイコン自身が他のアイコンと異なるデザインである必要が生じる。&lt;/p&gt;
+&lt;p&gt;ここで、なまじリンゴのような具体的な形状のあるロゴを使おうとすると、異なるアプリアイコンを作成するのが困難となるため、統一感には目を瞑りつつ、異なるデザインのアイコンを設ける必要が生じる。&lt;/p&gt;
+&lt;p&gt;一方、Googleのように色でブランドイメージを構築すれば、後は形状を変化させることで、アイコン間の差別化はしつつも統一感を持たせることもできる。&lt;/p&gt;
+&lt;p&gt;とはいえ、Appleのリンゴのロゴはそれ自体が「革新的で、洗練された」強いイメージを形成しているため、主要な製品やサービスに付すことで、ここぞというときに強力な訴求力を発揮できるという強みもある。&lt;/p&gt;
+&lt;p&gt;どちらが優れているとは一概には言えないとは思うが、こういったアプリアイコン１つとっても&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コーポレート部門がブランドイメージ戦略を持っておくこと&lt;/li&gt;
+&lt;li&gt;コーポレート部門が開発部門と連携すること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の重要性を感じたところである。&lt;/p&gt;
+&lt;p&gt;アプリのアイコンといえど、会社のブランドイメージに関わる以上は、開発に丸投げしたが故に好き勝手な野良アイコンが生まれるという事態は避けたい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>スマホアプリの知財権</title>
+      <link>https://ipblog.pages.dev/post/2025/07/18/221340/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/18/221340/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250629190749.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;最近、企業内でスマホアプリを開発する企画が立ち上がったので、他社の特許権をはじめとするクリアランス調査を進めていたところ、偉い方々から「知財観点でもしっかり権利を押さえておくように」とのお達しがあった。&lt;/p&gt;
+&lt;p&gt;特許権は誰しも想像できるところだと思うが、今回はスマホアプリという性質上、アプリのアイコン表示に関しても何らかのケアが必要になりそうな気配である。&lt;/p&gt;
+&lt;p&gt;となると、意匠、商標権についても権利取得を行う可能性はゼロではない。&lt;/p&gt;
+&lt;p&gt;しかし、そこは出願の目的と企業のお財布事情との兼ね合いで判断することになるであろうから、意見を求められた時に備えて自分なりに出願の判断基準は持っておきたい。&lt;/p&gt;
+&lt;p&gt;というわけで、ざっくり知財に関する考えを整理してみた。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    &lt;li&gt;[ソフトウェアに関する知財保護](#ソフトウェアに関する知財保護)
+            * [ソフトウェア機能の保護](#ソフトウェア機能の保護)
+            * [アプリ名の保護](#アプリ名の保護)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[アプリアイコンの保護](#アプリアイコンの保護)
+        * [商標権](#商標権)
+        * [意匠権](#意匠権)
+    
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[実務におけるアプリアイコンの取り扱い](#実務におけるアプリアイコンの取り扱い)
+        * [他社による模倣リスク](#他社による模倣リスク)
+        * [他社の権利化による侵害リスク](#他社の権利化による侵害リスク)
+    
+&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;ソフトウェアに関する知財保護&#34;&gt;ソフトウェアに関する知財保護&lt;/h3&gt;
+&lt;p&gt;まずアプリに限らず、ソフトウェア全般で検討すべき保護内容についておさらいする。&lt;/p&gt;
+&lt;h4 id=&#34;ソフトウェア機能の保護&#34;&gt;ソフトウェア機能の保護&lt;/h4&gt;
+&lt;p&gt;まずソフトウェアの機能や動作に関する部分を押さえるべく、特許権の取得を考えるのが王道だと思う。&lt;/p&gt;
+&lt;p&gt;また、機能を実現するためのソースコードに関しては、著作権の保護対象となる。&lt;br&gt;
+こちらは基本的に登録手続きは不要だが、証拠保全のための手続きも存在する。&lt;/p&gt;
+&lt;p&gt;そして開発においてOSSの活用は欠かせないところ、意図せずソースコードの開示義務や特許権の許諾義務が発生しないよう、OSSライセンスについても注意する企業は多いだろう。&lt;br&gt;
+事後的に「AGPLでライセンスされたOSSを使ってましたわ」と開発者から報告され、頭を抱えた知財部員も少なくないのではないだろうか？&lt;/p&gt;
+&lt;p&gt;また、場合によってはアプリの画面デザインを意匠権で保護することもあるかもしれない。&lt;/p&gt;
+&lt;h4 id=&#34;アプリ名の保護&#34;&gt;アプリ名の保護&lt;/h4&gt;
+&lt;p&gt;もしブランドイメージ等の観点からソフトウェア名を保護することが求められるのであれば、商標権の取得も検討対象となる。&lt;/p&gt;
+&lt;p&gt;具体的な登録要件や、指定商品・役務については、以下の「アプリアイコンの保護」のパートで説明したい。&lt;/p&gt;
+&lt;h3 id=&#34;アプリアイコンの保護&#34;&gt;アプリアイコンの保護&lt;/h3&gt;
+&lt;p&gt;スマホアプリ特有の検討項目としては、アプリアイコンの取り扱いが挙げられる。&lt;/p&gt;
+&lt;p&gt;もしアイコンを保護するのなら、特許権等とは別に商標権、意匠権を取得する道が考えられるが、どこまで権利化にこだわるべきだろうか？&lt;/p&gt;
+&lt;h4 id=&#34;商標権&#34;&gt;商標権&lt;/h4&gt;
+&lt;p&gt;アイコンを商標登録するにあたっては、以下の要件を満たす必要がある。&lt;/p&gt;
+&lt;p&gt;権利化を目指すのなら、アイコンが簡単かつありふれた図形だけであったり、国旗、他人の周知商標と似ているものでないかを確認しておく必要がある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自己と他人の商品・役務（サービス）とを区別することができないもの&lt;/li&gt;
+&lt;li&gt;公共の機関の標章と紛らわしい等公益性に反するもの&lt;/li&gt;
+&lt;li&gt;他人の登録商標や周知・著名商標等と紛らわしいもの&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、指定商品・役務としては、以下の区分を指定するのが一般的かと思う。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 区分 &lt;/th&gt;
+&lt;th&gt; 商品・役務名 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; 第９類 &lt;/td&gt;
+&lt;td&gt; 電子計算機用プログラム &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 第４２類 &lt;/td&gt;
+&lt;td&gt; 電子計算機用プログラムの提供&lt;br&gt;電子計算機のプログラムの設計・作成又は保守 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 第XX類 &lt;/td&gt;
+&lt;td&gt; その他、自社商品・サービスに対応したもの &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ここで、第９類はアプリなどのダウンロードして利用するソフトウェア、第４２類はダウンロードせずにインターネットを介して使うソフトウェア（SaaS）の提供に対応する。&lt;/p&gt;
+&lt;h4 id=&#34;意匠権&#34;&gt;意匠権&lt;/h4&gt;
+&lt;p&gt;意匠権の場合もいくつか登録要件があるが、アプリアイコンで検討すべきは以下の点が挙げられる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新規性があること&lt;/li&gt;
+&lt;li&gt;創作の非容易性があること&lt;/li&gt;
+&lt;li&gt;不登録事由に該当しないこと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;商標とは異なり、出願から20年経過後に権利満了となるものの、商品やサービスの種類に限定されず権利保護できるところがメリットとなる。&lt;/p&gt;
+&lt;h3 id=&#34;実務におけるアプリアイコンの取り扱い&#34;&gt;実務におけるアプリアイコンの取り扱い&lt;/h3&gt;
+&lt;p&gt;上述の通り、デザインによってはアイコンの商標権や意匠権を取得することも可能ではある。&lt;/p&gt;
+&lt;p&gt;しかし、特許事務所への手数料も含めると登録までにそれなりの費用がかかる上、維持費用も発生する。&lt;/p&gt;
+&lt;p&gt;企業の予算も限られる中、ブランドイメージを維持するためにどこまで費用を負担すべきだろうか？&lt;/p&gt;
+&lt;p&gt;完全に個人的な見解ではあるが、&lt;strong&gt;よほど重要なアプリでない限りは意匠権の取得は不要で、また商標についても、アプリの重要度や提供先に応じて判断すればよく、アプリ毎に逐一取得するには及ばないのではないかと思う。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;理由は以下の通りである。&lt;/p&gt;
+&lt;h4 id=&#34;他社による模倣リスク&#34;&gt;他社による模倣リスク&lt;/h4&gt;
+&lt;p&gt;他社の模倣によるブランドイメージ低下を防ぐのなら、商標登録をしておけば概ねカバーできるかと思う。&lt;/p&gt;
+&lt;p&gt;意匠権を取れば万全だが、他社の権利をざっくり調べた限り、アプリに関して両方とも取得しているケースはあまり聞いたことがない。&lt;br&gt;
+※Google mapのアイコンに関しては、両方取得しているようである。アイコンの形状などから汎用性が高く、商標権で押さえきれない様々な商品・サービスに使われる可能性を考慮しているのかもしれない。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>プレゼン表示するだけの資料にも機密表示は必要？</title>
+      <link>https://ipblog.pages.dev/post/2025/07/14/203828/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/14/203828/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250712102828.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;取引先に配布する資料については、「Confidential」とか、「関係者外秘」とか、各社のセキュリティポリシーに沿ってラベルをヘッダー等に表示しているかと思う。&lt;/p&gt;
+&lt;p&gt;ここで、「対外イベントで発表する際に数分だけ表示するだけだし、特にどこかに掲載されたり配布する資料でないなら、別に表示しなくてもいいのでは？（見た目も悪くなるし…）」と思う方もいるかもしれない。&lt;/p&gt;
+&lt;p&gt;しかし、&lt;strong&gt;資料の内容に機密性の高い情報が含まれるのであれば、一時的に表示するだけの資料であっても「Confidential」等の表示を付けておくべきである&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;理由は、以下の通りとなる。&lt;/p&gt;
+&lt;h3 id=&#34;秘密情報としての法的保護が不十分になる&#34;&gt;秘密情報としての法的保護が不十分になる&lt;/h3&gt;
+&lt;p&gt;たとえ一時的な開示であっても、第三者からしたらその内容をしっかり覚えていることも多いはず。&lt;/p&gt;
+&lt;p&gt;プレゼン資料に「Confidential」等の表示がないと、後出しで秘密情報だと主張するのは厳しいだろう。&lt;/p&gt;
+&lt;p&gt;「えっ、あのプロジェクトの内容って外で話したらまずかったの？そんな表示なかったから、公開情報だと思いましたわ〜」&lt;br&gt;
+と言われてしまうのが関の山である。&lt;/p&gt;
+&lt;p&gt;また、その情報が特許出願前の技術情報であった場合は「新規性の喪失」となり、特許庁での審査に不利となる可能性も否定できない。&lt;/p&gt;
+&lt;p&gt;一応、他社と締結する秘密保持契約書には、口頭で開示した内容を◯◯日以内に「この情報、秘密だからヨロ」と文書通知すれば秘密情報として扱わせる旨の規定を設けることはあるが、それだけでは心許ない。&lt;/p&gt;
+&lt;h3 id=&#34;撮影行為により第三者に流出する可能性も&#34;&gt;撮影行為により第三者に流出する可能性も&lt;/h3&gt;
+&lt;p&gt;発表中にスライドを数分間表示しただけでも、聴講者がスマホでこっそり写真撮影をする可能性もある。&lt;/p&gt;
+&lt;p&gt;特に今ではオンラインでの会議が多いため、自宅での撮影や画面のキャプチャをする参加者がいないとも限らない。&lt;/p&gt;
+&lt;p&gt;このとき「Confidential」表示がなければ、「公開してはいけないものだった」と気づかれないまま、意図せず流出してしまうかもしれない。&lt;/p&gt;
+&lt;h3 id=&#34;表示方法&#34;&gt;表示方法&lt;/h3&gt;
+&lt;p&gt;「Confidential」等を資料に表示する箇所はいくつか考えられる。&lt;/p&gt;
+&lt;p&gt;例えば、最初のスライドや最後のスライドにだけ表示することもあるかもしれない。&lt;/p&gt;
+&lt;p&gt;しかし、この部分的な表示はお勧めしない。&lt;/p&gt;
+&lt;p&gt;スライド単体で切り出された場合（スクショやPDFで一部だけ共有された場合）、機密扱いであることが明示されないし、プレゼンの途中から参加されたり、離脱されることで表示を読まれないことがあるからである。&lt;/p&gt;
+&lt;p&gt;よって、一貫した注意喚起を図るという意味でも、全スライドに表示するのがベストである。&lt;/p&gt;
+&lt;p&gt;表示により資料のデザインへの影響はするかもしれないが、右下に目立ち過ぎないよう「Confidential」等と表示すれば、それほど大きな問題ではないだろう（ある程度視認できるようにする必要はある）。&lt;/p&gt;
+&lt;p&gt;それよりも、情報漏洩リスクの軽減の方が重要となる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>米国で生成AI学習に著作物を使うと問題？</title>
+      <link>https://ipblog.pages.dev/post/2025/07/10/201947/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/10/201947/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803211825.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;生成AIにおいて著作権が議論となる場面としては、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;他人の著作物を用いた生成AIの学習&lt;/li&gt;
+&lt;li&gt;生成AIによる、他人の著作物と似た作品の生成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;が挙げられる。&lt;/p&gt;
+&lt;p&gt;後者に関しては、生成AIに限らず、生成した作品が著作物の類似性等に応じて侵害の有無が判断されるかと思う。&lt;/p&gt;
+&lt;p&gt;では、前者に関してはどうだろうか？&lt;/p&gt;
+&lt;p&gt;日本においては、学習対象となっている特定の著作物を享受する目的が無ければ、著作権法第30条の4が適用され著作権侵害とは認定されない。&lt;/p&gt;
+&lt;p&gt;なおAI学習そのものの日本での取り扱いについては、以下の記事で触れている。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ipnote.hatenablog.com/entry/2025/06/25/204149&#34;&gt;AIで声をパクられたら訴えることは可能？ - 実務者のための知財法務Playbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;しかし、米国ではこの点が最近の議論になっている。&lt;/p&gt;
+&lt;p&gt;日本と同様、米国でも著作権利用における例外という考え方はあり、「フェアユース」と呼ばれている。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    &lt;li&gt;[フェアユースとは？](#フェアユースとは)
+            * [フェアユースの法的根拠](#フェアユースの法的根拠)
+            * [フェアユースの判断基準（４要素）](#フェアユースの判断基準４要素)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[フェアユースに関する判例](#フェアユースに関する判例)
+        * [フェアユースを認めなかった判例](#フェアユースを認めなかった判例)
+        * [フェアユースを認めた判例](#フェアユースを認めた判例)
+    
+&amp;lt;/li&amp;gt;
+* [生成AI学習への著作物の使用に関する考察](#生成AI学習への著作物の使用に関する考察)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;フェアユースとは&#34;&gt;フェアユースとは？&lt;/h3&gt;
+&lt;p&gt;米国における「フェアユース（Fair Use）」とは、著作権者の許諾を得ずに著作物を利用できる場合があるという例外的な制度で、表現の自由や文化の発展、教育・研究の促進を目的としている。&lt;/p&gt;
+&lt;h4 id=&#34;フェアユースの法的根拠&#34;&gt;フェアユースの法的根拠&lt;/h4&gt;
+&lt;p&gt;米国の著作権法（17 U.S. Code § 107）にて、以下のように規定されている。&lt;/p&gt;
+&lt;blockquote&gt;Notwithstanding the provisions of sections 106 and 106A, the fair use of a copyrighted work, including such use by reproduction in copies or phonorecords or by any other means specified by that section, for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research, is not an infringement of copyright.&lt;/blockquote&gt;
+&lt;p&gt;つまり、評論とか、報道とか、教育といった一定の目的で使用するのであれば、フェアユースに当たるので著作権侵害にならないと定めている。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>登録商標の名前を自社広告の資料に使うと権利侵害？</title>
+      <link>https://ipblog.pages.dev/post/2025/07/08/194511/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/08/194511/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250703214651.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;社内での資料作成に関して、各部署から&lt;br&gt;
+「他社企業のロゴを自社資料に掲載していいか？(*)」という問い合わせだけでなく&lt;br&gt;
+「自社製品の広告資料に、性能比較として他社の登録商標を使用すると問題か？」
+&lt;br&gt;と社内から問い合わせを受けることがある。&lt;/p&gt;
+&lt;p&gt;*企業ロゴ掲載については、以下の記事を参照してもらいたい&lt;br&gt;
+&lt;a href=&#34;https://ipnote.hatenablog.com/entry/2025/06/05/150622&#34;&gt;他社の企業ロゴをプレゼン資料に入れて良いか - 実務者のための知財法務Playbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;またブログを執筆している人の中には、「ある製品の批評記事を書くとき、その製品名が商標登録されていた場合は名前を記事に載せて大丈夫？」と気にされたこともあるかと思う。&lt;/p&gt;
+&lt;p&gt;確かに、名だたる企業がお金をかけて特許庁に商標登録していると、身構えてしまうかもしれない。&lt;/p&gt;
+&lt;p&gt;結論としては、基本的にそのような商標の使い方であれば侵害行為には当たらない。&lt;/p&gt;
+&lt;p&gt;商標は「出所表示」が問題となるので、機能・適合性・説明目的の使用であれば原則商標権侵害とはならない。&lt;/p&gt;
+&lt;p&gt;ただし手放しでOKというわけではなく、消費者が出所を誤認しないように配慮することが求められる。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    &lt;li&gt;[商標権侵害とならない使い方](#商標権侵害とならない使い方)
+            * [機能・用途等の表示](#機能用途等の表示)
+            * [比較広告](#比較広告)
+            * [ニュース報道・評論・学術的引用](#ニュース報道評論学術的引用)
+            * [転売行為など](#転売行為など)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+* [よくある商標の誤表示](#よくある商標の誤表示)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;商標権侵害とならない使い方&#34;&gt;商標権侵害とならない使い方&lt;/h3&gt;
+&lt;p&gt;以下の通り、商標権侵害とならない使い方を挙げてみたい。&lt;/p&gt;
+&lt;h4 id=&#34;機能用途等の表示&#34;&gt;機能・用途等の表示&lt;/h4&gt;
+&lt;p&gt;商標権は強力な独占排他的権利であるが、公益的側面の下で一定の制限を受けることになっている。&lt;/p&gt;
+&lt;p&gt;そして、過誤登録に対する第三者の救済規定として、商標法第26条「商標権の効力が及ばない範囲」が規定されている。&lt;/p&gt;
+&lt;p&gt;いくつか規定はあるが、その１つである商標法第26条第1項柱書および第2号は、以下のような内容となっている。&lt;/p&gt;
+&lt;blockquote&gt;第二十六条　商標権の効力は、次に掲げる商標（他の商標の一部となつているものを含む。）には、及ばない。
+&lt;p&gt;二　当該指定商品若しくはこれに類似する商品の普通名称、産地、販売地、品質、原材料、効能、用途、形状、生産若しくは使用の方法若しくは時期その他の特徴、数量若しくは価格又は当該指定商品に類似する役務の普通名称、提供の場所、質、提供の用に供する物、効能、用途、態様、提供の方法若しくは時期その他の特徴、数量若しくは価格を普通に用いられる方法で表示する商標&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;なお指定役務に関しては、同様の条文が第3号に設けられている。&lt;/p&gt;
+&lt;p&gt;具体的には、例えば以下のような使い方であれば、商標権の効力は及ばない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;製品の機能・用途説明（例：「iPhone対応」「Android搭載」）&lt;/li&gt;
+&lt;li&gt;互換性・適合性の表示（例：「◯◯用カバー」「△△対応バッテリー」）&lt;/li&gt;
+&lt;li&gt;原材料・素材としての表示（例：「◯◯入り」）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、消費者が誤認しないよう明確な表示（純正ではない旨など）が必要となる。&lt;/p&gt;
+&lt;h4 id=&#34;比較広告&#34;&gt;比較広告&lt;/h4&gt;
+&lt;p&gt;商標法が保護するのは「自他商品等識別機能」に基づく使用である。&lt;/p&gt;
+&lt;p&gt;すなわち、商標が、自社の製品やサービスを、他社のものと区別して認識させる機能のことである。&lt;/p&gt;
+&lt;p&gt;例えば、消費者がある製品に付けられた商標を見ることで「これは◯◯社の製品なんだな」と認識し、他のメーカーの製品と区別することができる。﻿&lt;/p&gt;
+&lt;p&gt;比較対象である商品を示す場合（例：「当社製品は、◯◯よりも10倍の成分を含みます」）は、そのような機能を発揮しているといえるだろうか？&lt;/p&gt;
+&lt;p&gt;この場合は、宣伝内容を説明するための記述的表示であって、自他商品の識別機能を果たす態様で使用されたものではないと判断される（判例*も存在する）。&lt;/p&gt;
+&lt;p&gt;したがって、商標権の侵害とはならない。&lt;/p&gt;
+&lt;p&gt;ただし、公正な範囲での比較としないと、商標法とは別の法律で問題となりうる点は注意が必要である。&lt;/p&gt;
+&lt;p&gt;*黒烏龍茶類似品事件（東京地裁平成20年12月26日判決）&lt;/p&gt;
+&lt;h4 id=&#34;ニュース報道評論学術的引用&#34;&gt;ニュース報道・評論・学術的引用&lt;/h4&gt;
+&lt;p&gt;例えば、ニュース番組中で「Appleの新製品が発表されました」と紹介する場合だが、これも基本的に問題ない。&lt;/p&gt;
+&lt;p&gt;あるメーカーの製品をそのメーカーの製品として紹介しただけなのだから、視聴者からすれば他のメーカーの製品と混同するおそれが考えられないからである。&lt;/p&gt;
+&lt;p&gt;番組中で登録商標を読み上げたり、テロップとして紹介する行為は、商品やサービスに名称を付けて使用するわけではなく、商標として使用されたものとは認められない。&lt;/p&gt;
+&lt;p&gt;評論中で使用する場合や、学術的引用の場合も同様である。&lt;/p&gt;
+&lt;p&gt;ただし、自社の商品やサービスに名称を付けて使用する場合（例：番組名に用いるケース）は上記ケースには当てはまらないので、当然商標権侵害とならないように気を付ける必要がある。&lt;/p&gt;
+&lt;h4 id=&#34;転売行為など&#34;&gt;転売行為など&lt;/h4&gt;
+&lt;p&gt;一度適法に販売された正規品について、その後の転売や修理、リサイクルで商標を使用する行為（例：「中古◯◯」「◯◯正規品」と表記）は商標権の効力が及ばない。&lt;/p&gt;
+&lt;p&gt;最初の販売の時点で商標権としての効力が発揮されているためである。&lt;/p&gt;
+&lt;p&gt;これを商標権の消尽という。&lt;/p&gt;
+&lt;p&gt;なお消尽の原則は知的財産権全般に認められているなので、商標権に限られるものではない。&lt;/p&gt;
+&lt;h3 id=&#34;よくある商標の誤表示&#34;&gt;よくある商標の誤表示&lt;/h3&gt;
+&lt;p&gt;実務上大きな問題となるケースは稀ではあると思うが、「商標権侵害」とならない使い方であっても、正式な登録商標と異なる表示をするのはなるべく避けたほうが良いかと思う。&lt;/p&gt;
+&lt;p&gt;とはいえ、商標権者である企業の広告ですら、誤った表示となっていることもあるのだが…。&lt;/p&gt;
+&lt;p&gt;よくある誤表記としては、例えば以下のようなものが挙げられる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ハイフン抜け（例：誤＝WiFi　正＝Wi-Fi）&lt;/li&gt;
+&lt;li&gt;小文字化（例：誤＝iphone　正＝iPhone）&lt;/li&gt;
+&lt;li&gt;大文字化（例：誤＝YOUTUBE　正＝YouTube）&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>AIで声をパクられたら訴えることは可能？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/25/204149/</link>
+      <link>https://ipblog.pages.dev/post/2025/06/25/204149/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/25/204149/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/06/25/204149/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250622205206.jpg&#34;/&gt; 
@@ -1564,9 +2316,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>漫画のキャラクター名を製品名にして良い？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/15/082135/</link>
+      <link>https://ipblog.pages.dev/post/2025/06/15/082135/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/15/082135/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/06/15/082135/</guid>
       <description>&lt;div align=&#34;center&#34;&gt; 
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250614130116.png&#34;/&gt; 
@@ -1609,9 +2361,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>開発を再委託する際の契約上の知財の取り扱い（汎用技術など）</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/11/210939/</link>
+      <link>https://ipblog.pages.dev/post/2025/06/11/210939/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/11/210939/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/06/11/210939/</guid>
       <description>&lt;p&gt;この間、委託元から受託した開発を再委託することとなり、開発したものは納品物として委託元へ納めることとなった。&lt;/p&gt;
 &lt;p&gt;そして、開発行為によって生じた知財権も委託元のものとする予定である。&lt;/p&gt;
 &lt;p&gt;このとき、再委託先から&lt;br&gt;
@@ -1681,9 +2433,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作物の引用の範囲</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/05/144632/</link>
+      <link>https://ipblog.pages.dev/post/2025/06/05/144632/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/05/144632/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/06/05/144632/</guid>
       <description>&lt;p&gt;ついブログを面白く見せようと、記事に漫画のコマを貼り付けたくなるが、作者の許諾なく使うと著作権侵害となってしまう。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
@@ -1760,9 +2512,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>契約における知財の取り扱い</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/200737/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/31/200737/</link>
       <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/200737/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/31/200737/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524200650.jpg&#34;/&gt; 
@@ -1824,9 +2576,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>商標のコンセント制度</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/235203/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/24/235203/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/235203/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/24/235203/</guid>
       <description>&lt;p&gt;最近、競合ではない他社から、商標権の「併存合意」なるものを求める旨の書面が届いた。&lt;/p&gt;
 &lt;p&gt;普段特許をメインで担当しているとあまり聞き慣れないのだが、令和６年より施行された改正商標法で導入された「コンセント制度」に関するものらしい。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
@@ -1878,9 +2630,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>画像をブログに載せるときのライセンス</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/232131/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/24/232131/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/232131/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/24/232131/</guid>
       <description>&lt;p&gt;ブログを書き始めてから、記事の中に貼り付けたい画像を探すことが多くなった。&lt;/p&gt;
 &lt;p&gt;なかなかしっくりくる画像が見つからないのは日常茶飯事であり、ようやく「いい画像を見つけた！」と思ったら、利用条件の厳しいライセンスが付与されているということもある。&lt;/p&gt;
 &lt;p&gt;ライセンスという単語を聞くと、画像使用に対するハードルが上がる印象を受けるかと思うが、ここでは「無料で商用利用が可能」となっている代表的なライセンスを紹介したい。&lt;/p&gt;
@@ -1988,9 +2740,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>AI作品の著作権は誰のもの？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/23/232703/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/18/232703/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/23/232703/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/18/232703/</guid>
       <description>&lt;p&gt;近年は、ChatGPTをはじめとするサービスを使うことで、誰でも手軽にAI画像を生成することができる。&lt;/p&gt;
 &lt;p&gt;そのクオリティには目を見張るものがあり、改めてすごい時代になったものだと思う。&lt;/p&gt;
 &lt;p&gt;ところで、完成した画像には著作権は発生するのだろうか？&lt;/p&gt;
@@ -2052,15 +2804,70 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/05/24/223850/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/04/19/223850/20250524223053.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/04/19/223850/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        作風を似せると著作権侵害？
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+        2025年4月16日の衆院内閣委員会（※）で、著作権における、生成AI画像について答弁があった。
+内容が興味深かったので、そのやり取りを紹介...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 &lt;/p&gt;</description>
     </item>
     <item>
       <title>他社の企業ロゴをプレゼン資料に入れて良いか</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/05/150622/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/17/150622/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/05/150622/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/17/150622/</guid>
       <description>&lt;p&gt;社内外問わず、プレゼン資料として他社名を入れることはあると思う。&lt;/p&gt;
 &lt;p&gt;このとき、テキストで企業名を表示するよりも、企業ロゴを使って掲載する方が見栄えがよく、視覚的に伝わりやすくなることが多い。&lt;/p&gt;
 &lt;p&gt;つい資料に企業ロゴを使ってしまうこともあるだろうが、果たして勝手に載せて良いものだろうか？&lt;/p&gt;
@@ -2133,9 +2940,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>著作権侵害要件「依拠性」について</title>
-      <link>http://localhost:1313/ipblog/posts/2025/06/05/145128/</link>
+      <link>https://ipblog.pages.dev/post/2025/05/17/145128/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/06/05/145128/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/05/17/145128/</guid>
       <description>&lt;p&gt;著作権侵害が成立するためには、単に被疑侵害品と著作物とが類似しているだけではなく、「依拠性」という要件も必要である。&lt;/p&gt;
 &lt;p&gt;この「依拠性」とは、被疑侵害者が原作品を知っており、それに基づいて自己の作品を創作したことを意味する。&lt;/p&gt;
 &lt;h3 id=&#34;依拠性の概要&#34;&gt;依拠性の概要&lt;/h3&gt;
@@ -2178,9 +2985,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>作風を似せると著作権侵害？</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/223850/</link>
+      <link>https://ipblog.pages.dev/post/2025/04/19/223850/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/223850/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/04/19/223850/</guid>
       <description>&lt;p&gt;2025年4月16日の衆院内閣委員会（※）で、著作権における、生成AI画像について答弁があった。&lt;/p&gt;
 &lt;p&gt;内容が興味深かったので、そのやり取りを紹介しつつ、自分なりの考察も交えてみたい。&lt;/p&gt;
 &lt;p&gt;※少人数の委員で組織され、本会議の審議に先だって法律案などの議案の内容を専門的に検討する予備的審査機関&lt;/p&gt;
@@ -2254,13 +3061,65 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/06/05/145128/index.md&lt;/p&gt;</description>
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/05/17/145128/20250803212528.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/05/17/145128/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        著作権侵害要件「依拠性」について
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+        著作権侵害が成立するためには、単に被疑侵害品と著作物とが類似しているだけではなく、「依拠性」という要件も必要である。
+この「依拠性」とは、被...
+      &lt;/p&gt;</description>
     </item>
     <item>
       <title>欧州特許制度特有の手続き</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/221323/</link>
+      <link>https://ipblog.pages.dev/post/2025/04/14/221323/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/221323/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/04/14/221323/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524220422.jpg&#34;/&gt; 
@@ -2344,9 +3203,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>進歩性における「容易の容易」とは</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/203555/</link>
+      <link>https://ipblog.pages.dev/post/2025/04/11/203555/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/203555/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/04/11/203555/</guid>
       <description>&lt;p&gt;実務を行っていると、特許出願が一発で特許査定となることは稀であり、大抵は新規性、進歩性、記載要件違反を理由にした拒絶理由が通知される。&lt;/p&gt;
 &lt;p&gt;中でも進歩性違反は代表的な拒絶理由であると思うが、複数の引例・周知技術が適用されている場合、いわゆる「容易の容易」にあたらないか？と思ったことがある。&lt;/p&gt;
 &lt;p&gt;しかし、実際にその理由で反論を試みた経験に乏しい。&lt;/p&gt;
@@ -2399,9 +3258,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>商標の類否判断</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/153038/</link>
+      <link>https://ipblog.pages.dev/post/2025/03/27/153038/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/153038/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/03/27/153038/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524130717.jpg&#34;/&gt; 
@@ -2466,9 +3325,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>欧州における商標登録出願の実態調査</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/115405/</link>
+      <link>https://ipblog.pages.dev/post/2025/03/20/115405/</link>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/115405/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/03/20/115405/</guid>
       <description>&lt;p&gt;商標にて、EUIPO（欧州連合知的財産庁）から「おたくが権利持ってる商標と似てる後願商標登録出願があったよ」との通知を受けた。&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
@@ -2524,9 +3383,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>米国特許 IDSの提出</title>
-      <link>http://localhost:1313/ipblog/posts/2025/05/24/113957/</link>
+      <link>https://ipblog.pages.dev/post/2025/03/11/113957/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/05/24/113957/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/03/11/113957/</guid>
       <description>&lt;p&gt;米国で特許出願行うにあたっては、IDS（Information Disclosure Statement）の提出が求められる。&lt;/p&gt;
 &lt;p&gt;実務の上ではこの辺りは事務担当や代理人にお任せしてしまっている現象であるが、特許の活用においては大事な話なので、触れておきたい。&lt;/p&gt;
 &lt;h3 id=&#34;IDSとは&#34;&gt;IDSとは？&lt;/h3&gt;
@@ -2560,9 +3419,9 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
     </item>
     <item>
       <title>米国特許法101条（特許適格性）</title>
-      <link>http://localhost:1313/ipblog/posts/2025/03/08/113255/</link>
+      <link>https://ipblog.pages.dev/post/2025/03/08/113255/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ipblog/posts/2025/03/08/113255/</guid>
+      <guid>https://ipblog.pages.dev/post/2025/03/08/113255/</guid>
       <description>&lt;p&gt;米国への特許出願では、101条について悩まされている人は多いだろう。&lt;/p&gt;
 &lt;p&gt;自分もその一人だ。&lt;/p&gt;
 &lt;p&gt;ここで備忘録として、101条違反を回避するための対策を整理しておく。&lt;/p&gt;
