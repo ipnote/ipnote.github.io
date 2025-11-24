@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"開発委託とライセンス許諾とを含む契約","draft":"false","date":"2025-08-01","image":"20250830090317.jpg","categories":["契約"]}
+{"title":"開発委託とライセンス許諾とを含む契約","draft":"false","date":"2025-08-01","image":"20250830090317.jpg","categories":["契約"],"tags": ["開発委託契約","ライセンス契約"]}
 <div align="center">
 {{< figure src="image/20250830090317.jpg" >}}
 </div>

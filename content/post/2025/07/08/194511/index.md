@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"登録商標の名前を自社広告の資料に使うと権利侵害？","draft":"false","date":"2025-07-08","image":"20250703214651.png","categories":["知的財産権全般","商標権"]}
+{"title":"登録商標の名前を自社広告の資料に使うと権利侵害？","draft":"false","date":"2025-07-08","image":"20250703214651.png","categories":["知的財産権全般","商標権"],"tags": ["商標権侵害","資料作成"]}
 <div align="center">
 {{< figure src="image/20250703214651.png" >}}
 </div>

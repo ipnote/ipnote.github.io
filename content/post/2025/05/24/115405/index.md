@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"欧州における商標登録出願の実態調査","draft":"false","date":"2025-03-20","image":"20250524115316.png","categories":["知的財産権全般"]}
+{"title":"欧州における商標登録出願の実態調査","draft":"false","date":"2025-03-20","image":"20250524115316.png","categories":["知的財産権全般"],"tags": ["EUIPO"]}
 商標にて、EUIPO（欧州連合知的財産庁）から「おたくが権利持ってる商標と似てる後願商標登録出願があったよ」との通知を受けた。
 
 <div align="center">

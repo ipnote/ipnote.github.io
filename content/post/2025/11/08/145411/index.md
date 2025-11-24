@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"無償で商用利用可能な地図画像","draft":"false","date":"2025-11-07","categories":["著作権","知的財産権全般"]}
+{"title":"無償で商用利用可能な地図画像","draft":"false","date":"2025-11-07","categories":["著作権","知的財産権全般"],"tags": ["地図画像","ライセンス表示"]}
 <div align="center">
 {{< figure src="image/20251108145343.jpg" >}}
 </div>

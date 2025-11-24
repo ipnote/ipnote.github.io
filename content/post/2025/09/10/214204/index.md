@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"ソフトウェア配布形式ごとのOSSライセンス表示方法","draft":"false","date":"2025-09-10","image":"20250907115624.jpg","categories":["その他"]}
+{"title":"ソフトウェア配布形式ごとのOSSライセンス表示方法","draft":"false","date":"2025-09-10","image":"20250907115624.jpg","categories":["その他"],"tags": ["OSS","ライセンス表示"]}
 <div align="center">
 {{< figure src="image/20250907115624.jpg" >}}
 </div>

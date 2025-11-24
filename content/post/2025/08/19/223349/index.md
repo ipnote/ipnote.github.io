@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"US Patent Law - Section 101 (Subject Matter Eligibility)","draft":"false","date":"2025-08-19","image":"20250524112124.png","categories":["特許権","知的財産権全般"]}
+{"title":"US Patent Law - Section 101 (Subject Matter Eligibility)","draft":"false","date":"2025-08-19","image":"20250524112124.png","categories":["特許権","知的財産権全般"],"tags": ["米国特許法","特許適格性","101条","権利化"]}
 In U.S. patent applications, many people struggle with § 101 rejection.
 
 Of course I’m one of them.

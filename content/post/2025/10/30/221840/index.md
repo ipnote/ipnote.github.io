@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"ライセンサー目線で知財権の保証条項を設けるリスク","draft":"false","date":"2025-10-30","categories":["契約","知的財産権全般"]}
+{"title":"ライセンサー目線で知財権の保証条項を設けるリスク","draft":"false","date":"2025-10-30","categories":["契約","知的財産権全般"],"tags": ["ライセンス契約"]}
 <div align="center">
 {{< figure src="image/20251030220734.jpg" >}}
 </div>

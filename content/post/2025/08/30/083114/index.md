@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"利用規約の特徴と重要性","draft":"false","date":"2025-08-30","image":"20250821213304.jpg","categories":["契約"]}
+{"title":"利用規約の特徴と重要性","draft":"false","date":"2025-08-30","image":"20250821213304.jpg","categories":["契約"],"tags": ["利用規約"]}
 <div align="center">
 {{< figure src="image/20250821213304.jpg" >}}
 </div>

@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"著作物の「引用」について考えてみる","draft":"false","date":"2025-08-03","image":"20250720103624.png","categories":["知的財産権全般","著作権"]}
+{"title":"著作物の「引用」について考えてみる","draft":"false","date":"2025-08-03","image":"20250720103624.png","categories":["知的財産権全般","著作権"],"tags": ["著作権侵害"]}
 <div align="center">
 {{< figure src="image/20250720103624.png" >}}
 </div>

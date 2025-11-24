@@ -1,8 +1,9 @@
 +++
 date = '2025-11-22T11:44:06+09:00'
 draft = false
-title = 'AIモデルを販売する前に欧州AI法を見た方が良い'
+title = '欧州AI法により禁止されるAI利用のルール'
 categories = ["その他"]
+tags = ["欧州AI法", "AI関連"]
 +++
 
 {{< figure src="image/20251109094831.png" >}}

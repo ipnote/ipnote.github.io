@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"非常口マークなどの安全標識は勝手に使って良い？","draft":"false","date":"2025-08-17","image":"20250817131418.png","categories":["商標権","著作権","知的財産権全般"]}
+{"title":"非常口マークなどの安全標識は勝手に使って良い？","draft":"false","date":"2025-08-17","image":"20250817131418.png","categories":["商標権","著作権","知的財産権全般"],"tags": ["資料作成"]}
 <div align="center">
 {{< figure src="image/20250817131418.png" >}}
 </div>

@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"脱OSSの動きと利用者のリスク","draft":"false","date":"2025-10-18","categories":["知的財産権全般","著作権"]}
+{"title":"脱OSSの動きと利用者のリスク","draft":"false","date":"2025-10-18","categories":["知的財産権全般","著作権"],"tags": ["OSS"]}
 <div align="center">
 {{< figure src="image/20251018120157.jpg" >}}
 </div>

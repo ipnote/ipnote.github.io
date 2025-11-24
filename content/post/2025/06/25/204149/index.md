@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"AIで声をパクられたら訴えることは可能？","draft":"false","date":"2025-06-25","image":"20250622205206.jpg","categories":["知的財産権全般","著作権"]}
+{"title":"AIで声をパクられたら訴えることは可能？","draft":"false","date":"2025-06-25","image":"20250622205206.jpg","categories":["知的財産権全般","著作権"],"tags": ["著作権違反"]}
  <div align="center">
 {{< figure src="image/20250622205206.jpg" >}}
 </div>

@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"スマホアプリの知財権","draft":"false","date":"2025-07-18","image":"20250629190749.png","categories":["知的財産権全般","特許権"]}
+{"title":"スマホアプリの知財権","draft":"false","date":"2025-07-18","image":"20250629190749.png","categories":["知的財産権全般","特許権"],"tags": ["権利化"]}
 <div align="center">
 {{< figure src="image/20250629190749.png" >}}
 </div>

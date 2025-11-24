@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"SBOMとOSSライセンスとの関係","draft":"false","date":"2025-09-03","image":"20250817134517.png","categories":["その他"]}
+{"title":"SBOMとOSSライセンスとの関係","draft":"false","date":"2025-09-03","image":"20250817134517.png","categories":["その他"],"tags": ["OSS","SBOM"]}
 ソフトウェア開発の現場では、ゼロから全部のコードを書くことは殆ど無い。
 
 多くの場合、世界中の開発者が公開している<strong>オープンソースソフトウェア（OSS）</strong>や、既存のライブラリを組み合わせて作られている。

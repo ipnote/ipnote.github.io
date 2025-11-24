@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"米国特許 IDSの提出","draft":"false","date":"2025-03-11","image":"20250524113921.jpg","categories":["知的財産権全般"]}
+{"title":"米国特許 IDSの提出","draft":"false","date":"2025-03-11","image":"20250524113921.jpg","categories":["知的財産権全般"],"tags": ["米国特許法","IDS"]}
 米国で特許出願行うにあたっては、IDS（Information Disclosure Statement）の提出が求められる。
 
 実務の上ではこの辺りは事務担当や代理人にお任せしてしまっている現象であるが、特許の活用においては大事な話なので、触れておきたい。

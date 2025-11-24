@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"契約書における記載ミスの話","draft":"false","date":"2025-06-23","image":"20250616223433.jpg","categories":["契約"]}
+{"title":"契約書における記載ミスの話","draft":"false","date":"2025-06-23","image":"20250616223433.jpg","categories":["契約"],"tags": ["契約書の用語の定義"]}
 契約ドラフトを相手方に提示するとき、一部表記ゆれがある点を指摘され、修正を求められることがある。
 
 <div align="center"> 

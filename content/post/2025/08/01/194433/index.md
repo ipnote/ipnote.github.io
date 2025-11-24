@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"特許権侵害で逮捕者が出たらしい","draft":"false","date":"2025-08-01","image":"20250704132400.png","categories":["知的財産権全般","特許権"]}
+{"title":"特許権侵害で逮捕者が出たらしい","draft":"false","date":"2025-08-01","image":"20250704132400.png","categories":["知的財産権全般","特許権"],"tags": ["特許権侵害"]}
 <div align="center">
 {{< figure src="image/20250704132400.png" >}}
 </div>

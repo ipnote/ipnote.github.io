@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"一般的な著作権表示の話とOSSでの表示義務","draft":"false","date":"2025-09-12","image":"20250917201049.jpg","categories":["著作権","知的財産権全般"]}
+{"title":"一般的な著作権表示の話とOSSでの表示義務","draft":"false","date":"2025-09-12","image":"20250917201049.jpg","categories":["著作権","知的財産権全般"],"tags": ["ライセンス表示"]}
 <div align="center">
 {{< figure src="image/20250917201049.jpg" >}}
 </div>

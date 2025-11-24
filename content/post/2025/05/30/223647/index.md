@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"個人情報の第三者提供とクラウド例外","draft":"false","date":"2025-05-30","image":"20250803211125.jpg","categories":["契約"]}
+{"title":"個人情報の第三者提供とクラウド例外","draft":"false","date":"2025-05-30","image":"20250803211125.jpg","categories":["契約"],"tags": ["クラウド例外","個人情報"]}
 
 <div align="center">
 {{< figure src="image/20250803211125.jpg" >}}

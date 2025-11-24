@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"米国で生成AI学習に著作物を使うと問題？","draft":"false","date":"2025-07-10","image":"20250803211825.jpg","categories":["知的財産権全般"]}
+{"title":"米国で生成AI学習に著作物を使うと問題？","draft":"false","date":"2025-07-10","image":"20250803211825.jpg","categories":["知的財産権全般"],"tags": ["AI関連","著作権侵害"]}
  <div align="center">
 {{< figure src="image/20250803211825.jpg" >}}
 </div>

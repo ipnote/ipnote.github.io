@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"未成年者との契約と親の同意に関して","draft":"false","date":"2025-09-09","image":"20250917203253.jpg","categories":["契約"]}
+{"title":"未成年者との契約と親の同意に関して","draft":"false","date":"2025-09-09","image":"20250917203253.jpg","categories":["契約"],"tags": ["個人情報"]}
 <div align="center">
 {{< figure src="image/20250917203253.jpg" >}}
 </div>

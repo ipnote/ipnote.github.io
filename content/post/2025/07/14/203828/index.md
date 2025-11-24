@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"プレゼン表示するだけの資料にも機密表示は必要？","draft":"false","date":"2025-07-14","image":"20250712102828.png","categories":["知的財産権全般"]}
+{"title":"プレゼン表示するだけの資料にも機密表示は必要？","draft":"false","date":"2025-07-14","image":"20250712102828.png","categories":["知的財産権全般"],"tags": ["資料作成"]}
 <div align="center">
 {{< figure src="image/20250712102828.png" >}}
 </div>

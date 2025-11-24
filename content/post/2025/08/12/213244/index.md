@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"発明の名称や要約書の記載は、権利範囲に影響する？","draft":"false","date":"2025-08-12","image":"20250812212959.jpg","categories":["知的財産権全般","特許権"]}
+{"title":"発明の名称や要約書の記載は、権利範囲に影響する？","draft":"false","date":"2025-08-12","image":"20250812212959.jpg","categories":["知的財産権全般","特許権"],"tags": ["出願手続"]}
 <div align="center">
 {{< figure src="image/20250812212959.jpg" >}}
 </div>

@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"分割出願や国内優先権の主張時における発明者の不一致","draft":"false","date":"2025-07-27","image":"20250727092116.png","categories":["知的財産権全般","特許権"]}
+{"title":"分割出願や国内優先権の主張時における発明者の不一致","draft":"false","date":"2025-07-27","image":"20250727092116.png","categories":["知的財産権全般","特許権"],"tags": ["出願手続"]}
 <div align="center"> 
 {{< figure src="image/20250727092116.png" >}}
 </div>

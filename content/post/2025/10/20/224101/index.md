@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"ソースコード中のOSS検知","draft":"false","date":"2025-10-20","image":"20251020201855.jpg","categories":["著作権","知的財産権全般"]}
+{"title":"ソースコード中のOSS検知","draft":"false","date":"2025-10-20","image":"20251020201855.jpg","categories":["著作権","知的財産権全般"],"tags": ["OSS"]}
 <div align="center">
 {{< figure src="image/20251020201855.jpg" >}}
 </div>

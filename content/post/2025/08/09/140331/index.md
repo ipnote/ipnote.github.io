@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"AIの隠れた制御、ステルスプロンプトとは？","draft":"false","date":"2025-08-09","image":"20250802180545.jpg","categories":["その他"]}
+{"title":"AIの隠れた制御、ステルスプロンプトとは？","draft":"false","date":"2025-08-09","image":"20250802180545.jpg","categories":["その他"],"tags": ["AI関連","プロンプト"]}
 <div align="center">
 {{< figure src="image/20250802180545.jpg" >}}
 </div>

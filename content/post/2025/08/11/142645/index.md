@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"利用規約に対するユーザ同意取得の運用","draft":"false","date":"2025-08-11","image":"20250810083910.jpg","categories":["契約"]}
+{"title":"利用規約に対するユーザ同意取得の運用","draft":"false","date":"2025-08-11","image":"20250810083910.jpg","categories":["契約"],"tags": ["利用規約"]}
 <div align="center">
 {{< figure src="image/20250810083910.jpg" >}}
 </div>

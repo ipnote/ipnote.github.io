@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"契約における知財の取り扱い","draft":"false","date":"2025-05-31","image":"20250521202616.jpg","categories":["契約","知的財産権全般","特許権"]}
+{"title":"契約における知財の取り扱い","draft":"false","date":"2025-05-31","image":"20250521202616.jpg","categories":["契約","知的財産権全般","特許権"],"tags": ["開発委託契約","共同開発契約","ライセンス契約"]}
 <div align="center">
 {{< figure src="image/20250524200650.jpg" >}}
 </div>

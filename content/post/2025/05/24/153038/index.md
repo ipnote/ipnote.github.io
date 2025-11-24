@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"商標の類否判断","draft":"false","date":"2025-03-27","image":"20250521202756.jpg","categories":["知的財産権全般"]}
+{"title":"商標の類否判断（外観、称呼、観念）","draft":"false","date":"2025-03-27","image":"20250521202756.jpg","categories":["知的財産権全般"],"tags": ["商標の類否判断"]}
 <div align="center">
 {{< figure src="image/20250524130717.jpg" >}}
 </div>

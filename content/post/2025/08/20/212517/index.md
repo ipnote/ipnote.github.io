@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"AIが作成したもの、特許や商標登録はOK？","draft":"false","date":"2025-08-20","image":"20250803202801.jpg","categories":["知的財産権全般"]}
+{"title":"AIが作成したもの、特許や商標登録はOK？","draft":"false","date":"2025-08-20","image":"20250803202801.jpg","categories":["知的財産権全般"],"tags": ["AI関連","AI画像の著作権"]}
 <div align="center">
 {{< figure src="image/20250803202801.jpg" >}}
 </div>

@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"請負と準委任との違い","draft":"false","date":"2025-04-09","image":"20250524201328.jpg","categories":["契約"]}
+{"title":"請負と準委任との違い","draft":"false","date":"2025-04-09","image":"20250524201328.jpg","categories":["契約"],"tags": ["開発委託契約","請負","準委任"]}
 <div align="center">
 {{< figure src="image/20250524201328.jpg" >}}
 </div>

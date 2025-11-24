@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"漫画のキャラクター名を製品名にして良い？","draft":"false","date":"2025-06-15","image":"20250614130116.png","categories":["知的財産権全般","著作権","商標権"]}
+{"title":"漫画のキャラクター名を製品名にして良い？","draft":"false","date":"2025-06-15","image":"20250614130116.png","categories":["知的財産権全般","著作権","商標権"],"tags": ["著作権違反","商標権違反"]}
 <div align="center"> 
 {{< figure src="image/20250614130116.png" >}}
 </div>

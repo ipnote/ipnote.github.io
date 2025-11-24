@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"開発部から企業知財部への異動・転職の話","draft":"false","date":"2025-09-19","image":"20250919210940.jpg","categories":["知的財産権全般"]}
+{"title":"開発部から企業知財部への異動・転職の話","draft":"false","date":"2025-09-19","image":"20250919210940.jpg","categories":["知的財産権全般"],"tags": ["転職"]}
 <div align="center">
 {{< figure src="image/20250919210940.jpg" >}}
 </div>

@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"著作権の使用許諾","draft":"false","date":"2025-09-06","image":"20250830154329.jpg","categories":["著作権","知的財産権全般"]}
+{"title":"著作権の使用許諾","draft":"false","date":"2025-09-06","image":"20250830154329.jpg","categories":["著作権","知的財産権全般"],"tags": ["ライセンス契約"]}
 <div align="center">
 {{< figure src="image/20250830154329.jpg" >}}
 </div>

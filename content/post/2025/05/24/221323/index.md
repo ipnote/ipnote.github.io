@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"欧州特許制度特有の手続き","draft":"false","date":"2025-04-14","image":"20250524220422.jpg","categories":["知的財産権全般","特許権"]}
+{"title":"欧州特許制度特有の手続き","draft":"false","date":"2025-04-14","image":"20250524220422.jpg","categories":["知的財産権全般","特許権"],"tags": ["欧州特許","バリデーション","オプトアウト","LOR"]}
 <div align="center">
 {{< figure src="image/20250524220422.jpg" >}}
 </div>

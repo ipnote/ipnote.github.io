@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"派遣社員の発明の取り扱い","draft":"false","date":"2025-07-29","image":"20250803125032.jpg","categories":["知的財産権全般","特許権"]}
+{"title":"派遣社員の発明の取り扱い","draft":"false","date":"2025-07-29","image":"20250803125032.jpg","categories":["知的財産権全般","特許権"],"tags": ["出願手続","職務発明"]}
 <div align="center">
 {{< figure src="image/20250803125032.jpg" >}}
 </div>

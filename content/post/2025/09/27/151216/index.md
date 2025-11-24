@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"大学とのNDA（秘密保持契約）における考慮事項","draft":"false","date":"2025-09-27","image":"20250923161203.jpg","categories":["契約"]}
+{"title":"大学とのNDA（秘密保持契約）における考慮事項","draft":"false","date":"2025-09-27","image":"20250923161203.jpg","categories":["契約"],"tags": ["NDA"]}
 <div align="center">
 {{< figure src="image/20250923161203.jpg" >}}
 </div>

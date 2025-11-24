@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"結合商標の分離観察の可否","draft":"false","date":"2025-09-30","image":"20250929105638.jpg","categories":["商標権","知的財産権全般"]}
+{"title":"結合商標の分離観察の可否","draft":"false","date":"2025-09-30","image":"20250929105638.jpg","categories":["商標権","知的財産権全般"],"tags": ["商標の類否判断"]}
 <style>
 td {
   vertical-align: middle;

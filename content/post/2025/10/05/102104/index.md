@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"知財契約における任意規定と強行規定","draft":"false","date":"2025-10-05","image":"20250910232227.jpg","categories":["契約","知的財産権全般"]}
+{"title":"知財契約における任意規定と強行規定","draft":"false","date":"2025-10-05","image":"20250910232227.jpg","categories":["契約","知的財産権全般"]}
 <div align="center">
 {{< figure src="image/20250910232227.jpg" >}}
 </div>

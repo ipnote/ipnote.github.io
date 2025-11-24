@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"NDAはプロジェクト毎に結ばないといけない？","draft":"false","date":"2025-09-23","image":"20250914104520.jpg","categories":["契約"]}
+{"title":"NDAはプロジェクト毎に結ばないといけない？","draft":"false","date":"2025-09-23","image":"20250914104520.jpg","categories":["契約"],"tags": ["NDA"]}
 <div align="center">
 {{< figure src="image/20250914104520.jpg" >}}
 </div>

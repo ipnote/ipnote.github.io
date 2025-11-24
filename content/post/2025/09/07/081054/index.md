@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"ソースコードの著作権侵害","draft":"false","date":"2025-09-07","image":"20250917203716.jpg","categories":["著作権","知的財産権全般"]}
+{"title":"ソースコードの著作権侵害","draft":"false","date":"2025-09-07","image":"20250917203716.jpg","categories":["著作権","知的財産権全般"],"tags": ["著作権侵害","ソースコード"]}
 <div align="center">
 {{< figure src="image/20250917203716.jpg" >}}
 </div>

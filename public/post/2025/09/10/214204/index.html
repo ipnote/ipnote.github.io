@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>ソフトウェア配布形式ごとのOSSライセンス表示方法 | 実務者のための知財法務</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="OSS, ライセンス表示">
 <meta name="description" content="
 
      
@@ -58,7 +58,7 @@ SWが組み込まれた機器として提供する場合
 
 
 ">
-<meta name="author" content="ip-note">
+<meta name="author" content="">
 <link rel="canonical" href="https://ipblog.pages.dev/post/2025/09/10/214204/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.44f29674c782898b60a2318b9426c77687a194fa04049c7c093b27879588844a.css" integrity="sha256-RPKWdMeCiYtgojGLlCbHdoehlPoEBJx8CTsnh5WIhEo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://ipblog.pages.dev/assets/images/ip_favicon.ico">
@@ -128,6 +128,8 @@ SWが組み込まれた機器として提供する場合 ルーター、家電�
     <meta property="article:section" content="post">
     <meta property="article:published_time" content="2025-09-10T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-09-10T00:00:00+00:00">
+    <meta property="article:tag" content="OSS">
+    <meta property="article:tag" content="ライセンス表示">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ソフトウェア配布形式ごとのOSSライセンス表示方法">
 <meta name="twitter:description" content="
@@ -211,17 +213,13 @@ SWが組み込まれた機器として提供する場合
   "name": "ソフトウェア配布形式ごとのOSSライセンス表示方法",
   "description": " 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。\nそして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。\nしかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。\nしたがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。\nこの点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。\nソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。\nOSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。\nライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。\nスマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。\niOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。\n具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。\nリスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。\n多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。\nなお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。\n（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）\nSWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。\n付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。\nその場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。\nまとめ 表にまとめると、以下の通りである。\n配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ",
   "keywords": [
-    
+    "OSS", "ライセンス表示"
   ],
   "articleBody": " 企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。\nそして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。\nしかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。\nしたがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。\nこの点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。\nソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など） 配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。\nOSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。\nライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。\nスマホアプリとして提供する場合（例：iOS/Androidアプリ） バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。\niOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。\n具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。\nリスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。\n多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。\nなお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。\n（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）\nSWが組み込まれた機器として提供する場合 ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。\n付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。\nその場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。\nまとめ 表にまとめると、以下の通りである。\n配布形式 OSSライセンス表示方法 ファイル配布 パッケージにライセンス文を同梱 アプリ配布 アプリ内に「OSSライセンス情報」メニューを設ける 機器配布 マニュアル、付属CD、Web UI、製品Webページ等で表示 ",
   "wordCount" : "34",
   "inLanguage": "en",
   "datePublished": "2025-09-10T00:00:00Z",
   "dateModified": "2025-09-10T00:00:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "ip-note"
-  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://ipblog.pages.dev/post/2025/09/10/214204/"
@@ -277,6 +275,11 @@ SWが組み込まれた機器として提供する場合
                 </a>
             </li>
             <li>
+                <a href="https://ipblog.pages.dev/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://ipblog.pages.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
@@ -284,6 +287,22 @@ SWが組み込まれた機器として提供する場合
             <li>
                 <a href="https://ipblog.pages.dev/about/" title="About">
                     <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ipblog.pages.dev/privacy/" title="Privacy">
+                    <span>Privacy</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" title="Contact">
+                    <span>Contact</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
                 </a>
             </li>
         </ul>
@@ -297,7 +316,7 @@ SWが組み込まれた機器として提供する場合
     <h1 class="post-title entry-hint-parent">
       ソフトウェア配布形式ごとのOSSライセンス表示方法
     </h1>
-    <div class="post-meta"><span title='2025-09-10 00:00:00 +0000 UTC'>September 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>ip-note</span>
+    <div class="post-meta"><span title='2025-09-10 00:00:00 +0000 UTC'>September 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>
 
   <span class="post-meta">
     <span>Categories:</span>
@@ -388,15 +407,15 @@ SWが組み込まれた機器として提供する場合
   <h2>関連記事</h2>
   <ul class="related-posts">
     
-    <li><a href="/post/2025/11/22/001143/">AIモデルを販売する前に欧州AI法を見た方が良い</a></li>
-    
-    <li><a href="/post/2025/11/02/102154/">ソフトウェア等の販売における輸出規制</a></li>
-    
-    <li><a href="/post/2025/10/09/072948/">個人情報からの匿名加工情報の作成</a></li>
-    
     <li><a href="/post/2025/09/03/213457/">SBOMとOSSライセンスとの関係</a></li>
     
     <li><a href="/post/2025/08/21/202514/">OSSのデュアルライセンス</a></li>
+    
+    <li><a href="/post/2025/11/07/145411/">無償で商用利用可能な地図画像</a></li>
+    
+    <li><a href="/post/2025/11/07/124144/">社内の電子資料にGoogleマップを使うには</a></li>
+    
+    <li><a href="/post/2025/10/20/224101/">ソースコード中のOSS検知</a></li>
     
   </ul>
   
@@ -406,6 +425,8 @@ SWが組み込まれた機器として提供する場合
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://ipblog.pages.dev/tags/oss/">OSS</a></li>
+      <li><a href="https://ipblog.pages.dev/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E7%A4%BA/">ライセンス表示</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://ipblog.pages.dev/post/2025/09/12/125003/">
@@ -437,10 +458,7 @@ SWが組み込まれた機器として提供する場合
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a><footer class="footer" style = "font-size:0.9rem">
-  <a href="/privacy" rel="noopener" target="_blank"><strong>プライバシーポリシー/免責事項</strong></a> · 
-  <a href="https://forms.gle/nEdcyw1FDb2HKvqi6" rel="noopener" target="_blank"><strong>お問い合わせ</strong></a>
-  </br></br>
+</a><footer class="footer" style = "font-size:0.8rem">
   当ブログはアフィリエイト広告を利用しています
 </footer>
 

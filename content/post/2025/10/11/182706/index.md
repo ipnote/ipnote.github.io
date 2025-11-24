@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"開発委託における、請負契約と準委任契約（成果完成型）との違い","draft":"false","date":"2025-10-11","categories":["契約"]}
+{"title":"開発委託における、請負契約と準委任契約（成果完成型）との違い","draft":"false","date":"2025-10-11","categories":["契約"],"tags": ["開発委託契約","請負","準委任"]}
 <div align="center">
 {{< figure src="image/20251011182437.png" >}}
 </div>

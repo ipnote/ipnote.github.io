@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"説明書や動画をブログや資料に載せるときの著作権リスクについて","draft":"false","date":"2025-09-05","image":"20250830091943.jpg","categories":["著作権","知的財産権全般"]}
+{"title":"説明書や動画をブログや資料に載せるときの著作権リスクについて","draft":"false","date":"2025-09-05","image":"20250830091943.jpg","categories":["著作権","知的財産権全般"],"tags": ["資料作成","著作権侵害"]}
 <div align="center">
 {{< figure src="image/20250917204256.jpg" >}}
 </div>

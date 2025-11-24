@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"特許明細書で登録商標を使うときの注意","draft":"false","date":"2025-08-26","image":"20250814202759.jpg","categories":["商標権","特許権","知的財産権全般"]}
+{"title":"特許明細書で登録商標を使うときの注意","draft":"false","date":"2025-08-26","image":"20250814202759.jpg","categories":["商標権","特許権","知的財産権全般"],"tags": ["権利化","出願手続"]}
 <div align="center">
 {{< figure src="image/20250814202759.jpg" >}}
 </div>

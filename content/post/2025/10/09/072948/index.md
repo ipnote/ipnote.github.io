@@ -1,4 +1,4 @@
-{"author":"ip-note","title":"個人情報からの匿名加工情報の作成","draft":"false","date":"2025-10-09","image":"20250917201420.jpg","categories":["その他"]}
+{"title":"個人情報からの匿名加工情報の作成","draft":"false","date":"2025-10-09","image":"20250917201420.jpg","categories":["その他"],"tags": ["個人情報"]}
 <div align="center">
 {{< figure src="image/20250917201420.jpg" >}}
 </div>
