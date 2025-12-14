@@ -81,7 +81,7 @@ post = "/post/:year/:month/:day/:contentbasename/"
   [[menu.main]]
   identifier = "contact"
   name = "Contact"
-  url = "https://forms.gle/nEdcyw1FDb2HKvqi6"
+  url = "/contact/"
   weight = 7
 
 [markup]

@@ -4,7 +4,6 @@ layout: "member"
 url: "/about/"
 summary: about
 date: 2025-03-01
-author: ["ip-note"]
 ---
 
 弁理士資格の取得をきっかけにHW開発から知財部へ異動し、その後SW企業へと転職。 転職後は、知財法務として知財業務のほか契約関係も担当することとなりました。
@@ -14,4 +13,4 @@ author: ["ip-note"]
 時には主観の入った解釈もあるかと思いますので、参考程度に見て頂ければと思います。
 
 - [プライバシーポリシー・免責事項](/privacy)<br>
-- [お問い合わせ](https://forms.gle/nEdcyw1FDb2HKvqi6)
+- [お問い合わせ](/contact)

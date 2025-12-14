@@ -1,4 +1,10 @@
-{"author":"ip-note","title":"プライバシーポリシー","draft":"false","date":"2025-01-01"}
+---
+title: "Privacy Policy / Disclaimer"
+url: "/privacy/"
+summary: privacy
+date: 2025-03-01
+---
+
 <style>
   /* タイトルとか諸々非表示 */
   #box2,

@@ -5305,72 +5305,18 @@ UPの場合は年金が高額となるため、有効化させたい国が３か
       <description>about</description>
     </item>
     <item>
-      <title>プライバシーポリシー</title>
+      <title>Contact</title>
+      <link>https://ipblog.pages.dev/contact/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/contact/</guid>
+      <description>contact</description>
+    </item>
+    <item>
+      <title>Privacy Policy / Disclaimer</title>
       <link>https://ipblog.pages.dev/privacy/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ipblog.pages.dev/privacy/</guid>
-      <description>&lt;style&gt;
-  /* タイトルとか諸々非表示 */
-  #box2,
-  .entry-footer,
-  .entry-header{
-    display: none;
-  }
-
-  /* ページャー非表示 */
-  .pager{
-    display: none;
-  }
-
-  /* メインコンテンツを横いっぱいに広げる */
-  #main {
-    width: 100% !important;
-    max-width: 100% !important;
-    float: none !important;
-  }
-&lt;/style&gt;
-&lt;h3 id=&#34;個人情報取り扱いに関する基本方針&#34;&gt;個人情報取り扱いに関する基本方針&lt;/h3&gt;
-&lt;p&gt;「実務者のための知財法務」（以下、「当サイト」といいます。）では、ご利用頂くお客様の個人情報を適切に保護するため、個人情報の保護に関する法律、その他の関係法令を遵守すると共に、以下に定めるプライバシーポリシーに従って、個人情報を安全かつ適切に取り扱うことを宣言いたします。&lt;/p&gt;
-&lt;h3 id=&#34;個人情報の定義&#34;&gt;個人情報の定義&lt;/h3&gt;
-&lt;p&gt;「個人情報」とは、個人情報保護法で定義される「個人情報」をいいます。すなわち、生存する個人に関する情報であって、以下のいずれかに該当するものをいいます。&lt;/p&gt;
-&lt;div&gt;
-１．当該情報に含まれる氏名、生年月日その他の記述等により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含む。）&lt;/br&gt;
-例：氏名、生年月日、住所、電話番号、メールアドレス&lt;/br&gt;
-２．個人識別符号が含まれるもの&lt;/br&gt;
-例：個人の身体データ（顔、指紋、声紋等）&lt;/br&gt;
-　　個人に割り振られる公的な番号（マイナンバー等）&lt;/br&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;個人情報の利用目的&#34;&gt;個人情報の利用目的&lt;/h3&gt;
-&lt;p&gt;当サイトでは、メールでのお問い合わせの際に、お名前（ハンドルネーム）、メールアドレス等の個人情報をご入力いただく場合がございます。&lt;/p&gt;
-&lt;p&gt;これらの個人情報は質問に対する回答や必要な情報を電子メールなどでご連絡する場合に利用させていただくものであり、これらの目的以外では利用いたしません。&lt;/p&gt;
-&lt;h3 id=&#34;個人情報の第三者への開示&#34;&gt;個人情報の第三者への開示&lt;/h3&gt;
-&lt;p&gt;当サイトでは、個人情報は適切に管理し、以下に該当する場合を除いて第三者に開示することはありません。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;本人の書面（メール等の電磁的方法を含む）による承諾を得ている場合&lt;/li&gt;
-&lt;li&gt;法令等への協力のため、開示が必要となる場合&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ご本人からの個人データの開示、訂正、追加、削除、利用停止のご希望があった場合には、ご本人であることを確認させていただいた上、速やかに対応させていただきます。&lt;/p&gt;
-&lt;h3 id=&#34;Cookieの使用&#34;&gt;Cookieの使用&lt;/h3&gt;
-&lt;p&gt;当サイトでは、一部のコンテンツについて情報の収集にCookieを使用しています。&lt;/p&gt;
-&lt;p&gt;Cookieとは、WebサーバーからWebブラウザに送信されるデータのことであり、ユーザーがサイトを訪れた際に、そのユーザーのコンピュータ内に記録されます。&lt;/p&gt;
-&lt;p&gt;ただし、当サイトがCookieとして送るファイルには、お名前・ご住所・メールアドレス・電話番号など、個人を特定するものは一切含まれません。&lt;/p&gt;
-&lt;p&gt;また、当サイトでは、ユーザーの方々がどのようなサービスに興味をお持ちなのかを分析したり、ウェブ上での効果的な広告の配信のためにこれらを利用させていただく場合があります。&lt;/p&gt;
-&lt;p&gt;Cookieによる情報収集を好まれない場合、ユーザーご自身でブラウザで受け入れを拒否するよう設定することも可能です。ただし、この設定により一部のコンテンツが正しく機能しない場合、またサービスが受けられない場合がございます。あらかじめご了承ください。&lt;/p&gt;
-&lt;p&gt;なお、設定方法に関しては&lt;a href=&#34;https://policies.google.com/technologies/partner-sites?hl=ja&#34;&gt;Googleポリシーと規約&lt;/a&gt;にてご確認いただけます。&lt;/p&gt;
-&lt;h3 id=&#34;広告の配信について&#34;&gt;広告の配信について&lt;/h3&gt;
-&lt;p&gt;当サイトは第三者配信の広告サービスを利用しています。&lt;/p&gt;
-&lt;p&gt;当サイトは、以下の第三者の配信する広告サービス及びアフィリエイトプログラムを利用しております。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A8.net&lt;/li&gt;
-&lt;li&gt;もしもアフィリエイト&lt;/li&gt;
-&lt;li&gt;楽天アフィリエイト&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;これらのサービスにおいて取得・収集される情報については、各プログラムのプライバシーポリシーにてご確認ください。&lt;/p&gt;
-&lt;h4 id=&#34;Googleアドセンス&#34;&gt;Googleアドセンス&lt;/h4&gt;
-&lt;p&gt;当サイトは、第三者配信の広告サービス「Googleアドセンス」を利用しています。&lt;/p&gt;
-&lt;p&gt;Googleなどの第三者配信事業者が Cookie を使用して、ユーザーがそのウェブサイトや他のウェブサイトに過去にアクセスした際の情報に基づいて広告を配信しています。&lt;/p&gt;
-&lt;p&gt;この目的は、ユーザーがそのサイトや他のサイトにアクセスした際の情報に基づいて、Google やそのパートナーが適切な広告をユーザーに表示するためです。&lt;/p&gt;
-&lt;p&gt;ユーザーは、&lt;a href=&#34;https://www.google.com/settings/ads&#34;&gt;広告設定&lt;/a&gt;でパーソナライズ広告を無効にすることができます（または、&lt;a href=&#34;http://www.aboutads.info/choices/&#34;&gt;www.aboutads.info&lt;/a&gt;にアクセスすれば、パーソナライズ広告に使われる第三者配信事業者の Cookie を無効にすることができます）。&lt;/p&gt;</description>
+      <description>privacy</description>
     </item>
   </channel>
 </rss>
