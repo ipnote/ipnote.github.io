@@ -191,7 +191,21 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
 
   gtag('config', 'G-GK6P50PLB9');
 </script>
-<meta property="og:url" content="https://ipblog.pages.dev/post/2025/10/20/224101/">
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GK6P50PLB9"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GK6P50PLB9');
+        }
+      </script><meta property="og:url" content="https://ipblog.pages.dev/post/2025/10/20/224101/">
   <meta property="og:site_name" content="実務者のための知財法務">
   <meta property="og:title" content="ソースコード中のOSS検知">
   <meta property="og:description" content=" 生成AIでソースコードを作成した場合、意図せずOSSが混入してしまう場合がある。
