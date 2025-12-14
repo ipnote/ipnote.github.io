@@ -1,9 +1,11 @@
+# サイトの基本情報
 baseURL = "https://ipblog.pages.dev/"
 languageCode = "ja"
 title = "実務者のための知財法務"
 theme = "PaperMod"
 googleAnalytics = "G-GK6P50PLB9"
 
+# パーマリンク設定
 [permalinks]
 post = "/post/:year/:month/:day/:contentbasename/"
 
@@ -22,6 +24,7 @@ post = "/post/:year/:month/:day/:contentbasename/"
   TocOpen = true
   sortPostBy = "date"
 
+# ファビコン設定
 [params.assets]
   favicon = "/assets/images/ip_favicon.ico"
   favicon16x16 = "/assets/images/ip_favicon_16.png"
@@ -41,6 +44,7 @@ post = "/post/:year/:month/:day/:contentbasename/"
 [outputs]
   home = [ "HTML", "RSS", "SITEMAP", "JSON" ]
 
+# メニュー設定
 [menu]
 [[menu.main]]
   identifier = "home"
@@ -89,6 +93,7 @@ post = "/post/:year/:month/:day/:contentbasename/"
     [markup.goldmark.renderer]
       unsafe = true
 
+# タクソノミー（分類）
 [taxonomies]
   tag = "tags"
   category = "categories"
@@ -115,6 +120,11 @@ weight = 20
 name = "keywords"
 weight = 10
 
+
+# サイトマップ
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
 
 enableRobotsTXT = false
 
