@@ -6,8 +6,34 @@
     <description>Recent content on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Nov 2025 21:10:12 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 22:36:24 +0900</lastBuildDate>
     <atom:link href="https://ipblog.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>クレームで「○○の数」を英訳するなら「a number of ○○」か、「the number of ○○」か</title>
+      <link>https://ipblog.pages.dev/post/2025/12/15/001215/</link>
+      <pubDate>Mon, 15 Dec 2025 22:36:24 +0900</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/12/15/001215/</guid>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20251215.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;細かい話になるかもしれないが、特許のクレームを英語に翻訳するとき、「○○の数」という表現をどう英語に翻訳すべきだろうか？&lt;/p&gt;
+&lt;p&gt;選択肢としては、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a number of ○○&lt;/li&gt;
+&lt;li&gt;the number of ○○&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が挙げられる。&lt;/p&gt;
+&lt;p&gt;「a number of」は「複数の」「多数の」と解釈されうるため「the number of」とすべき、という意見もあれば、初出で「the number of」と用いるのは適切でないため、「a number of」とすべき、という意見もある。&lt;/p&gt;
+&lt;p&gt;本来の英語としては、「複数の」ではなく「○○の数」であることを明確化するという観点では、「the number of」と記載するのが正しいようにも思われる。&lt;/p&gt;
+&lt;p&gt;しかし、米国の審査官によっては「初出の単語にtheという定冠詞を設けるのは不適切。初回はaを使いなさい」と反射的にObjectionを出すことも多い印象である。&lt;/p&gt;
+&lt;p&gt;そんな審査官に対して「いや、これは数を表すのでtheとすべきです」と意見することも可能ではある。&lt;/p&gt;
+&lt;p&gt;しかし、現実としては審査官が納得しない可能性も大いにあり得る。&lt;/p&gt;
+&lt;p&gt;また、明細書を読めば「a number of ○○」が「○○の数」を意味することが明確となっていれば、別に問題にはならないと考えられる。&lt;/p&gt;
+&lt;p&gt;実際、USPTOの審査官が審査手続を進めるための審査基準（MPEP 2111）でも、クレームの文言そのものだけでなく、&lt;strong&gt;明細書全体（詳細な説明、図面など）を参照して&lt;/strong&gt;「当業者（person having ordinary skill in the art）」が理解するであろう最も広く合理的な意味で解釈されるとしている。&lt;/p&gt;
+&lt;p&gt;これらの事情を考慮すると、個人的には、初回は「a number of」を、それ以降は「the number of」と表現すれば問題ないと思う。&lt;/p&gt;
+&lt;p&gt;因みに、「a number of」を「複数の（２つ以上を全て包含する形）」という意味で用いることもあるだろうが、「多数の」と解釈されうる（権利範囲が狭く解釈される）リスクを考慮すると、実務上は「a plurality of」と表現することが多いと考えられる。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>発注前の作業依頼や取引額の減額は常に問題？</title>
       <link>https://ipblog.pages.dev/post/2025/11/26/001126/</link>
