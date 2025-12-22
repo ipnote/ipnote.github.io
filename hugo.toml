@@ -14,14 +14,14 @@ post = "/post/:year/:month/:day/:contentbasename/"
   Content = "日々の業務で得た知見をもとに、知財や契約に関する内容を中心とした記事を、備忘録としてまとめています。<br>あくまで一知財部員の主観も含まれた記事として、参考程度に見て頂けると有り難いです。"
 
 [params]
-  defaultTheme = "light"    # ダークモードを使わない場合は"light"
-  ShowShareButtons = false
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = true
+  defaultTheme = "light"      # ダークモードを使わない場合は"light"
+  ShowShareButtons = false    # 各記事の下部に表示するshareボタンの表示の有無
+  ShowReadingTime = false      # 各記事の読み終わるまでの時間を表記するかどうか
+  ShowPostNavLinks = true     # 前後のポストへのNavigationを表示するかどうか
+  ShowBreadCrumbs = true      # 各記事の階層関係を表示するかどうか
+  ShowCodeCopyButtons = true  # 記事内のコードをコピーするボタンを表示するかどうか
+  ShowToc = true              # TOCを表示するかどうか
+  TocOpen = true              # 初期で展開しておくかどうか
   sortPostBy = "date"
 
 # ファビコン設定
@@ -119,7 +119,6 @@ weight = 20
 [[related.indices]]
 name = "keywords"
 weight = 10
-
 
 # サイトマップ
 [sitemap]
