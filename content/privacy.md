@@ -138,7 +138,7 @@ Googleなどの第三者配信事業者が Cookie を使用して、ユーザー
 当サイトのプライバシーポリシーに関する、ご意見、ご質問、その他ユーザー情報の取り扱いに関するお問い合わせは、以下にご連絡ください。
 
 代表者：オソソハムシャブ<br/>
-連絡先：[お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdYPVCY_nM9XqX1H9PGz2AsKBzAy-rq1Tz_NkZ04bbWkDSzyQ/viewform)
+連絡先：[お問い合わせフォーム](/contact)
 
 制定日：2025年3月6日<br/>
 最終改定日：2025年7月13日
