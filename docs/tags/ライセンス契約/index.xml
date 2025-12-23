@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ライセンス契約 on 実務者のための知財法務</title>
-    <link>https://ipblog.pages.dev/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E5%A5%91%E7%B4%84/</link>
+    <link>https://ipnote.github.io/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E5%A5%91%E7%B4%84/</link>
     <description>Recent content in ライセンス契約 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipblog.pages.dev/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E5%A5%91%E7%B4%84/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ipnote.github.io/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E5%A5%91%E7%B4%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ソフトウェア等の販売における輸出規制</title>
-      <link>https://ipblog.pages.dev/post/2025/11/02/102154/</link>
+      <link>https://ipnote.github.io/post/2025/11/02/102154/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/11/02/102154/</guid>
+      <guid>https://ipnote.github.io/post/2025/11/02/102154/</guid>
       <description>&lt;p&gt;製品や技術をを外国企業に輸出する際には、輸出規制・倫理的制約・リスク管理などの観点から、販売国・地域、使用者（企業・組織）を限定・禁止することが一般的である。&lt;/p&gt;
 &lt;p&gt;特に、ソフトウェアはクラウドを介して世界に販売・ライセンスすることが比較的容易なので、あらかじめ販売先の限定を検討しておくことが重要である。&lt;/p&gt;
 &lt;p&gt;知財業務の観点からは離れるかもしれないが、ソフトウェア販売において頭の片隅に入れておいたほうが良いと思うので、販売国・地域、使用者の観点で整理してみたい。&lt;/p&gt;
@@ -105,9 +105,9 @@
     </item>
     <item>
       <title>ライセンサー目線で知財権の保証条項を設けるリスク</title>
-      <link>https://ipblog.pages.dev/post/2025/10/30/221840/</link>
+      <link>https://ipnote.github.io/post/2025/10/30/221840/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/10/30/221840/</guid>
+      <guid>https://ipnote.github.io/post/2025/10/30/221840/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251030220734.jpg&#34;/&gt; 
@@ -170,9 +170,9 @@
     </item>
     <item>
       <title>著作権の使用許諾</title>
-      <link>https://ipblog.pages.dev/post/2025/09/06/093232/</link>
+      <link>https://ipnote.github.io/post/2025/09/06/093232/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/09/06/093232/</guid>
+      <guid>https://ipnote.github.io/post/2025/09/06/093232/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250830154329.jpg&#34;/&gt; 
@@ -243,9 +243,9 @@
     </item>
     <item>
       <title>知財権の無償許諾によるリスク</title>
-      <link>https://ipblog.pages.dev/post/2025/08/14/231037/</link>
+      <link>https://ipnote.github.io/post/2025/08/14/231037/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/08/14/231037/</guid>
+      <guid>https://ipnote.github.io/post/2025/08/14/231037/</guid>
       <description>&lt;p&gt;特許権や商標権など、自社が保有する知財権を他社に使用させる際の話となる。&lt;/p&gt;
 &lt;p&gt;まだ契約業務に不慣れだった頃は、権利の許諾先が親子関係であれば、どうせ大元の財布は同じな訳だしライセンス費を無償にしても良いんじゃないかと思っていた。&lt;/p&gt;
 &lt;p&gt;しかし、うっかりそんな契約を結ぼうものなら、税務調査のときに目をつけられてしまう可能性が高い。&lt;/p&gt;
@@ -273,9 +273,9 @@
     </item>
     <item>
       <title>開発委託とライセンス許諾とを含む契約</title>
-      <link>https://ipblog.pages.dev/post/2025/08/01/095000/</link>
+      <link>https://ipnote.github.io/post/2025/08/01/095000/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/08/01/095000/</guid>
+      <guid>https://ipnote.github.io/post/2025/08/01/095000/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250830090317.jpg&#34;/&gt; 
@@ -324,9 +324,9 @@
     </item>
     <item>
       <title>契約における知財の取り扱い</title>
-      <link>https://ipblog.pages.dev/post/2025/05/31/200737/</link>
+      <link>https://ipnote.github.io/post/2025/05/31/200737/</link>
       <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/05/31/200737/</guid>
+      <guid>https://ipnote.github.io/post/2025/05/31/200737/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524200650.jpg&#34;/&gt; 
@@ -388,9 +388,9 @@
     </item>
     <item>
       <title>契約期間の考え方</title>
-      <link>https://ipblog.pages.dev/post/2025/05/24/225241/</link>
+      <link>https://ipnote.github.io/post/2025/05/24/225241/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/05/24/225241/</guid>
+      <guid>https://ipnote.github.io/post/2025/05/24/225241/</guid>
       <description>&lt;p&gt;契約において当たり前の話ではあるが、改めて契約期間について考えてみたい。&lt;/p&gt;
 &lt;p&gt;まずそもそも、契約に契約期間は常に必要だろうか？&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;

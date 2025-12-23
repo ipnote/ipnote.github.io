@@ -3,4 +3,4 @@ Disallow: /categories/
 Disallow: /tags/
 Disallow: /archives/
 Disallow: /search/
-Sitemap: https://ipblog.pages.dev/sitemap.xml
+Sitemap: https://ipnote.github.io/sitemap.xml

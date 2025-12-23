@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>進歩性 on 実務者のための知財法務</title>
-    <link>https://ipblog.pages.dev/tags/%E9%80%B2%E6%AD%A9%E6%80%A7/</link>
+    <link>https://ipnote.github.io/tags/%E9%80%B2%E6%AD%A9%E6%80%A7/</link>
     <description>Recent content in 進歩性 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipblog.pages.dev/tags/%E9%80%B2%E6%AD%A9%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ipnote.github.io/tags/%E9%80%B2%E6%AD%A9%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>進歩性における「容易の容易」とは</title>
-      <link>https://ipblog.pages.dev/post/2025/04/11/203555/</link>
+      <link>https://ipnote.github.io/post/2025/04/11/203555/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipblog.pages.dev/post/2025/04/11/203555/</guid>
+      <guid>https://ipnote.github.io/post/2025/04/11/203555/</guid>
       <description>&lt;p&gt;実務を行っていると、特許出願が一発で特許査定となることは稀であり、大抵は新規性、進歩性、記載要件違反を理由にした拒絶理由が通知される。&lt;/p&gt;
 &lt;p&gt;中でも進歩性違反は代表的な拒絶理由であると思うが、複数の引例・周知技術が適用されている場合、いわゆる「容易の容易」にあたらないか？と思ったことがある。&lt;/p&gt;
 &lt;p&gt;しかし、実際にその理由で反論を試みた経験に乏しい。&lt;/p&gt;
