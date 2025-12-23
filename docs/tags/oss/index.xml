@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OSS on 実務者のための知財法務</title>
+    <link>https://ipblog.pages.dev/tags/oss/</link>
+    <description>Recent content in OSS on 実務者のための知財法務</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ipblog.pages.dev/tags/oss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ソースコード中のOSS検知</title>
+      <link>https://ipblog.pages.dev/post/2025/10/20/224101/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/10/20/224101/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20251020201855.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;生成AIでソースコードを作成した場合、意図せずOSSが混入してしまう場合がある。&lt;/p&gt;
+&lt;p&gt;OSSライセンスの再配布・表記義務・改変条件に沿う必要性から、これらOSSおよびOSSライセンスは検知しておくことが求められる。&lt;/p&gt;
+&lt;p&gt;実務上はツールでコードスニペットをスキャンするのが有用であるが、「どれくらい一致していたら、そのOSSを使っていると判断できるか？」は、慎重に扱うべきポイントとなる。&lt;/p&gt;
+&lt;h3 id=&#34;法的実務的な判断ポイント&#34;&gt;法的・実務的な判断ポイント&lt;/h3&gt;
+&lt;p&gt;ソースコードの著作権侵害に関しては下記の通りまとめているものの、今のところ、具体的な法律上の行数基準はない。&lt;/p&gt;
+ 
+
+
+
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;https://ipblog.pages.dev/post/2025/09/07/081054/20250917203716.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;https://ipblog.pages.dev/post/2025/09/07/081054/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        ソースコードの著作権侵害
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+         プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用す...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+
+&lt;p&gt;そこで、実務上は主に以下の観点で判断することとなるかと思う。&lt;/p&gt;
+&lt;h3 id=&#34;創作的表現の有無が重要&#34;&gt;「創作的表現」の有無が重要&lt;/h3&gt;
+&lt;p&gt;著作権上の保護対象は、「創作的表現」であり、単に短い定型コード（例：forループ、import文など）は保護されない。&lt;/p&gt;
+&lt;p&gt;しかし、短いならOSSを使っていないと判断するのは早計である。&lt;/p&gt;
+&lt;p&gt;たとえ5～10行程度でも特定OSSの独自ロジックや特徴的な関数構造 に一致していれば、利用している疑いは生じる。&lt;/p&gt;
+&lt;p&gt;逆に、仮に多くの行が一致していても、単純なユーティリティや一般的実装（例：バブルソート） なら著作物性は低く、OSS利用とは断定できない。&lt;/p&gt;
+&lt;h3 id=&#34;コードの著作権に関する判例&#34;&gt;コードの著作権に関する判例&lt;/h3&gt;
+&lt;p&gt;下記判例は著作権侵害に関するものである上、日本と米国の判例が入り交じっており、あくまで参考という位置づけだが、コードの一致する行数は客観的な事実として参酌されつつも、それのみをもってOSSライセンスの適用可否が決まるものではないと考えることができるかと思う。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;測量業務用ソフトウェア事件（一審）東地 H19（ワ）24698&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ソースコードの記載が全く同一であるもの&lt;/li&gt;
+&lt;li&gt;実質的に同一であるもの（会社名の置換え，変数名，フォーム名等，プログラムとして機能する上で、その名称の違いに意味のない違いであり、これらの違いがプログラムの表現として実質的な意味を持たないもの。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の割合が全体の９０％を下ることはないことを理由に、被告プログラムと原告プログラムは、原告プログラムの作成者の個性が表現された部分について、実質的同一性ないし類似性が認められる、と判断している。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Oracle v. Google (2010-2021)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコードをコピーしていたと訴えられていたが、このAPIはプログラマーが広く利用しているものとして、最高裁は米国著作権法上の「フェアユース」に該当すると判断した。&lt;/p&gt;
+&lt;p&gt;ある判事は、「ここでOracleの著作権の権利行使を認めることは、公衆に損害を与えるリスクがある」と述べた。&lt;/p&gt;
+&lt;h3 id=&#34;参考になる実務基準業界慣行ツール判断&#34;&gt;参考になる実務基準（業界慣行・ツール判断）&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 判断軸 &lt;/th&gt;
+&lt;th&gt; 内容 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; 行数・一致率 &lt;/td&gt;
+&lt;td&gt; 多くのスキャンツールは 20～30行連続一致 や 70〜80%の一致率 を「要警告」と扱う &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ファイル名・関数名 &lt;/td&gt;
+&lt;td&gt; 関数名・コメント・API呼び出しがOSSの構造ごと一致している場合はもっと早く警告 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 特徴的パターン &lt;/td&gt;
+&lt;td&gt; アルゴリズムの順序・変数名・コメントまで一致 ⇒ 実質コピーの可能性大 | TD &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;スニペットスキャンの実務ガイド&#34;&gt;スニペットスキャンの実務ガイド&lt;/h3&gt;
+&lt;p&gt;「何行」一致は目安の１つであり、ポイントは「特定OSSの創作的ロジックかどうか」となる。&lt;/p&gt;
+&lt;p&gt;行数に囚われず、疑わしい一致が出た段階で、ライセンスを確認するのが最も安全である。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; リスク &lt;/th&gt;
+&lt;th&gt; 特徴 &lt;/th&gt;
+&lt;th&gt; 対応 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; 低 &lt;/td&gt;
+&lt;td&gt; 一般的な構文・短い定型コード &lt;/td&gt;
+&lt;td&gt; 無視可能（著作物性なし） &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 中 &lt;/td&gt;
+&lt;td&gt; 特定OSSの関数名・処理が部分一致 &lt;/td&gt;
+&lt;td&gt; 出典確認・必要に応じライセンス確認 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 高 &lt;/td&gt;
+&lt;td&gt; 例えば30行以上一致、特徴的構造・コメント一致 &lt;/td&gt;
+&lt;td&gt; OSS利用の可能性大・要ライセンス確認 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>脱OSSの動きと利用者のリスク</title>
+      <link>https://ipblog.pages.dev/post/2025/10/18/120414/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/10/18/120414/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20251018120157.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;ソフトウェア企業の中には、自社技術のアピール、利用者のコミュニティ形成のため、自社プロダクトをOSS化するところもある。&lt;/p&gt;
+&lt;p&gt;こういった企業が収益を確保するには、例えば、プロダクトは無償で提供しつつも、導入サポートやプロダクトを利用するプラットフォームを有償とすることで儲けるという方法が考えられる。&lt;/p&gt;
+&lt;h3 id=&#34;OSSによる収益化の課題と脱OSS&#34;&gt;OSSによる収益化の課題と脱OSS&lt;/h3&gt;
+&lt;p&gt;しかし、近年は競合参入（大きなクラウドベンダーなど）によって上記のビジネスモデルが脅かされるリスクが大きくなっている。&lt;/p&gt;
+&lt;p&gt;OSSコミュニティによって得られる恩恵は大きいものの、「純粋にOSSを使って商用展開する事業者（クラウドベンダー）」が恩恵を受ける一方で、開発元への還元が少ないというわけである。&lt;/p&gt;
+&lt;p&gt;その結果、これまでは自由な再配布を認めていたライセンスの再策定が進んでおり、いくつかの製品では、非OSSのソース公開型ライセンス（Source-available License, SAL）に移行してきている。&lt;/p&gt;
+&lt;p&gt;具体的には、ビジネスモデルを保護できるよう「競合他社を排除する」という観点が取り入れられたSALへ変更する動きである。&lt;/p&gt;
+&lt;h3 id=&#34;OSSの定義&#34;&gt;OSSの定義&lt;/h3&gt;
+&lt;p&gt;ここで、OSSの定義について振り返っておきたい。&lt;/p&gt;
+&lt;p&gt;OSS（オープンソースソフトウェア）とは、Open Source Initiativeによって以下のように定義されている。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自由に再頒布ができること（無償か有償かは利用者の自由）&lt;/li&gt;
+&lt;li&gt;ソースコードが入手可能であること&lt;/li&gt;
+&lt;li&gt;派生ソフトウェアの作成・派生ソフトウェアを元と同じライセンスで配布することを許可すること&lt;/li&gt;
+&lt;li&gt;作者のソースコードの完全性（integrity）
+&lt;ul&gt;
+&lt;li&gt;「ソースコード+パッチファイル」の形式で再頒布を認める場合、元のOSSを変更して再頒布することを禁止しても良い&lt;/li&gt;
+&lt;li&gt;変更されたソースコードから構築されたソフトウェアの頒布を明確に許可していなければならない&lt;/li&gt;
+&lt;li&gt;派生ソフトウェアに元のソフトウェアとは異なる名前やバージョン番号をつけるよう義務付けるのはOK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;個人やグループに対する差別の禁止&lt;/li&gt;
+&lt;li&gt;利用する分野に対する差別の禁止&lt;/li&gt;
+&lt;li&gt;再配布において追加ライセンスを必要としないこと&lt;/li&gt;
+&lt;li&gt;元のOSSを改変せずそのまま再頒布する場合の追加ライセンスの禁止&lt;/li&gt;
+&lt;li&gt;特定製品でのみ有効なライセンスの禁止&lt;/li&gt;
+&lt;li&gt;他のソフトウェアを制限するライセンスの禁止&lt;/li&gt;
+&lt;li&gt;ライセンスは技術中立的でなければならない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、OSSでは「個人やグループに対する差別の禁止」「利用する分野に対する差別の禁止」という項目があるため、競合他社の参入を防ぐことはできない。&lt;/p&gt;
+&lt;h3 id=&#34;Source-available-License-SAL&#34;&gt;Source-available License (SAL)&lt;/h3&gt;
+&lt;p&gt;これに対し、各企業が移行を進めているのが、非OSSのSALである。&lt;/p&gt;
+&lt;p&gt;SALは「ソースコードが利用可能なライセンス」を意味し、OSSも含んだ概念であるので、ここでは非OSSのSALという少しまどろっこしい表現となっている。&lt;/p&gt;
+&lt;p&gt;非OSSのSALとして、例えば以下のようなものが挙げられる。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; ライセンス名 &lt;/th&gt;
+&lt;th&gt; 特徴 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Business Source License (BSL) &lt;/td&gt;
+&lt;td&gt; ・一定期間は商用利用、競合製品開発など特定の用途に制限が課される&lt;br&gt;・商用利用の際、商用ライセンス契約が必要な場合がある&lt;br&gt;・一定期間経過後、通常のOSS（Apache 2.0など）に変わる&lt;br&gt;・多くの場合、非商用目的では無償で自由に利用可能 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Server Side Public License (SSPL) &lt;/td&gt;
+&lt;td&gt; ・SaaS提供の場合、SaaS運用に必要な管理ツールや関連ソースコードも公開しなければならない&lt;br&gt;・非公開でSaaS提供する場合、商用ライセンス契約が必要 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Elastic License 2.0 (ELv2) &lt;/td&gt;
+&lt;td&gt; ・製品をマネージドサービスとして提供する行為の禁止&lt;br&gt;・ライセンスキーによる保護機構を回避する行為およびライセンスキーで保護される機能を削除または隠蔽する行為の禁止&lt;br&gt;・使用許諾、著作権、その他の通知を削除、またはわかりにくくする行為の禁止 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;SAL移行のメリットとデメリット&#34;&gt;SAL移行のメリットとデメリット&lt;/h3&gt;
+&lt;p&gt;非OSSのSALへのメリットは、競合他社による商用利用を規制し、自社製品の収益化を強化できる点である。&lt;/p&gt;
+&lt;p&gt;一方、OSSの精神（自由な利用）からの逸脱によりコミュニティからの信頼が低下し、その利用リスクから利用者や貢献者が逃げる可能性がある。&lt;/p&gt;
+&lt;p&gt;例えばBSLの場合、提供元から突然「おたく、競合他社ですわ」だと言われると使えなくなる状況が生じることもあり得るわけである。&lt;/p&gt;
+&lt;p&gt;また制約に関係する用語の定義が曖昧なライセンスもあり（例：競合製品とはどこまでを指すのか？）、企業法務としては利用は避けてもらいたいと思うのではないだろうか。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;以上のように、OSSは成長段階で収益化とのバランスを取るために、非OSSのSALへの移行が増加している。&lt;/p&gt;
+&lt;p&gt;こういった取り組みは、“OSSとしての自由”と“持続可能な商用ビジネス”のせめぎ合いを象徴している。&lt;/p&gt;
+&lt;p&gt;今後のライセンス戦略は、単なる技術選定ではなく、法的・経済的・コミュニティ的視点を含む企業全体のリスク・リターン戦略として捉える必要があるだろう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ソフトウェア配布形式ごとのOSSライセンス表示方法</title>
+      <link>https://ipblog.pages.dev/post/2025/09/10/214204/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/09/10/214204/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250907115624.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;企業内でエンジニア相手にOSSライセンスの確認を行う際は、OSSの中にあるLICENSEファイルにアクセスすることが殆どかと思う。&lt;/p&gt;
+&lt;p&gt;そして、自社で開発したソフトウェアでもOSSライセンスの表示義務を果たすために、同じくLICENSEファイルの同梱をするよう促す。&lt;/p&gt;
+&lt;p&gt;しかし、最終的にはスマホアプリの形で配布する場合であったり、HW機器に組み込んだ形で提供することも念頭に置かないとならないところ、その場合は上記のような対応ではユーザーがOSSライセンスを確認できなくなってしまう。&lt;/p&gt;
+&lt;p&gt;したがって、OSSライセンスの表示方法は「どのようにOSSを配布するか」によって異なることとなる。&lt;/p&gt;
+&lt;p&gt;この点、意外と知財部員だと見逃してしまうポイントではないかと思われるので、一般的な整理を以下にまとめておきたい。&lt;/p&gt;
+&lt;h3 id=&#34;ソフトウェアのファイル自体を提供する場合例ZIP配布GitHub公開など&#34;&gt;ソフトウェアのファイル自体を提供する場合（例：ZIP配布、GitHub公開など）&lt;/h3&gt;
+&lt;p&gt;配布パッケージのルートに LICENSEファイルやNOTICEファイルを同梱する典型的なやり方となる。&lt;/p&gt;
+&lt;p&gt;OSSごとに、ライセンス文をまとめたライセンスファイルを同梱する。&lt;/p&gt;
+&lt;p&gt;ライセンスによって、どこまで同梱するか（全文なのか、著作権表示とライセンス条項なのか）の条件は異なる。&lt;/p&gt;
+&lt;h3 id=&#34;スマホアプリとして提供する場合例iOSAndroidアプリ&#34;&gt;スマホアプリとして提供する場合（例：iOS/Androidアプリ）&lt;/h3&gt;
+&lt;p&gt;バイナリ形式で配布される場合は、「アプリ内での表示」が一般的である。&lt;/p&gt;
+&lt;p&gt;iOS/Androidのガイドラインでも「OSSライセンス表示」はアプリ内に設けることが推奨されている。&lt;/p&gt;
+&lt;p&gt;具体的には、アプリ内の「設定」「ヘルプ」「クレジット」等のメニューに「OSSライセンス情報」の項目を設けることとなる。&lt;/p&gt;
+&lt;p&gt;リスト化された各OSSをタップすると、OSS毎のライセンス文やが閲覧できる形である。&lt;/p&gt;
+&lt;p&gt;多数のライセンスを管理するのは大変なので、ライセンス表示のためのライブラリを用いることが多いかと思う。&lt;/p&gt;
+&lt;p&gt;なお、アプリ内にはプライバシーポリシー、利用規約といった表示を併記することが多い。&lt;/p&gt;
+&lt;p&gt;（Google Playの監査でプライバシーポリシーを指摘されることが多いらしい）&lt;/p&gt;
+&lt;h3 id=&#34;SWが組み込まれた機器として提供する場合&#34;&gt;SWが組み込まれた機器として提供する場合&lt;/h3&gt;
+&lt;p&gt;ルーター、家電、IoT機器等に組み込まれる場合も、表示は必要である。&lt;/p&gt;
+&lt;p&gt;付属CD/USBにライセンスファイルを格納したり、機器のUI（Web管理画面やディスプレイ）に「OSSライセンス情報」ページを設けて参照可能にすることが考えられるが、中にはそういった表示が難しい機器もある。&lt;/p&gt;
+&lt;p&gt;その場合は、機器に同梱するマニュアルもしくはユーザーガイド、または製品Webページにライセンス文を記載することで表示義務を果たすこととなる。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;表にまとめると、以下の通りである。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 配布形式 &lt;/th&gt;
+&lt;th&gt; OSSライセンス表示方法 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; ファイル配布 &lt;/td&gt;
+&lt;td&gt; パッケージにライセンス文を同梱 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; アプリ配布 &lt;/td&gt;
+&lt;td&gt; アプリ内に「OSSライセンス情報」メニューを設ける &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 機器配布 &lt;/td&gt;
+&lt;td&gt; マニュアル、付属CD、Web UI、製品Webページ等で表示 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>SBOMとOSSライセンスとの関係</title>
+      <link>https://ipblog.pages.dev/post/2025/09/03/213457/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/09/03/213457/</guid>
+      <description>&lt;p&gt;ソフトウェア開発の現場では、ゼロから全部のコードを書くことは殆ど無い。&lt;/p&gt;
+&lt;p&gt;多くの場合、世界中の開発者が公開している&lt;strong&gt;オープンソースソフトウェア（OSS）&lt;/strong&gt;や、既存のライブラリを組み合わせて作られている。&lt;/p&gt;
+&lt;p&gt;ただ、この“部品の寄せ集め”には落とし穴がある。&lt;/p&gt;
+&lt;p&gt;もし使っている部品のひとつにセキュリティの欠陥が見つかったら？&lt;/p&gt;
+&lt;p&gt;もしあるOSSのライセンス条件を満たしていなかったら？&lt;/p&gt;
+&lt;p&gt;そんな時に頼りになるのが、ソフトウェアの「部品表」、つまり&lt;strong&gt;SBOM（Software Bill of Materials）&lt;/strong&gt;となる。&lt;/p&gt;
+&lt;p&gt;この記事では、このSBOMが何なのか、そしてOSSライセンスとどんな関係があるのかをまとめておきたい。&lt;/p&gt;
+&lt;p&gt;特に知財部員（法務部員）としては、OSSライセンス管理を行う場合もあるかと思うので、SBOMについて理解を深めておくに越したことは無いと思う。&lt;/p&gt;
+&lt;h3 id=&#34;そもそもSBOMとは&#34;&gt;そもそもSBOMとは？&lt;/h3&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250817134517.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;SBOM（Software Bill of Materials）とは、製品に含むソフトウェアを構成するコンポーネントや互いの依存関係、ライセンスデータなどをリスト化した一覧表のことである。&lt;/p&gt;
+&lt;p&gt;ソフトウェアは、殆どが自分でゼロから全部作っているわけではなく、オープンソースソフトウェア（OSS）や既製のライブラリを組み合わせて作られている。&lt;/p&gt;
+&lt;p&gt;SBOMは、その「中に何が入っているか」を一覧にしたドキュメントとなる。&lt;/p&gt;
+&lt;p&gt;例えば、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;このアプリは「ライブラリA（バージョン1.2.3）」を使っています&lt;/li&gt;
+&lt;li&gt;さらに「OSSライブラリB（MITライセンス）」も含まれています&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;といった情報がSBOMに含まれる。&lt;/p&gt;
+&lt;h3 id=&#34;なぜSBOMが必要なのか&#34;&gt;なぜSBOMが必要なのか？&lt;/h3&gt;
+&lt;p&gt;SBOMが注目される理由は、大きく３つある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;セキュリティ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;もし部品のひとつに脆弱性（セキュリティの穴）が見つかった場合、SBOMがあれば「どの製品にその部品が使われているか」がすぐ分かる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法的リスクの回避&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OSSにはさまざまなライセンス条件（MIT、Apache、GPLなど）があり、それぞれに遵守すべきルールがある。&lt;/p&gt;
+&lt;p&gt;SBOMがあれば、どのOSSを使っているかが明確になり、ライセンス違反のリスクを減らせる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;顧客や取引先への透明性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ソフトウェアの品質や安全性を証明する材料として、SBOMは信頼性を高める手段になり得る。&lt;/p&gt;
+&lt;h3 id=&#34;SBOMとOSSライセンスの関係&#34;&gt;SBOMとOSSライセンスの関係&lt;/h3&gt;
+&lt;p&gt;OSSライセンスは言うなれば「そのソフトウェアやコードをどう使っていいか・配布していいか」を決めたルールブックである。&lt;/p&gt;
+&lt;p&gt;例えば、以下のようなものである。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MITライセンス → ほぼ自由に使えるが著作権表示は必要&lt;/li&gt;
+&lt;li&gt;GPLライセンス → 改変・再配布時にソースコードの公開義務あり&lt;/li&gt;
+&lt;li&gt;Apacheライセンス → 特許権の扱いも含む詳細な条件あり&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの情報を整理する上で、SBOMが役立つ。&lt;/p&gt;
+&lt;p&gt;SBOMにソフトウェア部品（パッケージやライブラリ）毎のOSSの名前とライセンス情報が載っていれば、開発チームや法務部門は「このOSSはGPLだから配布方法に注意しよう」などの判断がしやすくなる。&lt;/p&gt;
+&lt;h3 id=&#34;SBOMでリスト化される単位&#34;&gt;SBOMでリスト化される単位&lt;/h3&gt;
+&lt;p&gt;リスト化される単位だが、基本的には&lt;strong&gt;「外部から取得したソフトウェア部品（パッケージやライブラリ）」単位&lt;/strong&gt;となる。&lt;/p&gt;
+&lt;p&gt;ただし、用途や生成ツール、利用するSBOM標準によって粒度は変わってくる。&lt;/p&gt;
+&lt;h4 id=&#34;一般的な単位&#34;&gt;一般的な単位&lt;/h4&gt;
+&lt;p&gt;SBOMでは、次のような単位が多い（下に行くほど小さい単位）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パッケージ単位：依存関係管理ツールが管理する「1つの外部依存パッケージ」ごとに記載&lt;/li&gt;
+&lt;li&gt;ライブラリ単位：OSパッケージやシステムライブラリを含む「外部で提供されたライブラリ」ごとに記載&lt;/li&gt;
+&lt;li&gt;コンポーネント単位：ソフトウェア構成管理ツールが定義する論理的な部品ごとに記載&lt;/li&gt;
+&lt;li&gt;ファイル単位（詳細）：ソースコードやバイナリの特定ファイルごとに記載&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;標準仕様ごとの傾向&#34;&gt;標準仕様ごとの傾向&lt;/h4&gt;
+&lt;p&gt;SBOMの主要な仕様には次のようなものがある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SPDX（Software Package Data Exchange）→ パッケージ単位からファイル単位まで細かく書ける。ライセンス情報も詳細に記録可能。&lt;/li&gt;
+&lt;li&gt;CycloneDX → アプリの依存関係やサプライチェーン全体を表すのが得意。パッケージ単位が多い。&lt;/li&gt;
+&lt;li&gt;SWID（Software Identification Tags） → インストールされたソフトウェア単位（製品やパッケージ）を識別。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;実務では、最小はファイル単位、最大は製品単位まで幅があるものの、現実的には「依存パッケージごと」の粒度が多い。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OSSのデュアルライセンス</title>
+      <link>https://ipblog.pages.dev/post/2025/08/21/202514/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/08/21/202514/</guid>
+      <description>&lt;p&gt;ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。&lt;/p&gt;
+&lt;p&gt;世の中にはOSSの管理を支援するツールも普及しているものの、一部の言語には対応していなかったり、完全に人のチェックを手離れさせるのはまだ難しいという印象である。&lt;/p&gt;
+&lt;p&gt;知財部の立場から言えば、自社のプロプライエタリなコードの開示義務が生じたり特許権の許諾義務が生じる可能性もあるので、口酸っぱく注意喚起するしかないのが辛いところである。&lt;/p&gt;
+&lt;p&gt;ところで、パッケージにちょいちょいOSSのデュアルライセンスが含まれるケースを見かけるのだが、自分の勉強も兼ねてデュアルライセンスについてこの記事で整理しておきたい。&lt;/p&gt;
+&lt;h3 id=&#34;デュアルライセンスの概要&#34;&gt;デュアルライセンスの概要&lt;/h3&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803202051.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;OSSのデュアルライセンスとは、&lt;strong&gt;同じソフトウェアに２つのライセンスを重ねて適用するものではなく、２つの異なるライセンス形態で選択的に提供される仕組みである。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ユーザーは、その中からいずれかのライセンス条件を選んで配布することができる。&lt;/p&gt;
+&lt;p&gt;デュアルライセンスは、いずれもOSSライセンスの場合と、商用ライセンスとOSSライセンス（コピーレフト条項が付いていることが多い）を選択可能なデュアルライセンスの場合とがある。&lt;/p&gt;
+&lt;p&gt;ちなみに、３つになればトリプルライセンスと呼び、こういった複数ライセンスのうちいずれか１つを選択可能な場合をマルチライセンスと呼ぶらしい。&lt;/p&gt;
+&lt;h4 id=&#34;いずれもOSSライセンスの場合&#34;&gt;いずれもOSSライセンスの場合&lt;/h4&gt;
+&lt;p&gt;この場合であれば、企業としてはより条件の緩いライセンスを選択することが普通であろう。&lt;/p&gt;
+&lt;p&gt;ソースコード開示義務や、特許権の許諾義務を極力回避したいからである。&lt;/p&gt;
+&lt;p&gt;例えば、GPLとMITのデュアルライセンスの場合は、通常はMIT Licenseを選択する。&lt;/p&gt;
+&lt;h4 id=&#34;商用ライセンスとOSSライセンスとを選択させる場合&#34;&gt;商用ライセンスとOSSライセンスとを選択させる場合&lt;/h4&gt;
+&lt;p&gt;例えば、GPLと商用ライセンスとGPLのデュアルライセンスの場合について考えてみる。&lt;/p&gt;
+&lt;p&gt;商用ライセンスの実務上の位置づけとしては、OSSライセンスの制限を避けたい企業向けの「ライセンス回避の選択肢」として設計されている。&lt;/p&gt;
+&lt;p&gt;この場合、商用ライセンスでは、OSS版で義務付けられているソース開示や特許ライセンスを免除する旨を明記していることが多い。&lt;/p&gt;
+&lt;p&gt;したがって、企業が独自の製品に組み込んで販売するなら、対価を支払うことで商用ライセンスを選択し、クローズドな利用とすることが可能である。&lt;/p&gt;
+&lt;p&gt;一方、対価を払わない場合はGPL条件を遵守する必要があるが、オープンソースプロジェクトならGPLを選択するということもできる。&lt;/p&gt;
+&lt;h3 id=&#34;デュアルライセンスにおける誤解&#34;&gt;デュアルライセンスにおける誤解&lt;/h3&gt;
+&lt;p&gt;OSSのソースコードのパッケージには幾つかのコンポーネントが含まれており、それぞれのコンポーネントのライセンスが異なる場合もある。&lt;/p&gt;
+&lt;p&gt;OSSの勉強をし始めたときはこれがデュアルライセンスかと思っていたが、これはデュアルライセンスではない。&lt;/p&gt;
+&lt;p&gt;パッケージとして見ると、一部のコンポーネントはその他のコンポーネントとは異なるOSSライセンスが適用されているだけであって、別なライセンスが選択可能というわけではないからである。&lt;/p&gt;
+&lt;p&gt;開発から「このパッケージのOSSライセンスはこれです」と出された後、開示されているURL先を見に行ったときにOSSライセンスが聞いていたのと違う場合、このパターンであることが多い。&lt;/p&gt;
+&lt;p&gt;この場合、パッケージから手作業でライセンスの明記されているテキストを漁ったりする必要があり、かなり面倒である。&lt;/p&gt;
+&lt;p&gt;OSS検知ツールである程度は把握できるとはいえ、たまにこういう事例があるので、なかなか人の目を完全に無くすのは難しいという印象である。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;デュアルライセンスは便利な柔軟性を持つ一方で、「同じコードに複数のライセンスが重なっている」と誤解されやすい。&lt;/p&gt;
+&lt;p&gt;実務では、著作権者、ライセンス内容、選択の影響を整理した上で運用することが重要である。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

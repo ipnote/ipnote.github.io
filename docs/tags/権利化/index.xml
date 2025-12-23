@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>権利化 on 実務者のための知財法務</title>
+    <link>https://ipblog.pages.dev/tags/%E6%A8%A9%E5%88%A9%E5%8C%96/</link>
+    <description>Recent content in 権利化 on 実務者のための知財法務</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ipblog.pages.dev/tags/%E6%A8%A9%E5%88%A9%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USPTO審査変更の影響（審査官インタビューの制限）</title>
+      <link>https://ipblog.pages.dev/post/2025/11/03/080635/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/11/03/080635/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20251102212948.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;米国の審査に影響する話となる。&lt;/p&gt;
+&lt;p&gt;2026年度のUSPTOによる審査官業務評価計画で、新たな変更が導入されるとのこと。&lt;/p&gt;
+&lt;p&gt;１案件につき、審査官インタビューが合計１時間までに限定されることとなる。&lt;/p&gt;
+&lt;p&gt;以下に、その詳細を記載する。&lt;/p&gt;
+&lt;h3 id=&#34;審査官へのクレジット&#34;&gt;審査官へのクレジット&lt;/h3&gt;
+&lt;p&gt;これまでは、審査官インタビュー１回につき１時間分のクレジットぎ付与されていた。&lt;/p&gt;
+&lt;p&gt;今回の変更により、１審査ラウンド（新規出願か、RCE毎）あたり合計１時間分のクレジットが付与されるだけとなる。&lt;/p&gt;
+&lt;p&gt;つまり、実質的に２回目以降の審査官インタビューにはクレジットが付与されない。&lt;/p&gt;
+&lt;h3 id=&#34;２回目以降の審査官インタビューは可能か&#34;&gt;２回目以降の審査官インタビューは可能か&lt;/h3&gt;
+&lt;p&gt;結論、理論上可能ではある。&lt;/p&gt;
+&lt;p&gt;しかし、審査官自身で審査促進に繋がることを示す必要がある上、スーパーバイザー審査官による正式承認を要する。&lt;/p&gt;
+&lt;p&gt;果たして、クレジットも付与されないのに審査官がそこまで審査官インタビューを実施してくれるものだろうか？&lt;/p&gt;
+&lt;p&gt;また、仮に応じてくれたとしても、クレジットが得られないことから審査官による準備が充分に行われず、審査官インタビューの質が低下する可能性も否めない。&lt;/p&gt;
+&lt;p&gt;この方針は、審査促進のための対話を奨励するMPEP §713の精神と整合性が取れないものだが、それだけ審査官の工数不足を補う必要があるという表れなのかもしれない。&lt;/p&gt;
+&lt;h3 id=&#34;対話を繰り返す方法はお勧めできない&#34;&gt;対話を繰り返す方法はお勧めできない&lt;/h3&gt;
+&lt;p&gt;これまでは、OA時に限定的な補正を行った上で相手方の反応を確認し、その後に複数の審査官インタビューを通じた対話を繰り返して論点を絞っていく方法もあったかと思う。&lt;/p&gt;
+&lt;p&gt;しかし、今後はそのような方法だとRCEを繰り返すこととなり、コスト面からも望ましいアプローチとはいえなくなる。&lt;/p&gt;
+&lt;h3 id=&#34;最初のOA後の審査官インタビューが重要&#34;&gt;最初のOA後の審査官インタビューが重要&lt;/h3&gt;
+&lt;p&gt;審査ラウンド毎の審査官インタビューが原則１回に限定されたことで、&lt;strong&gt;最初の拒絶理由通知後に行う審査官インタビューの価値が高まった&lt;/strong&gt;といえる。&lt;/p&gt;
+&lt;p&gt;今後は、最初の拒絶理由通知後（最後の拒絶理由通知後よりも補正の自由度が高いタイミング）に審査官インタビューを行うことが有効と思われる。&lt;/p&gt;
+&lt;p&gt;ここでは、あらかじめ論点を整理しつつ、いくつか補正案を作成した上で、インタビューでは審査官と効率的に議論を行うことが求められる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>特許明細書で登録商標を使うときの注意</title>
+      <link>https://ipblog.pages.dev/post/2025/08/26/211552/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/08/26/211552/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250814202759.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;特許明細書を作成する際、発明の説明する上でどうしても登録商標を使用せざるを得ない場合があるかと思う。&lt;/p&gt;
+&lt;p&gt;この場合、商標権者の許可を取ることなく登録商標を使用することは可能だが、いくつか留意点がある。&lt;/p&gt;
+&lt;p&gt;その留意点について、概要をまとめておきたい。&lt;/p&gt;
+&lt;h3 id=&#34;商標表示義務の発生&#34;&gt;商標表示義務の発生&lt;/h3&gt;
+&lt;p&gt;登録商標を明細書等に使用する場合について、「特許法施行規則第24条　様式29［備考9］」には以下の通り記載されている。&lt;/p&gt;
+&lt;blockquote&gt;登録商標は、当該登録商標を使用しなければ当該物を表示することができない場合に限り使用し、この場合は、登録商標である旨を記載する。&lt;/blockquote&gt;
+&lt;p&gt;つまり、やむを得ず登録商標を明細書等に使用する場合、&lt;strong&gt;最初の登録商標「○○○」の後に「（登録商標）」といった表示をする（未登録商標であれば、商標名の次に「(商標)」と表示する）&lt;/strong&gt;ことが求められる。&lt;/p&gt;
+&lt;p&gt;仮に商標名をそのまま明細書に記載すると、以下のような不都合や商標権者等への不利益が生じるためである。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物品や物質の普通名称と商標名とが混同をきたすようになる&lt;/li&gt;
+&lt;li&gt;その商標名を商品の普通名称であるかのように誤認させ、商標が本来有している商品の出所表示の機能を弱める結果を生じる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なお、商標名である旨の付記は、職権訂正により行ってもよいとされており、表示がないことのみをもって拒絶されることは無いかと思う。&lt;/p&gt;
+&lt;h3 id=&#34;場合によっては拒絶理由となることも&#34;&gt;場合によっては拒絶理由となることも&lt;/h3&gt;
+&lt;p&gt;また留意すべきは、特許請求の範囲、又は明細書若しくは図面のうち、請求項に係る発明について商標名を記載することで、拒絶理由通知の可能性がある点である。&lt;/p&gt;
+&lt;p&gt;商標は一定の限られた商品にだけ使用されるとは限らないし、一定の商品について使用される場合であっても、同一の商標でありながら、製造の時期などによって商品の品質、組成、構成などが一定でないことが多い。&lt;/p&gt;
+&lt;p&gt;このことから、請求項に係る発明について記載された部分に商標名の記載がある場合、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;発明の詳細な説明の記載が明確かつ十分に記載されていない（特許法第36条第4項第1号）&lt;/li&gt;
+&lt;li&gt;特許を受けようとする発明が不明確（特許法第36条第6項第2号）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と認定されることがある。&lt;/p&gt;
+&lt;p&gt;ただし、商標名が以下の要件を満たせば問題ない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;その商標名が物質又は物品の普通名称となっていると認められるとき（登録商標名は本件に該当しない）&lt;/li&gt;
+&lt;li&gt;物質又は物品の普通名称となっていなくても、次の三つの条件を同時に満たしていると認定できるとき
+&lt;ul&gt;
+&lt;li&gt;類似品のうちから特にその商標名のものを選定したことに、発明としての充分な意義が認められること&lt;/li&gt;
+&lt;li&gt;商標名が記載されていても、その発明が不明確とならないこと（例えば、その商標は、少なくともその発明の特許出願以前から出願当時にかけて、常に一定の品質、組成、構成などのもののみに付されていたことが明瞭であること)&lt;/li&gt;
+&lt;li&gt;商標名で記載されていても、その発明の技術が充分に公開されていると認めることができること(例えば、その商標名の商品の市販が、何らかの理由で停止されても、その発明と実質上同一の発明を、その発明の属する技術の分野における通常の知識を有する者が容易に実施することができること)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ&lt;/h3&gt;
+&lt;p&gt;以上のように、使用の際は明細書中で登録商標等である旨の表示をする必要があり、また商標使用により発明が不明確とならないよう留意することが求められる。&lt;/p&gt;
+&lt;p&gt;より詳細な情報が知りたければ、特許・実用新案審査ハンドブック「2003 明細書、特許請求の範囲又は図面に商標名が記載されている場合の取扱い」を確認いただきたい。&lt;/p&gt;
+&lt;h3 id=&#34;参考使用頻度の高い登録商標のリスト&#34;&gt;（参考）使用頻度の高い登録商標のリスト&lt;/h3&gt;
+&lt;p&gt;参考として、特許庁HP「明細書への登録商標の記載について」に掲載されている、明細書等で登録商標である旨の表示がなく使用されている登録商標のうち、使用頻度の高いもののリストを転記しておく。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 五十音順 &lt;/th&gt;
+&lt;th&gt; アルファベット順 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; ウィンドウズ &lt;/td&gt;
+&lt;td&gt; ANDROID &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ウォークマン &lt;/td&gt;
+&lt;td&gt; BLACKBERRY &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ウォシュレット &lt;/td&gt;
+&lt;td&gt; Blu-ray &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; カラーコーン &lt;/td&gt;
+&lt;td&gt; BLUETOOTH &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ガルバリウム鋼板 &lt;/td&gt;
+&lt;td&gt; COMPACTFLASH &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ケーブルベア &lt;/td&gt;
+&lt;td&gt; DLNA &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ケーブルベヤ &lt;/td&gt;
+&lt;td&gt; FeliCa &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 碁石茶 &lt;/td&gt;
+&lt;td&gt; FIREWIRE &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; コンパクトフラッシュ &lt;/td&gt;
+&lt;td&gt; FRAM &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; サーボパック &lt;/td&gt;
+&lt;td&gt; HDMI &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; サイダック &lt;/td&gt;
+&lt;td&gt; HIT &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; サランラップ &lt;/td&gt;
+&lt;td&gt; iPad &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; セルフォック &lt;/td&gt;
+&lt;td&gt; iPhone &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; セロテープ &lt;/td&gt;
+&lt;td&gt; iPod &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 宅急便 &lt;/td&gt;
+&lt;td&gt; JAVA &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; テトラパック &lt;/td&gt;
+&lt;td&gt; JAVASCRIPT &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; テフロン &lt;/td&gt;
+&lt;td&gt; Linux &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; テレスコ &lt;/td&gt;
+&lt;td&gt; PENTIUM &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; トルクス &lt;/td&gt;
+&lt;td&gt; PHOTOSHOP &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ハーモニックドライブ &lt;/td&gt;
+&lt;td&gt; PYREX &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; パイレックス &lt;/td&gt;
+&lt;td&gt; QRコード &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; パトライト &lt;/td&gt;
+&lt;td&gt; SmartMedia &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; パワーゲート &lt;/td&gt;
+&lt;td&gt; TEFLON &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; フォトショップ &lt;/td&gt;
+&lt;td&gt; TETRAPAK &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ブルートゥース &lt;/td&gt;
+&lt;td&gt; UNIX &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ベルクロ &lt;/td&gt;
+&lt;td&gt; VELCRO &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ペンティアム &lt;/td&gt;
+&lt;td&gt; VICS &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; ポラロイド &lt;/td&gt;
+&lt;td&gt; WALKMAN &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; マジックテープ &lt;/td&gt;
+&lt;td&gt; WINDOWS &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 万歩計 &lt;/td&gt;
+&lt;td&gt; YouTube &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; リナックス &lt;/td&gt;
+&lt;td&gt; ZIGBEE &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; レイデント &lt;/td&gt;
+&lt;td&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; レバーブロック &lt;/td&gt;
+&lt;td&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>US Patent Law - Section 101 (Subject Matter Eligibility)</title>
+      <link>https://ipblog.pages.dev/post/2025/08/19/223349/</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/08/19/223349/</guid>
+      <description>&lt;p&gt;In U.S. patent applications, many people struggle with § 101 rejection.&lt;/p&gt;
+&lt;p&gt;Of course I’m one of them.&lt;/p&gt;
+&lt;p&gt;As a personal memorandum, I’d like to leave some countermeasures to avoid § 101 rejection.&lt;/p&gt;
+&lt;p&gt;This is merely my personal opinion and should be taken as such.&lt;/p&gt;
+&lt;h3 id=&#34;Decision-Flow&#34;&gt;Decision Flow&lt;/h3&gt;
+&lt;p&gt;First, the following is the basic flow for determining patent eligibility.&lt;/p&gt;
+&lt;div class=&#34;images-row mceNonEditable&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524112124.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;MPEP §2106&lt;/div&gt;
+&lt;h3 id=&#34;Step-1&#34;&gt;Step 1&lt;/h3&gt;
+&lt;p&gt;If the claim falls within one of the statutory categories (process, machine, manufacture, or composition of matter), then it clears the first hurdle and proceeds to Step 2A.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>アプリアイコンに関する商標登録の傾向</title>
+      <link>https://ipblog.pages.dev/post/2025/07/24/124644/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/24/124644/</guid>
+      <description>&lt;p&gt;業務内でスマホアプリに関する知財権の取得を検討することとなったのだが、商標権の取得にあたって、他企業はどんなアプリアイコンについて商標権を取得しているのだろうか気になり、軽く調べてみた。&lt;/p&gt;
+&lt;p&gt;ブランドイメージの戦略上、何かアイコンのデザインや権利取得の方向性のようなものが見えると参考になるかと思ったからである。&lt;/p&gt;
+&lt;p&gt;とはいえそんなに気合を入れた調査はしていないのだが、とりあえず代表的な企業としてGoogleとAppleの２社について簡単に日本国内で取得しているアプリ関連の商標権の調査をしてみた。&lt;/p&gt;
+&lt;p&gt;すると、両者でかなり異なる傾向が見えてきた。&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250629200841.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h3 id=&#34;Googleの登録商標&#34;&gt;Googleの登録商標&lt;/h3&gt;
+&lt;p&gt;まずはGoogleの代表的な登録商標を掲載する。&lt;/p&gt;
+&lt;p&gt;ぱっと見てもわかるように、Googleは色の統一性にかなり重点を置いている様子が伺える。&lt;/p&gt;
+&lt;h4 id=&#34;アプリ関連&#34;&gt;アプリ関連&lt;/h4&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250813211001.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+※左から登録5930787、5953068、6209108、6351556、6418757、6522923、6787549
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;基本的にシンプルな形状としつつも、アイコンの色を「赤」「黄」「緑」「青」の色のみで構成し、かつ４色全てを使うようデザインしていることがよく分かる。&lt;/p&gt;
+&lt;p&gt;色が与える印象は強く、アイコンの形状は違えど、色を見れば「あ、これはGoogleのアプリなんだな」と分かるようになっている。&lt;/p&gt;
+&lt;p&gt;選択した色にも意味があるようで、赤、青、黄色の三原色は、ルールや常識を表しており、そこに緑が加わることで「常識にとらわれない」という意味が込められているそうである。&lt;/p&gt;
+&lt;p&gt;色の三原色であれば「シアン」「マゼンタ」「イエロー」のような気もするが、ここで紹介されている三原色は、また別の意味を定義しているのだろう、多分。&lt;/p&gt;
+&lt;p&gt;ちなみに2025年5月頃に「G」のロゴのデザイン変更があったようで、色間の境目がくっきり分かれたものから、グラデーションに変わるとのこと。&lt;/p&gt;
+&lt;p&gt;そのため、厳密にはグラデーション部分で４色以外の色も出てくることとなるが。視認性に大きな変化は無さそうである。&lt;/p&gt;
+&lt;p&gt;このように、Googleからは自社サービス全体に統一したブランドイメージを普及させる意図が感じられる。&lt;/p&gt;
+&lt;h4 id=&#34;Youtube関連&#34;&gt;Youtube関連&lt;/h4&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250813211023.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+※左から登録4999383、5727477、5889012、5960866、6057596
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Googleは2006年10月9日にYoutubeを買収しており、それ以降は再生ボタンのアイコンをはじめ、いくつかのボタンのデザインに関して商標登録を行っている。&lt;/p&gt;
+&lt;p&gt;いずれも赤色で統一されており、やはり色で「これはYoutube」と見分けられるようにしている意図が感じられる。&lt;/p&gt;
+&lt;p&gt;再生ボタンのデザイン自体はありふれているようにも見えるが、ちゃんとYoutubeと認識できるので、ブランドイメージが浸透していると思わせられる。&lt;/p&gt;
+&lt;h3 id=&#34;Appleの登録商標アプリ関連&#34;&gt;Appleの登録商標（アプリ関連）&lt;/h3&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250813211033.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;br&gt;
+※左から登録2173459、2210825、5865311、5924575、6072269、6072304、6080354
+&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;次にAppleを紹介する。&lt;/p&gt;
+&lt;p&gt;Appleはリンゴのマークの著名度が際立っており、当然このアイコンも商標登録されている。&lt;/p&gt;
+&lt;p&gt;Appleという社名はジョブズによって決められたが、そこからリンゴのマークの商標となるのは自然かと思う。&lt;/p&gt;
+&lt;p&gt;リンゴにはかじり跡があるが、デザインした「ロブ・ジャノフ」氏によれば、他の丸い果物と誤解されないために設けたとのこと。&lt;/p&gt;
+&lt;p&gt;アダムとイブの禁じられたリンゴにちなんで人類の進歩を表しているとか、「bite（かじる）」とコンピュータにおける情報量の単位「byte（バイト）」をかけている、という説もあったらしいが、蓋を開けてみるとシンプルな理由である。&lt;/p&gt;
+&lt;p&gt;一方、その他のアプリを表すアイコンはというと、特に統一したデザインを採用している感じではない。&lt;/p&gt;
+&lt;p&gt;どちらかと言うと、アイコン単体でどんな機能を提供するアプリなのかを把握させることを意識したデザインとなっている。&lt;/p&gt;
+&lt;p&gt;Mac、iPad、iPhoneといったデバイスにはリンゴのマークが付されているのとは対照的である。&lt;/p&gt;
+&lt;h3 id=&#34;アイコンのデザイン考察&#34;&gt;アイコンのデザイン考察&lt;/h3&gt;
+&lt;p&gt;というわけで、以下の表の通り、両社とも異なったアイコンのデザイン戦略を取っているように見受けられる。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 企業名 &lt;/th&gt;
+&lt;th&gt; 戦略 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; Google &lt;/td&gt;
+&lt;td&gt; 色を統一することで、自社から提供されたアプリである点を認識させる &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Apple &lt;/td&gt;
+&lt;td&gt; 直接的なデザインにより、アプリの機能を直感的に理解してもらう &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;特に面白いと思ったのは、Googleは色という要素に特徴を見出し、それを共通化することで様々なアプリのアイコンに統一感を持たせている点である。&lt;/p&gt;
+&lt;p&gt;通常は、Appleのように形状も特徴に含めたロゴを使い、車、靴、家電製品といった様々な製品に同一のロゴを付すことでブランドイメージを形成していくことが多いと思う。&lt;/p&gt;
+&lt;p&gt;これら有形の製品に付すのであればそれで問題ないが、アプリアイコンとなると話は異なる。&lt;/p&gt;
+&lt;p&gt;製品自体が無形であるが故に、アイコン自身が他のアイコンと異なるデザインである必要が生じる。&lt;/p&gt;
+&lt;p&gt;ここで、なまじリンゴのような具体的な形状のあるロゴを使おうとすると、異なるアプリアイコンを作成するのが困難となるため、統一感には目を瞑りつつ、異なるデザインのアイコンを設ける必要が生じる。&lt;/p&gt;
+&lt;p&gt;一方、Googleのように色でブランドイメージを構築すれば、後は形状を変化させることで、アイコン間の差別化はしつつも統一感を持たせることもできる。&lt;/p&gt;
+&lt;p&gt;とはいえ、Appleのリンゴのロゴはそれ自体が「革新的で、洗練された」強いイメージを形成しているため、主要な製品やサービスに付すことで、ここぞというときに強力な訴求力を発揮できるという強みもある。&lt;/p&gt;
+&lt;p&gt;どちらが優れているとは一概には言えないとは思うが、こういったアプリアイコン１つとっても&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コーポレート部門がブランドイメージ戦略を持っておくこと&lt;/li&gt;
+&lt;li&gt;コーポレート部門が開発部門と連携すること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の重要性を感じたところである。&lt;/p&gt;
+&lt;p&gt;アプリのアイコンといえど、会社のブランドイメージに関わる以上は、開発に丸投げしたが故に好き勝手な野良アイコンが生まれるという事態は避けたい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>スマホアプリの知財権</title>
+      <link>https://ipblog.pages.dev/post/2025/07/18/221340/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/07/18/221340/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250629190749.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;p&gt;最近、企業内でスマホアプリを開発する企画が立ち上がったので、他社の特許権をはじめとするクリアランス調査を進めていたところ、偉い方々から「知財観点でもしっかり権利を押さえておくように」とのお達しがあった。&lt;/p&gt;
+&lt;p&gt;特許権は誰しも想像できるところだと思うが、今回はスマホアプリという性質上、アプリのアイコン表示に関しても何らかのケアが必要になりそうな気配である。&lt;/p&gt;
+&lt;p&gt;となると、意匠、商標権についても権利取得を行う可能性はゼロではない。&lt;/p&gt;
+&lt;p&gt;しかし、そこは出願の目的と企業のお財布事情との兼ね合いで判断することになるであろうから、意見を求められた時に備えて自分なりに出願の判断基準は持っておきたい。&lt;/p&gt;
+&lt;p&gt;というわけで、ざっくり知財に関する考えを整理してみた。&lt;/p&gt;
+&lt;ul class=&#34;table-of-contents&#34;&gt;
+    &lt;li&gt;[ソフトウェアに関する知財保護](#ソフトウェアに関する知財保護)
+            * [ソフトウェア機能の保護](#ソフトウェア機能の保護)
+            * [アプリ名の保護](#アプリ名の保護)
+&lt;pre&gt;&lt;code&gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[アプリアイコンの保護](#アプリアイコンの保護)
+        * [商標権](#商標権)
+        * [意匠権](#意匠権)
+    
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;[実務におけるアプリアイコンの取り扱い](#実務におけるアプリアイコンの取り扱い)
+        * [他社による模倣リスク](#他社による模倣リスク)
+        * [他社の権利化による侵害リスク](#他社の権利化による侵害リスク)
+    
+&amp;lt;/li&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;ソフトウェアに関する知財保護&#34;&gt;ソフトウェアに関する知財保護&lt;/h3&gt;
+&lt;p&gt;まずアプリに限らず、ソフトウェア全般で検討すべき保護内容についておさらいする。&lt;/p&gt;
+&lt;h4 id=&#34;ソフトウェア機能の保護&#34;&gt;ソフトウェア機能の保護&lt;/h4&gt;
+&lt;p&gt;まずソフトウェアの機能や動作に関する部分を押さえるべく、特許権の取得を考えるのが王道だと思う。&lt;/p&gt;
+&lt;p&gt;また、機能を実現するためのソースコードに関しては、著作権の保護対象となる。&lt;br&gt;
+こちらは基本的に登録手続きは不要だが、証拠保全のための手続きも存在する。&lt;/p&gt;
+&lt;p&gt;そして開発においてOSSの活用は欠かせないところ、意図せずソースコードの開示義務や特許権の許諾義務が発生しないよう、OSSライセンスについても注意する企業は多いだろう。&lt;br&gt;
+事後的に「AGPLでライセンスされたOSSを使ってましたわ」と開発者から報告され、頭を抱えた知財部員も少なくないのではないだろうか？&lt;/p&gt;
+&lt;p&gt;また、場合によってはアプリの画面デザインを意匠権で保護することもあるかもしれない。&lt;/p&gt;
+&lt;h4 id=&#34;アプリ名の保護&#34;&gt;アプリ名の保護&lt;/h4&gt;
+&lt;p&gt;もしブランドイメージ等の観点からソフトウェア名を保護することが求められるのであれば、商標権の取得も検討対象となる。&lt;/p&gt;
+&lt;p&gt;具体的な登録要件や、指定商品・役務については、以下の「アプリアイコンの保護」のパートで説明したい。&lt;/p&gt;
+&lt;h3 id=&#34;アプリアイコンの保護&#34;&gt;アプリアイコンの保護&lt;/h3&gt;
+&lt;p&gt;スマホアプリ特有の検討項目としては、アプリアイコンの取り扱いが挙げられる。&lt;/p&gt;
+&lt;p&gt;もしアイコンを保護するのなら、特許権等とは別に商標権、意匠権を取得する道が考えられるが、どこまで権利化にこだわるべきだろうか？&lt;/p&gt;
+&lt;h4 id=&#34;商標権&#34;&gt;商標権&lt;/h4&gt;
+&lt;p&gt;アイコンを商標登録するにあたっては、以下の要件を満たす必要がある。&lt;/p&gt;
+&lt;p&gt;権利化を目指すのなら、アイコンが簡単かつありふれた図形だけであったり、国旗、他人の周知商標と似ているものでないかを確認しておく必要がある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自己と他人の商品・役務（サービス）とを区別することができないもの&lt;/li&gt;
+&lt;li&gt;公共の機関の標章と紛らわしい等公益性に反するもの&lt;/li&gt;
+&lt;li&gt;他人の登録商標や周知・著名商標等と紛らわしいもの&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、指定商品・役務としては、以下の区分を指定するのが一般的かと思う。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; 区分 &lt;/th&gt;
+&lt;th&gt; 商品・役務名 &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; 第９類 &lt;/td&gt;
+&lt;td&gt; 電子計算機用プログラム &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 第４２類 &lt;/td&gt;
+&lt;td&gt; 電子計算機用プログラムの提供&lt;br&gt;電子計算機のプログラムの設計・作成又は保守 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; 第XX類 &lt;/td&gt;
+&lt;td&gt; その他、自社商品・サービスに対応したもの &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ここで、第９類はアプリなどのダウンロードして利用するソフトウェア、第４２類はダウンロードせずにインターネットを介して使うソフトウェア（SaaS）の提供に対応する。&lt;/p&gt;
+&lt;h4 id=&#34;意匠権&#34;&gt;意匠権&lt;/h4&gt;
+&lt;p&gt;意匠権の場合もいくつか登録要件があるが、アプリアイコンで検討すべきは以下の点が挙げられる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新規性があること&lt;/li&gt;
+&lt;li&gt;創作の非容易性があること&lt;/li&gt;
+&lt;li&gt;不登録事由に該当しないこと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;商標とは異なり、出願から20年経過後に権利満了となるものの、商品やサービスの種類に限定されず権利保護できるところがメリットとなる。&lt;/p&gt;
+&lt;h3 id=&#34;実務におけるアプリアイコンの取り扱い&#34;&gt;実務におけるアプリアイコンの取り扱い&lt;/h3&gt;
+&lt;p&gt;上述の通り、デザインによってはアイコンの商標権や意匠権を取得することも可能ではある。&lt;/p&gt;
+&lt;p&gt;しかし、特許事務所への手数料も含めると登録までにそれなりの費用がかかる上、維持費用も発生する。&lt;/p&gt;
+&lt;p&gt;企業の予算も限られる中、ブランドイメージを維持するためにどこまで費用を負担すべきだろうか？&lt;/p&gt;
+&lt;p&gt;完全に個人的な見解ではあるが、&lt;strong&gt;よほど重要なアプリでない限りは意匠権の取得は不要で、また商標についても、アプリの重要度や提供先に応じて判断すればよく、アプリ毎に逐一取得するには及ばないのではないかと思う。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;理由は以下の通りである。&lt;/p&gt;
+&lt;h4 id=&#34;他社による模倣リスク&#34;&gt;他社による模倣リスク&lt;/h4&gt;
+&lt;p&gt;他社の模倣によるブランドイメージ低下を防ぐのなら、商標登録をしておけば概ねカバーできるかと思う。&lt;/p&gt;
+&lt;p&gt;意匠権を取れば万全だが、他社の権利をざっくり調べた限り、アプリに関して両方とも取得しているケースはあまり聞いたことがない。&lt;br&gt;
+※Google mapのアイコンに関しては、両方取得しているようである。アイコンの形状などから汎用性が高く、商標権で押さえきれない様々な商品・サービスに使われる可能性を考慮しているのかもしれない。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>進歩性における「容易の容易」とは</title>
+      <link>https://ipblog.pages.dev/post/2025/04/11/203555/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/04/11/203555/</guid>
+      <description>&lt;p&gt;実務を行っていると、特許出願が一発で特許査定となることは稀であり、大抵は新規性、進歩性、記載要件違反を理由にした拒絶理由が通知される。&lt;/p&gt;
+&lt;p&gt;中でも進歩性違反は代表的な拒絶理由であると思うが、複数の引例・周知技術が適用されている場合、いわゆる「容易の容易」にあたらないか？と思ったことがある。&lt;/p&gt;
+&lt;p&gt;しかし、実際にその理由で反論を試みた経験に乏しい。&lt;/p&gt;
+&lt;p&gt;拒絶理由通知への対応で役立つ事があるかもしれないので、「容易の容易」についてまとめておきたい。&lt;/p&gt;
+ &lt;div align=&#34;center&#34;&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524203347.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h3 id=&#34;容易の容易とは&#34;&gt;容易の容易とは？&lt;/h3&gt;
+&lt;p&gt;「容易の容易」という用語は審査基準には無いが、「主引用発明に、２つの副引用発明を&lt;strong&gt;直列的に&lt;/strong&gt;適用すること」とされている。&lt;br /&gt;
+※副引用発明は周知技術等であっても良い&lt;/p&gt;
+&lt;p&gt;例えば、以下のような発明・引例があるとする。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本発明：Ａ＋Ｂ＋Ｃ&lt;/li&gt;
+&lt;li&gt;主引例：Ａ&lt;/li&gt;
+&lt;li&gt;副引例１：Ｂ&lt;/li&gt;
+&lt;li&gt;副引例２：Ｃ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;主引例に副引例１を適用し（Ａ＋Ｂ）、さらに別の副引例２（Ｃ）を適用する場合において、Ａ＋Ｂの構成からはＣを適用するための課題を認識できるものの、&lt;strong&gt;Ａのみからではその課題を認識できないのであれば、副引例２を適用することは容易ではない&lt;/strong&gt;、という場合が当てはまる。&lt;/p&gt;
+&lt;p&gt;ここで、一例を考えてみたい。&lt;/p&gt;
+&lt;p&gt;例えば、椅子にキャスターを付けると椅子を動かしやすくなる一方、椅子に人が座ったときにキャスターが動くと危険なので、人が座る（荷重が加わる）とキャスターがロックされる椅子を発明したとする。&lt;/p&gt;
+&lt;p&gt;その発明に対し、以下のような引例が存在した場合はどうなるか。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本発明：荷重が加わるとロックするキャスター付きの椅子&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;主引例：椅子&lt;/li&gt;
+&lt;li&gt;副引例１：キャスター付きの机&lt;/li&gt;
+&lt;li&gt;副引例２：荷重が加わるとキャスターをロックするストッパー（高荷重時のキャスター移動による床の傷付き防止）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;家具を楽に移動させるため、主引例に副引例１を組み合わせてキャスター付きの椅子を構成するのは容易であると考えられる。&lt;/p&gt;
+&lt;p&gt;しかし、主引例１にはキャスターを設けることは開示されていないのだから、キャスターを付けたときに発生する課題（高荷重時のキャスター移動による床の傷付き）を解決する手段となる副引例２の構成を適用することは容易ではない、という判断になるかと思われる。&lt;/p&gt;
+&lt;p&gt;※副引例１を主引例として考えると、副引例２とを組み合わせ、更に、机の構成を椅子に置き換えるのは容易相当、というロジックで攻められる可能性は否定できない&lt;/p&gt;
+&lt;p&gt;一方、「主引用発明に、２つの副引用発明を&lt;strong&gt;並列的に&lt;/strong&gt;適用する」場合は「容易の容易」とは異なり、普通に進歩性違反となる。&lt;/p&gt;
+&lt;p&gt;例えば、以下の例である。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本発明：リクライニング機能を有するキャスター付き椅子&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;主引例：椅子&lt;/li&gt;
+&lt;li&gt;副引例１：キャスター付きの机&lt;/li&gt;
+&lt;li&gt;副引例２：リクライニング機能付きベッド&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この場合は、椅子に対して並列的に二つの変更を加えているだけなので、「容易の容易」には当たらず、組み合わせに困難性が増すということはない。&lt;/p&gt;
+&lt;p&gt;ただし、「容易の容易」だから進歩性があるとは限らない。&lt;/p&gt;
+&lt;p&gt;自明な課題を取り上げていたり、「単なる設計変更」と言われる程度の設計的事項の変更を２段階行っただけでは、いくら特許出願人が「容易の容易」であると主張しても、進歩性が認められない。&lt;/p&gt;
+&lt;h3 id=&#34;実務で活用できそう&#34;&gt;実務で活用できそう？&lt;/h3&gt;
+&lt;p&gt;いわゆる「容易の容易」であることから進歩性が認められた判例もあるが、その数は多くない。&lt;/p&gt;
+&lt;p&gt;また、上述のように「容易の容易」だからといって、必ずしも進歩性が認められるとは限らないことから、中間対応時に活用できる場面はそれほど多くないかもしれない。&lt;/p&gt;
+&lt;p&gt;とはいえ、複数の引例を組み合わせて発明に想到しようとすると、そのロジックには矛盾が生じる可能性が高くなるはずである。&lt;/p&gt;
+&lt;p&gt;ここは基本となる進歩性の審査基準に則り、技術分野の関連性、課題の共通性、機能・作用の共通性、発明に対する示唆といった動機づけの有無を確認するとともに、組み合わせに阻害要因が無いか、本発明に顕著な効果が無いかを確認することが基本となるだろう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>米国特許法101条（特許適格性）</title>
+      <link>https://ipblog.pages.dev/post/2025/03/08/113255/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipblog.pages.dev/post/2025/03/08/113255/</guid>
+      <description>&lt;p&gt;米国への特許出願では、101条について悩まされている人は多いだろう。&lt;/p&gt;
+&lt;p&gt;自分もその一人だ。&lt;/p&gt;
+&lt;p&gt;ここで備忘録として、101条違反を回避するための対策を整理しておく。&lt;/p&gt;
+&lt;p&gt;個人の所感で記載しているに過ぎないので、あくまで一意見として捉えていただきたい。&lt;/p&gt;
+&lt;h3 id=&#34;判断フロー&#34;&gt;判断フロー&lt;/h3&gt;
+&lt;p&gt;まずは、以下が特許適格性の基本的な判断フローとなる。&lt;/p&gt;
+&lt;div class=&#34;images-row mceNonEditable&#34;&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524112124.png&#34;/&gt; 
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;出展: MPEP §2106&lt;/div&gt;
+&lt;h4 id=&#34;Step-1&#34;&gt;Step 1&lt;/h4&gt;
+&lt;p&gt;クレームが以下の法定カテゴリ（方法、装置、製造物、組成物）のいずれかに属していれば第一関門はクリア、Step 2Aに進む。&lt;/p&gt;
+&lt;p&gt;属していなければ、「特許不適格」と判断されて即終了。&lt;/p&gt;
+&lt;p&gt;日本ではプログラムクレームが認められるが、米国出願の場合は記録媒体クレームなどに修正しておく必要がある。&lt;/p&gt;
+&lt;h4 id=&#34;Step-2A&#34;&gt;Step 2A&lt;/h4&gt;
+&lt;p&gt;Step 2Aでは、右図の通り、以下のProng 1, 2で特許適格性が判断される。&lt;/p&gt;
+&lt;h5 id=&#34;Prong-1&#34;&gt;Prong 1&lt;/h5&gt;
+&lt;p&gt;以下の司法例外に言及しているかを判断される。&lt;/p&gt;
+&lt;p&gt;言及していなければ「特許適格」と判断され、言及していればProng 2に進む。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;抽象的アイデア
+&lt;ul&gt;
+&lt;li&gt;数学的概念&lt;/li&gt;
+&lt;li&gt;人間の活動を体系化する方法&lt;/li&gt;
+&lt;li&gt;思考プロセス&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;自然法則又は自然現象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;Prong-2&#34;&gt;Prong 2&lt;/h5&gt;
+&lt;p&gt;クレームが上の司法例外を含んでいても、&lt;span style=&#34;color: red;&#34;&gt;&lt;strong&gt;追加の要素が司法例外を実用的な応用に統合している&lt;/strong&gt;ものであれば、「特許適格」と判断される。&lt;/p&gt;
+&lt;p&gt;Prong 2でも「特許適格」と認められなければ、Step 2Bへ進む。&lt;/p&gt;
+&lt;h4 id=&#34;Step-2B&#34;&gt;Step 2B&lt;/h4&gt;
+&lt;p&gt;クレームが発明概念を提供していれば、「特許適格」と判断される。&lt;/p&gt;
+&lt;p&gt;発明概念を提供していなければ、「特許不適格」と判断されて審査終了。&lt;/p&gt;
+&lt;p&gt;発明概念の有無は、司法例外を著しく超えて技術的に意味のある改善や実用性を示すものであるか（例えば、特定の技術分野の機能の向上や特定の技術的課題を解決する手段であるか）で評価される。&lt;/p&gt;
+&lt;p&gt;自分の実務経験上での話とはなるが、101条違反に対しては、ほぼStep 2A（Prong 1, 2）の中で戦っている感じである。&lt;/p&gt;
+&lt;p&gt;少なくとも自分の周りでは、Step 2Bで特許適格と判断された事例を見たことがない。Prong 2で特許適格が認められなければ、よりハードルの高い（と私は思っている）Step 2Bで特許適格が認められる可能性は極めて低いのではないだろうか？&lt;/p&gt;
+&lt;p&gt;そもそもStep 2Bの判断基準は、新規性や非自明性のような要素で判断されている印象なので、これが特許適格に関係してくるのがあまり腑に落ちない。&lt;/p&gt;
+&lt;p&gt;一応、USPTOの仮想事例に１件事例はあるのだが。&lt;/p&gt;
+&lt;p&gt;では、どうやって特許適格を主張するかを考えたい。&lt;/p&gt;
+&lt;h3 id=&#34;対応方針&#34;&gt;対応方針&lt;/h3&gt;
+&lt;p&gt;Step 2AのProng 1では、抽象的アイデアが大きな障壁であり、特に「思考プロセス」というのが曲者である。&lt;/p&gt;
+&lt;p&gt;人の脳内で実現できるなら「思考プロセス」に当てはめられてしまうこととなる。&lt;/p&gt;
+&lt;p&gt;USPTOが公表しているGUIの仮想事例でも、&lt;span style=&#34;color: red;&#34;&gt;所定期間における各アイコンの使用量を求めるのは、最も広い概念で捉えると思考プロセスであると認定されている。&lt;/p&gt;
+&lt;h4 id=&#34;内部処理に言及すれば良い&#34;&gt;内部処理に言及すれば良い？&lt;/h4&gt;
+&lt;p&gt;一方、アイコンに関連付けられた各アプリケーションにどれだけのメモリが割り当てられたかをトラッキングするプロセッサを用いて、所定期間における各アイコンの使用量を特定する、となると、&lt;span style=&#34;color: red;&#34;&gt;人の脳内で実施できないプロセッサの動作を含むため、思考プロセスでないと判断されている。&lt;/p&gt;
+&lt;p&gt;しかし、このような記載は&lt;span style=&#34;color: red;&#34;&gt;&lt;strong&gt;装置やプログラムの内部処理に言及することになるため、特許の侵害発見容易性を著しく損なわせるものとなる。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;もちろん発明のポイントとなる部分が内部処理自体にあるのなら問題ないが（公開せずにノウハウにしたほうが良いのでは？という議論はさておき）、そうでなければ個人的にはあまりクレームには記載したくない。&lt;/p&gt;
+&lt;p&gt;そこで現実的な対応となるのは、次のProng 2ではないかと思う。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
