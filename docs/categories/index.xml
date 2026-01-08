@@ -6,8 +6,15 @@
     <description>Recent content in Categories on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Dec 2025 21:48:57 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 08:40:20 +0900</lastBuildDate>
     <atom:link href="https://ipnote.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>契約</title>
+      <link>https://ipnote.github.io/categories/%E5%A5%91%E7%B4%84/</link>
+      <pubDate>Thu, 08 Jan 2026 08:40:20 +0900</pubDate>
+      <guid>https://ipnote.github.io/categories/%E5%A5%91%E7%B4%84/</guid>
+      <description></description>
+    </item>
     <item>
       <title>商標権</title>
       <link>https://ipnote.github.io/categories/%E5%95%86%E6%A8%99%E6%A8%A9/</link>
@@ -41,13 +48,6 @@
       <link>https://ipnote.github.io/categories/%E8%91%97%E4%BD%9C%E6%A8%A9/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://ipnote.github.io/categories/%E8%91%97%E4%BD%9C%E6%A8%A9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>契約</title>
-      <link>https://ipnote.github.io/categories/%E5%A5%91%E7%B4%84/</link>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/categories/%E5%A5%91%E7%B4%84/</guid>
       <description></description>
     </item>
   </channel>

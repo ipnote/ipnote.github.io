@@ -167,6 +167,48 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">一般的な著作権表示の話とOSSでの表示義務
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> ソフトウェアやWebサイト、文章や画像など、あらゆる著作物に「©2025 ○○」といった著作権表示が付いているのをよく目にする。
+しかし実は、日本の著作権法ではこの表示が義務付けられているわけではない。
+とはいえ「表示しなくても権利が守られる」ことと「表示しない方がよい」ことは別問題である。
+本記事では、著作権表示が法的に義務ではない理由と、それでも表示しておくべき実務的な意味、さらにOSS（オープンソース・ソフトウェア）における表示義務のポイントを整理する。
+著作権表示は義務ではない（OSSの場合を除く） 上述の通り、日本の著作権法では義務ではない。
+日本が加盟する万国著作権条約では、「著作権を表記すれば守る」と規定されている。
+しかし、日本はベルヌ条約にも加盟しており、この条約では「手続きせずとも、著作物の創作と同時に著作権が発生する」としている。
+両方加盟している場合はベルヌ条約が優先されるので、著作権表示は必要ないというわけである。
+著作権表示しておくのが無難 仮にOSSを使用しない場合であっても、著作権表示により以下のようなメリットがあるため、特別な理由が無い限りは表示しておいた方が良い。
+権利帰属先が明確となる 「誰が著作権者か」を示すことで、利用者がライセンス交渉や問い合わせをしやすくなる。
+また、無断利用された場合にも、権利者を主張しやすくなる。
+ソフトウェアやWebサイトなど、他人が利用することを前提にする場合は特に重要となる。
+無断利用の抑止 著作権表記があると、利用者に「これは著作権のあるものだ」と意識させられるため、結果的に無断利用を減らせる。
+裁判での故意・過失の立証にも有利に働くこともメリットである（「知らなかった」と言いにくくなる）。
+ベルヌ条約に非加盟の国で著作権が有効となる 多くの国はベルヌ条約に加盟しているが、中には万国著作権条約にしか加盟していない国もある。
+著作権表示をすれば、そんな国でも著作権を発生させることができる。
+権利保護期間の証拠となり得る 「©2025 Author Name」のように年を入れることで、「いつからいつまで権利が発生しているか」の証拠の一助になる。
+OSSの場合は著作権表示・ライセンス表示義務あり ただし、OSSの場合は、殆どの全てのOSSライセンスにおいて、著作権表示・ライセンス表示義務が規定されている点には気を付けたい。
+例えば、MITライセンスであれば以下のような著作権＋ライセンス文の表示が義務づけられる。
+Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt; Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. このように、上部では著作権表示、またライセンス文の中には「著作権表示および許諾表示を記載すること」と定められている。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-12 00:00:00 +0000 UTC'>September 12, 2025</span>
+
+  <span class="post-meta">
+    <span>Categories:</span>
+    
+      <a href="/categories/%E8%91%97%E4%BD%9C%E6%A8%A9/">著作権</a>, 
+    
+      <a href="/categories/%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9%E5%85%A8%E8%88%AC/">知的財産権全般</a>, 
+    
+  </span>
+</footer>
+  <a class="entry-link" aria-label="post link to 一般的な著作権表示の話とOSSでの表示義務" href="https://ipnote.github.io/post/2025/09/12/125003/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">ソフトウェア配布形式ごとのOSSライセンス表示方法
     </h2>
   </header>
@@ -561,50 +603,6 @@ SaaS提供とは？ SaaS（Software as a Service）とは、インターネッ�
 </footer>
   <a class="entry-link" aria-label="post link to 特許明細書で登録商標を使うときの注意" href="https://ipnote.github.io/post/2025/08/26/211552/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">OSSのデュアルライセンス
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。
-世の中にはOSSの管理を支援するツールも普及しているものの、一部の言語には対応していなかったり、完全に人のチェックを手離れさせるのはまだ難しいという印象である。
-知財部の立場から言えば、自社のプロプライエタリなコードの開示義務が生じたり特許権の許諾義務が生じる可能性もあるので、口酸っぱく注意喚起するしかないのが辛いところである。
-ところで、パッケージにちょいちょいOSSのデュアルライセンスが含まれるケースを見かけるのだが、自分の勉強も兼ねてデュアルライセンスについてこの記事で整理しておきたい。
-デュアルライセンスの概要 OSSのデュアルライセンスとは、同じソフトウェアに２つのライセンスを重ねて適用するものではなく、２つの異なるライセンス形態で選択的に提供される仕組みである。
-ユーザーは、その中からいずれかのライセンス条件を選んで配布することができる。
-デュアルライセンスは、いずれもOSSライセンスの場合と、商用ライセンスとOSSライセンス（コピーレフト条項が付いていることが多い）を選択可能なデュアルライセンスの場合とがある。
-ちなみに、３つになればトリプルライセンスと呼び、こういった複数ライセンスのうちいずれか１つを選択可能な場合をマルチライセンスと呼ぶらしい。
-いずれもOSSライセンスの場合 この場合であれば、企業としてはより条件の緩いライセンスを選択することが普通であろう。
-ソースコード開示義務や、特許権の許諾義務を極力回避したいからである。
-例えば、GPLとMITのデュアルライセンスの場合は、通常はMIT Licenseを選択する。
-商用ライセンスとOSSライセンスとを選択させる場合 例えば、GPLと商用ライセンスとGPLのデュアルライセンスの場合について考えてみる。
-商用ライセンスの実務上の位置づけとしては、OSSライセンスの制限を避けたい企業向けの「ライセンス回避の選択肢」として設計されている。
-この場合、商用ライセンスでは、OSS版で義務付けられているソース開示や特許ライセンスを免除する旨を明記していることが多い。
-したがって、企業が独自の製品に組み込んで販売するなら、対価を支払うことで商用ライセンスを選択し、クローズドな利用とすることが可能である。
-一方、対価を払わない場合はGPL条件を遵守する必要があるが、オープンソースプロジェクトならGPLを選択するということもできる。
-デュアルライセンスにおける誤解 OSSのソースコードのパッケージには幾つかのコンポーネントが含まれており、それぞれのコンポーネントのライセンスが異なる場合もある。
-OSSの勉強をし始めたときはこれがデュアルライセンスかと思っていたが、これはデュアルライセンスではない。
-パッケージとして見ると、一部のコンポーネントはその他のコンポーネントとは異なるOSSライセンスが適用されているだけであって、別なライセンスが選択可能というわけではないからである。
-開発から「このパッケージのOSSライセンスはこれです」と出された後、開示されているURL先を見に行ったときにOSSライセンスが聞いていたのと違う場合、このパターンであることが多い。
-この場合、パッケージから手作業でライセンスの明記されているテキストを漁ったりする必要があり、かなり面倒である。
-OSS検知ツールである程度は把握できるとはいえ、たまにこういう事例があるので、なかなか人の目を完全に無くすのは難しいという印象である。
-まとめ デュアルライセンスは便利な柔軟性を持つ一方で、「同じコードに複数のライセンスが重なっている」と誤解されやすい。
-実務では、著作権者、ライセンス内容、選択の影響を整理した上で運用することが重要である。
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-08-21 00:00:00 +0000 UTC'>August 21, 2025</span>
-
-  <span class="post-meta">
-    <span>Categories:</span>
-    
-      <a href="/categories/%E3%81%9D%E3%81%AE%E4%BB%96/">その他</a>, 
-    
-  </span>
-</footer>
-  <a class="entry-link" aria-label="post link to OSSのデュアルライセンス" href="https://ipnote.github.io/post/2025/08/21/202514/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://ipnote.github.io/post/page/2/">
@@ -617,7 +615,7 @@ OSS検知ツールである程度は把握できるとはいえ、たまにこ�
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
+        <span>&copy; 2026 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
 
     <span>
         Powered by

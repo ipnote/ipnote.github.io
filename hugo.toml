@@ -1,3 +1,5 @@
+publishDir = "docs"
+
 # サイトの基本情報
 baseURL = "https://ipnote.github.io/"
 languageCode = "ja"
@@ -126,5 +128,3 @@ weight = 10
   priority = 0.5
 
 enableRobotsTXT = false
-
-publishDir = "docs"
