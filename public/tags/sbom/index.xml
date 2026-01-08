@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SBOM on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/tags/sbom/</link>
+    <link>http://localhost:1313/tags/sbom/</link>
     <description>Recent content in SBOM on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/tags/sbom/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sbom/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SBOMとOSSライセンスとの関係</title>
-      <link>https://ipnote.github.io/post/2025/09/03/213457/</link>
+      <link>http://localhost:1313/post/2025/09/03/213457/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/09/03/213457/</guid>
+      <guid>http://localhost:1313/post/2025/09/03/213457/</guid>
       <description>&lt;p&gt;ソフトウェア開発の現場では、ゼロから全部のコードを書くことは殆ど無い。&lt;/p&gt;
 &lt;p&gt;多くの場合、世界中の開発者が公開している&lt;strong&gt;オープンソースソフトウェア（OSS）&lt;/strong&gt;や、既存のライブラリを組み合わせて作られている。&lt;/p&gt;
 &lt;p&gt;ただ、この“部品の寄せ集め”には落とし穴がある。&lt;/p&gt;

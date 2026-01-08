@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>個人情報 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/tags/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/</link>
+    <link>http://localhost:1313/tags/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/</link>
     <description>Recent content in 個人情報 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/tags/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>個人情報からの匿名加工情報の作成</title>
-      <link>https://ipnote.github.io/post/2025/10/09/072948/</link>
+      <link>http://localhost:1313/post/2025/10/09/072948/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/10/09/072948/</guid>
+      <guid>http://localhost:1313/post/2025/10/09/072948/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917201420.jpg&#34;/&gt; 
@@ -90,9 +90,9 @@
     </item>
     <item>
       <title>未成年者との契約と親の同意に関して</title>
-      <link>https://ipnote.github.io/post/2025/09/09/204638/</link>
+      <link>http://localhost:1313/post/2025/09/09/204638/</link>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/09/09/204638/</guid>
+      <guid>http://localhost:1313/post/2025/09/09/204638/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917203253.jpg&#34;/&gt; 
@@ -136,7 +136,62 @@
 
 
 
-  &lt;p&gt;ページが見つかりません: page/post/2025/08/30/083114/index.md&lt;/p&gt;
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;refcard&#34; style=&#34;border:2px solid #ddd; border-radius:8px; padding:12px; margin:16px 0; display:flex; gap:12px;&#34;&gt;
+
+    
+      &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/post/2025/08/30/083114/20250821213304.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+      &lt;/div&gt;
+    
+
+    &lt;div style=&#34;flex:1;&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/post/2025/08/30/083114/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+        利用規約の特徴と重要性
+      &lt;/a&gt;
+      &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
+         最近、様々なユーザ向けの自社サービスを展開することとなり、そのサービスの利用規約を作成する機会があった。
+法律上、サービス提供者に利用規約...
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 
 
 &lt;p&gt;利用規約では、未成年者の利用に関する条項を明確にし、親権者の責任についても適切に定めておくことが重要となる。&lt;/p&gt;
@@ -146,20 +201,25 @@
 &lt;blockquote&gt;法定代理人等から同意を得る必要がある子どもの具体的な年齢は、対象となる個人情報の項目や事業の性質等によって、個別具体的に判断されるべきですが、一般的には12歳から15歳までの年齢以下の子どもについて、法定代理人等から同意を得る必要があると考えられます。&lt;/blockquote&gt;
 &lt;p&gt;ということで、未成年という括りではなく対象年齢に幅があるのは気持ち悪いが、ある程度年齢が低い場合は親権者の同意が必要となる。&lt;/p&gt;
 &lt;p&gt;なお、利用規約の中にプライバシーポリシーの内容を含めることも可能ではあるが、個人情報の取り扱いを慎重に行うため、利用規約とは別にプライバシーポリシーを設けるのが通常となる。&lt;/p&gt;
-&lt;h4 id=&#34;例外&#34;&gt;例外&lt;/h4&gt;
+&lt;h4 id=&#34;その他年齢制限に関する規定&#34;&gt;その他年齢制限に関する規定&lt;/h4&gt;
 &lt;p&gt;ただし、サービス事業者が独自に「◯歳未満は保護者の同意が必要」とポリシーに定めたり、規約で年齢制限をかけることはあり得る。&lt;/p&gt;
-&lt;h3 id=&#34;同意書書面の取得は必要&#34;&gt;同意書（書面）の取得は必要？&lt;/h3&gt;
+&lt;h3 id=&#34;同意書の取得は必要&#34;&gt;同意書の取得は必要？&lt;/h3&gt;
 &lt;p&gt;民法上は「未成年者が親権者の同意を得ている」ことが重要で、同意の形式（口頭・書面）は問われない。&lt;/p&gt;
 &lt;p&gt;つまり、親が口頭で「いいよ」と言っていても法的には有効である。&lt;/p&gt;
 &lt;p&gt;とはいえ、事業者側は、後で「同意がなかった」と言われるリスクを避けるため、エビデンスを残すことが多い。&lt;/p&gt;
 &lt;p&gt;一方、アプリ・ネットサービスの利用登録では、「保護者の同意を得ました」にチェックを入れる方式等で良しとしているケースの方が多い。&lt;/p&gt;
-&lt;p&gt;このあたりは、同意に関するリスクと、同意書取得のコストとのバランスで決めているのが現実ではないかと思う。&lt;/p&gt;</description>
+&lt;p&gt;このあたりは、同意に関するリスクと、同意書取得のコストとのバランスで決めているのが現実ではないかと思う。&lt;/p&gt;
+&lt;h3 id=&#34;おまけ未成年者の年齢引き下げ&#34;&gt;おまけ（未成年者の年齢引き下げ）&lt;/h3&gt;
+&lt;p&gt;ちなみに、2022年4月1日の民法改正により、成年年齢は20歳から18歳に引き下げられた。&lt;/p&gt;
+&lt;p&gt;このため、18歳未満は引き続き未成年者として扱われるが、18歳以上は親の同意なしに契約や進路決定が可能になっている。&lt;/p&gt;
+&lt;p&gt;一方、飲酒・喫煙・公営ギャンブルは、従来同様に20歳未満は禁止されている。&lt;/p&gt;
+&lt;p&gt;このため、関連する法律の名前も「二十歳未満ノ者ノ飲酒ノ禁止ニ関スル法律」等に変更されている。&lt;/p&gt;</description>
     </item>
     <item>
       <title>個人情報の第三者提供とクラウド例外</title>
-      <link>https://ipnote.github.io/post/2025/05/30/223647/</link>
+      <link>http://localhost:1313/post/2025/05/30/223647/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/05/30/223647/</guid>
+      <guid>http://localhost:1313/post/2025/05/30/223647/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803211125.jpg&#34;/&gt; 

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>ソースコード中のOSS検知 | 実務者のための知財法務</title>
 <meta name="keywords" content="OSS">
 <meta name="description" content="
@@ -149,16 +149,16 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
 
 ">
 <meta name="author" content="">
-<link rel="canonical" href="https://ipnote.github.io/post/2025/10/20/224101/">
+<link rel="canonical" href="http://localhost:1313/post/2025/10/20/224101/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.44f29674c782898b60a2318b9426c77687a194fa04049c7c093b27879588844a.css" integrity="sha256-RPKWdMeCiYtgojGLlCbHdoehlPoEBJx8CTsnh5WIhEo=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
-<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
-<link rel="mask-icon" href="https://ipnote.github.io/ip_safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/ip_safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ipnote.github.io/post/2025/10/20/224101/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/post/2025/10/20/224101/">
 <noscript>
     <style>
         #theme-toggle,
@@ -192,246 +192,12 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
   gtag('config', 'G-GK6P50PLB9');
 </script>
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GK6P50PLB9"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-GK6P50PLB9');
-        }
-      </script><meta property="og:url" content="https://ipnote.github.io/post/2025/10/20/224101/">
-  <meta property="og:site_name" content="実務者のための知財法務">
-  <meta property="og:title" content="ソースコード中のOSS検知">
-  <meta property="og:description" content=" 生成AIでソースコードを作成した場合、意図せずOSSが混入してしまう場合がある。
-OSSライセンスの再配布・表記義務・改変条件に沿う必要性から、これらOSSおよびOSSライセンスは検知しておくことが求められる。
-実務上はツールでコードスニペットをスキャンするのが有用であるが、「どれくらい一致していたら、そのOSSを使っていると判断できるか？」は、慎重に扱うべきポイントとなる。
-法的・実務的な判断ポイント ソースコードの著作権侵害に関しては下記の通りまとめているものの、今のところ、具体的な法律上の行数基準はない。
-ソースコードの著作権侵害プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用す...そこで、実務上は主に以下の観点で判断することとなるかと思う。
-「創作的表現」の有無が重要 著作権上の保護対象は、「創作的表現」であり、単に短い定型コード（例：forループ、import文など）は保護されない。
-しかし、短いならOSSを使っていないと判断するのは早計である。
-たとえ5～10行程度でも特定OSSの独自ロジックや特徴的な関数構造 に一致していれば、利用している疑いは生じる。
-逆に、仮に多くの行が一致していても、単純なユーティリティや一般的実装（例：バブルソート） なら著作物性は低く、OSS利用とは断定できない。
-コードの著作権に関する判例 下記判例は著作権侵害に関するものである上、日本と米国の判例が入り交じっており、あくまで参考という位置づけだが、コードの一致する行数は客観的な事実として参酌されつつも、それのみをもってOSSライセンスの適用可否が決まるものではないと考えることができるかと思う。
-測量業務用ソフトウェア事件（一審）東地 H19（ワ）24698
-ソースコードの記載が全く同一であるもの 実質的に同一であるもの（会社名の置換え，変数名，フォーム名等，プログラムとして機能する上で、その名称の違いに意味のない違いであり、これらの違いがプログラムの表現として実質的な意味を持たないもの。） の割合が全体の９０％を下ることはないことを理由に、被告プログラムと原告プログラムは、原告プログラムの作成者の個性が表現された部分について、実質的同一性ないし類似性が認められる、と判断している。
-Oracle v. Google (2010-2021)
-GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコードをコピーしていたと訴えられていたが、このAPIはプログラマーが広く利用しているものとして、最高裁は米国著作権法上の「フェアユース」に該当すると判断した。
-ある判事は、「ここでOracleの著作権の権利行使を認めることは、公衆に損害を与えるリスクがある」と述べた。
-参考になる実務基準（業界慣行・ツール判断） 判断軸 内容 行数・一致率 多くのスキャンツールは 20～30行連続一致 や 70〜80%の一致率 を「要警告」と扱う ファイル名・関数名 関数名・コメント・API呼び出しがOSSの構造ごと一致している場合はもっと早く警告 特徴的パターン アルゴリズムの順序・変数名・コメントまで一致 ⇒ 実質コピーの可能性大 | TD スニペットスキャンの実務ガイド 「何行」一致は目安の１つであり、ポイントは「特定OSSの創作的ロジックかどうか」となる。
-行数に囚われず、疑わしい一致が出た段階で、ライセンスを確認するのが最も安全である。
-リスク 特徴 対応 低 一般的な構文・短い定型コード 無視可能（著作物性なし） 中 特定OSSの関数名・処理が部分一致 出典確認・必要に応じライセンス確認 高 例えば30行以上一致、特徴的構造・コメント一致 OSS利用の可能性大・要ライセンス確認 ">
-  <meta property="og:locale" content="ja">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2025-10-20T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-10-20T00:00:00+00:00">
-    <meta property="article:tag" content="OSS">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ソースコード中のOSS検知">
-<meta name="twitter:description" content="
-
-     
-
-
-
-生成AIでソースコードを作成した場合、意図せずOSSが混入してしまう場合がある。
-OSSライセンスの再配布・表記義務・改変条件に沿う必要性から、これらOSSおよびOSSライセンスは検知しておくことが求められる。
-実務上はツールでコードスニペットをスキャンするのが有用であるが、「どれくらい一致していたら、そのOSSを使っていると判断できるか？」は、慎重に扱うべきポイントとなる。
-法的・実務的な判断ポイント
-ソースコードの著作権侵害に関しては下記の通りまとめているものの、今のところ、具体的な法律上の行数基準はない。
- 
-
-
-
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  
-    
-  
-
-  
-  
-  
-    
-    
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-  
-
-  
-
-    
-      
-        
-      
-    
-
-    
-      
-        ソースコードの著作権侵害
-      
-      
-         プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用す...
-      
-    
-  
-
-
-
-そこで、実務上は主に以下の観点で判断することとなるかと思う。
-「創作的表現」の有無が重要
-著作権上の保護対象は、「創作的表現」であり、単に短い定型コード（例：forループ、import文など）は保護されない。
-しかし、短いならOSSを使っていないと判断するのは早計である。
-たとえ5～10行程度でも特定OSSの独自ロジックや特徴的な関数構造 に一致していれば、利用している疑いは生じる。
-逆に、仮に多くの行が一致していても、単純なユーティリティや一般的実装（例：バブルソート） なら著作物性は低く、OSS利用とは断定できない。
-コードの著作権に関する判例
-下記判例は著作権侵害に関するものである上、日本と米国の判例が入り交じっており、あくまで参考という位置づけだが、コードの一致する行数は客観的な事実として参酌されつつも、それのみをもってOSSライセンスの適用可否が決まるものではないと考えることができるかと思う。
-測量業務用ソフトウェア事件（一審）東地 H19（ワ）24698
-
-ソースコードの記載が全く同一であるもの
-実質的に同一であるもの（会社名の置換え，変数名，フォーム名等，プログラムとして機能する上で、その名称の違いに意味のない違いであり、これらの違いがプログラムの表現として実質的な意味を持たないもの。）
-
-の割合が全体の９０％を下ることはないことを理由に、被告プログラムと原告プログラムは、原告プログラムの作成者の個性が表現された部分について、実質的同一性ないし類似性が認められる、と判断している。
-Oracle v. Google (2010-2021)
-GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコードをコピーしていたと訴えられていたが、このAPIはプログラマーが広く利用しているものとして、最高裁は米国著作権法上の「フェアユース」に該当すると判断した。
-ある判事は、「ここでOracleの著作権の権利行使を認めることは、公衆に損害を与えるリスクがある」と述べた。
-参考になる実務基準（業界慣行・ツール判断）
-
-
-
- 判断軸 
- 内容 
-
-
-
-
- 行数・一致率 
- 多くのスキャンツールは 20～30行連続一致 や 70〜80%の一致率 を「要警告」と扱う 
-
-
- ファイル名・関数名 
- 関数名・コメント・API呼び出しがOSSの構造ごと一致している場合はもっと早く警告 
-
-
- 特徴的パターン 
- アルゴリズムの順序・変数名・コメントまで一致 ⇒ 実質コピーの可能性大 | TD 
-
-
-
-スニペットスキャンの実務ガイド
-「何行」一致は目安の１つであり、ポイントは「特定OSSの創作的ロジックかどうか」となる。
-行数に囚われず、疑わしい一致が出た段階で、ライセンスを確認するのが最も安全である。
-
-
-
- リスク 
- 特徴 
- 対応 
-
-
-
-
- 低 
- 一般的な構文・短い定型コード 
- 無視可能（著作物性なし） 
-
-
- 中 
- 特定OSSの関数名・処理が部分一致 
- 出典確認・必要に応じライセンス確認 
-
-
- 高 
- 例えば30行以上一致、特徴的構造・コメント一致 
- OSS利用の可能性大・要ライセンス確認 
-
-
-">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://ipnote.github.io/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "ソースコード中のOSS検知",
-      "item": "https://ipnote.github.io/post/2025/10/20/224101/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "ソースコード中のOSS検知",
-  "name": "ソースコード中のOSS検知",
-  "description": " 生成AIでソースコードを作成した場合、意図せずOSSが混入してしまう場合がある。\nOSSライセンスの再配布・表記義務・改変条件に沿う必要性から、これらOSSおよびOSSライセンスは検知しておくことが求められる。\n実務上はツールでコードスニペットをスキャンするのが有用であるが、「どれくらい一致していたら、そのOSSを使っていると判断できるか？」は、慎重に扱うべきポイントとなる。\n法的・実務的な判断ポイント ソースコードの著作権侵害に関しては下記の通りまとめているものの、今のところ、具体的な法律上の行数基準はない。\nソースコードの著作権侵害\rプログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用す...\rそこで、実務上は主に以下の観点で判断することとなるかと思う。\n「創作的表現」の有無が重要 著作権上の保護対象は、「創作的表現」であり、単に短い定型コード（例：forループ、import文など）は保護されない。\nしかし、短いならOSSを使っていないと判断するのは早計である。\nたとえ5～10行程度でも特定OSSの独自ロジックや特徴的な関数構造 に一致していれば、利用している疑いは生じる。\n逆に、仮に多くの行が一致していても、単純なユーティリティや一般的実装（例：バブルソート） なら著作物性は低く、OSS利用とは断定できない。\nコードの著作権に関する判例 下記判例は著作権侵害に関するものである上、日本と米国の判例が入り交じっており、あくまで参考という位置づけだが、コードの一致する行数は客観的な事実として参酌されつつも、それのみをもってOSSライセンスの適用可否が決まるものではないと考えることができるかと思う。\n測量業務用ソフトウェア事件（一審）東地 H19（ワ）24698\nソースコードの記載が全く同一であるもの 実質的に同一であるもの（会社名の置換え，変数名，フォーム名等，プログラムとして機能する上で、その名称の違いに意味のない違いであり、これらの違いがプログラムの表現として実質的な意味を持たないもの。） の割合が全体の９０％を下ることはないことを理由に、被告プログラムと原告プログラムは、原告プログラムの作成者の個性が表現された部分について、実質的同一性ないし類似性が認められる、と判断している。\nOracle v. Google (2010-2021)\nGoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコードをコピーしていたと訴えられていたが、このAPIはプログラマーが広く利用しているものとして、最高裁は米国著作権法上の「フェアユース」に該当すると判断した。\nある判事は、「ここでOracleの著作権の権利行使を認めることは、公衆に損害を与えるリスクがある」と述べた。\n参考になる実務基準（業界慣行・ツール判断） 判断軸 内容 行数・一致率 多くのスキャンツールは 20～30行連続一致 や 70〜80%の一致率 を「要警告」と扱う ファイル名・関数名 関数名・コメント・API呼び出しがOSSの構造ごと一致している場合はもっと早く警告 特徴的パターン アルゴリズムの順序・変数名・コメントまで一致 ⇒ 実質コピーの可能性大 | TD スニペットスキャンの実務ガイド 「何行」一致は目安の１つであり、ポイントは「特定OSSの創作的ロジックかどうか」となる。\n行数に囚われず、疑わしい一致が出た段階で、ライセンスを確認するのが最も安全である。\nリスク 特徴 対応 低 一般的な構文・短い定型コード 無視可能（著作物性なし） 中 特定OSSの関数名・処理が部分一致 出典確認・必要に応じライセンス確認 高 例えば30行以上一致、特徴的構造・コメント一致 OSS利用の可能性大・要ライセンス確認 ",
-  "keywords": [
-    "OSS"
-  ],
-  "articleBody": " 生成AIでソースコードを作成した場合、意図せずOSSが混入してしまう場合がある。\nOSSライセンスの再配布・表記義務・改変条件に沿う必要性から、これらOSSおよびOSSライセンスは検知しておくことが求められる。\n実務上はツールでコードスニペットをスキャンするのが有用であるが、「どれくらい一致していたら、そのOSSを使っていると判断できるか？」は、慎重に扱うべきポイントとなる。\n法的・実務的な判断ポイント ソースコードの著作権侵害に関しては下記の通りまとめているものの、今のところ、具体的な法律上の行数基準はない。\nソースコードの著作権侵害\rプログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用す...\rそこで、実務上は主に以下の観点で判断することとなるかと思う。\n「創作的表現」の有無が重要 著作権上の保護対象は、「創作的表現」であり、単に短い定型コード（例：forループ、import文など）は保護されない。\nしかし、短いならOSSを使っていないと判断するのは早計である。\nたとえ5～10行程度でも特定OSSの独自ロジックや特徴的な関数構造 に一致していれば、利用している疑いは生じる。\n逆に、仮に多くの行が一致していても、単純なユーティリティや一般的実装（例：バブルソート） なら著作物性は低く、OSS利用とは断定できない。\nコードの著作権に関する判例 下記判例は著作権侵害に関するものである上、日本と米国の判例が入り交じっており、あくまで参考という位置づけだが、コードの一致する行数は客観的な事実として参酌されつつも、それのみをもってOSSライセンスの適用可否が決まるものではないと考えることができるかと思う。\n測量業務用ソフトウェア事件（一審）東地 H19（ワ）24698\nソースコードの記載が全く同一であるもの 実質的に同一であるもの（会社名の置換え，変数名，フォーム名等，プログラムとして機能する上で、その名称の違いに意味のない違いであり、これらの違いがプログラムの表現として実質的な意味を持たないもの。） の割合が全体の９０％を下ることはないことを理由に、被告プログラムと原告プログラムは、原告プログラムの作成者の個性が表現された部分について、実質的同一性ないし類似性が認められる、と判断している。\nOracle v. Google (2010-2021)\nGoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコードをコピーしていたと訴えられていたが、このAPIはプログラマーが広く利用しているものとして、最高裁は米国著作権法上の「フェアユース」に該当すると判断した。\nある判事は、「ここでOracleの著作権の権利行使を認めることは、公衆に損害を与えるリスクがある」と述べた。\n参考になる実務基準（業界慣行・ツール判断） 判断軸 内容 行数・一致率 多くのスキャンツールは 20～30行連続一致 や 70〜80%の一致率 を「要警告」と扱う ファイル名・関数名 関数名・コメント・API呼び出しがOSSの構造ごと一致している場合はもっと早く警告 特徴的パターン アルゴリズムの順序・変数名・コメントまで一致 ⇒ 実質コピーの可能性大 | TD スニペットスキャンの実務ガイド 「何行」一致は目安の１つであり、ポイントは「特定OSSの創作的ロジックかどうか」となる。\n行数に囚われず、疑わしい一致が出た段階で、ライセンスを確認するのが最も安全である。\nリスク 特徴 対応 低 一般的な構文・短い定型コード 無視可能（著作物性なし） 中 特定OSSの関数名・処理が部分一致 出典確認・必要に応じライセンス確認 高 例えば30行以上一致、特徴的構造・コメント一致 OSS利用の可能性大・要ライセンス確認 ",
-  "wordCount" : "61",
-  "inLanguage": "en",
-  "datePublished": "2025-10-20T00:00:00Z",
-  "dateModified": "2025-10-20T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ipnote.github.io/post/2025/10/20/224101/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "実務者のための知財法務",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ipnote.github.io/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <a href="http://localhost:1313/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -457,37 +223,37 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ipnote.github.io/" title="Home">
+                <a href="http://localhost:1313/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/categories/" title="Categories">
+                <a href="http://localhost:1313/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/privacy/" title="Privacy">
+                <a href="http://localhost:1313/privacy/" title="Privacy">
                     <span>Privacy</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/contact/" title="Contact">
+                <a href="http://localhost:1313/contact/" title="Contact">
                     <span>Contact</span>
                 </a>
             </li>
@@ -498,7 +264,7 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://ipnote.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       ソースコード中のOSS検知
     </h1>
@@ -594,7 +360,7 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
 
     
       <div style="width:100px; flex-shrink:0;">
-        <img src="https://ipnote.github.io/post/2025/09/07/081054/20250917203716.jpg" alt="" style="width:100%; border-radius:6px;">
+        <img src="http://localhost:1313/post/2025/09/07/081054/20250917203716.jpg" alt="" style="width:100%; border-radius:6px;">
       </div>
     
 
@@ -705,15 +471,15 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://ipnote.github.io/tags/oss/">OSS</a></li>
+      <li><a href="http://localhost:1313/tags/oss/">OSS</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://ipnote.github.io/post/2025/10/30/221840/">
+  <a class="prev" href="http://localhost:1313/post/2025/10/30/221840/">
     <span class="title">« Prev</span>
     <br>
     <span>ライセンサー目線で知財権の保証条項を設けるリスク</span>
   </a>
-  <a class="next" href="https://ipnote.github.io/post/2025/10/18/120414/">
+  <a class="next" href="http://localhost:1313/post/2025/10/18/120414/">
     <span class="title">Next »</span>
     <br>
     <span>脱OSSの動きと利用者のリスク</span>
@@ -725,7 +491,7 @@ GoogleのAndroidで、OracleのJava APIを利用する際に11000行ものコー
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">実務者のための知財法務</a></span> · 
 
     <span>
         Powered by

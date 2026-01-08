@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>出願手続 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/tags/%E5%87%BA%E9%A1%98%E6%89%8B%E7%B6%9A/</link>
+    <link>http://localhost:1313/tags/%E5%87%BA%E9%A1%98%E6%89%8B%E7%B6%9A/</link>
     <description>Recent content in 出願手続 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/tags/%E5%87%BA%E9%A1%98%E6%89%8B%E7%B6%9A/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%87%BA%E9%A1%98%E6%89%8B%E7%B6%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>特許明細書で登録商標を使うときの注意</title>
-      <link>https://ipnote.github.io/post/2025/08/26/211552/</link>
+      <link>http://localhost:1313/post/2025/08/26/211552/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/08/26/211552/</guid>
+      <guid>http://localhost:1313/post/2025/08/26/211552/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250814202759.jpg&#34;/&gt; 
@@ -202,9 +202,9 @@
     </item>
     <item>
       <title>発明の名称や要約書の記載は、権利範囲に影響する？</title>
-      <link>https://ipnote.github.io/post/2025/08/12/213244/</link>
+      <link>http://localhost:1313/post/2025/08/12/213244/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/08/12/213244/</guid>
+      <guid>http://localhost:1313/post/2025/08/12/213244/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250812212959.jpg&#34;/&gt; 
@@ -245,9 +245,9 @@
     </item>
     <item>
       <title>派遣社員の発明の取り扱い</title>
-      <link>https://ipnote.github.io/post/2025/07/29/195621/</link>
+      <link>http://localhost:1313/post/2025/07/29/195621/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/07/29/195621/</guid>
+      <guid>http://localhost:1313/post/2025/07/29/195621/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250803125032.jpg&#34;/&gt; 
@@ -325,9 +325,9 @@
     </item>
     <item>
       <title>分割出願や国内優先権の主張時における発明者の不一致</title>
-      <link>https://ipnote.github.io/post/2025/07/27/113212/</link>
+      <link>http://localhost:1313/post/2025/07/27/113212/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/07/27/113212/</guid>
+      <guid>http://localhost:1313/post/2025/07/27/113212/</guid>
       <description>&lt;div align=&#34;center&#34;&gt; 
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250727092116.png&#34;/&gt; 

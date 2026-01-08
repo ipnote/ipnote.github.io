@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>101条 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/tags/101%E6%9D%A1/</link>
+    <link>http://localhost:1313/tags/101%E6%9D%A1/</link>
     <description>Recent content in 101条 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/tags/101%E6%9D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/101%E6%9D%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>US Patent Law - Section 101 (Subject Matter Eligibility)</title>
-      <link>https://ipnote.github.io/post/2025/08/19/223349/</link>
+      <link>http://localhost:1313/post/2025/08/19/223349/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/08/19/223349/</guid>
+      <guid>http://localhost:1313/post/2025/08/19/223349/</guid>
       <description>&lt;p&gt;In U.S. patent applications, many people struggle with § 101 rejection.&lt;/p&gt;
 &lt;p&gt;Of course I’m one of them.&lt;/p&gt;
 &lt;p&gt;As a personal memorandum, I’d like to leave some countermeasures to avoid § 101 rejection.&lt;/p&gt;
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>米国特許法101条（特許適格性）</title>
-      <link>https://ipnote.github.io/post/2025/03/08/113255/</link>
+      <link>http://localhost:1313/post/2025/03/08/113255/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/03/08/113255/</guid>
+      <guid>http://localhost:1313/post/2025/03/08/113255/</guid>
       <description>&lt;p&gt;米国への特許出願では、101条について悩まされている人は多いだろう。&lt;/p&gt;
 &lt;p&gt;自分もその一人だ。&lt;/p&gt;
 &lt;p&gt;ここで備忘録として、101条違反を回避するための対策を整理しておく。&lt;/p&gt;

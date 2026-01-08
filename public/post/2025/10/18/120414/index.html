@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>脱OSSの動きと利用者のリスク | 実務者のための知財法務</title>
 <meta name="keywords" content="OSS">
 <meta name="description" content="
@@ -79,16 +79,16 @@ SAL移行のメリットとデメリット
 こういった取り組みは、“OSSとしての自由”と“持続可能な商用ビジネス”のせめぎ合いを象徴している。
 今後のライセンス戦略は、単なる技術選定ではなく、法的・経済的・コミュニティ的視点を含む企業全体のリスク・リターン戦略として捉える必要があるだろう。">
 <meta name="author" content="">
-<link rel="canonical" href="https://ipnote.github.io/post/2025/10/18/120414/">
+<link rel="canonical" href="http://localhost:1313/post/2025/10/18/120414/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.44f29674c782898b60a2318b9426c77687a194fa04049c7c093b27879588844a.css" integrity="sha256-RPKWdMeCiYtgojGLlCbHdoehlPoEBJx8CTsnh5WIhEo=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
-<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
-<link rel="mask-icon" href="https://ipnote.github.io/ip_safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/ip_safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ipnote.github.io/post/2025/10/18/120414/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/post/2025/10/18/120414/">
 <noscript>
     <style>
         #theme-toggle,
@@ -122,183 +122,12 @@ SAL移行のメリットとデメリット
   gtag('config', 'G-GK6P50PLB9');
 </script>
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GK6P50PLB9"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-GK6P50PLB9');
-        }
-      </script><meta property="og:url" content="https://ipnote.github.io/post/2025/10/18/120414/">
-  <meta property="og:site_name" content="実務者のための知財法務">
-  <meta property="og:title" content="脱OSSの動きと利用者のリスク">
-  <meta property="og:description" content=" ソフトウェア企業の中には、自社技術のアピール、利用者のコミュニティ形成のため、自社プロダクトをOSS化するところもある。
-こういった企業が収益を確保するには、例えば、プロダクトは無償で提供しつつも、導入サポートやプロダクトを利用するプラットフォームを有償とすることで儲けるという方法が考えられる。
-OSSによる収益化の課題と脱OSS しかし、近年は競合参入（大きなクラウドベンダーなど）によって上記のビジネスモデルが脅かされるリスクが大きくなっている。
-OSSコミュニティによって得られる恩恵は大きいものの、「純粋にOSSを使って商用展開する事業者（クラウドベンダー）」が恩恵を受ける一方で、開発元への還元が少ないというわけである。
-その結果、これまでは自由な再配布を認めていたライセンスの再策定が進んでおり、いくつかの製品では、非OSSのソース公開型ライセンス（Source-available License, SAL）に移行してきている。
-具体的には、ビジネスモデルを保護できるよう「競合他社を排除する」という観点が取り入れられたSALへ変更する動きである。
-OSSの定義 ここで、OSSの定義について振り返っておきたい。
-OSS（オープンソースソフトウェア）とは、Open Source Initiativeによって以下のように定義されている。
-自由に再頒布ができること（無償か有償かは利用者の自由） ソースコードが入手可能であること 派生ソフトウェアの作成・派生ソフトウェアを元と同じライセンスで配布することを許可すること 作者のソースコードの完全性（integrity） 「ソースコード&#43;パッチファイル」の形式で再頒布を認める場合、元のOSSを変更して再頒布することを禁止しても良い 変更されたソースコードから構築されたソフトウェアの頒布を明確に許可していなければならない 派生ソフトウェアに元のソフトウェアとは異なる名前やバージョン番号をつけるよう義務付けるのはOK 個人やグループに対する差別の禁止 利用する分野に対する差別の禁止 再配布において追加ライセンスを必要としないこと 元のOSSを改変せずそのまま再頒布する場合の追加ライセンスの禁止 特定製品でのみ有効なライセンスの禁止 他のソフトウェアを制限するライセンスの禁止 ライセンスは技術中立的でなければならない このように、OSSでは「個人やグループに対する差別の禁止」「利用する分野に対する差別の禁止」という項目があるため、競合他社の参入を防ぐことはできない。
-Source-available License (SAL) これに対し、各企業が移行を進めているのが、非OSSのSALである。
-SALは「ソースコードが利用可能なライセンス」を意味し、OSSも含んだ概念であるので、ここでは非OSSのSALという少しまどろっこしい表現となっている。
-非OSSのSALとして、例えば以下のようなものが挙げられる。
-ライセンス名 特徴 Business Source License (BSL) ・一定期間は商用利用、競合製品開発など特定の用途に制限が課される
-・商用利用の際、商用ライセンス契約が必要な場合がある
-・一定期間経過後、通常のOSS（Apache 2.0など）に変わる
-・多くの場合、非商用目的では無償で自由に利用可能 Server Side Public License (SSPL) ・SaaS提供の場合、SaaS運用に必要な管理ツールや関連ソースコードも公開しなければならない
-・非公開でSaaS提供する場合、商用ライセンス契約が必要 Elastic License 2.0 (ELv2) ・製品をマネージドサービスとして提供する行為の禁止
-・ライセンスキーによる保護機構を回避する行為およびライセンスキーで保護される機能を削除または隠蔽する行為の禁止
-・使用許諾、著作権、その他の通知を削除、またはわかりにくくする行為の禁止 SAL移行のメリットとデメリット 非OSSのSALへのメリットは、競合他社による商用利用を規制し、自社製品の収益化を強化できる点である。
-一方、OSSの精神（自由な利用）からの逸脱によりコミュニティからの信頼が低下し、その利用リスクから利用者や貢献者が逃げる可能性がある。
-例えばBSLの場合、提供元から突然「おたく、競合他社ですわ」だと言われると使えなくなる状況が生じることもあり得るわけである。
-また制約に関係する用語の定義が曖昧なライセンスもあり（例：競合製品とはどこまでを指すのか？）、企業法務としては利用は避けてもらいたいと思うのではないだろうか。
-まとめ 以上のように、OSSは成長段階で収益化とのバランスを取るために、非OSSのSALへの移行が増加している。
-こういった取り組みは、“OSSとしての自由”と“持続可能な商用ビジネス”のせめぎ合いを象徴している。
-今後のライセンス戦略は、単なる技術選定ではなく、法的・経済的・コミュニティ的視点を含む企業全体のリスク・リターン戦略として捉える必要があるだろう。">
-  <meta property="og:locale" content="ja">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2025-10-18T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-10-18T00:00:00+00:00">
-    <meta property="article:tag" content="OSS">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="脱OSSの動きと利用者のリスク">
-<meta name="twitter:description" content="
-
-     
-
-
-
-ソフトウェア企業の中には、自社技術のアピール、利用者のコミュニティ形成のため、自社プロダクトをOSS化するところもある。
-こういった企業が収益を確保するには、例えば、プロダクトは無償で提供しつつも、導入サポートやプロダクトを利用するプラットフォームを有償とすることで儲けるという方法が考えられる。
-OSSによる収益化の課題と脱OSS
-しかし、近年は競合参入（大きなクラウドベンダーなど）によって上記のビジネスモデルが脅かされるリスクが大きくなっている。
-OSSコミュニティによって得られる恩恵は大きいものの、「純粋にOSSを使って商用展開する事業者（クラウドベンダー）」が恩恵を受ける一方で、開発元への還元が少ないというわけである。
-その結果、これまでは自由な再配布を認めていたライセンスの再策定が進んでおり、いくつかの製品では、非OSSのソース公開型ライセンス（Source-available License, SAL）に移行してきている。
-具体的には、ビジネスモデルを保護できるよう「競合他社を排除する」という観点が取り入れられたSALへ変更する動きである。
-OSSの定義
-ここで、OSSの定義について振り返っておきたい。
-OSS（オープンソースソフトウェア）とは、Open Source Initiativeによって以下のように定義されている。
-
-自由に再頒布ができること（無償か有償かは利用者の自由）
-ソースコードが入手可能であること
-派生ソフトウェアの作成・派生ソフトウェアを元と同じライセンスで配布することを許可すること
-作者のソースコードの完全性（integrity）
-
-「ソースコード&#43;パッチファイル」の形式で再頒布を認める場合、元のOSSを変更して再頒布することを禁止しても良い
-変更されたソースコードから構築されたソフトウェアの頒布を明確に許可していなければならない
-派生ソフトウェアに元のソフトウェアとは異なる名前やバージョン番号をつけるよう義務付けるのはOK
-
-
-個人やグループに対する差別の禁止
-利用する分野に対する差別の禁止
-再配布において追加ライセンスを必要としないこと
-元のOSSを改変せずそのまま再頒布する場合の追加ライセンスの禁止
-特定製品でのみ有効なライセンスの禁止
-他のソフトウェアを制限するライセンスの禁止
-ライセンスは技術中立的でなければならない
-
-このように、OSSでは「個人やグループに対する差別の禁止」「利用する分野に対する差別の禁止」という項目があるため、競合他社の参入を防ぐことはできない。
-Source-available License (SAL)
-これに対し、各企業が移行を進めているのが、非OSSのSALである。
-SALは「ソースコードが利用可能なライセンス」を意味し、OSSも含んだ概念であるので、ここでは非OSSのSALという少しまどろっこしい表現となっている。
-非OSSのSALとして、例えば以下のようなものが挙げられる。
-
-
-
- ライセンス名 
- 特徴 
-
-
-
-
- Business Source License (BSL) 
- ・一定期間は商用利用、競合製品開発など特定の用途に制限が課される・商用利用の際、商用ライセンス契約が必要な場合がある・一定期間経過後、通常のOSS（Apache 2.0など）に変わる・多くの場合、非商用目的では無償で自由に利用可能 
-
-
- Server Side Public License (SSPL) 
- ・SaaS提供の場合、SaaS運用に必要な管理ツールや関連ソースコードも公開しなければならない・非公開でSaaS提供する場合、商用ライセンス契約が必要 
-
-
- Elastic License 2.0 (ELv2) 
- ・製品をマネージドサービスとして提供する行為の禁止・ライセンスキーによる保護機構を回避する行為およびライセンスキーで保護される機能を削除または隠蔽する行為の禁止・使用許諾、著作権、その他の通知を削除、またはわかりにくくする行為の禁止 
-
-
-
-SAL移行のメリットとデメリット
-非OSSのSALへのメリットは、競合他社による商用利用を規制し、自社製品の収益化を強化できる点である。
-一方、OSSの精神（自由な利用）からの逸脱によりコミュニティからの信頼が低下し、その利用リスクから利用者や貢献者が逃げる可能性がある。
-例えばBSLの場合、提供元から突然「おたく、競合他社ですわ」だと言われると使えなくなる状況が生じることもあり得るわけである。
-また制約に関係する用語の定義が曖昧なライセンスもあり（例：競合製品とはどこまでを指すのか？）、企業法務としては利用は避けてもらいたいと思うのではないだろうか。
-まとめ
-以上のように、OSSは成長段階で収益化とのバランスを取るために、非OSSのSALへの移行が増加している。
-こういった取り組みは、“OSSとしての自由”と“持続可能な商用ビジネス”のせめぎ合いを象徴している。
-今後のライセンス戦略は、単なる技術選定ではなく、法的・経済的・コミュニティ的視点を含む企業全体のリスク・リターン戦略として捉える必要があるだろう。">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://ipnote.github.io/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "脱OSSの動きと利用者のリスク",
-      "item": "https://ipnote.github.io/post/2025/10/18/120414/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "脱OSSの動きと利用者のリスク",
-  "name": "脱OSSの動きと利用者のリスク",
-  "description": " ソフトウェア企業の中には、自社技術のアピール、利用者のコミュニティ形成のため、自社プロダクトをOSS化するところもある。\nこういった企業が収益を確保するには、例えば、プロダクトは無償で提供しつつも、導入サポートやプロダクトを利用するプラットフォームを有償とすることで儲けるという方法が考えられる。\nOSSによる収益化の課題と脱OSS しかし、近年は競合参入（大きなクラウドベンダーなど）によって上記のビジネスモデルが脅かされるリスクが大きくなっている。\nOSSコミュニティによって得られる恩恵は大きいものの、「純粋にOSSを使って商用展開する事業者（クラウドベンダー）」が恩恵を受ける一方で、開発元への還元が少ないというわけである。\nその結果、これまでは自由な再配布を認めていたライセンスの再策定が進んでおり、いくつかの製品では、非OSSのソース公開型ライセンス（Source-available License, SAL）に移行してきている。\n具体的には、ビジネスモデルを保護できるよう「競合他社を排除する」という観点が取り入れられたSALへ変更する動きである。\nOSSの定義 ここで、OSSの定義について振り返っておきたい。\nOSS（オープンソースソフトウェア）とは、Open Source Initiativeによって以下のように定義されている。\n自由に再頒布ができること（無償か有償かは利用者の自由） ソースコードが入手可能であること 派生ソフトウェアの作成・派生ソフトウェアを元と同じライセンスで配布することを許可すること 作者のソースコードの完全性（integrity） 「ソースコード+パッチファイル」の形式で再頒布を認める場合、元のOSSを変更して再頒布することを禁止しても良い 変更されたソースコードから構築されたソフトウェアの頒布を明確に許可していなければならない 派生ソフトウェアに元のソフトウェアとは異なる名前やバージョン番号をつけるよう義務付けるのはOK 個人やグループに対する差別の禁止 利用する分野に対する差別の禁止 再配布において追加ライセンスを必要としないこと 元のOSSを改変せずそのまま再頒布する場合の追加ライセンスの禁止 特定製品でのみ有効なライセンスの禁止 他のソフトウェアを制限するライセンスの禁止 ライセンスは技術中立的でなければならない このように、OSSでは「個人やグループに対する差別の禁止」「利用する分野に対する差別の禁止」という項目があるため、競合他社の参入を防ぐことはできない。\nSource-available License (SAL) これに対し、各企業が移行を進めているのが、非OSSのSALである。\nSALは「ソースコードが利用可能なライセンス」を意味し、OSSも含んだ概念であるので、ここでは非OSSのSALという少しまどろっこしい表現となっている。\n非OSSのSALとして、例えば以下のようなものが挙げられる。\nライセンス名 特徴 Business Source License (BSL) ・一定期間は商用利用、競合製品開発など特定の用途に制限が課される\n・商用利用の際、商用ライセンス契約が必要な場合がある\n・一定期間経過後、通常のOSS（Apache 2.0など）に変わる\n・多くの場合、非商用目的では無償で自由に利用可能 Server Side Public License (SSPL) ・SaaS提供の場合、SaaS運用に必要な管理ツールや関連ソースコードも公開しなければならない\n・非公開でSaaS提供する場合、商用ライセンス契約が必要 Elastic License 2.0 (ELv2) ・製品をマネージドサービスとして提供する行為の禁止\n・ライセンスキーによる保護機構を回避する行為およびライセンスキーで保護される機能を削除または隠蔽する行為の禁止\n・使用許諾、著作権、その他の通知を削除、またはわかりにくくする行為の禁止 SAL移行のメリットとデメリット 非OSSのSALへのメリットは、競合他社による商用利用を規制し、自社製品の収益化を強化できる点である。\n一方、OSSの精神（自由な利用）からの逸脱によりコミュニティからの信頼が低下し、その利用リスクから利用者や貢献者が逃げる可能性がある。\n例えばBSLの場合、提供元から突然「おたく、競合他社ですわ」だと言われると使えなくなる状況が生じることもあり得るわけである。\nまた制約に関係する用語の定義が曖昧なライセンスもあり（例：競合製品とはどこまでを指すのか？）、企業法務としては利用は避けてもらいたいと思うのではないだろうか。\nまとめ 以上のように、OSSは成長段階で収益化とのバランスを取るために、非OSSのSALへの移行が増加している。\nこういった取り組みは、“OSSとしての自由”と“持続可能な商用ビジネス”のせめぎ合いを象徴している。\n今後のライセンス戦略は、単なる技術選定ではなく、法的・経済的・コミュニティ的視点を含む企業全体のリスク・リターン戦略として捉える必要があるだろう。\n",
-  "keywords": [
-    "OSS"
-  ],
-  "articleBody": " ソフトウェア企業の中には、自社技術のアピール、利用者のコミュニティ形成のため、自社プロダクトをOSS化するところもある。\nこういった企業が収益を確保するには、例えば、プロダクトは無償で提供しつつも、導入サポートやプロダクトを利用するプラットフォームを有償とすることで儲けるという方法が考えられる。\nOSSによる収益化の課題と脱OSS しかし、近年は競合参入（大きなクラウドベンダーなど）によって上記のビジネスモデルが脅かされるリスクが大きくなっている。\nOSSコミュニティによって得られる恩恵は大きいものの、「純粋にOSSを使って商用展開する事業者（クラウドベンダー）」が恩恵を受ける一方で、開発元への還元が少ないというわけである。\nその結果、これまでは自由な再配布を認めていたライセンスの再策定が進んでおり、いくつかの製品では、非OSSのソース公開型ライセンス（Source-available License, SAL）に移行してきている。\n具体的には、ビジネスモデルを保護できるよう「競合他社を排除する」という観点が取り入れられたSALへ変更する動きである。\nOSSの定義 ここで、OSSの定義について振り返っておきたい。\nOSS（オープンソースソフトウェア）とは、Open Source Initiativeによって以下のように定義されている。\n自由に再頒布ができること（無償か有償かは利用者の自由） ソースコードが入手可能であること 派生ソフトウェアの作成・派生ソフトウェアを元と同じライセンスで配布することを許可すること 作者のソースコードの完全性（integrity） 「ソースコード+パッチファイル」の形式で再頒布を認める場合、元のOSSを変更して再頒布することを禁止しても良い 変更されたソースコードから構築されたソフトウェアの頒布を明確に許可していなければならない 派生ソフトウェアに元のソフトウェアとは異なる名前やバージョン番号をつけるよう義務付けるのはOK 個人やグループに対する差別の禁止 利用する分野に対する差別の禁止 再配布において追加ライセンスを必要としないこと 元のOSSを改変せずそのまま再頒布する場合の追加ライセンスの禁止 特定製品でのみ有効なライセンスの禁止 他のソフトウェアを制限するライセンスの禁止 ライセンスは技術中立的でなければならない このように、OSSでは「個人やグループに対する差別の禁止」「利用する分野に対する差別の禁止」という項目があるため、競合他社の参入を防ぐことはできない。\nSource-available License (SAL) これに対し、各企業が移行を進めているのが、非OSSのSALである。\nSALは「ソースコードが利用可能なライセンス」を意味し、OSSも含んだ概念であるので、ここでは非OSSのSALという少しまどろっこしい表現となっている。\n非OSSのSALとして、例えば以下のようなものが挙げられる。\nライセンス名 特徴 Business Source License (BSL) ・一定期間は商用利用、競合製品開発など特定の用途に制限が課される\n・商用利用の際、商用ライセンス契約が必要な場合がある\n・一定期間経過後、通常のOSS（Apache 2.0など）に変わる\n・多くの場合、非商用目的では無償で自由に利用可能 Server Side Public License (SSPL) ・SaaS提供の場合、SaaS運用に必要な管理ツールや関連ソースコードも公開しなければならない\n・非公開でSaaS提供する場合、商用ライセンス契約が必要 Elastic License 2.0 (ELv2) ・製品をマネージドサービスとして提供する行為の禁止\n・ライセンスキーによる保護機構を回避する行為およびライセンスキーで保護される機能を削除または隠蔽する行為の禁止\n・使用許諾、著作権、その他の通知を削除、またはわかりにくくする行為の禁止 SAL移行のメリットとデメリット 非OSSのSALへのメリットは、競合他社による商用利用を規制し、自社製品の収益化を強化できる点である。\n一方、OSSの精神（自由な利用）からの逸脱によりコミュニティからの信頼が低下し、その利用リスクから利用者や貢献者が逃げる可能性がある。\n例えばBSLの場合、提供元から突然「おたく、競合他社ですわ」だと言われると使えなくなる状況が生じることもあり得るわけである。\nまた制約に関係する用語の定義が曖昧なライセンスもあり（例：競合製品とはどこまでを指すのか？）、企業法務としては利用は避けてもらいたいと思うのではないだろうか。\nまとめ 以上のように、OSSは成長段階で収益化とのバランスを取るために、非OSSのSALへの移行が増加している。\nこういった取り組みは、“OSSとしての自由”と“持続可能な商用ビジネス”のせめぎ合いを象徴している。\n今後のライセンス戦略は、単なる技術選定ではなく、法的・経済的・コミュニティ的視点を含む企業全体のリスク・リターン戦略として捉える必要があるだろう。\n",
-  "wordCount" : "69",
-  "inLanguage": "en",
-  "datePublished": "2025-10-18T00:00:00Z",
-  "dateModified": "2025-10-18T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ipnote.github.io/post/2025/10/18/120414/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "実務者のための知財法務",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ipnote.github.io/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <a href="http://localhost:1313/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -324,37 +153,37 @@ SAL移行のメリットとデメリット
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ipnote.github.io/" title="Home">
+                <a href="http://localhost:1313/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/categories/" title="Categories">
+                <a href="http://localhost:1313/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/privacy/" title="Privacy">
+                <a href="http://localhost:1313/privacy/" title="Privacy">
                     <span>Privacy</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/contact/" title="Contact">
+                <a href="http://localhost:1313/contact/" title="Contact">
                     <span>Contact</span>
                 </a>
             </li>
@@ -365,7 +194,7 @@ SAL移行のメリットとデメリット
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://ipnote.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       脱OSSの動きと利用者のリスク
     </h1>
@@ -503,15 +332,15 @@ SAL移行のメリットとデメリット
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://ipnote.github.io/tags/oss/">OSS</a></li>
+      <li><a href="http://localhost:1313/tags/oss/">OSS</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://ipnote.github.io/post/2025/10/20/224101/">
+  <a class="prev" href="http://localhost:1313/post/2025/10/20/224101/">
     <span class="title">« Prev</span>
     <br>
     <span>ソースコード中のOSS検知</span>
   </a>
-  <a class="next" href="https://ipnote.github.io/post/2025/10/11/182706/">
+  <a class="next" href="http://localhost:1313/post/2025/10/11/182706/">
     <span class="title">Next »</span>
     <br>
     <span>開発委託における、請負契約と準委任契約（成果完成型）との違い</span>
@@ -523,7 +352,7 @@ SAL移行のメリットとデメリット
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">実務者のための知財法務</a></span> · 
 
     <span>
         Powered by
