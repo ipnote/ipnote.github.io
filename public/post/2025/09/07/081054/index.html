@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>ソースコードの著作権侵害 | 実務者のための知財法務</title>
 <meta name="keywords" content="著作権侵害, ソースコード">
 <meta name="description" content="
@@ -48,16 +48,16 @@
 また、仮に元のソースコードとは異なる言語で記述すると、更に類似度は低下するだろう。
 ただし、決してリスクがゼロになる訳ではなく、言語を変えたとしてもソースコードの具体的な構成・記述を忠実に模倣した場合は「翻案」とみなされ、著作権侵害と判断される可能性がはあると考えられる。">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/post/2025/09/07/081054/">
+<link rel="canonical" href="https://ipnote.github.io/post/2025/09/07/081054/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.44f29674c782898b60a2318b9426c77687a194fa04049c7c093b27879588844a.css" integrity="sha256-RPKWdMeCiYtgojGLlCbHdoehlPoEBJx8CTsnh5WIhEo=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/assets/images/ip_favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/images/ip_favicon_16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/images/ip_favicon_32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/assets/images/ip_apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/ip_safari-pinned-tab.svg">
+<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="https://ipnote.github.io/ip_safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/post/2025/09/07/081054/">
+<link rel="alternate" hreflang="en" href="https://ipnote.github.io/post/2025/09/07/081054/">
 <noscript>
     <style>
         #theme-toggle,
@@ -91,12 +91,151 @@
   gtag('config', 'G-GK6P50PLB9');
 </script>
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GK6P50PLB9"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GK6P50PLB9');
+        }
+      </script><meta property="og:url" content="https://ipnote.github.io/post/2025/09/07/081054/">
+  <meta property="og:site_name" content="実務者のための知財法務">
+  <meta property="og:title" content="ソースコードの著作権侵害">
+  <meta property="og:description" content=" プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用すると著作権侵害となり得るのか、実務的な面で整理したい。
+プログラムの著作権が及ぶ範囲 プログラムの著作権は「表現」に及ぶ。
+つまり、ソースコードの具体的な表現として、
+指令の表現自体 指令の表現の組み合わせ 表現の順序 などが保護されることとなる。
+一方、アイデアやアルゴリズム自体は保護されない（著作権法第10条第3項第3号）。
+例えば、「Aを入力したらBを計算して出力する」といった処理の仕組みや数式は著作権ではなく、場合によっては特許の対象になるだけである。
+また、過去の判例（平成２９年６月２９日判決（東京地裁 平成２８年（ワ）第３６９２４号））では、次のように判示されている。
+プログラムに著作物性があるというためには，指令の表現自体，その指令の表現の組合せ，その表現順序からなるプログラムの全体に選択の幅があり，かつ，それがありふれた表現ではなく，作成者の個性，すなわち，表現上の創作性が表れていることが認められる必要がある。 つまり、プログラムの表現に選択の幅が無い場合や、ありふれた表現である場合は著作権の保護対象とはならない。
+なお、システム設計書等は著作権法上のプログラムには該当しないものの、言語の著作物（著作権法第10条第1項第1号）や図形の著作物（同法第10条第1項第6号）として保護され得る。
+著作権侵害の判断基準 プログラムの著作権侵害を判断する場合、以下２つの基準が重要となる。
+ソースコードが一致（類似）する箇所の量 比較対象と一致するソースコードの文字数や行数などの客観的な数値的の指標が高いほど、類似性も高くなり、著作権侵害が認められやすくなる。
+一致（類似）する箇所を別の表現に創作できるか ある機能を実装するのに色々な書き方ができるにも関わらず、他社のプログラムと一致・類似する記述であれば、著作権侵害の可能性が高くなる。
+更に比較対象のプログラムと同じバグが生じる場合は、ソースコードをコピペしている可能性が高く、著作権侵害を裏付ける要因となり得る。
+逆に、ある機能を実装しようとすると誰が作成してもほぼ同じような表現になる場合、そこに創作性は存在せず、著作権法上の保護対象から外れることとなるため、侵害可能性は下がる。
+ただし、変数や定数、関数の名称等を変えただけでは、実質的にはプログラムの類似度を低減することにはならないと思われる。
+プログラムの創作性は、単なる変数等の名前の付け方ではなく、ある機能を実現するための構成という観点が重要（著作権上の保護対象となる）だからである。
+他社のソースコードを参考にしただけの場合は？ 他社のソースコードを全てコピペすれば著作権侵害となる、一部を書き換えたに過ぎなければ侵害可能性が生じる、のは良いとして、場合によってはソースコードのアイデアやアルゴリズムは参考にしつつも、実際は一から自分でコーディングするような場合もあるかもしれない。
+この場合はどう判断すべきだろうか？
+ケースにもよるが、著作権侵害リスクはかなり低くなると思われる。
+上述の通り、アイデアやアルゴリズム自体は著作権法の保護対象ではないため、これらをゼロベースで実装することでソースコードの構成が異なっていれば、もはや他社の著作物と類似するとは言えなくなるためである。
+もうひとつの著作権侵害要件である「依拠性」は充足するとしても、ソースコード類似しなければ問題はない。
+また、仮に元のソースコードとは異なる言語で記述すると、更に類似度は低下するだろう。
+ただし、決してリスクがゼロになる訳ではなく、言語を変えたとしてもソースコードの具体的な構成・記述を忠実に模倣した場合は「翻案」とみなされ、著作権侵害と判断される可能性がはあると考えられる。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-09-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-07T00:00:00+00:00">
+    <meta property="article:tag" content="著作権侵害">
+    <meta property="article:tag" content="ソースコード">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ソースコードの著作権侵害">
+<meta name="twitter:description" content="
+
+     
+
+
+
+プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用すると著作権侵害となり得るのか、実務的な面で整理したい。
+プログラムの著作権が及ぶ範囲
+プログラムの著作権は「表現」に及ぶ。
+つまり、ソースコードの具体的な表現として、
+
+指令の表現自体
+指令の表現の組み合わせ
+表現の順序
+
+などが保護されることとなる。
+一方、アイデアやアルゴリズム自体は保護されない（著作権法第10条第3項第3号）。
+例えば、「Aを入力したらBを計算して出力する」といった処理の仕組みや数式は著作権ではなく、場合によっては特許の対象になるだけである。
+また、過去の判例（平成２９年６月２９日判決（東京地裁 平成２８年（ワ）第３６９２４号））では、次のように判示されている。
+プログラムに著作物性があるというためには，指令の表現自体，その指令の表現の組合せ，その表現順序からなるプログラムの全体に選択の幅があり，かつ，それがありふれた表現ではなく，作成者の個性，すなわち，表現上の創作性が表れていることが認められる必要がある。
+つまり、プログラムの表現に選択の幅が無い場合や、ありふれた表現である場合は著作権の保護対象とはならない。
+なお、システム設計書等は著作権法上のプログラムには該当しないものの、言語の著作物（著作権法第10条第1項第1号）や図形の著作物（同法第10条第1項第6号）として保護され得る。
+著作権侵害の判断基準
+プログラムの著作権侵害を判断する場合、以下２つの基準が重要となる。
+ソースコードが一致（類似）する箇所の量
+比較対象と一致するソースコードの文字数や行数などの客観的な数値的の指標が高いほど、類似性も高くなり、著作権侵害が認められやすくなる。
+一致（類似）する箇所を別の表現に創作できるか
+ある機能を実装するのに色々な書き方ができるにも関わらず、他社のプログラムと一致・類似する記述であれば、著作権侵害の可能性が高くなる。
+更に比較対象のプログラムと同じバグが生じる場合は、ソースコードをコピペしている可能性が高く、著作権侵害を裏付ける要因となり得る。
+逆に、ある機能を実装しようとすると誰が作成してもほぼ同じような表現になる場合、そこに創作性は存在せず、著作権法上の保護対象から外れることとなるため、侵害可能性は下がる。
+ただし、変数や定数、関数の名称等を変えただけでは、実質的にはプログラムの類似度を低減することにはならないと思われる。
+プログラムの創作性は、単なる変数等の名前の付け方ではなく、ある機能を実現するための構成という観点が重要（著作権上の保護対象となる）だからである。
+他社のソースコードを参考にしただけの場合は？
+他社のソースコードを全てコピペすれば著作権侵害となる、一部を書き換えたに過ぎなければ侵害可能性が生じる、のは良いとして、場合によってはソースコードのアイデアやアルゴリズムは参考にしつつも、実際は一から自分でコーディングするような場合もあるかもしれない。
+この場合はどう判断すべきだろうか？
+ケースにもよるが、著作権侵害リスクはかなり低くなると思われる。
+上述の通り、アイデアやアルゴリズム自体は著作権法の保護対象ではないため、これらをゼロベースで実装することでソースコードの構成が異なっていれば、もはや他社の著作物と類似するとは言えなくなるためである。
+もうひとつの著作権侵害要件である「依拠性」は充足するとしても、ソースコード類似しなければ問題はない。
+また、仮に元のソースコードとは異なる言語で記述すると、更に類似度は低下するだろう。
+ただし、決してリスクがゼロになる訳ではなく、言語を変えたとしてもソースコードの具体的な構成・記述を忠実に模倣した場合は「翻案」とみなされ、著作権侵害と判断される可能性がはあると考えられる。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ipnote.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "ソースコードの著作権侵害",
+      "item": "https://ipnote.github.io/post/2025/09/07/081054/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "ソースコードの著作権侵害",
+  "name": "ソースコードの著作権侵害",
+  "description": " プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用すると著作権侵害となり得るのか、実務的な面で整理したい。\nプログラムの著作権が及ぶ範囲 プログラムの著作権は「表現」に及ぶ。\nつまり、ソースコードの具体的な表現として、\n指令の表現自体 指令の表現の組み合わせ 表現の順序 などが保護されることとなる。\n一方、アイデアやアルゴリズム自体は保護されない（著作権法第10条第3項第3号）。\n例えば、「Aを入力したらBを計算して出力する」といった処理の仕組みや数式は著作権ではなく、場合によっては特許の対象になるだけである。\nまた、過去の判例（平成２９年６月２９日判決（東京地裁 平成２８年（ワ）第３６９２４号））では、次のように判示されている。\nプログラムに著作物性があるというためには，指令の表現自体，その指令の表現の組合せ，その表現順序からなるプログラムの全体に選択の幅があり，かつ，それがありふれた表現ではなく，作成者の個性，すなわち，表現上の創作性が表れていることが認められる必要がある。 つまり、プログラムの表現に選択の幅が無い場合や、ありふれた表現である場合は著作権の保護対象とはならない。\nなお、システム設計書等は著作権法上のプログラムには該当しないものの、言語の著作物（著作権法第10条第1項第1号）や図形の著作物（同法第10条第1項第6号）として保護され得る。\n著作権侵害の判断基準 プログラムの著作権侵害を判断する場合、以下２つの基準が重要となる。\nソースコードが一致（類似）する箇所の量 比較対象と一致するソースコードの文字数や行数などの客観的な数値的の指標が高いほど、類似性も高くなり、著作権侵害が認められやすくなる。\n一致（類似）する箇所を別の表現に創作できるか ある機能を実装するのに色々な書き方ができるにも関わらず、他社のプログラムと一致・類似する記述であれば、著作権侵害の可能性が高くなる。\n更に比較対象のプログラムと同じバグが生じる場合は、ソースコードをコピペしている可能性が高く、著作権侵害を裏付ける要因となり得る。\n逆に、ある機能を実装しようとすると誰が作成してもほぼ同じような表現になる場合、そこに創作性は存在せず、著作権法上の保護対象から外れることとなるため、侵害可能性は下がる。\nただし、変数や定数、関数の名称等を変えただけでは、実質的にはプログラムの類似度を低減することにはならないと思われる。\nプログラムの創作性は、単なる変数等の名前の付け方ではなく、ある機能を実現するための構成という観点が重要（著作権上の保護対象となる）だからである。\n他社のソースコードを参考にしただけの場合は？ 他社のソースコードを全てコピペすれば著作権侵害となる、一部を書き換えたに過ぎなければ侵害可能性が生じる、のは良いとして、場合によってはソースコードのアイデアやアルゴリズムは参考にしつつも、実際は一から自分でコーディングするような場合もあるかもしれない。\nこの場合はどう判断すべきだろうか？\nケースにもよるが、著作権侵害リスクはかなり低くなると思われる。\n上述の通り、アイデアやアルゴリズム自体は著作権法の保護対象ではないため、これらをゼロベースで実装することでソースコードの構成が異なっていれば、もはや他社の著作物と類似するとは言えなくなるためである。\nもうひとつの著作権侵害要件である「依拠性」は充足するとしても、ソースコード類似しなければ問題はない。\nまた、仮に元のソースコードとは異なる言語で記述すると、更に類似度は低下するだろう。\nただし、決してリスクがゼロになる訳ではなく、言語を変えたとしてもソースコードの具体的な構成・記述を忠実に模倣した場合は「翻案」とみなされ、著作権侵害と判断される可能性がはあると考えられる。\n",
+  "keywords": [
+    "著作権侵害", "ソースコード"
+  ],
+  "articleBody": " プログラムのソースコードが著作権法上の保護対象に含まれる（著作権法第10条第1項第9号）ことはよく知られているが、ではこれをどこまで利用すると著作権侵害となり得るのか、実務的な面で整理したい。\nプログラムの著作権が及ぶ範囲 プログラムの著作権は「表現」に及ぶ。\nつまり、ソースコードの具体的な表現として、\n指令の表現自体 指令の表現の組み合わせ 表現の順序 などが保護されることとなる。\n一方、アイデアやアルゴリズム自体は保護されない（著作権法第10条第3項第3号）。\n例えば、「Aを入力したらBを計算して出力する」といった処理の仕組みや数式は著作権ではなく、場合によっては特許の対象になるだけである。\nまた、過去の判例（平成２９年６月２９日判決（東京地裁 平成２８年（ワ）第３６９２４号））では、次のように判示されている。\nプログラムに著作物性があるというためには，指令の表現自体，その指令の表現の組合せ，その表現順序からなるプログラムの全体に選択の幅があり，かつ，それがありふれた表現ではなく，作成者の個性，すなわち，表現上の創作性が表れていることが認められる必要がある。 つまり、プログラムの表現に選択の幅が無い場合や、ありふれた表現である場合は著作権の保護対象とはならない。\nなお、システム設計書等は著作権法上のプログラムには該当しないものの、言語の著作物（著作権法第10条第1項第1号）や図形の著作物（同法第10条第1項第6号）として保護され得る。\n著作権侵害の判断基準 プログラムの著作権侵害を判断する場合、以下２つの基準が重要となる。\nソースコードが一致（類似）する箇所の量 比較対象と一致するソースコードの文字数や行数などの客観的な数値的の指標が高いほど、類似性も高くなり、著作権侵害が認められやすくなる。\n一致（類似）する箇所を別の表現に創作できるか ある機能を実装するのに色々な書き方ができるにも関わらず、他社のプログラムと一致・類似する記述であれば、著作権侵害の可能性が高くなる。\n更に比較対象のプログラムと同じバグが生じる場合は、ソースコードをコピペしている可能性が高く、著作権侵害を裏付ける要因となり得る。\n逆に、ある機能を実装しようとすると誰が作成してもほぼ同じような表現になる場合、そこに創作性は存在せず、著作権法上の保護対象から外れることとなるため、侵害可能性は下がる。\nただし、変数や定数、関数の名称等を変えただけでは、実質的にはプログラムの類似度を低減することにはならないと思われる。\nプログラムの創作性は、単なる変数等の名前の付け方ではなく、ある機能を実現するための構成という観点が重要（著作権上の保護対象となる）だからである。\n他社のソースコードを参考にしただけの場合は？ 他社のソースコードを全てコピペすれば著作権侵害となる、一部を書き換えたに過ぎなければ侵害可能性が生じる、のは良いとして、場合によってはソースコードのアイデアやアルゴリズムは参考にしつつも、実際は一から自分でコーディングするような場合もあるかもしれない。\nこの場合はどう判断すべきだろうか？\nケースにもよるが、著作権侵害リスクはかなり低くなると思われる。\n上述の通り、アイデアやアルゴリズム自体は著作権法の保護対象ではないため、これらをゼロベースで実装することでソースコードの構成が異なっていれば、もはや他社の著作物と類似するとは言えなくなるためである。\nもうひとつの著作権侵害要件である「依拠性」は充足するとしても、ソースコード類似しなければ問題はない。\nまた、仮に元のソースコードとは異なる言語で記述すると、更に類似度は低下するだろう。\nただし、決してリスクがゼロになる訳ではなく、言語を変えたとしてもソースコードの具体的な構成・記述を忠実に模倣した場合は「翻案」とみなされ、著作権侵害と判断される可能性がはあると考えられる。\n",
+  "wordCount" : "33",
+  "inLanguage": "en",
+  "datePublished": "2025-09-07T00:00:00Z",
+  "dateModified": "2025-09-07T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ipnote.github.io/post/2025/09/07/081054/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "実務者のための知財法務",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <a href="https://ipnote.github.io/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -122,37 +261,37 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="Home">
+                <a href="https://ipnote.github.io/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="Categories">
+                <a href="https://ipnote.github.io/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
+                <a href="https://ipnote.github.io/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://ipnote.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
+                <a href="https://ipnote.github.io/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/privacy/" title="Privacy">
+                <a href="https://ipnote.github.io/privacy/" title="Privacy">
                     <span>Privacy</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/contact/" title="Contact">
+                <a href="https://ipnote.github.io/contact/" title="Contact">
                     <span>Contact</span>
                 </a>
             </li>
@@ -163,7 +302,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://ipnote.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       ソースコードの著作権侵害
     </h1>
@@ -272,16 +411,16 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/%E8%91%97%E4%BD%9C%E6%A8%A9%E4%BE%B5%E5%AE%B3/">著作権侵害</a></li>
-      <li><a href="http://localhost:1313/tags/%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89/">ソースコード</a></li>
+      <li><a href="https://ipnote.github.io/tags/%E8%91%97%E4%BD%9C%E6%A8%A9%E4%BE%B5%E5%AE%B3/">著作権侵害</a></li>
+      <li><a href="https://ipnote.github.io/tags/%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89/">ソースコード</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/post/2025/09/09/204638/">
+  <a class="prev" href="https://ipnote.github.io/post/2025/09/09/204638/">
     <span class="title">« Prev</span>
     <br>
     <span>未成年者との契約と親の同意に関して</span>
   </a>
-  <a class="next" href="http://localhost:1313/post/2025/09/06/093232/">
+  <a class="next" href="https://ipnote.github.io/post/2025/09/06/093232/">
     <span class="title">Next »</span>
     <br>
     <span>著作権の使用許諾</span>
@@ -293,7 +432,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">実務者のための知財法務</a></span> · 
+        <span>&copy; 2026 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
 
     <span>
         Powered by

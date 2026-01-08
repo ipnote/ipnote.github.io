@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ライセンス表示 on 実務者のための知財法務</title>
-    <link>http://localhost:1313/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E7%A4%BA/</link>
+    <link>https://ipnote.github.io/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E7%A4%BA/</link>
     <description>Recent content in ライセンス表示 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E7%A4%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ipnote.github.io/tags/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E7%A4%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>無償で商用利用可能な地図画像</title>
-      <link>http://localhost:1313/post/2025/11/07/145411/</link>
+      <link>https://ipnote.github.io/post/2025/11/07/145411/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025/11/07/145411/</guid>
+      <guid>https://ipnote.github.io/post/2025/11/07/145411/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251108145343.jpg&#34;/&gt; 
@@ -65,12 +65,12 @@
 
     
       &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/post/2025/11/07/124144/image/20251107124045.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+        &lt;img src=&#34;https://ipnote.github.io/post/2025/11/07/124144/image/20251107124045.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
       &lt;/div&gt;
     
 
     &lt;div style=&#34;flex:1;&#34;&gt;
-      &lt;a href=&#34;http://localhost:1313/post/2025/11/07/124144/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+      &lt;a href=&#34;https://ipnote.github.io/post/2025/11/07/124144/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
         社内の電子資料にGoogleマップを使うには
       &lt;/a&gt;
       &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
@@ -137,9 +137,9 @@
     </item>
     <item>
       <title>社内の電子資料にGoogleマップを使うには</title>
-      <link>http://localhost:1313/post/2025/11/07/124144/</link>
+      <link>https://ipnote.github.io/post/2025/11/07/124144/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025/11/07/124144/</guid>
+      <guid>https://ipnote.github.io/post/2025/11/07/124144/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251107124045.jpg&#34;/&gt; 
@@ -203,9 +203,9 @@
     </item>
     <item>
       <title>一般的な著作権表示の話とOSSでの表示義務</title>
-      <link>http://localhost:1313/post/2025/09/12/125003/</link>
+      <link>https://ipnote.github.io/post/2025/09/12/125003/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025/09/12/125003/</guid>
+      <guid>https://ipnote.github.io/post/2025/09/12/125003/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250917201049.jpg&#34;/&gt; 
@@ -249,9 +249,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>ソフトウェア配布形式ごとのOSSライセンス表示方法</title>
-      <link>http://localhost:1313/post/2025/09/10/214204/</link>
+      <link>https://ipnote.github.io/post/2025/09/10/214204/</link>
       <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025/09/10/214204/</guid>
+      <guid>https://ipnote.github.io/post/2025/09/10/214204/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250907115624.jpg&#34;/&gt; 
@@ -306,9 +306,9 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     </item>
     <item>
       <title>画像をブログに載せるときのライセンス</title>
-      <link>http://localhost:1313/post/2025/05/24/232131/</link>
+      <link>https://ipnote.github.io/post/2025/05/24/232131/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025/05/24/232131/</guid>
+      <guid>https://ipnote.github.io/post/2025/05/24/232131/</guid>
       <description>&lt;p&gt;ブログを書き始めてから、記事の中に貼り付けたい画像を探すことが多くなった。&lt;/p&gt;
 &lt;p&gt;なかなかしっくりくる画像が見つからないのは日常茶飯事であり、ようやく「いい画像を見つけた！」と思ったら、利用条件の厳しいライセンスが付与されているということもある。&lt;/p&gt;
 &lt;p&gt;ライセンスという単語を聞くと、画像使用に対するハードルが上がる印象を受けるかと思うが、ここでは「無料で商用利用が可能」となっている代表的なライセンスを紹介したい。&lt;/p&gt;
