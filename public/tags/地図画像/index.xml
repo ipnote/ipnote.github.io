@@ -6,13 +6,13 @@
     <description>Recent content in 地図画像 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ipnote.github.io/tags/%E5%9C%B0%E5%9B%B3%E7%94%BB%E5%83%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>無償で商用利用可能な地図画像</title>
-      <link>https://ipnote.github.io/post/2025/11/07/145411/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/11/07/145411/</guid>
+      <link>https://ipnote.github.io/post/2025/11/08/145411/</link>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ipnote.github.io/post/2025/11/08/145411/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251108145343.jpg&#34;/&gt; 
@@ -99,7 +99,7 @@
 &lt;h4 id=&#34;具体的な帰属表示リンク貼り付けの方法&#34;&gt;具体的な帰属表示/リンク貼り付けの方法&lt;/h4&gt;
 &lt;p&gt;帰属表示は&lt;strong&gt;「OpenStreetMap」&lt;/strong&gt;を入れる必要がある。&lt;/p&gt;
 &lt;p&gt;「© OpenStreetMap contributors」や 「© OpenStreetMap」という帰属表示でも問題ないが、読みやすい見た目（フォントサイズ、色など）にしておくことが求められる。&lt;/p&gt;
-&lt;p&gt;また、&lt;strong&gt;「OpenStreetMap」のテキストに「openstreetmap.org/copyright」へのリンクを設定する必要がある&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;また、&lt;strong&gt;「OpenStreetMap」のテキストに「&lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;openstreetmap.org/copyright&lt;/a&gt;」へのリンクを設定する必要がある&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;もし印刷物等のようにリンクを設定できない媒体であれば、URLを直接記述すれば良い。&lt;/p&gt;
 &lt;p&gt;OpenStreetMapに由来しない素材と区別するため、使用しているOpenStreetMapのコンテンツを説明するクレジット表記を自由に行うことができる。&lt;/p&gt;
 &lt;p&gt;例えば、OpenStreetMapデータを独自のデザインでレンダリングした場合は、「OpenStreetMapの地図データ」と表記することができる。&lt;/p&gt;

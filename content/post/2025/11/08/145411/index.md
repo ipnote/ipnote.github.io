@@ -1,4 +1,4 @@
-{"title":"無償で商用利用可能な地図画像","draft":"false","date":"2025-11-07","categories":["著作権","知的財産権全般"],"tags": ["地図画像","ライセンス表示"]}
+{"title":"無償で商用利用可能な地図画像","draft":"false","date":"2025-11-08","categories":["著作権","知的財産権全般"],"tags": ["地図画像","ライセンス表示"]}
 <div align="center">
 {{< figure src="image/20251108145343.jpg" >}}
 </div>
@@ -37,7 +37,7 @@ Gopgleマップを社内資料に貼り付ける場合、基本的には帰属�
 
 「© OpenStreetMap contributors」や 「© OpenStreetMap」という帰属表示でも問題ないが、読みやすい見た目（フォントサイズ、色など）にしておくことが求められる。
 
-また、<strong>「OpenStreetMap」のテキストに「openstreetmap.org/copyright」へのリンクを設定する必要がある</strong>。
+また、<strong>「OpenStreetMap」のテキストに「[openstreetmap.org/copyright](https://www.openstreetmap.org/copyright)」へのリンクを設定する必要がある</strong>。
 
 もし印刷物等のようにリンクを設定できない媒体であれば、URLを直接記述すれば良い。
 
