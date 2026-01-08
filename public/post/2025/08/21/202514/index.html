@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>OSSのデュアルライセンス | 実務者のための知財法務</title>
 <meta name="keywords" content="OSS">
 <meta name="description" content="ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。
@@ -43,16 +43,16 @@ OSS検知ツールである程度は把握できるとはいえ、たまにこ�
 デュアルライセンスは便利な柔軟性を持つ一方で、「同じコードに複数のライセンスが重なっている」と誤解されやすい。
 実務では、著作権者、ライセンス内容、選択の影響を整理した上で運用することが重要である。">
 <meta name="author" content="">
-<link rel="canonical" href="https://ipnote.github.io/post/2025/08/21/202514/">
+<link rel="canonical" href="http://localhost:1313/post/2025/08/21/202514/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.44f29674c782898b60a2318b9426c77687a194fa04049c7c093b27879588844a.css" integrity="sha256-RPKWdMeCiYtgojGLlCbHdoehlPoEBJx8CTsnh5WIhEo=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ipnote.github.io/assets/images/ip_favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ipnote.github.io/assets/images/ip_favicon_16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ipnote.github.io/assets/images/ip_favicon_32.png">
-<link rel="apple-touch-icon" href="https://ipnote.github.io/assets/images/ip_apple-touch-icon.png">
-<link rel="mask-icon" href="https://ipnote.github.io/ip_safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/assets/images/ip_favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/images/ip_favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/images/ip_favicon_32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/assets/images/ip_apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/ip_safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ipnote.github.io/post/2025/08/21/202514/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/post/2025/08/21/202514/">
 <noscript>
     <style>
         #theme-toggle,
@@ -86,146 +86,12 @@ OSS検知ツールである程度は把握できるとはいえ、たまにこ�
   gtag('config', 'G-GK6P50PLB9');
 </script>
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GK6P50PLB9"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-GK6P50PLB9');
-        }
-      </script><meta property="og:url" content="https://ipnote.github.io/post/2025/08/21/202514/">
-  <meta property="og:site_name" content="実務者のための知財法務">
-  <meta property="og:title" content="OSSのデュアルライセンス">
-  <meta property="og:description" content="ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。
-世の中にはOSSの管理を支援するツールも普及しているものの、一部の言語には対応していなかったり、完全に人のチェックを手離れさせるのはまだ難しいという印象である。
-知財部の立場から言えば、自社のプロプライエタリなコードの開示義務が生じたり特許権の許諾義務が生じる可能性もあるので、口酸っぱく注意喚起するしかないのが辛いところである。
-ところで、パッケージにちょいちょいOSSのデュアルライセンスが含まれるケースを見かけるのだが、自分の勉強も兼ねてデュアルライセンスについてこの記事で整理しておきたい。
-デュアルライセンスの概要 OSSのデュアルライセンスとは、同じソフトウェアに２つのライセンスを重ねて適用するものではなく、２つの異なるライセンス形態で選択的に提供される仕組みである。
-ユーザーは、その中からいずれかのライセンス条件を選んで配布することができる。
-デュアルライセンスは、いずれもOSSライセンスの場合と、商用ライセンスとOSSライセンス（コピーレフト条項が付いていることが多い）を選択可能なデュアルライセンスの場合とがある。
-ちなみに、３つになればトリプルライセンスと呼び、こういった複数ライセンスのうちいずれか１つを選択可能な場合をマルチライセンスと呼ぶらしい。
-いずれもOSSライセンスの場合 この場合であれば、企業としてはより条件の緩いライセンスを選択することが普通であろう。
-ソースコード開示義務や、特許権の許諾義務を極力回避したいからである。
-例えば、GPLとMITのデュアルライセンスの場合は、通常はMIT Licenseを選択する。
-商用ライセンスとOSSライセンスとを選択させる場合 例えば、GPLと商用ライセンスとGPLのデュアルライセンスの場合について考えてみる。
-商用ライセンスの実務上の位置づけとしては、OSSライセンスの制限を避けたい企業向けの「ライセンス回避の選択肢」として設計されている。
-この場合、商用ライセンスでは、OSS版で義務付けられているソース開示や特許ライセンスを免除する旨を明記していることが多い。
-したがって、企業が独自の製品に組み込んで販売するなら、対価を支払うことで商用ライセンスを選択し、クローズドな利用とすることが可能である。
-一方、対価を払わない場合はGPL条件を遵守する必要があるが、オープンソースプロジェクトならGPLを選択するということもできる。
-デュアルライセンスにおける誤解 OSSのソースコードのパッケージには幾つかのコンポーネントが含まれており、それぞれのコンポーネントのライセンスが異なる場合もある。
-OSSの勉強をし始めたときはこれがデュアルライセンスかと思っていたが、これはデュアルライセンスではない。
-パッケージとして見ると、一部のコンポーネントはその他のコンポーネントとは異なるOSSライセンスが適用されているだけであって、別なライセンスが選択可能というわけではないからである。
-開発から「このパッケージのOSSライセンスはこれです」と出された後、開示されているURL先を見に行ったときにOSSライセンスが聞いていたのと違う場合、このパターンであることが多い。
-この場合、パッケージから手作業でライセンスの明記されているテキストを漁ったりする必要があり、かなり面倒である。
-OSS検知ツールである程度は把握できるとはいえ、たまにこういう事例があるので、なかなか人の目を完全に無くすのは難しいという印象である。
-まとめ デュアルライセンスは便利な柔軟性を持つ一方で、「同じコードに複数のライセンスが重なっている」と誤解されやすい。
-実務では、著作権者、ライセンス内容、選択の影響を整理した上で運用することが重要である。">
-  <meta property="og:locale" content="ja">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2025-08-21T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-08-21T00:00:00+00:00">
-    <meta property="article:tag" content="OSS">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="OSSのデュアルライセンス">
-<meta name="twitter:description" content="ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。
-世の中にはOSSの管理を支援するツールも普及しているものの、一部の言語には対応していなかったり、完全に人のチェックを手離れさせるのはまだ難しいという印象である。
-知財部の立場から言えば、自社のプロプライエタリなコードの開示義務が生じたり特許権の許諾義務が生じる可能性もあるので、口酸っぱく注意喚起するしかないのが辛いところである。
-ところで、パッケージにちょいちょいOSSのデュアルライセンスが含まれるケースを見かけるのだが、自分の勉強も兼ねてデュアルライセンスについてこの記事で整理しておきたい。
-デュアルライセンスの概要
-
-
-     
-
-
-
-OSSのデュアルライセンスとは、同じソフトウェアに２つのライセンスを重ねて適用するものではなく、２つの異なるライセンス形態で選択的に提供される仕組みである。
-ユーザーは、その中からいずれかのライセンス条件を選んで配布することができる。
-デュアルライセンスは、いずれもOSSライセンスの場合と、商用ライセンスとOSSライセンス（コピーレフト条項が付いていることが多い）を選択可能なデュアルライセンスの場合とがある。
-ちなみに、３つになればトリプルライセンスと呼び、こういった複数ライセンスのうちいずれか１つを選択可能な場合をマルチライセンスと呼ぶらしい。
-いずれもOSSライセンスの場合
-この場合であれば、企業としてはより条件の緩いライセンスを選択することが普通であろう。
-ソースコード開示義務や、特許権の許諾義務を極力回避したいからである。
-例えば、GPLとMITのデュアルライセンスの場合は、通常はMIT Licenseを選択する。
-商用ライセンスとOSSライセンスとを選択させる場合
-例えば、GPLと商用ライセンスとGPLのデュアルライセンスの場合について考えてみる。
-商用ライセンスの実務上の位置づけとしては、OSSライセンスの制限を避けたい企業向けの「ライセンス回避の選択肢」として設計されている。
-この場合、商用ライセンスでは、OSS版で義務付けられているソース開示や特許ライセンスを免除する旨を明記していることが多い。
-したがって、企業が独自の製品に組み込んで販売するなら、対価を支払うことで商用ライセンスを選択し、クローズドな利用とすることが可能である。
-一方、対価を払わない場合はGPL条件を遵守する必要があるが、オープンソースプロジェクトならGPLを選択するということもできる。
-デュアルライセンスにおける誤解
-OSSのソースコードのパッケージには幾つかのコンポーネントが含まれており、それぞれのコンポーネントのライセンスが異なる場合もある。
-OSSの勉強をし始めたときはこれがデュアルライセンスかと思っていたが、これはデュアルライセンスではない。
-パッケージとして見ると、一部のコンポーネントはその他のコンポーネントとは異なるOSSライセンスが適用されているだけであって、別なライセンスが選択可能というわけではないからである。
-開発から「このパッケージのOSSライセンスはこれです」と出された後、開示されているURL先を見に行ったときにOSSライセンスが聞いていたのと違う場合、このパターンであることが多い。
-この場合、パッケージから手作業でライセンスの明記されているテキストを漁ったりする必要があり、かなり面倒である。
-OSS検知ツールである程度は把握できるとはいえ、たまにこういう事例があるので、なかなか人の目を完全に無くすのは難しいという印象である。
-まとめ
-デュアルライセンスは便利な柔軟性を持つ一方で、「同じコードに複数のライセンスが重なっている」と誤解されやすい。
-実務では、著作権者、ライセンス内容、選択の影響を整理した上で運用することが重要である。">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://ipnote.github.io/post/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "OSSのデュアルライセンス",
-      "item": "https://ipnote.github.io/post/2025/08/21/202514/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "OSSのデュアルライセンス",
-  "name": "OSSのデュアルライセンス",
-  "description": "ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。\n世の中にはOSSの管理を支援するツールも普及しているものの、一部の言語には対応していなかったり、完全に人のチェックを手離れさせるのはまだ難しいという印象である。\n知財部の立場から言えば、自社のプロプライエタリなコードの開示義務が生じたり特許権の許諾義務が生じる可能性もあるので、口酸っぱく注意喚起するしかないのが辛いところである。\nところで、パッケージにちょいちょいOSSのデュアルライセンスが含まれるケースを見かけるのだが、自分の勉強も兼ねてデュアルライセンスについてこの記事で整理しておきたい。\nデュアルライセンスの概要 OSSのデュアルライセンスとは、同じソフトウェアに２つのライセンスを重ねて適用するものではなく、２つの異なるライセンス形態で選択的に提供される仕組みである。\nユーザーは、その中からいずれかのライセンス条件を選んで配布することができる。\nデュアルライセンスは、いずれもOSSライセンスの場合と、商用ライセンスとOSSライセンス（コピーレフト条項が付いていることが多い）を選択可能なデュアルライセンスの場合とがある。\nちなみに、３つになればトリプルライセンスと呼び、こういった複数ライセンスのうちいずれか１つを選択可能な場合をマルチライセンスと呼ぶらしい。\nいずれもOSSライセンスの場合 この場合であれば、企業としてはより条件の緩いライセンスを選択することが普通であろう。\nソースコード開示義務や、特許権の許諾義務を極力回避したいからである。\n例えば、GPLとMITのデュアルライセンスの場合は、通常はMIT Licenseを選択する。\n商用ライセンスとOSSライセンスとを選択させる場合 例えば、GPLと商用ライセンスとGPLのデュアルライセンスの場合について考えてみる。\n商用ライセンスの実務上の位置づけとしては、OSSライセンスの制限を避けたい企業向けの「ライセンス回避の選択肢」として設計されている。\nこの場合、商用ライセンスでは、OSS版で義務付けられているソース開示や特許ライセンスを免除する旨を明記していることが多い。\nしたがって、企業が独自の製品に組み込んで販売するなら、対価を支払うことで商用ライセンスを選択し、クローズドな利用とすることが可能である。\n一方、対価を払わない場合はGPL条件を遵守する必要があるが、オープンソースプロジェクトならGPLを選択するということもできる。\nデュアルライセンスにおける誤解 OSSのソースコードのパッケージには幾つかのコンポーネントが含まれており、それぞれのコンポーネントのライセンスが異なる場合もある。\nOSSの勉強をし始めたときはこれがデュアルライセンスかと思っていたが、これはデュアルライセンスではない。\nパッケージとして見ると、一部のコンポーネントはその他のコンポーネントとは異なるOSSライセンスが適用されているだけであって、別なライセンスが選択可能というわけではないからである。\n開発から「このパッケージのOSSライセンスはこれです」と出された後、開示されているURL先を見に行ったときにOSSライセンスが聞いていたのと違う場合、このパターンであることが多い。\nこの場合、パッケージから手作業でライセンスの明記されているテキストを漁ったりする必要があり、かなり面倒である。\nOSS検知ツールである程度は把握できるとはいえ、たまにこういう事例があるので、なかなか人の目を完全に無くすのは難しいという印象である。\nまとめ デュアルライセンスは便利な柔軟性を持つ一方で、「同じコードに複数のライセンスが重なっている」と誤解されやすい。\n実務では、著作権者、ライセンス内容、選択の影響を整理した上で運用することが重要である。\n",
-  "keywords": [
-    "OSS"
-  ],
-  "articleBody": "ソフトウェア開発において、もはやOSS（オープンソースソフトウェア）の利用はほぼ必須と呼べると思われるが、OSSライセンスについて問題ないかを確認する作業は開発者にとってかなりの負担になっているかと思う。\n世の中にはOSSの管理を支援するツールも普及しているものの、一部の言語には対応していなかったり、完全に人のチェックを手離れさせるのはまだ難しいという印象である。\n知財部の立場から言えば、自社のプロプライエタリなコードの開示義務が生じたり特許権の許諾義務が生じる可能性もあるので、口酸っぱく注意喚起するしかないのが辛いところである。\nところで、パッケージにちょいちょいOSSのデュアルライセンスが含まれるケースを見かけるのだが、自分の勉強も兼ねてデュアルライセンスについてこの記事で整理しておきたい。\nデュアルライセンスの概要 OSSのデュアルライセンスとは、同じソフトウェアに２つのライセンスを重ねて適用するものではなく、２つの異なるライセンス形態で選択的に提供される仕組みである。\nユーザーは、その中からいずれかのライセンス条件を選んで配布することができる。\nデュアルライセンスは、いずれもOSSライセンスの場合と、商用ライセンスとOSSライセンス（コピーレフト条項が付いていることが多い）を選択可能なデュアルライセンスの場合とがある。\nちなみに、３つになればトリプルライセンスと呼び、こういった複数ライセンスのうちいずれか１つを選択可能な場合をマルチライセンスと呼ぶらしい。\nいずれもOSSライセンスの場合 この場合であれば、企業としてはより条件の緩いライセンスを選択することが普通であろう。\nソースコード開示義務や、特許権の許諾義務を極力回避したいからである。\n例えば、GPLとMITのデュアルライセンスの場合は、通常はMIT Licenseを選択する。\n商用ライセンスとOSSライセンスとを選択させる場合 例えば、GPLと商用ライセンスとGPLのデュアルライセンスの場合について考えてみる。\n商用ライセンスの実務上の位置づけとしては、OSSライセンスの制限を避けたい企業向けの「ライセンス回避の選択肢」として設計されている。\nこの場合、商用ライセンスでは、OSS版で義務付けられているソース開示や特許ライセンスを免除する旨を明記していることが多い。\nしたがって、企業が独自の製品に組み込んで販売するなら、対価を支払うことで商用ライセンスを選択し、クローズドな利用とすることが可能である。\n一方、対価を払わない場合はGPL条件を遵守する必要があるが、オープンソースプロジェクトならGPLを選択するということもできる。\nデュアルライセンスにおける誤解 OSSのソースコードのパッケージには幾つかのコンポーネントが含まれており、それぞれのコンポーネントのライセンスが異なる場合もある。\nOSSの勉強をし始めたときはこれがデュアルライセンスかと思っていたが、これはデュアルライセンスではない。\nパッケージとして見ると、一部のコンポーネントはその他のコンポーネントとは異なるOSSライセンスが適用されているだけであって、別なライセンスが選択可能というわけではないからである。\n開発から「このパッケージのOSSライセンスはこれです」と出された後、開示されているURL先を見に行ったときにOSSライセンスが聞いていたのと違う場合、このパターンであることが多い。\nこの場合、パッケージから手作業でライセンスの明記されているテキストを漁ったりする必要があり、かなり面倒である。\nOSS検知ツールである程度は把握できるとはいえ、たまにこういう事例があるので、なかなか人の目を完全に無くすのは難しいという印象である。\nまとめ デュアルライセンスは便利な柔軟性を持つ一方で、「同じコードに複数のライセンスが重なっている」と誤解されやすい。\n実務では、著作権者、ライセンス内容、選択の影響を整理した上で運用することが重要である。\n",
-  "wordCount" : "30",
-  "inLanguage": "en",
-  "datePublished": "2025-08-21T00:00:00Z",
-  "dateModified": "2025-08-21T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ipnote.github.io/post/2025/08/21/202514/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "実務者のための知財法務",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ipnote.github.io/assets/images/ip_favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ipnote.github.io/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
+            <a href="http://localhost:1313/" accesskey="h" title="実務者のための知財法務 (Alt + H)">実務者のための知財法務</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -251,37 +117,37 @@ OSS検知ツールである程度は把握できるとはいえ、たまにこ�
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ipnote.github.io/" title="Home">
+                <a href="http://localhost:1313/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/categories/" title="Categories">
+                <a href="http://localhost:1313/categories/" title="Categories">
                     <span>Categories</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/privacy/" title="Privacy">
+                <a href="http://localhost:1313/privacy/" title="Privacy">
                     <span>Privacy</span>
                 </a>
             </li>
             <li>
-                <a href="https://ipnote.github.io/contact/" title="Contact">
+                <a href="http://localhost:1313/contact/" title="Contact">
                     <span>Contact</span>
                 </a>
             </li>
@@ -292,7 +158,7 @@ OSS検知ツールである程度は把握できるとはいえ、たまにこ�
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://ipnote.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://ipnote.github.io/post/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       OSSのデュアルライセンス
     </h1>
@@ -394,15 +260,15 @@ OSS検知ツールである程度は把握できるとはいえ、たまにこ�
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://ipnote.github.io/tags/oss/">OSS</a></li>
+      <li><a href="http://localhost:1313/tags/oss/">OSS</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://ipnote.github.io/post/2025/08/26/211552/">
+  <a class="prev" href="http://localhost:1313/post/2025/08/26/211552/">
     <span class="title">« Prev</span>
     <br>
     <span>特許明細書で登録商標を使うときの注意</span>
   </a>
-  <a class="next" href="https://ipnote.github.io/post/2025/08/20/212517/">
+  <a class="next" href="http://localhost:1313/post/2025/08/20/212517/">
     <span class="title">Next »</span>
     <br>
     <span>AIが作成したもの、特許や商標登録はOK？</span>
@@ -414,7 +280,7 @@ OSS検知ツールである程度は把握できるとはいえ、たまにこ�
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://ipnote.github.io/">実務者のための知財法務</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">実務者のための知財法務</a></span> · 
 
     <span>
         Powered by
