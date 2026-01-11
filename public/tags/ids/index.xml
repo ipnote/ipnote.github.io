@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>IDS on 実務者のための知財法務</title>
-    <link>http://localhost:1313/tags/ids/</link>
+    <link>https://ipnote.github.io/tags/ids/</link>
     <description>Recent content in IDS on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ids/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ipnote.github.io/tags/ids/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>米国特許 IDSの提出</title>
-      <link>http://localhost:1313/post/2025/03/11/113957/</link>
+      <link>https://ipnote.github.io/post/2025/03/11/113957/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025/03/11/113957/</guid>
+      <guid>https://ipnote.github.io/post/2025/03/11/113957/</guid>
       <description>&lt;p&gt;米国で特許出願行うにあたっては、IDS（Information Disclosure Statement）の提出が求められる。&lt;/p&gt;
 &lt;p&gt;実務の上ではこの辺りは事務担当や代理人にお任せしてしまっている現象であるが、特許の活用においては大事な話なので、触れておきたい。&lt;/p&gt;
 &lt;h3 id=&#34;IDSとは&#34;&gt;IDSとは？&lt;/h3&gt;
