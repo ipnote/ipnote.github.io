@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>商標権侵害 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/tags/%E5%95%86%E6%A8%99%E6%A8%A9%E4%BE%B5%E5%AE%B3/</link>
+    <link>http://localhost:1313/tags/%E5%95%86%E6%A8%99%E6%A8%A9%E4%BE%B5%E5%AE%B3/</link>
     <description>Recent content in 商標権侵害 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/tags/%E5%95%86%E6%A8%99%E6%A8%A9%E4%BE%B5%E5%AE%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%95%86%E6%A8%99%E6%A8%A9%E4%BE%B5%E5%AE%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>見逃しがちな登録商標およびその利用条件</title>
-      <link>https://ipnote.github.io/post/2025/09/15/163459/</link>
+      <link>http://localhost:1313/post/2025/09/15/163459/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/09/15/163459/</guid>
+      <guid>http://localhost:1313/post/2025/09/15/163459/</guid>
       <description>&lt;p&gt;普段お世話になっている製品名やサービス名の中には、他社の登録商標が含まれることがある。&lt;/p&gt;
 &lt;p&gt;ウェブサイトやアプリの説明文、仕様書、マニュアルなどで気付かず使ってしまうものがあるが、その代表的なものとして「QRコード」「Bluetooth」を取り上げたい。&lt;/p&gt;
 &lt;p&gt;これらを商用の場や公式ドキュメントで無造作に使うのは避けておきたい。&lt;/p&gt;
@@ -78,9 +78,9 @@
     </item>
     <item>
       <title>登録商標の名前を自社広告の資料に使うと権利侵害？</title>
-      <link>https://ipnote.github.io/post/2025/07/08/194511/</link>
+      <link>http://localhost:1313/post/2025/07/08/194511/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/07/08/194511/</guid>
+      <guid>http://localhost:1313/post/2025/07/08/194511/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250703214651.png&#34;/&gt; 
@@ -155,9 +155,9 @@
     </item>
     <item>
       <title>他社の企業ロゴをプレゼン資料に入れて良いか</title>
-      <link>https://ipnote.github.io/post/2025/05/17/150622/</link>
+      <link>http://localhost:1313/post/2025/05/17/150622/</link>
       <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/05/17/150622/</guid>
+      <guid>http://localhost:1313/post/2025/05/17/150622/</guid>
       <description>&lt;p&gt;社内外問わず、プレゼン資料として他社名を入れることはあると思う。&lt;/p&gt;
 &lt;p&gt;このとき、テキストで企業名を表示するよりも、企業ロゴを使って掲載する方が見栄えがよく、視覚的に伝わりやすくなることが多い。&lt;/p&gt;
 &lt;p&gt;つい資料に企業ロゴを使ってしまうこともあるだろうが、果たして勝手に載せて良いものだろうか？&lt;/p&gt;

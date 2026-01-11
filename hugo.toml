@@ -9,6 +9,12 @@ googleAnalytics = "G-GK6P50PLB9"
 [permalinks]
 post = "/post/:year/:month/:day/:contentbasename/"
 
+# ヘッダー上部のタイトル情報
+ [params.label]
+  text = "実務者のための知財法務"
+  icon = "/assets/images/ip_apple-touch-icon.png"
+  iconHeight = 35
+
 [params.homeInfoParams]
   Title = "実務者のための知財法務"
   Content = "日々の業務で得た知見をもとに、知財や契約に関する内容を中心とした記事を、備忘録としてまとめています。<br>あくまで一知財部員の主観も含まれた記事として、参考程度に見て頂けると有り難いです。"

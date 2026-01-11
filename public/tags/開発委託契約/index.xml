@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>開発委託契約 on 実務者のための知財法務</title>
-    <link>https://ipnote.github.io/tags/%E9%96%8B%E7%99%BA%E5%A7%94%E8%A8%97%E5%A5%91%E7%B4%84/</link>
+    <link>http://localhost:1313/tags/%E9%96%8B%E7%99%BA%E5%A7%94%E8%A8%97%E5%A5%91%E7%B4%84/</link>
     <description>Recent content in 開発委託契約 on 実務者のための知財法務</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ipnote.github.io/tags/%E9%96%8B%E7%99%BA%E5%A7%94%E8%A8%97%E5%A5%91%E7%B4%84/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E9%96%8B%E7%99%BA%E5%A7%94%E8%A8%97%E5%A5%91%E7%B4%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>開発委託における、請負契約と準委任契約（成果完成型）との違い</title>
-      <link>https://ipnote.github.io/post/2025/10/11/182706/</link>
+      <link>http://localhost:1313/post/2025/10/11/182706/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/10/11/182706/</guid>
+      <guid>http://localhost:1313/post/2025/10/11/182706/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20251011182437.png&#34;/&gt; 
@@ -76,9 +76,9 @@
     </item>
     <item>
       <title>SaaS提供してもらうソフトの開発委託は請負契約と呼べるのか</title>
-      <link>https://ipnote.github.io/post/2025/08/28/101200/</link>
+      <link>http://localhost:1313/post/2025/08/28/101200/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/08/28/101200/</guid>
+      <guid>http://localhost:1313/post/2025/08/28/101200/</guid>
       <description>&lt;p&gt;開発委託契約は請負型と準委任型に分類され、委託元に納めるべき成果物がある場合は請負契約とする、という点は以下の記事で紹介している。&lt;/p&gt;
  
 
@@ -125,12 +125,12 @@
 
     
       &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
-        &lt;img src=&#34;https://ipnote.github.io/post/2025/04/09/202346/20250524201328.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/post/2025/04/09/202346/20250524201328.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
       &lt;/div&gt;
     
 
     &lt;div style=&#34;flex:1;&#34;&gt;
-      &lt;a href=&#34;https://ipnote.github.io/post/2025/04/09/202346/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/post/2025/04/09/202346/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
         請負と準委任との違い
       &lt;/a&gt;
       &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
@@ -179,9 +179,9 @@
     </item>
     <item>
       <title>開発委託とライセンス許諾とを含む契約</title>
-      <link>https://ipnote.github.io/post/2025/08/01/095000/</link>
+      <link>http://localhost:1313/post/2025/08/01/095000/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/08/01/095000/</guid>
+      <guid>http://localhost:1313/post/2025/08/01/095000/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250830090317.jpg&#34;/&gt; 
@@ -230,9 +230,9 @@
     </item>
     <item>
       <title>開発委託基本契約で準委任用と請負用を分けるべきか</title>
-      <link>https://ipnote.github.io/post/2025/07/03/215056/</link>
+      <link>http://localhost:1313/post/2025/07/03/215056/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/07/03/215056/</guid>
+      <guid>http://localhost:1313/post/2025/07/03/215056/</guid>
       <description>&lt;p&gt;今後、定期的に開発の委託を発注するとのことで、開発委託基本契約のためのドラフトを作成することとなった。&lt;/p&gt;
 &lt;p&gt;委託の形態としては、準委任型のパターンもあれば、請負型のパターンもあるとのこと。&lt;/p&gt;
 &lt;p&gt;その際、基本契約を準委任用と請負用とに分けるべきか、それとも１つの契約書にまとめてしまうか、どちらにしようか考えたため、備忘録として残しておきたい。&lt;/p&gt;
@@ -303,9 +303,9 @@
     </item>
     <item>
       <title>開発を再委託する際の契約上の知財の取り扱い（汎用技術など）</title>
-      <link>https://ipnote.github.io/post/2025/06/11/210939/</link>
+      <link>http://localhost:1313/post/2025/06/11/210939/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/06/11/210939/</guid>
+      <guid>http://localhost:1313/post/2025/06/11/210939/</guid>
       <description>&lt;p&gt;この間、委託元から受託した開発を再委託することとなり、開発したものは納品物として委託元へ納めることとなった。&lt;/p&gt;
 &lt;p&gt;そして、開発行為によって生じた知財権も委託元のものとする予定である。&lt;/p&gt;
 &lt;p&gt;このとき、再委託先から&lt;br&gt;
@@ -375,9 +375,9 @@
     </item>
     <item>
       <title>契約における知財の取り扱い</title>
-      <link>https://ipnote.github.io/post/2025/05/31/200737/</link>
+      <link>http://localhost:1313/post/2025/05/31/200737/</link>
       <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/05/31/200737/</guid>
+      <guid>http://localhost:1313/post/2025/05/31/200737/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524200650.jpg&#34;/&gt; 
@@ -439,9 +439,9 @@
     </item>
     <item>
       <title>契約期間の考え方</title>
-      <link>https://ipnote.github.io/post/2025/05/24/225241/</link>
+      <link>http://localhost:1313/post/2025/05/24/225241/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/05/24/225241/</guid>
+      <guid>http://localhost:1313/post/2025/05/24/225241/</guid>
       <description>&lt;p&gt;契約において当たり前の話ではあるが、改めて契約期間について考えてみたい。&lt;/p&gt;
 &lt;p&gt;まずそもそも、契約に契約期間は常に必要だろうか？&lt;/p&gt;
 &lt;div align=&#34;center&#34;&gt;
@@ -536,9 +536,9 @@
     </item>
     <item>
       <title>PL法と開発委託契約</title>
-      <link>https://ipnote.github.io/post/2025/05/15/145508/</link>
+      <link>http://localhost:1313/post/2025/05/15/145508/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/05/15/145508/</guid>
+      <guid>http://localhost:1313/post/2025/05/15/145508/</guid>
       <description>&lt;p&gt; 自社が委託先となる開発委託契約において、誰が「製造物責任」を負うべきか検討する機会があった。&lt;/p&gt;
 &lt;p&gt;製造物責任法（PL法）を踏まえると、自社が開発した成果物については、委託元ではなく自社にその賠償責任があるのでは？と思っていたが、必ずそうとも限らないようである。&lt;/p&gt;
 &lt;p&gt;ここで、開発委託契約上の製造物の責任の所在について、整理しておきたい。&lt;/p&gt;
@@ -583,9 +583,9 @@
     </item>
     <item>
       <title>請負と準委任との違い</title>
-      <link>https://ipnote.github.io/post/2025/04/09/202346/</link>
+      <link>http://localhost:1313/post/2025/04/09/202346/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ipnote.github.io/post/2025/04/09/202346/</guid>
+      <guid>http://localhost:1313/post/2025/04/09/202346/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image/20250524201328.jpg&#34;/&gt; 
@@ -701,12 +701,12 @@
 
     
       &lt;div style=&#34;width:100px; flex-shrink:0;&#34;&gt;
-        &lt;img src=&#34;https://ipnote.github.io/post/2025/07/03/215056/20250630224953.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
+        &lt;img src=&#34;http://localhost:1313/post/2025/07/03/215056/20250630224953.jpg&#34; alt=&#34;&#34; style=&#34;width:100%; border-radius:6px;&#34;&gt;
       &lt;/div&gt;
     
 
     &lt;div style=&#34;flex:1;&#34;&gt;
-      &lt;a href=&#34;https://ipnote.github.io/post/2025/07/03/215056/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/post/2025/07/03/215056/&#34; style=&#34;font-size:1.0rem; font-weight:bold;&#34;&gt;
         開発委託基本契約で準委任用と請負用を分けるべきか
       &lt;/a&gt;
       &lt;p style=&#34;margin-top:6px; color:#555;&#34;&gt;
